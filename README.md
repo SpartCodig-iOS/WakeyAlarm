@@ -27,6 +27,9 @@ MultiModuleTemplate/
 └── Plugins/
 ```
 
+## Tuist graph
+![Tuist Graph](./graph.png)
+
 ## 🚀 빠른 시작
 
 ### 새 프로젝트 생성 (권장)
@@ -156,46 +159,6 @@ swiftc TuistTool.swift -o tuisttool
 > - 위 파서는 특정 경로의 파일 구조/포맷을 기대합니다. 경로가 다르거나 파일 포맷이 변경되면 파싱이 실패할 수 있습니다.  
 > - 경로가 다르다면 `availableModuleTypes()`, `parseModulesFromFile()`, `parseSPMLibraries()`의 파일 경로를 프로젝트에 맞게 수정하세요.
 
-## 🚀 동적 프로젝트 이름 설정
-
-"MultiModuleTemplate" 대신 원하는 이름으로 프로젝트를 생성할 수 있습니다.
-
-### 사용 방법
-
-#### 🎯 방법 1: TuistTool 사용 (권장)
-
-```bash
-# 대화형 입력
-./tuisttool newproject
-
-# 명령어 인자로 바로 설정
-./tuisttool newproject MyAwesomeApp --bundle-id com.company.app
-```
-
-#### 🎯 방법 2: 환경변수 (CI/CD용)
-
-```bash
-export PROJECT_NAME="MyAwesomeApp"
-export BUNDLE_ID_PREFIX="com.company.awesome"
-tuist generate
-```
-
-#### 🎯 방법 3: Tuist 템플릿 (완전히 새 프로젝트)
-
-```bash
-mkdir MyNewProject && cd MyNewProject
-tuist scaffold multi-module-project --name MyNewProject
-```
-
-### 설정 가능한 항목
-
-| 항목 | 설명 | 기본값 |
-|------|------|--------|
-| `PROJECT_NAME` | 앱 이름 | MultiModuleTemplate |
-| `BUNDLE_ID_PREFIX` | 번들 ID 접두사 | io.Roy.Module |
-| `TEAM_ID` | 개발팀 ID | N94CS4N6VR |
-
----
 
 ## 🎯 자주 쓰는 명령어
 
