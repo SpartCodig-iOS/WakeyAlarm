@@ -1,6 +1,6 @@
 //
-//  base.swift
-//  DDDAttendance.
+//  {{ name }}.swift
+//  {{ name }}
 //
 //  Created by {{ author }} on {{ currentDate }}
 //  Copyright © {{ year }} DDD , Ltd., All rights reserved.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct BaseView: View {
+struct {{ name }}View: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
