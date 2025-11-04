@@ -26,17 +26,13 @@
 		3DC97B40FC152A29984EAA9E /* StopWatchintent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1124E9ACD18F1443D05399F7 /* StopWatchintent.swift */; };
 		40FE051E625B69FA567D4A11 /* StopWatchTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D7376B3305D12DFE443AF /* StopWatchTimer.swift */; };
 		45DC5591DDF42E80A82ABA1E /* StopWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93D05FA7AAC61DE7EB41BC /* StopWatchView.swift */; };
-		4C14EAAF70801CA7170C0B25 /* Algorithms.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 6220A99A393C11037C8609A3 /* Algorithms.framework */; };
-		4E9B2A75DB6CCCAA431AF1E4 /* Algorithms.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 6220A99A393C11037C8609A3 /* Algorithms.framework */; };
 		54CC11EF51D8816CDBB38BCB /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA6278153B28DB73B8110C8 /* Core.framework */; };
 		57B23C5A53A408CA493974C6 /* StopWatchWidgetActivityDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A122AD8BAEE02D90A1FA5 /* StopWatchWidgetActivityDelegate.swift */; };
 		593C114E7DFE0A6F5DEDB1D6 /* LapRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FE4FB04D4064E8E52FB609 /* LapRowView.swift */; };
 		598E776B4C4A9A5F7195AD4D /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD83D0A9CCC1F0C8ABD899E4 /* Shared.framework */; };
-		5B12D68FB33F1406EBD53D79 /* RealModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBEEBE11F66B2A98213427BC /* RealModule.framework */; };
 		66CA6576ED4C8B1F01F5ECAE /* StopWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E153BD00F7A88B911D141DA /* StopWatch.framework */; };
 		6709290B144E93955D91BD81 /* StopWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93D05FA7AAC61DE7EB41BC /* StopWatchView.swift */; };
 		683F0E991E62C6C437ED2677 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1A03A32236724630376A44 /* CircleButton.swift */; };
-		72D9F4D638918557EA1FEEC9 /* Algorithms.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 6220A99A393C11037C8609A3 /* Algorithms.framework */; };
 		791162FD7757207B25B13B22 /* StopWatchTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D7376B3305D12DFE443AF /* StopWatchTimer.swift */; };
 		797ECB0280A9C30CAAD6BD94 /* LapsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16E214F79AC0E176BA30735 /* LapsCardView.swift */; };
 		7C2DB1275C441461E3811954 /* StopWatchWidgetActivityDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A122AD8BAEE02D90A1FA5 /* StopWatchWidgetActivityDelegate.swift */; };
@@ -45,18 +41,15 @@
 		83B7810842C18CD73D4C9E0B /* LapRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FE4FB04D4064E8E52FB609 /* LapRowView.swift */; };
 		8A3FE1F2650C157213169A2E /* StopWatchTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D7376B3305D12DFE443AF /* StopWatchTimer.swift */; };
 		8D272750C5086423E06F8C9C /* StopWatchBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F56E18A8756E8E97A835113 /* StopWatchBackground.swift */; };
-		93BE5B6CF171D286C3B4E0D5 /* _NumericsShims.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36EB6F3BB561756B9C4792F4 /* _NumericsShims.framework */; };
 		98C5D3B9016E5980F2C3F77D /* LapRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FE4FB04D4064E8E52FB609 /* LapRowView.swift */; };
 		BE975E865CDD5AE025ABD942 /* StopWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93D05FA7AAC61DE7EB41BC /* StopWatchView.swift */; };
 		C8D5629479C7332311FED4B4 /* StopWatchBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F56E18A8756E8E97A835113 /* StopWatchBackground.swift */; };
-		CD793F79D7EC03B6B3EDEDCA /* Algorithms.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 6220A99A393C11037C8609A3 /* Algorithms.framework */; };
 		D4C9D1C678B3B067B01E8820 /* LapsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16E214F79AC0E176BA30735 /* LapsCardView.swift */; };
 		E0C3D30628858C02C99BF58C /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1A03A32236724630376A44 /* CircleButton.swift */; };
 		E50F334123389EC04FCE4457 /* LapsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16E214F79AC0E176BA30735 /* LapsCardView.swift */; };
 		E73EE9CC409ABE03BB52AF55 /* StopWatchintent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1124E9ACD18F1443D05399F7 /* StopWatchintent.swift */; };
 		F38918E60B08624B512B9DF6 /* LapRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FE4FB04D4064E8E52FB609 /* LapRowView.swift */; };
 		F59D2175CF04A06159E388A1 /* StopWatchWidgetActivityDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A122AD8BAEE02D90A1FA5 /* StopWatchWidgetActivityDelegate.swift */; };
-		F88FF7576D6B42D01B71AC29 /* Algorithms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6220A99A393C11037C8609A3 /* Algorithms.framework */; };
 		FC9E800844948712BE80F968 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA6278153B28DB73B8110C8 /* Core.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,16 +64,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		79AF78D3E07501E85AACB4D5 /* Dependencies */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstSubfolderSpec = 16;
-			files = (
-				4C14EAAF70801CA7170C0B25 /* Algorithms.framework in Dependencies */,
-			);
-			name = Dependencies;
-			runOnlyForDeploymentPostprocessing = 1;
-		};
 		84C39BE25D85D77ADBCB6455 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -111,16 +94,6 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		99B83AC91375A7933A571065 /* Dependencies */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstSubfolderSpec = 16;
-			files = (
-				CD793F79D7EC03B6B3EDEDCA /* Algorithms.framework in Dependencies */,
-			);
-			name = Dependencies;
-			runOnlyForDeploymentPostprocessing = 1;
-		};
 		A05C887DAE808B843105A0CC /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -141,37 +114,15 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C63E949AFFC0CA1635581272 /* Dependencies */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstSubfolderSpec = 16;
-			files = (
-				4E9B2A75DB6CCCAA431AF1E4 /* Algorithms.framework in Dependencies */,
-			);
-			name = Dependencies;
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-		C8AEDC52814C60C53E4C6E8E /* Dependencies */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstSubfolderSpec = 16;
-			files = (
-				72D9F4D638918557EA1FEEC9 /* Algorithms.framework in Dependencies */,
-			);
-			name = Dependencies;
-			runOnlyForDeploymentPostprocessing = 1;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1124E9ACD18F1443D05399F7 /* StopWatchintent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchintent.swift; sourceTree = "<group>"; };
 		2B28D08F6F143068398D3E9E /* StopWatch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "StopWatch-Info.plist"; sourceTree = "<group>"; };
 		2E153BD00F7A88B911D141DA /* StopWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StopWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		36EB6F3BB561756B9C4792F4 /* _NumericsShims.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = _NumericsShims.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E93D05FA7AAC61DE7EB41BC /* StopWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchView.swift; sourceTree = "<group>"; };
 		4F3D7376B3305D12DFE443AF /* StopWatchTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchTimer.swift; sourceTree = "<group>"; };
 		5AADC16D76F9F961C4014743 /* StopWatch_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StopWatch_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6220A99A393C11037C8609A3 /* Algorithms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Algorithms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76FE4FB04D4064E8E52FB609 /* LapRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapRowView.swift; sourceTree = "<group>"; };
 		919CBB74002AD734E5693125 /* StopWatchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "StopWatchTests-Info.plist"; sourceTree = "<group>"; };
 		9AA6278153B28DB73B8110C8 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -180,7 +131,6 @@
 		AD83D0A9CCC1F0C8ABD899E4 /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1A03A32236724630376A44 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 		CA170599990BE41402B6DD3F /* StopWatch-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "StopWatch-Debug-Info.plist"; sourceTree = "<group>"; };
-		CBEEBE11F66B2A98213427BC /* RealModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RealModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7960CB5C8C18A899692FBC /* StopWatch_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StopWatch_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2BB264CDA9023E5DC22D7F7 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		E8EEC92747E6E4D184E7B9F1 /* StopWatch-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "StopWatch-Prod-Info.plist"; sourceTree = "<group>"; };
@@ -195,12 +145,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F88FF7576D6B42D01B71AC29 /* Algorithms.framework in Frameworks */,
 				3B87E1674F320279A67DD0A5 /* Core.framework in Frameworks */,
-				5B12D68FB33F1406EBD53D79 /* RealModule.framework in Frameworks */,
 				3C841F9FF61833262915E7F4 /* Shared.framework in Frameworks */,
 				66CA6576ED4C8B1F01F5ECAE /* StopWatch.framework in Frameworks */,
-				93BE5B6CF171D286C3B4E0D5 /* _NumericsShims.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,10 +238,7 @@
 		A58FE0523740EE18E6008044 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				36EB6F3BB561756B9C4792F4 /* _NumericsShims.framework */,
-				6220A99A393C11037C8609A3 /* Algorithms.framework */,
 				9AA6278153B28DB73B8110C8 /* Core.framework */,
-				CBEEBE11F66B2A98213427BC /* RealModule.framework */,
 				AD83D0A9CCC1F0C8ABD899E4 /* Shared.framework */,
 				DF7960CB5C8C18A899692FBC /* StopWatch_Debug.framework */,
 				F935C9523471A92793A9A182 /* StopWatch_Prod.framework */,
@@ -364,7 +308,6 @@
 				73254C8035AFFD16C4FC96B8 /* Resources */,
 				319FA7AB3607129EE0C4DCB4 /* Frameworks */,
 				84C39BE25D85D77ADBCB6455 /* Embed Frameworks */,
-				C8AEDC52814C60C53E4C6E8E /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -385,7 +328,6 @@
 				141ACE924CB39A8EA9B09AC1 /* Resources */,
 				5C983DAB6F56FC9BE7BF187A /* Frameworks */,
 				9621138CC3B82D8ACCF0E413 /* Embed Frameworks */,
-				C63E949AFFC0CA1635581272 /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -427,7 +369,6 @@
 				055D0080E2D7C563C9E87556 /* Resources */,
 				6E673BA70BCAAB256ACD4ACB /* Frameworks */,
 				898295380FE4DE06015D3E12 /* Embed Frameworks */,
-				99B83AC91375A7933A571065 /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -448,7 +389,6 @@
 				5EAD8598C65822430E5C4111 /* Resources */,
 				74D45D9C52E0688DEA1FE8F6 /* Frameworks */,
 				A05C887DAE808B843105A0CC /* Embed Frameworks */,
-				79AF78D3E07501E85AACB4D5 /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -623,7 +563,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/StopWatch-Stage-Info.plist";
@@ -637,13 +576,10 @@
 				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -678,7 +614,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/StopWatch-Debug-Info.plist";
@@ -692,13 +627,10 @@
 				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -737,7 +669,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/StopWatch-Prod-Info.plist";
@@ -751,13 +682,10 @@
 				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -791,7 +719,6 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/StopWatchTests-Info.plist";
@@ -803,13 +730,10 @@
 				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -845,7 +769,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/StopWatch-Info.plist";
@@ -859,13 +782,10 @@
 				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -957,7 +877,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/StopWatch-Info.plist";
@@ -971,13 +890,10 @@
 				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -1007,7 +923,6 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/StopWatchTests-Info.plist";
@@ -1019,13 +934,10 @@
 				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -1057,7 +969,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/StopWatch-Prod-Info.plist";
@@ -1071,13 +982,10 @@
 				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -1112,7 +1020,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/StopWatch-Stage-Info.plist";
@@ -1126,13 +1033,10 @@
 				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -1230,7 +1134,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/StopWatch-Debug-Info.plist";
@@ -1244,13 +1147,10 @@
 				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",

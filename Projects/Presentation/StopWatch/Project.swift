@@ -12,7 +12,6 @@ let project = Project.makeAppModule(
   dependencies: [
     .Core(implements: .Core),
     .Shared(implements: .Shared),
-    .SPM.algorithms
   ],
   sources: ["Sources/**"]
 )

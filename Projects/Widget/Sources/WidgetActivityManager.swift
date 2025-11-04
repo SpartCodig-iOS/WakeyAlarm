@@ -1,0 +1,4 @@
+import Presentation
+
+public typealias WidgetActivityManager = Presentation.WidgetActivityManager
+public typealias StopWatchActivityAttributes = Presentation.StopWatchActivityAttributes

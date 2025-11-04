@@ -15,21 +15,16 @@
 		0F744BAEA5E89EBB665BBCF9 /* WakeyAlarmWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 615587B0F97801AF1A127C96 /* WakeyAlarmWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1266F6763E43C61B3821C995 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A027E65EBC3CB53B612AD7 /* Core.framework */; };
 		1D5A19BB8CD3A1704BAD97A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147E2A117BE6AB73DD82C3DC /* Preview Assets.xcassets */; };
-		226E1609CCD0C52F637EE31F /* _NumericsShims.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C7C6FDE49FFA01E4CF941C /* _NumericsShims.framework */; };
 		22CB48E754AEDE0E7AE7531E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147E2A117BE6AB73DD82C3DC /* Preview Assets.xcassets */; };
 		2511B9BB019B4C112A485F12 /* TuistBundle+WakeyAlarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA1B45CDF620CD6EEFC5D0E /* TuistBundle+WakeyAlarm.swift */; };
 		383864FAACC79D65193E96C9 /* WakeyAlarmWidget.appex in Dependencies */ = {isa = PBXBuildFile; fileRef = 615587B0F97801AF1A127C96 /* WakeyAlarmWidget.appex */; };
-		3B99279F683BDBE5E151A788 /* Algorithms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7283645C0B3D01B494A3890 /* Algorithms.framework */; };
 		3CAD24487658E5AAC5176038 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C5262F48B68779402592CF /* ContentView.swift */; };
 		4C4754717D432A0E920A3F00 /* StopWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8213B8814E948A38B58D5E3C /* StopWatch.framework */; };
-		5904C7E14897FDF2648E1255 /* Algorithms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7283645C0B3D01B494A3890 /* Algorithms.framework */; };
 		5CEA959E458CB491686AC32D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6137054448B27F3CA5CF782C /* Assets.xcassets */; };
 		6214468DD408D8F2D3FDAD25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6137054448B27F3CA5CF782C /* Assets.xcassets */; };
-		6B73FA1C89841D4B82F36730 /* _NumericsShims.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C7C6FDE49FFA01E4CF941C /* _NumericsShims.framework */; };
 		6E6D764FC2D972687CABA609 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 33A027E65EBC3CB53B612AD7 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6ED2C6524922AB33B6087FF7 /* WakeyAlarmWidget.appex in Dependencies */ = {isa = PBXBuildFile; fileRef = 615587B0F97801AF1A127C96 /* WakeyAlarmWidget.appex */; };
 		700AE1A217CED17C159FECE2 /* WakeyAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89063223C8E49CA22CA49B5 /* WakeyAlarmApp.swift */; };
-		738F7DE5C6E8F49EB3E603FF /* RealModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC3C74515B5668052019DED /* RealModule.framework */; };
 		748EDE9EE444AA5BDF38317F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C5262F48B68779402592CF /* ContentView.swift */; };
 		76B9E2870A39BAD766C96850 /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B674A8B65DE8D3DB7D5E15F /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7A09C9F7E7BA77402723463C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147E2A117BE6AB73DD82C3DC /* Preview Assets.xcassets */; };
@@ -53,20 +48,15 @@
 		A88568BDC22ECD7FBA951F1B /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B674A8B65DE8D3DB7D5E15F /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AA49CEC34A85A66C88C77F8D /* WakeyAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89063223C8E49CA22CA49B5 /* WakeyAlarmApp.swift */; };
 		B14532259C65E3F7F4804125 /* Presentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AD9619F03B3613394D5E4B /* Presentation.framework */; };
-		B583E56E050DD76CFA523A01 /* _NumericsShims.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C7C6FDE49FFA01E4CF941C /* _NumericsShims.framework */; };
 		B6CBACC0522E54ECF6EF4D9C /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B674A8B65DE8D3DB7D5E15F /* Shared.framework */; };
 		B6EAA5AAE77E47A78D0EEBF9 /* TuistAssets+WakeyAlarmProd.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85CAEB10544EC34E0BBA898 /* TuistAssets+WakeyAlarmProd.swift */; };
 		BBE48BB66D72EC78CC3462E4 /* WakeyAlarmWidget.appex in Dependencies */ = {isa = PBXBuildFile; fileRef = 615587B0F97801AF1A127C96 /* WakeyAlarmWidget.appex */; };
-		BF7C9FB50DC2AF97613BE5AA /* Algorithms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7283645C0B3D01B494A3890 /* Algorithms.framework */; };
 		C579F0651FDD9955D2A0BDB1 /* Presentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AD9619F03B3613394D5E4B /* Presentation.framework */; };
 		C7BDC68C102E4230BE74B579 /* TuistAssets+WakeyAlarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553FCF8DA0BDCCC1DC1176BD /* TuistAssets+WakeyAlarm.swift */; };
 		CBCDBF427F345A89C0484554 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 33A027E65EBC3CB53B612AD7 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CC4A74077518766D033999C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6137054448B27F3CA5CF782C /* Assets.xcassets */; };
-		CF5CC76C45FFE8517DB04AE4 /* RealModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC3C74515B5668052019DED /* RealModule.framework */; };
 		DC7FED3F8674F15C209C7FBD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147E2A117BE6AB73DD82C3DC /* Preview Assets.xcassets */; };
 		DCEC76A7E80819E2AC180A92 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B674A8B65DE8D3DB7D5E15F /* Shared.framework */; };
-		E044694A09D12F74DFBB91DA /* _NumericsShims.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C7C6FDE49FFA01E4CF941C /* _NumericsShims.framework */; };
-		E39CEFDCA1E2F41B9DB67A92 /* RealModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC3C74515B5668052019DED /* RealModule.framework */; };
 		E4AD3DA3617218686759601E /* TuistBundle+WakeyAlarmStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDB8892F0F4512312995620 /* TuistBundle+WakeyAlarmStage.swift */; };
 		E72A8DEC49F2526D63A41A5D /* TuistAssets+WakeyAlarmDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84396412255D47B775183147 /* TuistAssets+WakeyAlarmDebug.swift */; };
 		EE2ED0D3844847D2F9EDDD20 /* StopWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8213B8814E948A38B58D5E3C /* StopWatch.framework */; };
@@ -74,8 +64,6 @@
 		F2A6E688D40C3FDBAB3437BD /* StopWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8213B8814E948A38B58D5E3C /* StopWatch.framework */; };
 		F94632889C100B88AEC161B7 /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B674A8B65DE8D3DB7D5E15F /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F98DF581DB9692E0E70B3E2C /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B674A8B65DE8D3DB7D5E15F /* Shared.framework */; };
-		FC2E49BD6CE0DBC325DC5064 /* Algorithms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7283645C0B3D01B494A3890 /* Algorithms.framework */; };
-		FC55200E509C7B82BB783E2A /* RealModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC3C74515B5668052019DED /* RealModule.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -231,7 +219,6 @@
 
 /* Begin PBXFileReference section */
 		147E2A117BE6AB73DD82C3DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2DC3C74515B5668052019DED /* RealModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RealModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A027E65EBC3CB53B612AD7 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		445D5CED8B8563072FC95D76 /* TuistAssets+WakeyAlarmStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+WakeyAlarmStage.swift"; sourceTree = "<group>"; };
 		473868DD004034555C3B14CF /* WakeyAlarm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "WakeyAlarm-Info.plist"; sourceTree = "<group>"; };
@@ -256,13 +243,11 @@
 		A719C9AEE0677AC1AC63DBBF /* WakeyAlarmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "WakeyAlarmTests-Info.plist"; sourceTree = "<group>"; };
 		A96E7E75B330C50B527149E6 /* WakeyAlarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeyAlarmTests.swift; sourceTree = "<group>"; };
 		AFA1B45CDF620CD6EEFC5D0E /* TuistBundle+WakeyAlarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+WakeyAlarm.swift"; sourceTree = "<group>"; };
-		B7283645C0B3D01B494A3890 /* Algorithms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Algorithms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B89063223C8E49CA22CA49B5 /* WakeyAlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeyAlarmApp.swift; sourceTree = "<group>"; };
 		C85CAEB10544EC34E0BBA898 /* TuistAssets+WakeyAlarmProd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+WakeyAlarmProd.swift"; sourceTree = "<group>"; };
 		C89CA130D78B84B9269FFBB2 /* WakeyAlarm-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "WakeyAlarm-Prod-Info.plist"; sourceTree = "<group>"; };
 		E37FBF660A6A5E462F4F2706 /* TuistBundle+WakeyAlarmProd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+WakeyAlarmProd.swift"; sourceTree = "<group>"; };
 		EC27B38ECE342960DC52A4B6 /* Stage.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Stage.xcconfig; sourceTree = "<group>"; };
-		F5C7C6FDE49FFA01E4CF941C /* _NumericsShims.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = _NumericsShims.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8AD9619F03B3613394D5E4B /* Presentation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Presentation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC680FADD61A05BABDBB239 /* WakeyAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeyAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -279,13 +264,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5904C7E14897FDF2648E1255 /* Algorithms.framework in Frameworks */,
 				0E1BD5FE80C8A42837282598 /* Core.framework in Frameworks */,
 				A857B8111BFDCB7CD7B234CF /* Presentation.framework in Frameworks */,
-				E39CEFDCA1E2F41B9DB67A92 /* RealModule.framework in Frameworks */,
 				B6CBACC0522E54ECF6EF4D9C /* Shared.framework in Frameworks */,
 				EE2ED0D3844847D2F9EDDD20 /* StopWatch.framework in Frameworks */,
-				226E1609CCD0C52F637EE31F /* _NumericsShims.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,13 +275,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC2E49BD6CE0DBC325DC5064 /* Algorithms.framework in Frameworks */,
 				7CD56904E73B19E27126D822 /* Core.framework in Frameworks */,
 				8CE1F48E3FE94ABDD6DB4DE0 /* Presentation.framework in Frameworks */,
-				FC55200E509C7B82BB783E2A /* RealModule.framework in Frameworks */,
 				F98DF581DB9692E0E70B3E2C /* Shared.framework in Frameworks */,
 				8724F2EFF183CC626AE86634 /* StopWatch.framework in Frameworks */,
-				E044694A09D12F74DFBB91DA /* _NumericsShims.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,13 +286,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B99279F683BDBE5E151A788 /* Algorithms.framework in Frameworks */,
 				1266F6763E43C61B3821C995 /* Core.framework in Frameworks */,
 				B14532259C65E3F7F4804125 /* Presentation.framework in Frameworks */,
-				CF5CC76C45FFE8517DB04AE4 /* RealModule.framework in Frameworks */,
 				DCEC76A7E80819E2AC180A92 /* Shared.framework in Frameworks */,
 				F2A6E688D40C3FDBAB3437BD /* StopWatch.framework in Frameworks */,
-				6B73FA1C89841D4B82F36730 /* _NumericsShims.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,13 +297,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF7C9FB50DC2AF97613BE5AA /* Algorithms.framework in Frameworks */,
 				058A7B8A1E4A6F27A0A6E945 /* Core.framework in Frameworks */,
 				C579F0651FDD9955D2A0BDB1 /* Presentation.framework in Frameworks */,
-				738F7DE5C6E8F49EB3E603FF /* RealModule.framework in Frameworks */,
 				7CD1A29F3563B35441D34602 /* Shared.framework in Frameworks */,
 				4C4754717D432A0E920A3F00 /* StopWatch.framework in Frameworks */,
-				B583E56E050DD76CFA523A01 /* _NumericsShims.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,11 +347,8 @@
 		70FCFAAEB521E612B55EDCEC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F5C7C6FDE49FFA01E4CF941C /* _NumericsShims.framework */,
-				B7283645C0B3D01B494A3890 /* Algorithms.framework */,
 				33A027E65EBC3CB53B612AD7 /* Core.framework */,
 				F8AD9619F03B3613394D5E4B /* Presentation.framework */,
-				2DC3C74515B5668052019DED /* RealModule.framework */,
 				8B674A8B65DE8D3DB7D5E15F /* Shared.framework */,
 				8213B8814E948A38B58D5E3C /* StopWatch.framework */,
 				6B489AD0F8C3481F2B78088D /* WakeyAlarm_Debug.app */,
@@ -737,7 +707,6 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarmTests-Info.plist";
@@ -749,13 +718,10 @@
 				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -790,7 +756,6 @@
 				ENABLE_PREVIEWS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Stage-Info.plist";
@@ -801,13 +766,10 @@
 				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -836,7 +798,6 @@
 				ENABLE_PREVIEWS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Prod-Info.plist";
@@ -847,13 +808,10 @@
 				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -886,7 +844,6 @@
 				ENABLE_PREVIEWS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Info.plist";
@@ -897,13 +854,10 @@
 				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -932,7 +886,6 @@
 				ENABLE_PREVIEWS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Info.plist";
@@ -943,13 +896,10 @@
 				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -978,7 +928,6 @@
 				ENABLE_PREVIEWS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Stage-Info.plist";
@@ -989,13 +938,10 @@
 				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -1028,7 +974,6 @@
 				ENABLE_PREVIEWS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Info.plist";
@@ -1039,13 +984,10 @@
 				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -1218,7 +1160,6 @@
 				ENABLE_PREVIEWS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Prod-Info.plist";
@@ -1229,13 +1170,10 @@
 				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -1262,7 +1200,6 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarmTests-Info.plist";
@@ -1274,13 +1211,10 @@
 				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -1309,7 +1243,6 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarmTests-Info.plist";
@@ -1321,13 +1254,10 @@
 				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -1358,7 +1288,6 @@
 				ENABLE_PREVIEWS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Debug-Info.plist";
@@ -1369,13 +1298,10 @@
 				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -1404,7 +1330,6 @@
 				ENABLE_PREVIEWS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Prod-Info.plist";
@@ -1415,13 +1340,10 @@
 				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -1450,7 +1372,6 @@
 				ENABLE_PREVIEWS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Debug-Info.plist";
@@ -1461,13 +1382,10 @@
 				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -1565,7 +1483,6 @@
 				ENABLE_PREVIEWS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Info.plist";
@@ -1576,13 +1493,10 @@
 				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -1615,7 +1529,6 @@
 				ENABLE_PREVIEWS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Debug-Info.plist";
@@ -1626,13 +1539,10 @@
 				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -1659,7 +1569,6 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarmTests-Info.plist";
@@ -1671,13 +1580,10 @@
 				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -1708,7 +1614,6 @@
 				ENABLE_PREVIEWS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Stage-Info.plist";
@@ -1719,13 +1624,10 @@
 				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -1754,7 +1656,6 @@
 				ENABLE_PREVIEWS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Debug-Info.plist";
@@ -1765,13 +1666,10 @@
 				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -1804,7 +1702,6 @@
 				ENABLE_PREVIEWS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Prod-Info.plist";
@@ -1815,13 +1712,10 @@
 				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -1850,7 +1744,6 @@
 				ENABLE_PREVIEWS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Stage-Info.plist";
@@ -1861,13 +1754,10 @@
 				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
