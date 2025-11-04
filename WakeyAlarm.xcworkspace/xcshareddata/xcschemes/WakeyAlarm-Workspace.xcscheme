@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A1794ABEF889A33E6D27E466"
+               BuildableName = "Algorithms.framework"
+               BlueprintName = "Algorithms"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/swift-algorithms/swift-algorithms.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "A1DFC045089F7370FF821C6F"
                BuildableName = "Clocks.framework"
                BlueprintName = "Clocks"
@@ -522,6 +536,20 @@
                BuildableName = "PresentationTests.xctest"
                BlueprintName = "PresentationTests"
                ReferencedContainer = "container:Projects/Presentation/Presentation/Presentation.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "665DB30C45B2A77DEB71A41F"
+               BuildableName = "RealModule.framework"
+               BlueprintName = "RealModule"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/swift-numerics/swift-numerics.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -1092,6 +1120,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6F01BF530A754DA48D88390E"
+               BuildableName = "WakeyAlarmWidget.appex"
+               BlueprintName = "WakeyAlarmWidget"
+               ReferencedContainer = "container:Projects/Widget/WakeyAlarmWidget.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "B46CEF9DFD643A5EA2E75FD5"
                BuildableName = "WeaveDI.framework"
                BlueprintName = "WeaveDI"
@@ -1124,6 +1166,20 @@
                BuildableName = "XCTestDynamicOverlay.framework"
                BlueprintName = "XCTestDynamicOverlay"
                ReferencedContainer = "container:Tuist/.build/tuist-derived/xctest-dynamic-overlay/xctest-dynamic-overlay.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F5FFA0FE6DB8AA7BA170A64C"
+               BuildableName = "_NumericsShims.framework"
+               BlueprintName = "_NumericsShims"
+               ReferencedContainer = "container:Tuist/.build/tuist-derived/swift-numerics/swift-numerics.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -1273,10 +1329,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A1DFC045089F7370FF821C6F"
-            BuildableName = "Clocks.framework"
-            BlueprintName = "Clocks"
-            ReferencedContainer = "container:Tuist/.build/tuist-derived/swift-clocks/swift-clocks.xcodeproj">
+            BlueprintIdentifier = "A1794ABEF889A33E6D27E466"
+            BuildableName = "Algorithms.framework"
+            BlueprintName = "Algorithms"
+            ReferencedContainer = "container:Tuist/.build/tuist-derived/swift-algorithms/swift-algorithms.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -1289,10 +1345,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A1DFC045089F7370FF821C6F"
-            BuildableName = "Clocks.framework"
-            BlueprintName = "Clocks"
-            ReferencedContainer = "container:Tuist/.build/tuist-derived/swift-clocks/swift-clocks.xcodeproj">
+            BlueprintIdentifier = "A1794ABEF889A33E6D27E466"
+            BuildableName = "Algorithms.framework"
+            BlueprintName = "Algorithms"
+            ReferencedContainer = "container:Tuist/.build/tuist-derived/swift-algorithms/swift-algorithms.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

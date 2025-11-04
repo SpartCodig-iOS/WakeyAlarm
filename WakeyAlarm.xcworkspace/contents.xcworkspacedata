@@ -7,6 +7,9 @@
       <FileRef
          location = "group:App/WakeyAlarm.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:Widget/WakeyAlarmWidget.xcodeproj">
+      </FileRef>
       <Group
          location = "group:Core"
          name = "Core">
@@ -71,6 +74,9 @@
          location = "group:Tuist/.build/tuist-derived/combine-schedulers/combine-schedulers.xcodeproj">
       </FileRef>
       <FileRef
+         location = "group:Tuist/.build/tuist-derived/swift-algorithms/swift-algorithms.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Tuist/.build/tuist-derived/swift-clocks/swift-clocks.xcodeproj">
       </FileRef>
       <FileRef
@@ -78,6 +84,9 @@
       </FileRef>
       <FileRef
          location = "group:Tuist/.build/tuist-derived/swift-dependencies/swift-dependencies.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Tuist/.build/tuist-derived/swift-numerics/swift-numerics.xcodeproj">
       </FileRef>
       <FileRef
          location = "group:Tuist/.build/tuist-derived/swift-syntax/swift-syntax.xcodeproj">

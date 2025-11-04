@@ -13,6 +13,6 @@ let package = Package(
   name: "AlarmApp",
   dependencies: [
     .package(url: "https://github.com/Roy-wonji/WeaveDI.git", from: "3.3.1"),
-    .package(url: "https://github.com/Swinject/Swinject.git", from: "2.10.0")
+    .package(url: "https://github.com/Swinject/Swinject.git", from: "2.10.0"),
   ]
 )
