@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,6 +21,10 @@
 		8EA0DF37CBD45F154004080F /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7708801B993AC2C223298 /* Base.swift */; };
 		9756A0D945F598B4B004FD4A /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647233F111392A1C34200CB0 /* Test.swift */; };
 		DFECFFE77BE038CA06E66E22 /* Domain.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4554B90D8BE596D791D002B2 /* Domain.framework */; };
+		F29937F72EB9F0520075E642 /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29937F62EB9F04B0075E642 /* AlarmView.swift */; };
+		F29937F82EB9F0520075E642 /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29937F62EB9F04B0075E642 /* AlarmView.swift */; };
+		F29937F92EB9F0520075E642 /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29937F62EB9F04B0075E642 /* AlarmView.swift */; };
+		F29937FA2EB9F0520075E642 /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29937F62EB9F04B0075E642 /* AlarmView.swift */; };
 		FEDB5536E47E06165E605079 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7708801B993AC2C223298 /* Base.swift */; };
 /* End PBXBuildFile section */
 
@@ -140,6 +144,7 @@
 		BCCABBA0130E099C3315A2E8 /* AlarmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AlarmTests-Info.plist"; sourceTree = "<group>"; };
 		D5BB93234BCFFC4F82F3E542 /* AlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB52A6638CA150A32EA9A908 /* Alarm-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Alarm-Stage-Info.plist"; sourceTree = "<group>"; };
+		F29937F62EB9F04B0075E642 /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
 		FCB7708801B993AC2C223298 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 		FD60770EC124908C69230D9E /* Alarm_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alarm_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -255,6 +260,7 @@
 		F1515C7ACF0808C060420F77 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				F29937F62EB9F04B0075E642 /* AlarmView.swift */,
 				363AECF680C3D860CE1BCB32 /* AlarmCellView.swift */,
 				FCB7708801B993AC2C223298 /* Base.swift */,
 			);
@@ -376,8 +382,6 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = F68B06E0E80437659A8417AE /* Build configuration list for PBXProject "Alarm" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -453,6 +457,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B63C33280FCE46CC4CFB07C /* AlarmCellView.swift in Sources */,
+				F29937F82EB9F0520075E642 /* AlarmView.swift in Sources */,
 				8EA0DF37CBD45F154004080F /* Base.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,6 +467,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24BA8C7279655E43446675A8 /* AlarmCellView.swift in Sources */,
+				F29937F92EB9F0520075E642 /* AlarmView.swift in Sources */,
 				1785EB4654A16EE81A04A3C7 /* Base.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,6 +477,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A15726EC217FB4C7EE203B9 /* AlarmCellView.swift in Sources */,
+				F29937F72EB9F0520075E642 /* AlarmView.swift in Sources */,
 				FEDB5536E47E06165E605079 /* Base.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,6 +487,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F9BCFF8D2492A5BFC8B74CB /* AlarmCellView.swift in Sources */,
+				F29937FA2EB9F0520075E642 /* AlarmView.swift in Sources */,
 				64767047607498E50C45DC6B /* Base.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -521,10 +529,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -627,10 +632,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -724,10 +726,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -762,10 +761,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -792,10 +788,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;

@@ -22,10 +22,16 @@ public struct Alarm {
     self.repeatDays = repeatDays
   }
 
-  public var formattedTime: String {
+  public var formattedTime: (String, String) {
     let formatter = DateFormatter()
     formatter.dateFormat = "h:mm a"
     formatter.locale = Locale(identifier: "en_US_POSIX")
-    return formatter.string(from: time)
+    let full = formatter.string(from: time)
+    let parts = full.split(separator: " ")
+    if parts.count == 2 {
+      return (String(parts[0]), String(parts[1]))
+    } else {
+      return (full, "")
+    }
   }
 }

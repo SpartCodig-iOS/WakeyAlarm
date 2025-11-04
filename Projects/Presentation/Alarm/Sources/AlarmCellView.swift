@@ -15,9 +15,17 @@ struct AlarmCellView: View {
   var body: some View {
     HStack(spacing: 0) {
       VStack(alignment: .leading, spacing: 8) {
-        Text(alarm.formattedTime)
-          .font(.system(size: 36, weight: .regular))
-          .foregroundColor(.black)
+        HStack(alignment: .bottom, spacing: 8) {
+          Text(alarm.formattedTime.0)
+            .font(.system(size: 36, weight: .regular))
+            .foregroundColor(.black)
+            .alignmentGuide(.bottom) { dimension in dimension[.lastTextBaseline] }
+
+          Text(alarm.formattedTime.1)
+            .font(.system(size: 20, weight: .regular))
+            .foregroundColor(.black)
+            .alignmentGuide(.bottom) { dimension in dimension[.lastTextBaseline] }
+        }
 
         Text(alarm.title)
           .font(.system(size: 14, weight: .regular))
