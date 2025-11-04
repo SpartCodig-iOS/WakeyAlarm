@@ -14,6 +14,76 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9FF295881C290C8F49C52E5A"
+               BuildableName = "Alarm.framework"
+               BlueprintName = "Alarm"
+               ReferencedContainer = "container:Projects/Presentation/Alarm/Alarm.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FF7058B434314E943425F90B"
+               BuildableName = "Alarm_Debug.framework"
+               BlueprintName = "Alarm-Debug"
+               ReferencedContainer = "container:Projects/Presentation/Alarm/Alarm.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "23494F0997D2C677FC9E59C7"
+               BuildableName = "Alarm_Prod.framework"
+               BlueprintName = "Alarm-Prod"
+               ReferencedContainer = "container:Projects/Presentation/Alarm/Alarm.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9CADDC942A5A680E84197E9D"
+               BuildableName = "Alarm_Stage.framework"
+               BlueprintName = "Alarm-Stage"
+               ReferencedContainer = "container:Projects/Presentation/Alarm/Alarm.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "47AA813F7699D7CC7F677AC0"
+               BuildableName = "AlarmTests.xctest"
+               BlueprintName = "AlarmTests"
+               ReferencedContainer = "container:Projects/Presentation/Alarm/Alarm.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "A1DFC045089F7370FF821C6F"
                BuildableName = "Clocks.framework"
                BlueprintName = "Clocks"
@@ -452,76 +522,6 @@
                BuildableName = "LogMacroMacro"
                BlueprintName = "LogMacroMacro"
                ReferencedContainer = "container:Tuist/.build/tuist-derived/LogMacro/LogMacro.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3F31459B2DA9E5BB7B7E73E2"
-               BuildableName = "Presentation.framework"
-               BlueprintName = "Presentation"
-               ReferencedContainer = "container:Projects/Presentation/Presentation/Presentation.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B7C870EAA303F7201B1090CB"
-               BuildableName = "Presentation_Debug.framework"
-               BlueprintName = "Presentation-Debug"
-               ReferencedContainer = "container:Projects/Presentation/Presentation/Presentation.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B07DE38A7388D6FD68842E91"
-               BuildableName = "Presentation_Prod.framework"
-               BlueprintName = "Presentation-Prod"
-               ReferencedContainer = "container:Projects/Presentation/Presentation/Presentation.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4706F81838C88054394C55DD"
-               BuildableName = "Presentation_Stage.framework"
-               BlueprintName = "Presentation-Stage"
-               ReferencedContainer = "container:Projects/Presentation/Presentation/Presentation.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4F649FDB9C5521442A78DE10"
-               BuildableName = "PresentationTests.xctest"
-               BlueprintName = "PresentationTests"
-               ReferencedContainer = "container:Projects/Presentation/Presentation/Presentation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -1083,6 +1083,17 @@
             parallelizable = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "47AA813F7699D7CC7F677AC0"
+               BuildableName = "AlarmTests.xctest"
+               BlueprintName = "AlarmTests"
+               ReferencedContainer = "container:Projects/Presentation/Alarm/Alarm.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "73B1A2AD90A7970B7DB39CDC"
                BuildableName = "CoreTests.xctest"
                BlueprintName = "CoreTests"
@@ -1120,17 +1131,6 @@
                BuildableName = "DomainTests.xctest"
                BlueprintName = "DomainTests"
                ReferencedContainer = "container:Projects/Domain/Domain/Domain.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4F649FDB9C5521442A78DE10"
-               BuildableName = "PresentationTests.xctest"
-               BlueprintName = "PresentationTests"
-               ReferencedContainer = "container:Projects/Presentation/Presentation/Presentation.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -1192,10 +1192,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A1DFC045089F7370FF821C6F"
-            BuildableName = "Clocks.framework"
-            BlueprintName = "Clocks"
-            ReferencedContainer = "container:Tuist/.build/tuist-derived/swift-clocks/swift-clocks.xcodeproj">
+            BlueprintIdentifier = "9FF295881C290C8F49C52E5A"
+            BuildableName = "Alarm.framework"
+            BlueprintName = "Alarm"
+            ReferencedContainer = "container:Projects/Presentation/Alarm/Alarm.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -1208,10 +1208,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A1DFC045089F7370FF821C6F"
-            BuildableName = "Clocks.framework"
-            BlueprintName = "Clocks"
-            ReferencedContainer = "container:Tuist/.build/tuist-derived/swift-clocks/swift-clocks.xcodeproj">
+            BlueprintIdentifier = "9FF295881C290C8F49C52E5A"
+            BuildableName = "Alarm.framework"
+            BlueprintName = "Alarm"
+            ReferencedContainer = "container:Projects/Presentation/Alarm/Alarm.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
