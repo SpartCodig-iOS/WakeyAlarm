@@ -16,5 +16,5 @@ public enum Weekday: String {
   case friday = "금"
   case saturday = "토"
 
-  var id: String { self.rawValue }
+  public var id: String { self.rawValue }
 }

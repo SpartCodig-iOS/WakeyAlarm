@@ -7,24 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0614E021AA08552E871D8E5E /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490460A3DE6DA4E92C1320A3 /* AlarmView.swift */; };
 		0A2FD077E6E051FE2CF1AF82 /* Domain.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4554B90D8BE596D791D002B2 /* Domain.framework */; };
 		0B63C33280FCE46CC4CFB07C /* AlarmCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363AECF680C3D860CE1BCB32 /* AlarmCellView.swift */; };
 		1785EB4654A16EE81A04A3C7 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7708801B993AC2C223298 /* Base.swift */; };
 		1F9BCFF8D2492A5BFC8B74CB /* AlarmCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363AECF680C3D860CE1BCB32 /* AlarmCellView.swift */; };
 		230AE873249E0EB31B834761 /* Alarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029E40A6BBE695E1714DC4AB /* Alarm.framework */; };
 		24BA8C7279655E43446675A8 /* AlarmCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363AECF680C3D860CE1BCB32 /* AlarmCellView.swift */; };
+		293F87DD89044D776F9B77C1 /* AddAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D916DBC5432E22E0C81D4E /* AddAlarmView.swift */; };
 		3A15726EC217FB4C7EE203B9 /* AlarmCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363AECF680C3D860CE1BCB32 /* AlarmCellView.swift */; };
 		3A30C41120D3609117FCE3D2 /* Domain.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4554B90D8BE596D791D002B2 /* Domain.framework */; };
+		4D8D8F31362947E04F0F1DFF /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490460A3DE6DA4E92C1320A3 /* AlarmView.swift */; };
+		5E3EF8FF42337618F8625B53 /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490460A3DE6DA4E92C1320A3 /* AlarmView.swift */; };
 		64767047607498E50C45DC6B /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7708801B993AC2C223298 /* Base.swift */; };
 		6998060A4A5A13C94C4491D4 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4554B90D8BE596D791D002B2 /* Domain.framework */; };
 		8B578F1F58E713FDDD8C4F4A /* Domain.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4554B90D8BE596D791D002B2 /* Domain.framework */; };
 		8EA0DF37CBD45F154004080F /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7708801B993AC2C223298 /* Base.swift */; };
 		9756A0D945F598B4B004FD4A /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647233F111392A1C34200CB0 /* Test.swift */; };
+		98AB239AFEC121F1726CD8EE /* AddAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D916DBC5432E22E0C81D4E /* AddAlarmView.swift */; };
+		B168710C32FADA6CFC534EDA /* AddAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D916DBC5432E22E0C81D4E /* AddAlarmView.swift */; };
+		BF17FEFE43E9A86A146843AF /* AddAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D916DBC5432E22E0C81D4E /* AddAlarmView.swift */; };
+		DE22F6BEC69639C7A2DDD24A /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490460A3DE6DA4E92C1320A3 /* AlarmView.swift */; };
 		DFECFFE77BE038CA06E66E22 /* Domain.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4554B90D8BE596D791D002B2 /* Domain.framework */; };
-		F29937F72EB9F0520075E642 /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29937F62EB9F04B0075E642 /* AlarmView.swift */; };
-		F29937F82EB9F0520075E642 /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29937F62EB9F04B0075E642 /* AlarmView.swift */; };
-		F29937F92EB9F0520075E642 /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29937F62EB9F04B0075E642 /* AlarmView.swift */; };
-		F29937FA2EB9F0520075E642 /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29937F62EB9F04B0075E642 /* AlarmView.swift */; };
+		F29938012EBA21D70075E642 /* RepeatDaySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29938002EBA21D70075E642 /* RepeatDaySelector.swift */; };
+		F29938022EBA21D70075E642 /* RepeatDaySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29938002EBA21D70075E642 /* RepeatDaySelector.swift */; };
+		F29938032EBA21D70075E642 /* RepeatDaySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29938002EBA21D70075E642 /* RepeatDaySelector.swift */; };
+		F29938042EBA21D70075E642 /* RepeatDaySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29938002EBA21D70075E642 /* RepeatDaySelector.swift */; };
 		FEDB5536E47E06165E605079 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7708801B993AC2C223298 /* Base.swift */; };
 /* End PBXBuildFile section */
 
@@ -139,12 +147,14 @@
 		3AD2721D5481D38E36AF65F3 /* Alarm-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Alarm-Debug-Info.plist"; sourceTree = "<group>"; };
 		4175DF69730F32822907FFB2 /* Alarm_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alarm_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4554B90D8BE596D791D002B2 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		490460A3DE6DA4E92C1320A3 /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
 		647233F111392A1C34200CB0 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		B5D916DBC5432E22E0C81D4E /* AddAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmView.swift; sourceTree = "<group>"; };
 		BBBB39DF8B3F84960C552AFA /* Alarm-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Alarm-Prod-Info.plist"; sourceTree = "<group>"; };
 		BCCABBA0130E099C3315A2E8 /* AlarmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AlarmTests-Info.plist"; sourceTree = "<group>"; };
 		D5BB93234BCFFC4F82F3E542 /* AlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB52A6638CA150A32EA9A908 /* Alarm-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Alarm-Stage-Info.plist"; sourceTree = "<group>"; };
-		F29937F62EB9F04B0075E642 /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
+		F29938002EBA21D70075E642 /* RepeatDaySelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatDaySelector.swift; sourceTree = "<group>"; };
 		FCB7708801B993AC2C223298 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 		FD60770EC124908C69230D9E /* Alarm_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alarm_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -260,8 +270,10 @@
 		F1515C7ACF0808C060420F77 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				F29937F62EB9F04B0075E642 /* AlarmView.swift */,
+				F29938002EBA21D70075E642 /* RepeatDaySelector.swift */,
+				B5D916DBC5432E22E0C81D4E /* AddAlarmView.swift */,
 				363AECF680C3D860CE1BCB32 /* AlarmCellView.swift */,
+				490460A3DE6DA4E92C1320A3 /* AlarmView.swift */,
 				FCB7708801B993AC2C223298 /* Base.swift */,
 			);
 			path = Sources;
@@ -456,8 +468,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF17FEFE43E9A86A146843AF /* AddAlarmView.swift in Sources */,
+				F29938032EBA21D70075E642 /* RepeatDaySelector.swift in Sources */,
 				0B63C33280FCE46CC4CFB07C /* AlarmCellView.swift in Sources */,
-				F29937F82EB9F0520075E642 /* AlarmView.swift in Sources */,
+				DE22F6BEC69639C7A2DDD24A /* AlarmView.swift in Sources */,
 				8EA0DF37CBD45F154004080F /* Base.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,8 +480,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98AB239AFEC121F1726CD8EE /* AddAlarmView.swift in Sources */,
+				F29938042EBA21D70075E642 /* RepeatDaySelector.swift in Sources */,
 				24BA8C7279655E43446675A8 /* AlarmCellView.swift in Sources */,
-				F29937F92EB9F0520075E642 /* AlarmView.swift in Sources */,
+				4D8D8F31362947E04F0F1DFF /* AlarmView.swift in Sources */,
 				1785EB4654A16EE81A04A3C7 /* Base.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,8 +492,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B168710C32FADA6CFC534EDA /* AddAlarmView.swift in Sources */,
+				F29938012EBA21D70075E642 /* RepeatDaySelector.swift in Sources */,
 				3A15726EC217FB4C7EE203B9 /* AlarmCellView.swift in Sources */,
-				F29937F72EB9F0520075E642 /* AlarmView.swift in Sources */,
+				5E3EF8FF42337618F8625B53 /* AlarmView.swift in Sources */,
 				FEDB5536E47E06165E605079 /* Base.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,8 +504,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				293F87DD89044D776F9B77C1 /* AddAlarmView.swift in Sources */,
+				F29938022EBA21D70075E642 /* RepeatDaySelector.swift in Sources */,
 				1F9BCFF8D2492A5BFC8B74CB /* AlarmCellView.swift in Sources */,
-				F29937FA2EB9F0520075E642 /* AlarmView.swift in Sources */,
+				0614E021AA08552E871D8E5E /* AlarmView.swift in Sources */,
 				64767047607498E50C45DC6B /* Base.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
