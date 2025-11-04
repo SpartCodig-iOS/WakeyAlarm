@@ -48,8 +48,12 @@ struct AlarmCellView: View {
         .fixedSize()
     }
     .padding(20)
-    .background(.gray.opacity(0.05))
-    .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+    .background(
+      Color.white
+        .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+    )
+    .shadow(color: .black.opacity(0.1), radius: 6, x: 0, y: 2)
+
   }
 }
 
