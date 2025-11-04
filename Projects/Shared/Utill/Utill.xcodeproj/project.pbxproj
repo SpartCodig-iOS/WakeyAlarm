@@ -3,16 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		107A19A67E9503C9676C7746 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70DD74259D9330B7727DDCB /* Test.swift */; };
-		37E87AE07A9C2A867B5643EC /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B0F7C37B5A0D5ED954E77D /* Base.swift */; };
-		3E1A639FCDB384492911AFA9 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B0F7C37B5A0D5ED954E77D /* Base.swift */; };
 		64D21F9B5DE1EBE164AC3048 /* Utill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136D114982ED83CB9F5177A1 /* Utill.framework */; };
-		90375399DC6E18FE505ABA9A /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B0F7C37B5A0D5ED954E77D /* Base.swift */; };
-		933E9F97F8675217757FFA51 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B0F7C37B5A0D5ED954E77D /* Base.swift */; };
+		7F2719002EB9A439001BAA68 /* BaseintentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2718FF2EB9A439001BAA68 /* BaseintentProtocol.swift */; };
+		7F2719012EB9A439001BAA68 /* BaseintentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2718FF2EB9A439001BAA68 /* BaseintentProtocol.swift */; };
+		7F2719022EB9A439001BAA68 /* BaseintentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2718FF2EB9A439001BAA68 /* BaseintentProtocol.swift */; };
+		7F2719032EB9A439001BAA68 /* BaseintentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2718FF2EB9A439001BAA68 /* BaseintentProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,8 +85,8 @@
 		2C11E09952BEF672B7CC9E8A /* Utill_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utill_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		465A15DE52F39A8755A63FE0 /* Utill_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utill_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ED860F216F9BD3E312F51EE /* Utill_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utill_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		64B0F7C37B5A0D5ED954E77D /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 		7B9A8A431FB3EEAE4AE3FB1D /* Utill-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Utill-Info.plist"; sourceTree = "<group>"; };
+		7F2718FF2EB9A439001BAA68 /* BaseintentProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseintentProtocol.swift; sourceTree = "<group>"; };
 		7F64C3861EDE4F8C24989C2A /* UtillTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "UtillTests-Info.plist"; sourceTree = "<group>"; };
 		9ACBE78CB421425304897A41 /* Utill-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Utill-Debug-Info.plist"; sourceTree = "<group>"; };
 		9BED8B1D6BCFDB676A34B628 /* UtillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UtillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -171,6 +171,14 @@
 			path = UtillTests;
 			sourceTree = "<group>";
 		};
+		7F2718FE2EB9A422001BAA68 /* Intent */ = {
+			isa = PBXGroup;
+			children = (
+				7F2718FF2EB9A439001BAA68 /* BaseintentProtocol.swift */,
+			);
+			path = Intent;
+			sourceTree = "<group>";
+		};
 		A9A9ADE9F2B399CE6F4B1EB7 /* InfoPlists */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,7 +210,7 @@
 		EB9C926E257290120423250D /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				64B0F7C37B5A0D5ED954E77D /* Base.swift */,
+				7F2718FE2EB9A422001BAA68 /* Intent */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -318,8 +326,6 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = 817DAE8E8FEF1C2850504165 /* Build configuration list for PBXProject "Utill" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -386,7 +392,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E1A639FCDB384492911AFA9 /* Base.swift in Sources */,
+				7F2719012EB9A439001BAA68 /* BaseintentProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +400,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37E87AE07A9C2A867B5643EC /* Base.swift in Sources */,
+				7F2719022EB9A439001BAA68 /* BaseintentProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +416,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				933E9F97F8675217757FFA51 /* Base.swift in Sources */,
+				7F2719002EB9A439001BAA68 /* BaseintentProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +424,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90375399DC6E18FE505ABA9A /* Base.swift in Sources */,
+				7F2719032EB9A439001BAA68 /* BaseintentProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,10 +457,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -638,10 +641,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -744,10 +744,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -782,10 +779,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -820,10 +814,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
