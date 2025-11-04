@@ -3,22 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		054D8D24D8BBA33B55453697 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED236801C3C6EBF9BB755A4 /* Shared.framework */; };
+		164F11F06A2419E47E8B8986 /* StopWatch.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 16202E1DFC3AD073AE7FF0E7 /* StopWatch.framework */; };
+		2C9B6F62926E1A8057DFDCB7 /* PresntaionExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057EE961268A018CC76E3173 /* PresntaionExport.swift */; };
 		315228127069BB806DAE9F24 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED236801C3C6EBF9BB755A4 /* Shared.framework */; };
-		45645207AFB4BE389739A51D /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED236801C3C6EBF9BB755A4 /* Shared.framework */; };
-		545D713F514DF5A8B151C466 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E14D09AE76BE920545555A /* Core.framework */; };
+		32029852236C5E1C4BA523EE /* StopWatch.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 16202E1DFC3AD073AE7FF0E7 /* StopWatch.framework */; };
+		5425D08B51FBFBDFC4499C83 /* StopWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16202E1DFC3AD073AE7FF0E7 /* StopWatch.framework */; };
 		56FCE4DA807E3179DEFAF470 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E14D09AE76BE920545555A /* Core.framework */; };
 		69F501FFCECF1AB16A4D4752 /* Presentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342AE4EAEE40294F0A26F2B8 /* Presentation.framework */; };
-		6E76AF41B3FEEF4652A7CEED /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED236801C3C6EBF9BB755A4 /* Shared.framework */; };
-		78FA9D80A38BDA3B8DF70E4E /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E14D09AE76BE920545555A /* Core.framework */; };
+		6D921D48705BEA132528B329 /* PresntaionExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057EE961268A018CC76E3173 /* PresntaionExport.swift */; };
 		99ED14160CCB43FDE651C307 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF73C9599C25FE868248ED /* Test.swift */; };
-		B6DF9B5A0C7C2F192507AEA0 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED236801C3C6EBF9BB755A4 /* Shared.framework */; };
-		CDF84E548084CDEA84412160 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E14D09AE76BE920545555A /* Core.framework */; };
-		E6E44C7E8943742C85965DBB /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E14D09AE76BE920545555A /* Core.framework */; };
+		9CEB25102204EB1DEB50E3A7 /* StopWatch.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 16202E1DFC3AD073AE7FF0E7 /* StopWatch.framework */; };
+		AB8B134F4C850638026CEAA2 /* PresntaionExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057EE961268A018CC76E3173 /* PresntaionExport.swift */; };
+		B343CC7D66266CAF0167BFEB /* PresntaionExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057EE961268A018CC76E3173 /* PresntaionExport.swift */; };
+		FB6AC1394E35D59F77C44C9D /* StopWatch.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 16202E1DFC3AD073AE7FF0E7 /* StopWatch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,36 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		10D1656449D0EFCF4FFE96ED /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				9CEB25102204EB1DEB50E3A7 /* StopWatch.framework in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1CFB3567DAC746B058339044 /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				FB6AC1394E35D59F77C44C9D /* StopWatch.framework in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3B5CBBBEEF6D0A5B5656799B /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				164F11F06A2419E47E8B8986 /* StopWatch.framework in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		6A01109A927826C6721A499C /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -61,6 +92,16 @@
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C30D1B25A17B83534A2BEDB /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				32029852236C5E1C4BA523EE /* StopWatch.framework in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 		AE630EE63CB3304CF25388B5 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -85,7 +126,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		057EE961268A018CC76E3173 /* PresntaionExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresntaionExport.swift; sourceTree = "<group>"; };
 		134AEE009D928C7E39EAF4CD /* Presentation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Presentation-Info.plist"; sourceTree = "<group>"; };
+		16202E1DFC3AD073AE7FF0E7 /* StopWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StopWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C23562150869ECF7E891E5C /* Presentation_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Presentation_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		342AE4EAEE40294F0A26F2B8 /* Presentation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Presentation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EBF73C9599C25FE868248ED /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
@@ -105,8 +148,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78FA9D80A38BDA3B8DF70E4E /* Core.framework in Frameworks */,
-				B6DF9B5A0C7C2F192507AEA0 /* Shared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +158,7 @@
 				56FCE4DA807E3179DEFAF470 /* Core.framework in Frameworks */,
 				69F501FFCECF1AB16A4D4752 /* Presentation.framework in Frameworks */,
 				315228127069BB806DAE9F24 /* Shared.framework in Frameworks */,
+				5425D08B51FBFBDFC4499C83 /* StopWatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,8 +166,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6E44C7E8943742C85965DBB /* Core.framework in Frameworks */,
-				45645207AFB4BE389739A51D /* Shared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,8 +173,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				545D713F514DF5A8B151C466 /* Core.framework in Frameworks */,
-				6E76AF41B3FEEF4652A7CEED /* Shared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,8 +180,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDF84E548084CDEA84412160 /* Core.framework in Frameworks */,
-				054D8D24D8BBA33B55453697 /* Shared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,13 +214,6 @@
 			path = PresentationTests;
 			sourceTree = "<group>";
 		};
-		7F2718EA2EB9914D001BAA68 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 		9218B710138D5C39E561E904 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,7 +225,7 @@
 		ACFC6E8F6D299B22A1D9900B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				7F2718EA2EB9914D001BAA68 /* New Group */,
+				DD3436F21D72684C6E20D5AB /* Exported */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -211,6 +240,14 @@
 			name = Project;
 			sourceTree = "<group>";
 		};
+		DD3436F21D72684C6E20D5AB /* Exported */ = {
+			isa = PBXGroup;
+			children = (
+				057EE961268A018CC76E3173 /* PresntaionExport.swift */,
+			);
+			path = Exported;
+			sourceTree = "<group>";
+		};
 		F6D62D9CC500DDA356076FB6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,6 +258,7 @@
 				342AE4EAEE40294F0A26F2B8 /* Presentation.framework */,
 				B5F6E2479E03DF9A1548AFE4 /* PresentationTests.xctest */,
 				DED236801C3C6EBF9BB755A4 /* Shared.framework */,
+				16202E1DFC3AD073AE7FF0E7 /* StopWatch.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -244,6 +282,7 @@
 				047D93C9CBD2893A19732950 /* Resources */,
 				AD6BB5BA06158E0D2E4C8A3C /* Frameworks */,
 				6A01109A927826C6721A499C /* Embed Frameworks */,
+				3B5CBBBEEF6D0A5B5656799B /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -264,6 +303,7 @@
 				33CB6E67DC65439FE8122D37 /* Resources */,
 				80B6D70FCAC1E46111342DFE /* Frameworks */,
 				EF3F98248E1F7B5E7BF05876 /* Embed Frameworks */,
+				6C30D1B25A17B83534A2BEDB /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -305,6 +345,7 @@
 				4847C9443282F3B8C5788488 /* Resources */,
 				1C53DFC457859DB6DDBEED37 /* Frameworks */,
 				6B3C6DF33E378A037539077F /* Embed Frameworks */,
+				10D1656449D0EFCF4FFE96ED /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -325,6 +366,7 @@
 				3D0DB8D7EE6DABAB10AF19D5 /* Resources */,
 				EFAD35AD9F9D1D661E9CBF5C /* Frameworks */,
 				AE630EE63CB3304CF25388B5 /* Embed Frameworks */,
+				1CFB3567DAC746B058339044 /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -344,6 +386,8 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+				};
 			};
 			buildConfigurationList = 1F46484E0096B2E0258B70F5 /* Build configuration list for PBXProject "Presentation" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -410,6 +454,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B343CC7D66266CAF0167BFEB /* PresntaionExport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +470,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C9B6F62926E1A8057DFDCB7 /* PresntaionExport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +478,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB8B134F4C850638026CEAA2 /* PresntaionExport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +486,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D921D48705BEA132528B329 /* PresntaionExport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,7 +528,15 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.Presentation;
 				PRODUCT_NAME = Presentation;
 				SDKROOT = iphoneos;
@@ -523,7 +579,15 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.Presentation;
 				PRODUCT_NAME = Presentation_Prod;
 				SDKROOT = iphoneos;
@@ -619,7 +683,15 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.Presentation;
 				PRODUCT_NAME = Presentation_Debug;
 				SDKROOT = iphoneos;
@@ -714,7 +786,15 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.Presentation.PresentationTests;
 				PRODUCT_NAME = PresentationTests;
 				SDKROOT = iphoneos;
@@ -754,7 +834,15 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.Presentation;
 				PRODUCT_NAME = Presentation;
 				SDKROOT = iphoneos;
@@ -762,7 +850,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -791,14 +882,25 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.Presentation.PresentationTests;
 				PRODUCT_NAME = PresentationTests;
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -832,7 +934,15 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.Presentation;
 				PRODUCT_NAME = Presentation_Stage;
 				SDKROOT = iphoneos;
@@ -840,7 +950,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -876,7 +989,15 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.Presentation;
 				PRODUCT_NAME = Presentation_Prod;
 				SDKROOT = iphoneos;
@@ -884,7 +1005,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -920,7 +1044,15 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.Presentation;
 				PRODUCT_NAME = Presentation_Stage;
 				SDKROOT = iphoneos;
@@ -963,7 +1095,15 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.Presentation;
 				PRODUCT_NAME = Presentation_Debug;
 				SDKROOT = iphoneos;
@@ -971,7 +1111,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
