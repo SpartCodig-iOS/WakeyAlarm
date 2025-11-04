@@ -11,7 +11,23 @@ import Utill
 
 @MainActor
 public final class StopWatchIntent: ObservableObject {
-  @Published public private(set) var state: State = .init()
+  @Published public var state: State = .init()
+
+  // Live Activity delegate is weak to avoid retain cycles with UI layer
+  public weak var widgetActivityDelegate: StopWatchWidgetActivityDelegate?
+
+  private var timer: StopWatchTimer?
+  private var background: StopWatchBackground?
+
+  public init() {
+    timer = StopWatchTimer(intent: self)
+    background = StopWatchBackground(intent: self)
+  }
+
+  deinit {
+    timer = nil
+    background = nil
+  }
 
   public struct State: Equatable {
     var elapsed: TimeInterval = 0
@@ -20,10 +36,9 @@ public final class StopWatchIntent: ObservableObject {
     var laps: [TimeInterval] = []
     var error: String? = nil
 
-    // ⬇️ View에서 쓰던 애니메이션 상태까지 전부 Intent State로 관리
-    var resetAnimationTrimAmount: CGFloat = 0          // 보조 링 길이
-    var minuteWrapCount: Int = 0                       // 60초 경계 통과 횟수
-    var previousMinuteIndex: Int? = nil                // 직전 분 인덱스(경계 감지용)
+    var resetAnimationTrimAmount: CGFloat = 0
+    var minuteWrapCount: Int = 0
+    var previousMinuteIndex: Int? = nil
   }
 
   public enum UserIntent: Equatable {
@@ -42,8 +57,31 @@ public final class StopWatchIntent: ObservableObject {
     case incrementMinuteWrapCount
     case setPreviousMinuteIndex(Int?)
   }
+  // MARK: - Delegate Configuration
 
-  private var ticker: Task<Void, Never>?
+  public func setWidgetActivityDelegate(_ delegate: StopWatchWidgetActivityDelegate?) {
+    widgetActivityDelegate = delegate
+    if delegate != nil {
+      print("✅ WidgetActivityDelegate 설정 완료")
+    } else {
+      print("⚠️ WidgetActivityDelegate 제거됨")
+    }
+  }
+
+  // MARK: - Live Activity Interface
+
+  func updateLiveActivity() {
+    let currentLapTime = state.laps.isEmpty ? nil : (state.elapsed - (state.laps.first ?? 0))
+    widgetActivityDelegate?.updateLiveActivity(
+      elapsedTime: state.elapsed,
+      isRunning: state.isRunning,
+      lapCount: state.laps.count,
+      currentLapTime: currentLapTime,
+      startTime: state.startedAt
+    )
+  }
+
+  // MARK: - User Intents
 
   public func intent(_ userIntent: UserIntent) {
     switch userIntent {
@@ -52,22 +90,31 @@ public final class StopWatchIntent: ObservableObject {
       let anchor = Date().addingTimeInterval(-state.elapsed)
       state = reduce(state, .setStartedAt(anchor))
       state = reduce(state, .setRunning(true))
-      // 현재 분 인덱스로 초기화
       state = reduce(state, .setPreviousMinuteIndex(Int(state.elapsed / 60)))
-      startTicker()
+      timer?.start()
+      let currentLapTime = state.laps.isEmpty ? nil : (state.elapsed - (state.laps.first ?? 0))
+      widgetActivityDelegate?.startLiveActivity(
+        elapsedTime: state.elapsed,
+        isRunning: state.isRunning,
+        lapCount: state.laps.count,
+        currentLapTime: currentLapTime,
+        startTime: state.startedAt
+      )
 
     case .stopTapped:
       guard state.isRunning else { return }
-      ticker?.cancel(); ticker = nil
+      timer?.stop()
       state = reduce(state, .setRunning(false))
       state = reduce(state, .setStartedAt(nil))
+      updateLiveActivity()
 
     case .lapTapped:
       guard state.isRunning else { return }
       state = reduce(state, .pushLap(state.elapsed))
+      updateLiveActivity()
 
     case .resetTapped:
-      ticker?.cancel(); ticker = nil
+      timer?.stop()
       state = reduce(state, .setRunning(false))
       state = reduce(state, .setStartedAt(nil))
       state = reduce(state, .setElapsed(0))
@@ -76,42 +123,12 @@ public final class StopWatchIntent: ObservableObject {
       state = reduce(state, .setResetAnimationTrimAmount(0))
       state = reduce(state, .setPreviousMinuteIndex(0))
       state = reduce(state, .incrementMinuteWrapCount)
+      background?.resetLiveActivityFlag()
+      widgetActivityDelegate?.endLiveActivity()
     }
   }
 
-  private func startTicker() {
-    ticker?.cancel()
-    ticker = Task { [weak self] in
-      guard let self else { return }
-      let clock = ContinuousClock()
-      while !Task.isCancelled {
-        try? await clock.sleep(for: .milliseconds(10))
-        guard let started = self.state.startedAt else { continue }
-
-        let elapsed = Date().timeIntervalSince(started)
-        self.state = self.reduce(self.state, .setElapsed(elapsed))
-
-        // 60초 경계 감지: 분 인덱스가 바뀌면 wrap 이벤트
-        let minuteIndex = Int(elapsed / 60.0)
-        if minuteIndex != self.state.previousMinuteIndex {
-          self.state = self.reduce(self.state, .setPreviousMinuteIndex(minuteIndex))
-
-          // 현재 진행도(0~1)를 보조 링에 복사
-          let seconds = elapsed.truncatingRemainder(dividingBy: 60)
-          let currentProgress = max(CGFloat(seconds / 60.0), 0.001)
-          self.state = self.reduce(self.state, .setResetAnimationTrimAmount(currentProgress))
-          self.state = self.reduce(self.state, .incrementMinuteWrapCount)
-
-          // 0.18초 뒤 0으로 → “슥” 줄어드는 초기화 하는 애니메이션
-          Task { [weak self] in
-            guard let self else { return }
-            try? await clock.sleep(for: .milliseconds(180))
-            self.state = self.reduce(self.state, .setResetAnimationTrimAmount(0))
-          }
-        }
-      }
-    }
-  }
+  // MARK: - Reducer
 
   public func reduce(_ state: State, _ action: Action) -> State {
     var newState = state
@@ -138,7 +155,7 @@ public final class StopWatchIntent: ObservableObject {
     return newState
   }
 
-  // 표시용 유틸
+  // MARK: - Display Utilities
   public var formattedMain: String {
     let t = state.elapsed
     return String(format: "%02d:%02d", Int(t) / 60, Int(t) % 60)
