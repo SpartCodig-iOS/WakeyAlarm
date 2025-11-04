@@ -3,19 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A2FD077E6E051FE2CF1AF82 /* Domain.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4554B90D8BE596D791D002B2 /* Domain.framework */; };
+		0B63C33280FCE46CC4CFB07C /* AlarmCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363AECF680C3D860CE1BCB32 /* AlarmCellView.swift */; };
 		1785EB4654A16EE81A04A3C7 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7708801B993AC2C223298 /* Base.swift */; };
+		1F9BCFF8D2492A5BFC8B74CB /* AlarmCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363AECF680C3D860CE1BCB32 /* AlarmCellView.swift */; };
 		230AE873249E0EB31B834761 /* Alarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029E40A6BBE695E1714DC4AB /* Alarm.framework */; };
+		24BA8C7279655E43446675A8 /* AlarmCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363AECF680C3D860CE1BCB32 /* AlarmCellView.swift */; };
+		3A15726EC217FB4C7EE203B9 /* AlarmCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363AECF680C3D860CE1BCB32 /* AlarmCellView.swift */; };
+		3A30C41120D3609117FCE3D2 /* Domain.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4554B90D8BE596D791D002B2 /* Domain.framework */; };
 		64767047607498E50C45DC6B /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7708801B993AC2C223298 /* Base.swift */; };
+		6998060A4A5A13C94C4491D4 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4554B90D8BE596D791D002B2 /* Domain.framework */; };
+		8B578F1F58E713FDDD8C4F4A /* Domain.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4554B90D8BE596D791D002B2 /* Domain.framework */; };
 		8EA0DF37CBD45F154004080F /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7708801B993AC2C223298 /* Base.swift */; };
 		9756A0D945F598B4B004FD4A /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647233F111392A1C34200CB0 /* Test.swift */; };
-		F29937E72EB9E3400075E642 /* AlarmCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29937E62EB9E3280075E642 /* AlarmCellView.swift */; };
-		F29937E82EB9E3400075E642 /* AlarmCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29937E62EB9E3280075E642 /* AlarmCellView.swift */; };
-		F29937E92EB9E3400075E642 /* AlarmCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29937E62EB9E3280075E642 /* AlarmCellView.swift */; };
-		F29937EA2EB9E3400075E642 /* AlarmCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29937E62EB9E3280075E642 /* AlarmCellView.swift */; };
+		DFECFFE77BE038CA06E66E22 /* Domain.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4554B90D8BE596D791D002B2 /* Domain.framework */; };
 		FEDB5536E47E06165E605079 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7708801B993AC2C223298 /* Base.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +35,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		00FFF6DCBDE0C118E2B37FF3 /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				DFECFFE77BE038CA06E66E22 /* Domain.framework in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		12DAE1EF330934DE7D715988 /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				0A2FD077E6E051FE2CF1AF82 /* Domain.framework in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		5AE0463D68DB8E7295B94186 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -39,6 +64,16 @@
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7651D8DA418263D0165BEF0C /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				8B578F1F58E713FDDD8C4F4A /* Domain.framework in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 		95BB6F252C47B46F1D6770CD /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -70,6 +105,16 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E55F33FFC668A9DB24FEF9C6 /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				3A30C41120D3609117FCE3D2 /* Domain.framework in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		F9E1DF00CDA4D392C4D02A5C /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -86,14 +131,15 @@
 		029E40A6BBE695E1714DC4AB /* Alarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DE5945D299014C5755D240 /* Alarm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Alarm-Info.plist"; sourceTree = "<group>"; };
 		0C87D5567DE3B1557A7261EB /* Alarm_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alarm_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		363AECF680C3D860CE1BCB32 /* AlarmCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmCellView.swift; sourceTree = "<group>"; };
 		3AD2721D5481D38E36AF65F3 /* Alarm-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Alarm-Debug-Info.plist"; sourceTree = "<group>"; };
 		4175DF69730F32822907FFB2 /* Alarm_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alarm_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4554B90D8BE596D791D002B2 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		647233F111392A1C34200CB0 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		BBBB39DF8B3F84960C552AFA /* Alarm-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Alarm-Prod-Info.plist"; sourceTree = "<group>"; };
 		BCCABBA0130E099C3315A2E8 /* AlarmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AlarmTests-Info.plist"; sourceTree = "<group>"; };
 		D5BB93234BCFFC4F82F3E542 /* AlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB52A6638CA150A32EA9A908 /* Alarm-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Alarm-Stage-Info.plist"; sourceTree = "<group>"; };
-		F29937E62EB9E3280075E642 /* AlarmCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmCellView.swift; sourceTree = "<group>"; };
 		FCB7708801B993AC2C223298 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 		FD60770EC124908C69230D9E /* Alarm_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alarm_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -132,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				230AE873249E0EB31B834761 /* Alarm.framework in Frameworks */,
+				6998060A4A5A13C94C4491D4 /* Domain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +231,7 @@
 				0C87D5567DE3B1557A7261EB /* Alarm_Stage.framework */,
 				029E40A6BBE695E1714DC4AB /* Alarm.framework */,
 				D5BB93234BCFFC4F82F3E542 /* AlarmTests.xctest */,
+				4554B90D8BE596D791D002B2 /* Domain.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -207,7 +255,7 @@
 		F1515C7ACF0808C060420F77 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				F29937E62EB9E3280075E642 /* AlarmCellView.swift */,
+				363AECF680C3D860CE1BCB32 /* AlarmCellView.swift */,
 				FCB7708801B993AC2C223298 /* Base.swift */,
 			);
 			path = Sources;
@@ -224,6 +272,7 @@
 				448D8FE7D920AF68BFE737F4 /* Resources */,
 				42E52DCA1D8A11E28F7F6A7A /* Frameworks */,
 				C5F11FB0BD68CC305E195897 /* Embed Frameworks */,
+				7651D8DA418263D0165BEF0C /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -265,6 +314,7 @@
 				C126A5223190197257848223 /* Resources */,
 				2A8573BCB6AA4D279D08F668 /* Frameworks */,
 				F9E1DF00CDA4D392C4D02A5C /* Embed Frameworks */,
+				12DAE1EF330934DE7D715988 /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -285,6 +335,7 @@
 				4268BA40FEB83812B760193F /* Resources */,
 				BC87B70E511758BA2D8D63E1 /* Frameworks */,
 				95BB6F252C47B46F1D6770CD /* Embed Frameworks */,
+				E55F33FFC668A9DB24FEF9C6 /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -305,6 +356,7 @@
 				894DC8D84FF586E97A8F5BD8 /* Resources */,
 				368A32546C02B042BB37C2C2 /* Frameworks */,
 				D767B358313017C481EF6C11 /* Embed Frameworks */,
+				00FFF6DCBDE0C118E2B37FF3 /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -324,6 +376,8 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+				};
 			};
 			buildConfigurationList = F68B06E0E80437659A8417AE /* Build configuration list for PBXProject "Alarm" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -398,7 +452,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F29937EA2EB9E3400075E642 /* AlarmCellView.swift in Sources */,
+				0B63C33280FCE46CC4CFB07C /* AlarmCellView.swift in Sources */,
 				8EA0DF37CBD45F154004080F /* Base.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,7 +461,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F29937E92EB9E3400075E642 /* AlarmCellView.swift in Sources */,
+				24BA8C7279655E43446675A8 /* AlarmCellView.swift in Sources */,
 				1785EB4654A16EE81A04A3C7 /* Base.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,7 +470,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F29937E72EB9E3400075E642 /* AlarmCellView.swift in Sources */,
+				3A15726EC217FB4C7EE203B9 /* AlarmCellView.swift in Sources */,
 				FEDB5536E47E06165E605079 /* Base.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,7 +479,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F29937E82EB9E3400075E642 /* AlarmCellView.swift in Sources */,
+				1F9BCFF8D2492A5BFC8B74CB /* AlarmCellView.swift in Sources */,
 				64767047607498E50C45DC6B /* Base.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,7 +521,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -570,7 +627,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -664,7 +724,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -699,7 +762,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -726,7 +792,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;

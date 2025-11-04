@@ -7,20 +7,23 @@
 
 import Foundation
 import SwiftUI
+import Domain
 
 struct AlarmCellView: View {
+  @State var alarm: Alarm
+
   var body: some View {
     HStack(spacing: 0) {
       VStack(alignment: .leading, spacing: 8) {
-        Text("12:00")
+        Text(alarm.formattedTime)
           .font(.system(size: 36, weight: .regular))
           .foregroundColor(.black)
 
-        Text("Wake up")
+        Text(alarm.title)
           .font(.system(size: 14, weight: .regular))
           .foregroundColor(.black)
 
-        Text("월 화 수 목 금 토 일")
+        Text(alarm.repeatDays.map(\.rawValue).joined(separator: ", "))
           .font(.system(size: 14, weight: .regular))
           .foregroundColor(.gray)
       }
@@ -33,7 +36,7 @@ struct AlarmCellView: View {
         .foregroundStyle(.gray)
         .padding(.trailing, 16)
 
-      Toggle("", isOn: .constant(false))
+      Toggle("", isOn: $alarm.isEnabled)
         .fixedSize()
     }
     .padding(20)
@@ -43,5 +46,12 @@ struct AlarmCellView: View {
 }
 
 #Preview {
-  AlarmCellView()
+  let alarm = Alarm(
+    id: UUID(),
+    title: "Alarm",
+    time: Date(),
+    isEnabled: true,
+    repeatDays: [.sunday, .monday, .tuesday, .wednesday, .thursday, .friday, .saturday]
+  )
+  AlarmCellView(alarm: alarm)
 }

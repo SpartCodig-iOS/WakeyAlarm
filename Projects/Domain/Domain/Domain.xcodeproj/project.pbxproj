@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,14 @@
 		871DF765285A91BB052FA3B2 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B3C081FA4B23D203E149E /* Base.swift */; };
 		88CDA10498BDB9F509565513 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B3C081FA4B23D203E149E /* Base.swift */; };
 		EA587A92A5855CD22A768352 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD49F277B86481D3D105FAC8 /* Domain.framework */; };
+		F29937ED2EB9EA590075E642 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29937EC2EB9EA500075E642 /* Alarm.swift */; };
+		F29937EE2EB9EA590075E642 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29937EC2EB9EA500075E642 /* Alarm.swift */; };
+		F29937EF2EB9EA590075E642 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29937EC2EB9EA500075E642 /* Alarm.swift */; };
+		F29937F02EB9EA590075E642 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29937EC2EB9EA500075E642 /* Alarm.swift */; };
+		F29937F22EB9EB0D0075E642 /* Weekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29937F12EB9EB0C0075E642 /* Weekday.swift */; };
+		F29937F32EB9EB0D0075E642 /* Weekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29937F12EB9EB0C0075E642 /* Weekday.swift */; };
+		F29937F42EB9EB0D0075E642 /* Weekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29937F12EB9EB0C0075E642 /* Weekday.swift */; };
+		F29937F52EB9EB0D0075E642 /* Weekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29937F12EB9EB0C0075E642 /* Weekday.swift */; };
 		FC32589B45C89EF248BAA967 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B3C081FA4B23D203E149E /* Base.swift */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +97,8 @@
 		A50EA664C7E56B2ADB77ECCE /* Domain-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Domain-Debug-Info.plist"; sourceTree = "<group>"; };
 		BD15A37E85BAE3A36B2CE72C /* Domain-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Domain-Info.plist"; sourceTree = "<group>"; };
 		DE27A3D71BA873BF98A83AE3 /* Domain-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Domain-Prod-Info.plist"; sourceTree = "<group>"; };
+		F29937EC2EB9EA500075E642 /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		F29937F12EB9EB0C0075E642 /* Weekday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weekday.swift; sourceTree = "<group>"; };
 		F4C441E6B87F88AC84B92578 /* Domain_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD49F277B86481D3D105FAC8 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -156,6 +166,7 @@
 		28B694539E22431DAF52B883 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				F29937EB2EB9EA390075E642 /* Model */,
 				6F4B3C081FA4B23D203E149E /* Base.swift */,
 			);
 			path = Sources;
@@ -197,6 +208,15 @@
 				75CE88A21049076913ABA3B1 /* DomainTests-Info.plist */,
 			);
 			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		F29937EB2EB9EA390075E642 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F29937F12EB9EB0C0075E642 /* Weekday.swift */,
+				F29937EC2EB9EA500075E642 /* Alarm.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		F6F8111D5B2DEF7372E8C847 /* Sources */ = {
@@ -318,8 +338,6 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = 5B17347D429F14C389327C78 /* Build configuration list for PBXProject "Domain" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -387,6 +405,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E8570F207423AB0E744B1B3 /* Base.swift in Sources */,
+				F29937EF2EB9EA590075E642 /* Alarm.swift in Sources */,
+				F29937F42EB9EB0D0075E642 /* Weekday.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +415,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				871DF765285A91BB052FA3B2 /* Base.swift in Sources */,
+				F29937ED2EB9EA590075E642 /* Alarm.swift in Sources */,
+				F29937F32EB9EB0D0075E642 /* Weekday.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +433,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC32589B45C89EF248BAA967 /* Base.swift in Sources */,
+				F29937F02EB9EA590075E642 /* Alarm.swift in Sources */,
+				F29937F52EB9EB0D0075E642 /* Weekday.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +443,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				88CDA10498BDB9F509565513 /* Base.swift in Sources */,
+				F29937EE2EB9EA590075E642 /* Alarm.swift in Sources */,
+				F29937F22EB9EB0D0075E642 /* Weekday.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,10 +477,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -574,10 +597,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -612,10 +632,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -776,10 +793,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -873,10 +887,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
