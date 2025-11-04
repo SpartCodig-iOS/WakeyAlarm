@@ -28,6 +28,9 @@ public extension InfoPlist {
       .setCFBundleVersion(.appBuildVersion())
       .setLSRequiresIPhoneOS(true)
       .setUIAppFonts(["PretendardVariable.ttf"])
+      .setSupportsLiveActivities(true)
+      .setSupportsLiveActivitiesFrequentUpdates(true)
+      .setUIBackgroundModes(["background-processing", "background-fetch"])
       .setUIApplicationSceneManifest([
         "UIApplicationSupportsMultipleScenes": true,
         "UISceneConfigurations": [
@@ -50,5 +53,20 @@ public extension InfoPlist {
       .setCFBundlePackageType("APPL")
       .setCFBundleShortVersionString(.appVersion())
       .setBaseURL("$(BASE_URL)")
+  )
+
+  // MARK: - Widget Extension InfoPlist
+  static let widgetExtensionInfoPlist: Self = .extendingDefault(
+    with: InfoPlistDictionary()
+      .setCFBundleDevelopmentRegion("$(DEVELOPMENT_LANGUAGE)")
+      .setCFBundleExecutable("$(EXECUTABLE_NAME)")
+      .setCFBundleIdentifier("$(PRODUCT_BUNDLE_IDENTIFIER)")
+      .setCFBundleInfoDictionaryVersion("6.0")
+      .setCFBundleName("$(PRODUCT_NAME)")
+      .setCFBundleDisplayName("$(PRODUCT_NAME)")
+      .setCFBundlePackageType("XPC!")
+      .setCFBundleShortVersionString(.appVersion())
+      .setCFBundleVersion(.appBuildVersion())
+      .setWidgetExtensionConfig()
   )
 }
