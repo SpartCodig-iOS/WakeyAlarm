@@ -602,6 +602,76 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E12AFEB3D6484521400E3304"
+               BuildableName = "StopWatch.framework"
+               BlueprintName = "StopWatch"
+               ReferencedContainer = "container:Projects/Presentation/StopWatch/StopWatch.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9C90E7CD47BF4847BDC788D5"
+               BuildableName = "StopWatch_Debug.framework"
+               BlueprintName = "StopWatch-Debug"
+               ReferencedContainer = "container:Projects/Presentation/StopWatch/StopWatch.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6130393CFD470E0D52AB9D8E"
+               BuildableName = "StopWatch_Prod.framework"
+               BlueprintName = "StopWatch-Prod"
+               ReferencedContainer = "container:Projects/Presentation/StopWatch/StopWatch.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2404AF2E41FCCC915A6CB3B2"
+               BuildableName = "StopWatch_Stage.framework"
+               BlueprintName = "StopWatch-Stage"
+               ReferencedContainer = "container:Projects/Presentation/StopWatch/StopWatch.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "64980C9A541FF5B0718FA2D5"
+               BuildableName = "StopWatchTests.xctest"
+               BlueprintName = "StopWatchTests"
+               ReferencedContainer = "container:Projects/Presentation/StopWatch/StopWatch.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "114FBD9E0C8A1E594FBAE26F"
                BuildableName = "SwiftBasicFormat.framework"
                BlueprintName = "SwiftBasicFormat"
@@ -1142,6 +1212,17 @@
                BuildableName = "SharedTests.xctest"
                BlueprintName = "SharedTests"
                ReferencedContainer = "container:Projects/Shared/Shared/Shared.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "64980C9A541FF5B0718FA2D5"
+               BuildableName = "StopWatchTests.xctest"
+               BlueprintName = "StopWatchTests"
+               ReferencedContainer = "container:Projects/Presentation/StopWatch/StopWatch.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
