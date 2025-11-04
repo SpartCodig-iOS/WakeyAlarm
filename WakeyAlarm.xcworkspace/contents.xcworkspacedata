@@ -20,9 +20,6 @@
          <FileRef
             location = "group:Data/Data.xcodeproj">
          </FileRef>
-         <FileRef
-            location = "group:Model/Model.xcodeproj">
-         </FileRef>
       </Group>
       <Group
          location = "group:Domain"
