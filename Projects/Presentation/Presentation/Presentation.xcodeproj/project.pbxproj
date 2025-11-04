@@ -8,15 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		164F11F06A2419E47E8B8986 /* StopWatch.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 16202E1DFC3AD073AE7FF0E7 /* StopWatch.framework */; };
+		21F7FD2F46CEDD120DCAB653 /* _NumericsShims.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EA0B5CF3E1F01DA5D396DE /* _NumericsShims.framework */; };
 		2C9B6F62926E1A8057DFDCB7 /* PresntaionExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057EE961268A018CC76E3173 /* PresntaionExport.swift */; };
 		315228127069BB806DAE9F24 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED236801C3C6EBF9BB755A4 /* Shared.framework */; };
 		32029852236C5E1C4BA523EE /* StopWatch.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 16202E1DFC3AD073AE7FF0E7 /* StopWatch.framework */; };
+		49166B698758DDD7EB3829F6 /* PresentationExports.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0795B21A5332A7E4FCA2892 /* PresentationExports.swift */; };
+		4DCEEB219A6DEF6161466480 /* PresentationExports.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0795B21A5332A7E4FCA2892 /* PresentationExports.swift */; };
 		5425D08B51FBFBDFC4499C83 /* StopWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16202E1DFC3AD073AE7FF0E7 /* StopWatch.framework */; };
 		56FCE4DA807E3179DEFAF470 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E14D09AE76BE920545555A /* Core.framework */; };
+		65B5A6E6A969EB406F452A9A /* PresentationExports.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0795B21A5332A7E4FCA2892 /* PresentationExports.swift */; };
 		69F501FFCECF1AB16A4D4752 /* Presentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342AE4EAEE40294F0A26F2B8 /* Presentation.framework */; };
 		6D921D48705BEA132528B329 /* PresntaionExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057EE961268A018CC76E3173 /* PresntaionExport.swift */; };
+		6FEFA122BF7D1983305E9125 /* Algorithms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B125FFF70BF15327BB53C3EF /* Algorithms.framework */; };
 		99ED14160CCB43FDE651C307 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF73C9599C25FE868248ED /* Test.swift */; };
+		9B2F5DE0E79C8CCB388DF927 /* PresentationExports.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0795B21A5332A7E4FCA2892 /* PresentationExports.swift */; };
 		9CEB25102204EB1DEB50E3A7 /* StopWatch.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 16202E1DFC3AD073AE7FF0E7 /* StopWatch.framework */; };
+		A7C638A584E6822A903A084F /* RealModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0B0580FA62F967E5534685 /* RealModule.framework */; };
 		AB8B134F4C850638026CEAA2 /* PresntaionExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057EE961268A018CC76E3173 /* PresntaionExport.swift */; };
 		B343CC7D66266CAF0167BFEB /* PresntaionExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057EE961268A018CC76E3173 /* PresntaionExport.swift */; };
 		FB6AC1394E35D59F77C44C9D /* StopWatch.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 16202E1DFC3AD073AE7FF0E7 /* StopWatch.framework */; };
@@ -132,15 +139,19 @@
 		2C23562150869ECF7E891E5C /* Presentation_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Presentation_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		342AE4EAEE40294F0A26F2B8 /* Presentation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Presentation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EBF73C9599C25FE868248ED /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		42EA0B5CF3E1F01DA5D396DE /* _NumericsShims.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = _NumericsShims.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68EE2AB0AEF1D5CB9A2F9181 /* Presentation-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Presentation-Prod-Info.plist"; sourceTree = "<group>"; };
 		6C92AD27CF19DDC5BEFC5290 /* Presentation_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Presentation_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B125FFF70BF15327BB53C3EF /* Algorithms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Algorithms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F6E2479E03DF9A1548AFE4 /* PresentationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresentationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8656113F6736A3B744BB66 /* Presentation-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Presentation-Stage-Info.plist"; sourceTree = "<group>"; };
 		BF64B8AFE4F24CC92327A710 /* PresentationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "PresentationTests-Info.plist"; sourceTree = "<group>"; };
 		C3E14D09AE76BE920545555A /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0795B21A5332A7E4FCA2892 /* PresentationExports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationExports.swift; sourceTree = "<group>"; };
 		D656AFCB65DFA6950745AB83 /* Presentation_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Presentation_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED236801C3C6EBF9BB755A4 /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46E1D012C0A86E9B6BF4894 /* Presentation-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Presentation-Debug-Info.plist"; sourceTree = "<group>"; };
+		FB0B0580FA62F967E5534685 /* RealModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RealModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,10 +166,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FEFA122BF7D1983305E9125 /* Algorithms.framework in Frameworks */,
 				56FCE4DA807E3179DEFAF470 /* Core.framework in Frameworks */,
 				69F501FFCECF1AB16A4D4752 /* Presentation.framework in Frameworks */,
+				A7C638A584E6822A903A084F /* RealModule.framework in Frameworks */,
 				315228127069BB806DAE9F24 /* Shared.framework in Frameworks */,
 				5425D08B51FBFBDFC4499C83 /* StopWatch.framework in Frameworks */,
+				21F7FD2F46CEDD120DCAB653 /* _NumericsShims.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				DD3436F21D72684C6E20D5AB /* Exported */,
+				D0795B21A5332A7E4FCA2892 /* PresentationExports.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -251,12 +266,15 @@
 		F6D62D9CC500DDA356076FB6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				42EA0B5CF3E1F01DA5D396DE /* _NumericsShims.framework */,
+				B125FFF70BF15327BB53C3EF /* Algorithms.framework */,
 				C3E14D09AE76BE920545555A /* Core.framework */,
 				6C92AD27CF19DDC5BEFC5290 /* Presentation_Debug.framework */,
 				D656AFCB65DFA6950745AB83 /* Presentation_Prod.framework */,
 				2C23562150869ECF7E891E5C /* Presentation_Stage.framework */,
 				342AE4EAEE40294F0A26F2B8 /* Presentation.framework */,
 				B5F6E2479E03DF9A1548AFE4 /* PresentationTests.xctest */,
+				FB0B0580FA62F967E5534685 /* RealModule.framework */,
 				DED236801C3C6EBF9BB755A4 /* Shared.framework */,
 				16202E1DFC3AD073AE7FF0E7 /* StopWatch.framework */,
 			);
@@ -455,6 +473,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B343CC7D66266CAF0167BFEB /* PresntaionExport.swift in Sources */,
+				49166B698758DDD7EB3829F6 /* PresentationExports.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +490,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C9B6F62926E1A8057DFDCB7 /* PresntaionExport.swift in Sources */,
+				4DCEEB219A6DEF6161466480 /* PresentationExports.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +499,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB8B134F4C850638026CEAA2 /* PresntaionExport.swift in Sources */,
+				9B2F5DE0E79C8CCB388DF927 /* PresentationExports.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +508,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D921D48705BEA132528B329 /* PresntaionExport.swift in Sources */,
+				65B5A6E6A969EB406F452A9A /* PresentationExports.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +535,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Presentation-Info.plist";
@@ -526,10 +549,13 @@
 				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -564,6 +590,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Presentation-Prod-Info.plist";
@@ -577,10 +604,13 @@
 				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -668,6 +698,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Presentation-Debug-Info.plist";
@@ -681,10 +712,13 @@
 				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -773,6 +807,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/PresentationTests-Info.plist";
@@ -784,10 +819,13 @@
 				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -819,6 +857,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Presentation-Info.plist";
@@ -832,10 +871,13 @@
 				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -869,6 +911,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/PresentationTests-Info.plist";
@@ -880,10 +923,13 @@
 				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -919,6 +965,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Presentation-Stage-Info.plist";
@@ -932,10 +979,13 @@
 				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -974,6 +1024,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Presentation-Prod-Info.plist";
@@ -987,10 +1038,13 @@
 				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -1029,6 +1083,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Presentation-Stage-Info.plist";
@@ -1042,10 +1097,13 @@
 				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",
@@ -1080,6 +1138,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include",
 					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
 				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Presentation-Debug-Info.plist";
@@ -1093,10 +1152,13 @@
 				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 				);
 				OTHER_SWIFT_FLAGS = (
 					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap",
 					"-Xcc",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
 					"-load-plugin-executable",

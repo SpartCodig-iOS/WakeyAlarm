@@ -17,5 +17,5 @@ public struct ContentView: View {
 
 
 #Preview {
-StopWatchView()
+  StopWatchView()
 }

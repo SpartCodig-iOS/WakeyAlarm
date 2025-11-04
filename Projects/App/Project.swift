@@ -10,7 +10,11 @@ let project = Project.makeAppModule(
   settings: .appMainSetting,
   scripts: [],
   dependencies: [
-    .Presentation(implements: .Presentation)
+    .Presentation(implements: .Presentation),
+    .Shared(implements: .Shared),
+    .Presentation(implements: .StopWatch),
+    .project(target: "WakeyAlarmWidget", path: "../Widget")
+    // ActivityKit은 시스템 프레임워크로 자동 링크
   ],
   sources: ["Sources/**"],
   resources: ["Resources/**"],
@@ -23,4 +27,3 @@ let project = Project.makeAppModule(
   ]
 
 )
-

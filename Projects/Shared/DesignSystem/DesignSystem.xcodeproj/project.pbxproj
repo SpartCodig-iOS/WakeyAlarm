@@ -3,38 +3,50 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		02086E956F0BCAD214D8D7F4 /* PretendardVariable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A20647CF23B131D16DCAB555 /* PretendardVariable.ttf */; };
+		0A6B9B2FAF099CEF68CE2E8A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FD426096958CD6D41CCA85 /* Colors.swift */; };
 		1F4BF4D83DEBABCF9477B5A4 /* TuistFonts+DesignSystemProd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF20F019AC6C1E3B3D87AF8 /* TuistFonts+DesignSystemProd.swift */; };
 		29B83E78203A842E17186969 /* TuistAssets+DesignSystemProd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E80CBF5486DD48CEF7D4361 /* TuistAssets+DesignSystemProd.swift */; };
 		2B971169413063D149A93B91 /* PretendardVariable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A20647CF23B131D16DCAB555 /* PretendardVariable.ttf */; };
+		2C0E6DEC77A119676F966BF1 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FD426096958CD6D41CCA85 /* Colors.swift */; };
 		2C2A6F1B0843699ACFE53D23 /* TuistFonts+DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1489E7809DA4DADA471C2CDC /* TuistFonts+DesignSystem.swift */; };
+		30C3159302CFDD0DF5C7693F /* PretendardFontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD07D41BA669262ACEF6DBE /* PretendardFontFamily.swift */; };
 		31FDCEBF2D11CFD7F04719EC /* PretendardVariable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A20647CF23B131D16DCAB555 /* PretendardVariable.ttf */; };
 		36B4268421AB9CDA58103A7B /* TuistAssets+DesignSystemDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D0FABFF623E11D22F6BDCC /* TuistAssets+DesignSystemDebug.swift */; };
 		5535A46BBF316AB4582FB4C9 /* TuistBundle+DesignSystemStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AA3E385D373C2295F94842 /* TuistBundle+DesignSystemStage.swift */; };
 		5E7A67D479FC010F9A730C76 /* ImageAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365911FA35B2B70671D60856 /* ImageAssets.xcassets */; };
+		6398FB4F559D307C06D4BE2F /* Extension+Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F156EF4294B302300E60D96F /* Extension+Color+.swift */; };
 		683B9C0B090D319ECE7EB598 /* TuistFonts+DesignSystemDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0657B12FC785E86158F7DC /* TuistFonts+DesignSystemDebug.swift */; };
 		6A9D0C3784F739E22DC53C14 /* DesignSystem_DesignSystem.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 42D7C40704F4FCBCDB855667 /* DesignSystem_DesignSystem.bundle */; };
-		7F2718F32EB998D7001BAA68 /* PretendardFontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2718F22EB998D7001BAA68 /* PretendardFontFamily.swift */; };
-		7F2718F52EB998EE001BAA68 /* PretendardFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2718F42EB998EC001BAA68 /* PretendardFont.swift */; };
-		7F2718F82EB9995D001BAA68 /* Extension+Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2718F72EB9995A001BAA68 /* Extension+Color+.swift */; };
-		7F2718FA2EB99970001BAA68 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2718F92EB9996E001BAA68 /* Colors.swift */; };
+		6DC10A7B6418AC05BD0B6AC6 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FD426096958CD6D41CCA85 /* Colors.swift */; };
+		6F14599FDFF78A1AC7491B66 /* Extension+Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F156EF4294B302300E60D96F /* Extension+Color+.swift */; };
+		80991F64A6AF11F01236591F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FD426096958CD6D41CCA85 /* Colors.swift */; };
+		8AD14825495899390CB752DA /* PretendardFontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD07D41BA669262ACEF6DBE /* PretendardFontFamily.swift */; };
 		A2CEB3ECFE3AFCFBB6509C79 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B67F5AD336FFDED9C31245F /* Test.swift */; };
+		A2D5F30304A4ADD3278E9047 /* PretendardFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B935A678F91D07045536FA /* PretendardFont.swift */; };
 		ABB14811E13F7B1ECCF8B086 /* TuistAssets+DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5263BC75B281154AC0B5A7B /* TuistAssets+DesignSystem.swift */; };
 		BC40AC04CE1BE4D7CA94854B /* ImageAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365911FA35B2B70671D60856 /* ImageAssets.xcassets */; };
 		BD878E42E01BA5FA93F29FDE /* TuistBundle+DesignSystemDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38EF5B36E88588961AB7E44 /* TuistBundle+DesignSystemDebug.swift */; };
+		BE3C6F096EA86F838CC05601 /* Extension+Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F156EF4294B302300E60D96F /* Extension+Color+.swift */; };
 		C438E92FA9121880084AE9AA /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B7BBEAD5472C7195924AC8 /* DesignSystem.framework */; };
+		CF23E568617BA29AD1F6DC31 /* PretendardFontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD07D41BA669262ACEF6DBE /* PretendardFontFamily.swift */; };
+		D34856BC0CD7243696B3CD01 /* PretendardFontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD07D41BA669262ACEF6DBE /* PretendardFontFamily.swift */; };
 		D4BBBE665283FCFF21AF1E1E /* TuistFonts+DesignSystemStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61786D0EB738723AB6A3E52 /* TuistFonts+DesignSystemStage.swift */; };
 		DF26B81FBD6FDC0158FA47C7 /* TuistAssets+DesignSystemStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1609C54BDDFC80336CF0C360 /* TuistAssets+DesignSystemStage.swift */; };
 		E4A9BC98A8E210D6173854CE /* DesignSystem_DesignSystem.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 42D7C40704F4FCBCDB855667 /* DesignSystem_DesignSystem.bundle */; };
+		E6222805F95FECDB842557D2 /* PretendardFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B935A678F91D07045536FA /* PretendardFont.swift */; };
 		E79FE8601AE837DBF04B8E00 /* ImageAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365911FA35B2B70671D60856 /* ImageAssets.xcassets */; };
+		EBCA3FE65B4F84ADF17BFD75 /* Extension+Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F156EF4294B302300E60D96F /* Extension+Color+.swift */; };
+		F28419D1493CD6CC003EDF76 /* PretendardFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B935A678F91D07045536FA /* PretendardFont.swift */; };
 		F3289F76100C3623ADD227DF /* ImageAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365911FA35B2B70671D60856 /* ImageAssets.xcassets */; };
 		F6018B5F7748E322214C52D6 /* TuistBundle+DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4AD9735556ECA8C8008FEC /* TuistBundle+DesignSystem.swift */; };
 		FA17A19D49963C814439E27E /* TuistBundle+DesignSystemProd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C3E527CEC0A57D2B99BFB /* TuistBundle+DesignSystemProd.swift */; };
 		FDEBA8D19C6B643D2EE7D847 /* PretendardVariable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A20647CF23B131D16DCAB555 /* PretendardVariable.ttf */; };
+		FF6F0997DBE31841F5D2484F /* PretendardFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B935A678F91D07045536FA /* PretendardFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -179,6 +191,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		03FD426096958CD6D41CCA85 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		0B67F5AD336FFDED9C31245F /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		1489E7809DA4DADA471C2CDC /* TuistFonts+DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistFonts+DesignSystem.swift"; sourceTree = "<group>"; };
 		1609C54BDDFC80336CF0C360 /* TuistAssets+DesignSystemStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+DesignSystemStage.swift"; sourceTree = "<group>"; };
@@ -192,13 +205,10 @@
 		469F4B641DBB710B1B90BAD8 /* DesignSystemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystemTests-Info.plist"; sourceTree = "<group>"; };
 		67AC3D394CED665A57B6D341 /* DesignSystem-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystem-Stage-Info.plist"; sourceTree = "<group>"; };
 		69B7BBEAD5472C7195924AC8 /* DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BD07D41BA669262ACEF6DBE /* PretendardFontFamily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretendardFontFamily.swift; sourceTree = "<group>"; };
 		7B11E5E9D21524DF1C180F0C /* DesignSystem_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C0657B12FC785E86158F7DC /* TuistFonts+DesignSystemDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistFonts+DesignSystemDebug.swift"; sourceTree = "<group>"; };
 		7EF38864C69153237B1B4234 /* DesignSystem-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystem-Debug-Info.plist"; sourceTree = "<group>"; };
-		7F2718F22EB998D7001BAA68 /* PretendardFontFamily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretendardFontFamily.swift; sourceTree = "<group>"; };
-		7F2718F42EB998EC001BAA68 /* PretendardFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretendardFont.swift; sourceTree = "<group>"; };
-		7F2718F72EB9995A001BAA68 /* Extension+Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Color+.swift"; sourceTree = "<group>"; };
-		7F2718F92EB9996E001BAA68 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		8011B55F1DC08EC73C2467B4 /* DesignSystem_DesignSystem_Stage.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystem_DesignSystem_Stage.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8080BDCE77FA8041E648FFE0 /* DesignSystem-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystem-Prod-Info.plist"; sourceTree = "<group>"; };
 		8374AFD4C591FD586AC84128 /* DesignSystem_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -215,6 +225,8 @@
 		D8C4AF8E52680E324D6FBCBF /* DesignSystem_DesignSystem_Debug.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystem_DesignSystem_Debug.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA12AD00E98A3497D3A729E /* DesignSystem_DesignSystem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystem_DesignSystem-Info.plist"; sourceTree = "<group>"; };
 		ECAFBD3892447294C1342932 /* DesignSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F156EF4294B302300E60D96F /* Extension+Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Color+.swift"; sourceTree = "<group>"; };
+		F6B935A678F91D07045536FA /* PretendardFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretendardFont.swift; sourceTree = "<group>"; };
 		FACA604C0F807EB6665FF98A /* DesignSystem_DesignSystem_Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystem_DesignSystem_Debug-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -289,8 +301,8 @@
 		0E1288659896D0CFF98DA5AA /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				7F2718F62EB9991D001BAA68 /* Color */,
-				7F2718F12EB998BF001BAA68 /* Font */,
+				EE53A850990E859B77A63149 /* Color */,
+				A5D8A7BA4E4303B862C68866 /* Font */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -330,24 +342,6 @@
 			path = FontAsset;
 			sourceTree = "<group>";
 		};
-		7F2718F12EB998BF001BAA68 /* Font */ = {
-			isa = PBXGroup;
-			children = (
-				7F2718F42EB998EC001BAA68 /* PretendardFont.swift */,
-				7F2718F22EB998D7001BAA68 /* PretendardFontFamily.swift */,
-			);
-			path = Font;
-			sourceTree = "<group>";
-		};
-		7F2718F62EB9991D001BAA68 /* Color */ = {
-			isa = PBXGroup;
-			children = (
-				7F2718F92EB9996E001BAA68 /* Colors.swift */,
-				7F2718F72EB9995A001BAA68 /* Extension+Color+.swift */,
-			);
-			path = Color;
-			sourceTree = "<group>";
-		};
 		82664F67710540CBDEBE5B11 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -382,6 +376,15 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		A5D8A7BA4E4303B862C68866 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F6B935A678F91D07045536FA /* PretendardFont.swift */,
+				6BD07D41BA669262ACEF6DBE /* PretendardFontFamily.swift */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		D5FD3537E28AE857DC09D214 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -407,6 +410,15 @@
 				2BB59E843B58BD9FFF395FEA /* Project */,
 				82664F67710540CBDEBE5B11 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		EE53A850990E859B77A63149 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				03FD426096958CD6D41CCA85 /* Colors.swift */,
+				F156EF4294B302300E60D96F /* Extension+Color+.swift */,
+			);
+			path = Color;
 			sourceTree = "<group>";
 		};
 		F2F0D6EECE384EBEC3AFDEB4 /* InfoPlists */ = {
@@ -621,6 +633,8 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+				};
 			};
 			buildConfigurationList = 5C0CBBA2BFE0CEE21375AF0A /* Build configuration list for PBXProject "DesignSystem" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -738,6 +752,10 @@
 				36B4268421AB9CDA58103A7B /* TuistAssets+DesignSystemDebug.swift in Sources */,
 				BD878E42E01BA5FA93F29FDE /* TuistBundle+DesignSystemDebug.swift in Sources */,
 				683B9C0B090D319ECE7EB598 /* TuistFonts+DesignSystemDebug.swift in Sources */,
+				80991F64A6AF11F01236591F /* Colors.swift in Sources */,
+				EBCA3FE65B4F84ADF17BFD75 /* Extension+Color+.swift in Sources */,
+				E6222805F95FECDB842557D2 /* PretendardFont.swift in Sources */,
+				30C3159302CFDD0DF5C7693F /* PretendardFontFamily.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -755,6 +773,10 @@
 				29B83E78203A842E17186969 /* TuistAssets+DesignSystemProd.swift in Sources */,
 				FA17A19D49963C814439E27E /* TuistBundle+DesignSystemProd.swift in Sources */,
 				1F4BF4D83DEBABCF9477B5A4 /* TuistFonts+DesignSystemProd.swift in Sources */,
+				6DC10A7B6418AC05BD0B6AC6 /* Colors.swift in Sources */,
+				6F14599FDFF78A1AC7491B66 /* Extension+Color+.swift in Sources */,
+				F28419D1493CD6CC003EDF76 /* PretendardFont.swift in Sources */,
+				D34856BC0CD7243696B3CD01 /* PretendardFontFamily.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -778,11 +800,11 @@
 			files = (
 				ABB14811E13F7B1ECCF8B086 /* TuistAssets+DesignSystem.swift in Sources */,
 				F6018B5F7748E322214C52D6 /* TuistBundle+DesignSystem.swift in Sources */,
-				7F2718F52EB998EE001BAA68 /* PretendardFont.swift in Sources */,
-				7F2718FA2EB99970001BAA68 /* Colors.swift in Sources */,
 				2C2A6F1B0843699ACFE53D23 /* TuistFonts+DesignSystem.swift in Sources */,
-				7F2718F32EB998D7001BAA68 /* PretendardFontFamily.swift in Sources */,
-				7F2718F82EB9995D001BAA68 /* Extension+Color+.swift in Sources */,
+				0A6B9B2FAF099CEF68CE2E8A /* Colors.swift in Sources */,
+				BE3C6F096EA86F838CC05601 /* Extension+Color+.swift in Sources */,
+				A2D5F30304A4ADD3278E9047 /* PretendardFont.swift in Sources */,
+				8AD14825495899390CB752DA /* PretendardFontFamily.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -793,6 +815,10 @@
 				DF26B81FBD6FDC0158FA47C7 /* TuistAssets+DesignSystemStage.swift in Sources */,
 				5535A46BBF316AB4582FB4C9 /* TuistBundle+DesignSystemStage.swift in Sources */,
 				D4BBBE665283FCFF21AF1E1E /* TuistFonts+DesignSystemStage.swift in Sources */,
+				2C0E6DEC77A119676F966BF1 /* Colors.swift in Sources */,
+				6398FB4F559D307C06D4BE2F /* Extension+Color+.swift in Sources */,
+				FF6F0997DBE31841F5D2484F /* PretendardFont.swift in Sources */,
+				CF23E568617BA29AD1F6DC31 /* PretendardFontFamily.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -855,7 +881,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -889,7 +918,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -958,7 +990,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -985,7 +1020,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1133,7 +1171,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1350,7 +1391,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1384,7 +1428,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1432,7 +1479,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1456,7 +1506,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
