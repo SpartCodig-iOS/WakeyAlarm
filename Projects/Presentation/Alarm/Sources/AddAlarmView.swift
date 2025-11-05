@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 import Domain
+import DesignSystem
 
 struct AddAlarmView: View {
   @State private var time = Date()
@@ -22,7 +23,7 @@ struct AddAlarmView: View {
         Spacer()
 
         Text("알람 추가")
-          .font(.system(size: 18, weight: .semibold))
+          .font(.pretendardFont(family: .semiBold, size: 18))
 
         Spacer()
 
@@ -32,35 +33,35 @@ struct AddAlarmView: View {
           Image(systemName: "xmark")
             .resizable()
             .frame(width: 16, height: 16)
-            .foregroundStyle(.gray)
+            .foregroundStyle(.materialDark)
         }
       }
 
       VStack(alignment: .leading, spacing: 24) {
         Text("알람 시간을 입력하세요.")
-          .font(.system(size: 14, weight: .medium))
+          .font(.pretendardFont(family: .medium, size: 14))
 
         DatePicker("", selection: $time, displayedComponents: .hourAndMinute)
           .labelsHidden()
           .datePickerStyle(.wheel)
 
         Text("알람 제목을 입력하세요.")
-          .font(Font.system(size: 14, weight: .medium))
+          .font(.pretendardFont(family: .medium, size: 14))
 
         TextField("알람 제목", text: .constant(""))
           .padding(10)
           .background(
-            Color.gray.opacity(0.1)
+            Color.whiteSmoke.opacity(0.1)
               .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
           )
 
         Text("반복")
-          .font(Font.system(size: 14, weight: .medium))
+          .font(.pretendardFont(family: .medium, size: 14))
 
         RepeatDaySelector(selectedDays: $repeatDays)
 
         Text("알람 소리")
-          .font(Font.system(size: 14, weight: .medium))
+          .font(.pretendardFont(family: .medium, size: 14))
 
         //알람소리
 
@@ -68,12 +69,12 @@ struct AddAlarmView: View {
           print("add alarm")
         } label: {
           Text("추가하기")
-            .font(.system(size: 14, weight: .medium))
+            .font(.pretendardFont(family: .medium, size: 14))
             .padding(.vertical, 10)
             .frame(maxWidth: .infinity)
             .foregroundColor(.white)
             .background(
-              Color.blue
+              Color.violetPurple
                 .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
             )
         }

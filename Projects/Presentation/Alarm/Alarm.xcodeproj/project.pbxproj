@@ -16,20 +16,27 @@
 		230AE873249E0EB31B834761 /* Alarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029E40A6BBE695E1714DC4AB /* Alarm.framework */; };
 		23901E26972E0886E342ADE4 /* RepeatDaySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD540ECB24FC3EE6D25B5D6 /* RepeatDaySelector.swift */; };
 		24BA8C7279655E43446675A8 /* AlarmCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363AECF680C3D860CE1BCB32 /* AlarmCellView.swift */; };
+		292E6DCC39E5303E08477221 /* DesignSystem.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 867C1055816429DF0C747DB2 /* DesignSystem.framework */; };
 		293F87DD89044D776F9B77C1 /* AddAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D916DBC5432E22E0C81D4E /* AddAlarmView.swift */; };
+		33D6C87E680EE0875437251E /* DesignSystem_DesignSystem.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 34D31CE697F2AA57BEB2EBEE /* DesignSystem_DesignSystem.bundle */; };
 		3A15726EC217FB4C7EE203B9 /* AlarmCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363AECF680C3D860CE1BCB32 /* AlarmCellView.swift */; };
 		3A30C41120D3609117FCE3D2 /* Domain.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4554B90D8BE596D791D002B2 /* Domain.framework */; };
 		4D8D8F31362947E04F0F1DFF /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490460A3DE6DA4E92C1320A3 /* AlarmView.swift */; };
+		59C30602920500D5C2C0AA44 /* DesignSystem_DesignSystem.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 34D31CE697F2AA57BEB2EBEE /* DesignSystem_DesignSystem.bundle */; };
 		5E3EF8FF42337618F8625B53 /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490460A3DE6DA4E92C1320A3 /* AlarmView.swift */; };
 		64767047607498E50C45DC6B /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7708801B993AC2C223298 /* Base.swift */; };
 		657855392581A4CC2FAEC607 /* RepeatDaySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD540ECB24FC3EE6D25B5D6 /* RepeatDaySelector.swift */; };
 		6998060A4A5A13C94C4491D4 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4554B90D8BE596D791D002B2 /* Domain.framework */; };
+		8AC146E4D03E9D8AC6221E2E /* DesignSystem.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 867C1055816429DF0C747DB2 /* DesignSystem.framework */; };
 		8B578F1F58E713FDDD8C4F4A /* Domain.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4554B90D8BE596D791D002B2 /* Domain.framework */; };
 		8EA0DF37CBD45F154004080F /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7708801B993AC2C223298 /* Base.swift */; };
 		9756A0D945F598B4B004FD4A /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647233F111392A1C34200CB0 /* Test.swift */; };
 		98AB239AFEC121F1726CD8EE /* AddAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D916DBC5432E22E0C81D4E /* AddAlarmView.swift */; };
+		98E38B151CE44AF16F2DF5A9 /* DesignSystem.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 867C1055816429DF0C747DB2 /* DesignSystem.framework */; };
 		B168710C32FADA6CFC534EDA /* AddAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D916DBC5432E22E0C81D4E /* AddAlarmView.swift */; };
+		B839A35F94C7AE4D7C829C61 /* DesignSystem.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 867C1055816429DF0C747DB2 /* DesignSystem.framework */; };
 		BF17FEFE43E9A86A146843AF /* AddAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D916DBC5432E22E0C81D4E /* AddAlarmView.swift */; };
+		C8F2430A77FC61A2E2D8AD3A /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867C1055816429DF0C747DB2 /* DesignSystem.framework */; };
 		DE22F6BEC69639C7A2DDD24A /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490460A3DE6DA4E92C1320A3 /* AlarmView.swift */; };
 		DFECFFE77BE038CA06E66E22 /* Domain.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4554B90D8BE596D791D002B2 /* Domain.framework */; };
 		F5A89FC0E6D9F4526C516293 /* RepeatDaySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD540ECB24FC3EE6D25B5D6 /* RepeatDaySelector.swift */; };
@@ -52,6 +59,7 @@
 			buildActionMask = 8;
 			dstSubfolderSpec = 16;
 			files = (
+				98E38B151CE44AF16F2DF5A9 /* DesignSystem.framework in Dependencies */,
 				DFECFFE77BE038CA06E66E22 /* Domain.framework in Dependencies */,
 			);
 			name = Dependencies;
@@ -62,7 +70,18 @@
 			buildActionMask = 8;
 			dstSubfolderSpec = 16;
 			files = (
+				292E6DCC39E5303E08477221 /* DesignSystem.framework in Dependencies */,
 				0A2FD077E6E051FE2CF1AF82 /* Domain.framework in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1FEFF179822C2FD0ABEF5DD1 /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				33D6C87E680EE0875437251E /* DesignSystem_DesignSystem.bundle in Dependencies */,
 			);
 			name = Dependencies;
 			runOnlyForDeploymentPostprocessing = 1;
@@ -82,6 +101,7 @@
 			buildActionMask = 8;
 			dstSubfolderSpec = 16;
 			files = (
+				B839A35F94C7AE4D7C829C61 /* DesignSystem.framework in Dependencies */,
 				8B578F1F58E713FDDD8C4F4A /* Domain.framework in Dependencies */,
 			);
 			name = Dependencies;
@@ -122,6 +142,7 @@
 			buildActionMask = 8;
 			dstSubfolderSpec = 16;
 			files = (
+				8AC146E4D03E9D8AC6221E2E /* DesignSystem.framework in Dependencies */,
 				3A30C41120D3609117FCE3D2 /* Domain.framework in Dependencies */,
 			);
 			name = Dependencies;
@@ -143,6 +164,7 @@
 		029E40A6BBE695E1714DC4AB /* Alarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DE5945D299014C5755D240 /* Alarm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Alarm-Info.plist"; sourceTree = "<group>"; };
 		0C87D5567DE3B1557A7261EB /* Alarm_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alarm_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34D31CE697F2AA57BEB2EBEE /* DesignSystem_DesignSystem.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystem_DesignSystem.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		363AECF680C3D860CE1BCB32 /* AlarmCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmCellView.swift; sourceTree = "<group>"; };
 		3AD2721D5481D38E36AF65F3 /* Alarm-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Alarm-Debug-Info.plist"; sourceTree = "<group>"; };
 		4175DF69730F32822907FFB2 /* Alarm_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alarm_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,6 +172,7 @@
 		490460A3DE6DA4E92C1320A3 /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
 		4FD540ECB24FC3EE6D25B5D6 /* RepeatDaySelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatDaySelector.swift; sourceTree = "<group>"; };
 		647233F111392A1C34200CB0 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		867C1055816429DF0C747DB2 /* DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D916DBC5432E22E0C81D4E /* AddAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmView.swift; sourceTree = "<group>"; };
 		BBBB39DF8B3F84960C552AFA /* Alarm-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Alarm-Prod-Info.plist"; sourceTree = "<group>"; };
 		BCCABBA0130E099C3315A2E8 /* AlarmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AlarmTests-Info.plist"; sourceTree = "<group>"; };
@@ -193,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				230AE873249E0EB31B834761 /* Alarm.framework in Frameworks */,
+				C8F2430A77FC61A2E2D8AD3A /* DesignSystem.framework in Frameworks */,
 				6998060A4A5A13C94C4491D4 /* Domain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,6 +270,8 @@
 				0C87D5567DE3B1557A7261EB /* Alarm_Stage.framework */,
 				029E40A6BBE695E1714DC4AB /* Alarm.framework */,
 				D5BB93234BCFFC4F82F3E542 /* AlarmTests.xctest */,
+				34D31CE697F2AA57BEB2EBEE /* DesignSystem_DesignSystem.bundle */,
+				867C1055816429DF0C747DB2 /* DesignSystem.framework */,
 				4554B90D8BE596D791D002B2 /* Domain.framework */,
 			);
 			name = Products;
@@ -311,6 +337,7 @@
 				F151208FA3948AF476E74C58 /* Resources */,
 				D8D65FCF3DC4E38C151F1210 /* Frameworks */,
 				5AE0463D68DB8E7295B94186 /* Embed Frameworks */,
+				1FEFF179822C2FD0ABEF5DD1 /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -452,6 +479,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59C30602920500D5C2C0AA44 /* DesignSystem_DesignSystem.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 import Domain
+import DesignSystem
 
 public struct RepeatDaySelector: View {
   @Binding var selectedDays: Set<Weekday>
@@ -27,10 +28,10 @@ public struct RepeatDaySelector: View {
           toggle(day)
         } label: {
           Text(day.rawValue)
-            .font(.system(size: 16, weight: .regular))
+            .font(.pretendardFont(family: .regular, size: 16))
             .frame(width: 35, height: 35)
-            .foregroundColor(selectedDays.contains(day) ? .white : .gray)
-            .background(selectedDays.contains(day) ? .blue : .gray.opacity(0.2))
+            .foregroundColor(selectedDays.contains(day) ? .white : .dimGray)
+            .background(selectedDays.contains(day) ? .violetPurple : .whiteSmoke)
             .clipShape(Circle())
         }
       }
@@ -48,6 +49,4 @@ public struct RepeatDaySelector: View {
 
 #Preview {
   RepeatDaySelector(selectedDays: .constant([.wednesday, .thursday, .friday]))
-    .padding()
-    .background(Color.white)
 }
