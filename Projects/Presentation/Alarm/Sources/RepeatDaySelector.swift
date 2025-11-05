@@ -22,17 +22,23 @@ public struct RepeatDaySelector: View {
   }
 
   public var body: some View {
-    HStack(spacing: 10) {
-      ForEach(weekdays, id: \.id) { day in
-        Button {
-          toggle(day)
-        } label: {
-          Text(day.rawValue)
-            .font(.pretendardFont(family: .regular, size: 16))
-            .frame(width: 35, height: 35)
-            .foregroundColor(selectedDays.contains(day) ? .white : .dimGray)
-            .background(selectedDays.contains(day) ? .violetPurple : .whiteSmoke)
-            .clipShape(Circle())
+    VStack(alignment: .leading, spacing: 8) {
+      Text("반복")
+        .font(.pretendardFont(family: .medium, size: 14))
+        .foregroundStyle(.dimGray)
+
+      HStack(spacing: 10) {
+        ForEach(weekdays, id: \.id) { day in
+          Button {
+            toggle(day)
+          } label: {
+            Text(day.rawValue)
+              .font(.pretendardFont(family: .regular, size: 16))
+              .frame(width: 35, height: 35)
+              .foregroundColor(selectedDays.contains(day) ? .white : .dimGray)
+              .background(selectedDays.contains(day) ? .violetPurple : .whiteSmoke)
+              .clipShape(Circle())
+          }
         }
       }
     }

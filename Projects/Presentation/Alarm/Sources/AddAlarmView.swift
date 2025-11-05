@@ -13,6 +13,7 @@ import DesignSystem
 struct AddAlarmView: View {
   @State private var time = Date()
   @State private var repeatDays: Set<Weekday> = []
+  @State private var soundTitle: String = ""
 
   var body: some View {
     VStack(spacing: 16) {
@@ -38,32 +39,13 @@ struct AddAlarmView: View {
       }
 
       VStack(alignment: .leading, spacing: 24) {
-        Text("알람 시간을 입력하세요.")
-          .font(.pretendardFont(family: .medium, size: 14))
+        TimePickerField(selectedTime: $time)
 
-        DatePicker("", selection: $time, displayedComponents: .hourAndMinute)
-          .labelsHidden()
-          .datePickerStyle(.wheel)
-
-        Text("알람 제목을 입력하세요.")
-          .font(.pretendardFont(family: .medium, size: 14))
-
-        TextField("알람 제목", text: .constant(""))
-          .padding(10)
-          .background(
-            Color.whiteSmoke.opacity(0.1)
-              .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
-          )
-
-        Text("반복")
-          .font(.pretendardFont(family: .medium, size: 14))
+        AlarmTitle()
 
         RepeatDaySelector(selectedDays: $repeatDays)
 
-        Text("알람 소리")
-          .font(.pretendardFont(family: .medium, size: 14))
-
-        //알람소리
+        AlarmSoundPicker(selectedSound: $soundTitle)
 
         Button {
           print("add alarm")
