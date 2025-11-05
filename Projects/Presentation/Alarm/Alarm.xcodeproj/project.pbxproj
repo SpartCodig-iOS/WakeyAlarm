@@ -10,7 +10,6 @@
 		0614E021AA08552E871D8E5E /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490460A3DE6DA4E92C1320A3 /* AlarmView.swift */; };
 		0A2FD077E6E051FE2CF1AF82 /* Domain.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4554B90D8BE596D791D002B2 /* Domain.framework */; };
 		0B63C33280FCE46CC4CFB07C /* AlarmCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363AECF680C3D860CE1BCB32 /* AlarmCellView.swift */; };
-		1785EB4654A16EE81A04A3C7 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7708801B993AC2C223298 /* Base.swift */; };
 		1F9BCFF8D2492A5BFC8B74CB /* AlarmCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363AECF680C3D860CE1BCB32 /* AlarmCellView.swift */; };
 		2064EAEFD81E5E323A66F1D8 /* RepeatDaySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD540ECB24FC3EE6D25B5D6 /* RepeatDaySelector.swift */; };
 		230AE873249E0EB31B834761 /* Alarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029E40A6BBE695E1714DC4AB /* Alarm.framework */; };
@@ -24,12 +23,10 @@
 		4D8D8F31362947E04F0F1DFF /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490460A3DE6DA4E92C1320A3 /* AlarmView.swift */; };
 		59C30602920500D5C2C0AA44 /* DesignSystem_DesignSystem.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 34D31CE697F2AA57BEB2EBEE /* DesignSystem_DesignSystem.bundle */; };
 		5E3EF8FF42337618F8625B53 /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490460A3DE6DA4E92C1320A3 /* AlarmView.swift */; };
-		64767047607498E50C45DC6B /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7708801B993AC2C223298 /* Base.swift */; };
 		657855392581A4CC2FAEC607 /* RepeatDaySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD540ECB24FC3EE6D25B5D6 /* RepeatDaySelector.swift */; };
 		6998060A4A5A13C94C4491D4 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4554B90D8BE596D791D002B2 /* Domain.framework */; };
 		8AC146E4D03E9D8AC6221E2E /* DesignSystem.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 867C1055816429DF0C747DB2 /* DesignSystem.framework */; };
 		8B578F1F58E713FDDD8C4F4A /* Domain.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4554B90D8BE596D791D002B2 /* Domain.framework */; };
-		8EA0DF37CBD45F154004080F /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7708801B993AC2C223298 /* Base.swift */; };
 		9756A0D945F598B4B004FD4A /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647233F111392A1C34200CB0 /* Test.swift */; };
 		98AB239AFEC121F1726CD8EE /* AddAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D916DBC5432E22E0C81D4E /* AddAlarmView.swift */; };
 		98E38B151CE44AF16F2DF5A9 /* DesignSystem.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 867C1055816429DF0C747DB2 /* DesignSystem.framework */; };
@@ -52,7 +49,6 @@
 		F29938122EBB46B60075E642 /* AlarmTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F299380F2EBB46AD0075E642 /* AlarmTitle.swift */; };
 		F29938132EBB46B60075E642 /* AlarmTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F299380F2EBB46AD0075E642 /* AlarmTitle.swift */; };
 		F5A89FC0E6D9F4526C516293 /* RepeatDaySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD540ECB24FC3EE6D25B5D6 /* RepeatDaySelector.swift */; };
-		FEDB5536E47E06165E605079 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7708801B993AC2C223298 /* Base.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -193,7 +189,6 @@
 		F29938052EBB42580075E642 /* TimePickerField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerField.swift; sourceTree = "<group>"; };
 		F299380A2EBB454B0075E642 /* AlarmSoundPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmSoundPicker.swift; sourceTree = "<group>"; };
 		F299380F2EBB46AD0075E642 /* AlarmTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTitle.swift; sourceTree = "<group>"; };
-		FCB7708801B993AC2C223298 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 		FD60770EC124908C69230D9E /* Alarm_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alarm_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -311,16 +306,31 @@
 		F1515C7ACF0808C060420F77 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				F29938142EBB47F80075E642 /* View */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F29938142EBB47F80075E642 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F29938152EBB48180075E642 /* Components */,
+				B5D916DBC5432E22E0C81D4E /* AddAlarmView.swift */,
+				490460A3DE6DA4E92C1320A3 /* AlarmView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F29938152EBB48180075E642 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4FD540ECB24FC3EE6D25B5D6 /* RepeatDaySelector.swift */,
+				363AECF680C3D860CE1BCB32 /* AlarmCellView.swift */,
 				F299380F2EBB46AD0075E642 /* AlarmTitle.swift */,
 				F299380A2EBB454B0075E642 /* AlarmSoundPicker.swift */,
 				F29938052EBB42580075E642 /* TimePickerField.swift */,
-				B5D916DBC5432E22E0C81D4E /* AddAlarmView.swift */,
-				363AECF680C3D860CE1BCB32 /* AlarmCellView.swift */,
-				490460A3DE6DA4E92C1320A3 /* AlarmView.swift */,
-				FCB7708801B993AC2C223298 /* Base.swift */,
-				4FD540ECB24FC3EE6D25B5D6 /* RepeatDaySelector.swift */,
 			);
-			path = Sources;
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -520,7 +530,6 @@
 				DE22F6BEC69639C7A2DDD24A /* AlarmView.swift in Sources */,
 				F29938062EBB42580075E642 /* TimePickerField.swift in Sources */,
 				F299380E2EBB454B0075E642 /* AlarmSoundPicker.swift in Sources */,
-				8EA0DF37CBD45F154004080F /* Base.swift in Sources */,
 				23901E26972E0886E342ADE4 /* RepeatDaySelector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -535,7 +544,6 @@
 				4D8D8F31362947E04F0F1DFF /* AlarmView.swift in Sources */,
 				F29938072EBB42580075E642 /* TimePickerField.swift in Sources */,
 				F299380B2EBB454B0075E642 /* AlarmSoundPicker.swift in Sources */,
-				1785EB4654A16EE81A04A3C7 /* Base.swift in Sources */,
 				F5A89FC0E6D9F4526C516293 /* RepeatDaySelector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -550,7 +558,6 @@
 				5E3EF8FF42337618F8625B53 /* AlarmView.swift in Sources */,
 				F29938092EBB42580075E642 /* TimePickerField.swift in Sources */,
 				F299380C2EBB454B0075E642 /* AlarmSoundPicker.swift in Sources */,
-				FEDB5536E47E06165E605079 /* Base.swift in Sources */,
 				657855392581A4CC2FAEC607 /* RepeatDaySelector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -565,7 +572,6 @@
 				0614E021AA08552E871D8E5E /* AlarmView.swift in Sources */,
 				F29938082EBB42580075E642 /* TimePickerField.swift in Sources */,
 				F299380D2EBB454B0075E642 /* AlarmSoundPicker.swift in Sources */,
-				64767047607498E50C45DC6B /* Base.swift in Sources */,
 				2064EAEFD81E5E323A66F1D8 /* RepeatDaySelector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
