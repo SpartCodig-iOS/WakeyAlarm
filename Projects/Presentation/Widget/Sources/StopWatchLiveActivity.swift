@@ -5,8 +5,6 @@ import SwiftUI
 import StopWatch
 import DesignSystem
 
-// MARK: - StopWatch Live Activity Widget (iOS 16.1+)
-
 public struct StopWatchLiveActivity: Widget {
 
   public init() {}
@@ -71,7 +69,6 @@ public struct StopWatchLiveActivity: Widget {
             }
           }
           .padding(.leading, 10)
-//          .padding(.leading, 20)
         }
       } compactLeading: {
         Image(systemName: "stopwatch")
