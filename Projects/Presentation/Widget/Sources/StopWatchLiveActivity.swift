@@ -1,39 +1,47 @@
-#if canImport(ActivityKit)
-@preconcurrency import ActivityKit
+
+import ActivityKit
 import WidgetKit
 import SwiftUI
+import StopWatch
+import DesignSystem
 
 // MARK: - StopWatch Live Activity Widget (iOS 16.1+)
-@available(iOS 16.1, *)
-struct StopWatchLiveActivity: Widget {
-  var body: some WidgetConfiguration {
-    ActivityConfiguration(for: StopWatchActivityAttributes.self) { context in
+
+public struct StopWatchLiveActivity: Widget {
+
+  public init() {}
+
+  public var body: some WidgetConfiguration {
+    ActivityConfiguration(for: StopWatchActivityAttributes.self) { (context: ActivityViewContext<StopWatchActivityAttributes>) in
       lockScreenView(context: context)
-    } dynamicIsland: { context in
+    } dynamicIsland: { (context: ActivityViewContext<StopWatchActivityAttributes>) in
       DynamicIsland {
         DynamicIslandExpandedRegion(.leading) {
           HStack {
             Image(systemName: "stopwatch")
               .foregroundColor(.orange)
+
             Text("스톱워치")
-              .font(.caption)
-              .fontWeight(.medium)
+              .font(.pretendardFont(family: .medium, size: 14))
+              .foregroundStyle(.whiteSmoke)
           }
+          .padding(.leading, 10)
         }
 
         DynamicIslandExpandedRegion(.trailing) {
           VStack(alignment: .trailing) {
             Text(context.state.formattedElapsedTime)
-              .font(.title2)
-              .fontWeight(.bold)
+              .font(.pretendardFont(family: .bold, size: 18))
+              .foregroundStyle(.whiteSmoke)
               .monospacedDigit()
 
             if context.state.lapCount > 0 {
               Text("랩 \(context.state.lapCount)")
-                .font(.caption2)
+                .font(.pretendardFont(family: .medium, size: 14))
                 .foregroundColor(.secondary)
             }
           }
+          .padding(.trailing, 10)
         }
 
         DynamicIslandExpandedRegion(.bottom) {
@@ -41,11 +49,11 @@ struct StopWatchLiveActivity: Widget {
             if let _ = context.state.currentLapTime {
               VStack(alignment: .leading) {
                 Text("현재 랩")
-                  .font(.caption2)
+                  .font(.pretendardFont(family: .medium, size: 14))
                   .foregroundColor(.secondary)
+
                 Text(context.state.formattedCurrentLapTime)
-                  .font(.caption)
-                  .fontWeight(.medium)
+                  .font(.pretendardFont(family: .medium, size: 14))
                   .monospacedDigit()
               }
             }
@@ -56,21 +64,25 @@ struct StopWatchLiveActivity: Widget {
               Circle()
                 .fill(context.state.isRunning ? .green : .gray)
                 .frame(width: 8, height: 8)
+
               Text(context.state.isRunning ? "실행 중" : "정지됨")
-                .font(.caption2)
+                .font(.pretendardFont(family: .medium, size: 14))
                 .foregroundColor(.secondary)
             }
           }
-          .padding(.horizontal)
+          .padding(.leading, 10)
+//          .padding(.leading, 20)
         }
       } compactLeading: {
         Image(systemName: "stopwatch")
           .foregroundColor(.orange)
+          .padding(.leading, 10)
+
       } compactTrailing: {
         Text(context.state.formattedElapsedTime)
-          .font(.caption2)
-          .fontWeight(.medium)
+          .font(.pretendardFont(family: .medium, size: 12))
           .monospacedDigit()
+          .padding(.trailing, 10)
       } minimal: {
         Image(systemName: context.state.isRunning ? "play.fill" : "pause.fill")
           .foregroundColor(context.state.isRunning ? .green : .orange)
@@ -79,15 +91,19 @@ struct StopWatchLiveActivity: Widget {
   }
 
   @ViewBuilder
-  private func lockScreenView(context: ActivityViewContext<StopWatchActivityAttributes>) -> some View {
+  private func lockScreenView(
+    context: ActivityViewContext<StopWatchActivityAttributes>
+  ) -> some View {
     VStack(spacing: 12) {
       HStack {
         Image(systemName: "stopwatch")
           .foregroundColor(.orange)
+
         Text(context.attributes.name)
           .font(.headline)
           .fontWeight(.medium)
         Spacer()
+
         Text(context.state.isRunning ? "실행 중" : "정지됨")
           .font(.caption)
           .padding(.horizontal, 8)
@@ -134,40 +150,3 @@ struct StopWatchLiveActivity: Widget {
     )
   }
 }
-
-#if DEBUG
-@available(iOS 16.1, *)
-struct StopWatchLiveActivity_Previews: PreviewProvider {
-  static var previews: some View {
-    VStack(spacing: 20) {
-      Text("🏝️ Dynamic Island")
-        .font(.title2)
-        .fontWeight(.bold)
-
-      Text("스톱워치 Live Activity")
-        .font(.title3)
-        .fontWeight(.medium)
-
-      VStack(spacing: 8) {
-        Text("• Dynamic Island (iPhone 14 Pro+)")
-        Text("• Lock Screen 알림")
-        Text("• 실시간 스톱워치 상태")
-        Text("• 랩 타임 표시")
-      }
-      .font(.caption)
-      .foregroundColor(.secondary)
-
-      Divider()
-
-      Text("실제 기기나 시뮬레이터에서")
-      Text("Live Activity를 확인하세요!")
-        .font(.caption)
-        .foregroundColor(.orange)
-    }
-    .padding()
-    .previewDisplayName("Live Activity Info")
-  }
-}
-#endif
-
-#endif
