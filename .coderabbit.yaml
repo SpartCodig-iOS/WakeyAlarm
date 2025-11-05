@@ -10,17 +10,13 @@ reviews:
   poem: false  # 시 비활성화
   review_status: false  # 상태 메시지 비활성화
   collapse_walkthrough: true  # 상세 리뷰 접기
+  sequence_diagrams: true  # ✅ 시퀀스 다이어그램 비활성화
 
   auto_review:
-    enabled: true  # ✅ 자동 리뷰 활성화 (요약 생성을 위해 필요)
-    drafts: false
+    enabled: true  # ✅ 자동 리뷰 활성화 (요약을 위해 필요)
+    drafts: false  # draft PR 제외
 
-  # 상세 코드 리뷰는 최소화
   auto_incremental_review: false  # 증분 리뷰 비활성화
 
 chat:
   auto_reply: true
-
-# 시퀀스 다이어그램 비활성화
-sequence_diagrams:
-  enabled: false
