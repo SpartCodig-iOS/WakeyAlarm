@@ -1095,7 +1095,7 @@
                BlueprintIdentifier = "6F01BF530A754DA48D88390E"
                BuildableName = "WakeyAlarmWidget.appex"
                BlueprintName = "WakeyAlarmWidget"
-               ReferencedContainer = "container:Projects/Widget/WakeyAlarmWidget.xcodeproj">
+               ReferencedContainer = "container:Projects/Presentation/Widget/WakeyAlarmWidget.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry

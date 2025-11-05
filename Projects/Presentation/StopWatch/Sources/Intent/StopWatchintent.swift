@@ -13,7 +13,6 @@ import Utill
 public final class StopWatchIntent: ObservableObject {
   @Published public var state: State = .init()
 
-  // Live Activity delegate is weak to avoid retain cycles with UI layer
   public weak var widgetActivityDelegate: StopWatchWidgetActivityDelegate?
 
   private var timer: StopWatchTimer?

@@ -70,12 +70,10 @@ extension StopWatchView {
 
   @ViewBuilder
   private func timeTextView() -> some View {
-    // 메모리 효율적인 계산 (필요한 것만 계산)
     let elapsed = store.state.elapsed
     let isRunning = store.state.isRunning
     let isZero = elapsed == 0
 
-    // 진행도 계산 최적화
     let progress = isZero ? 0 : CGFloat(elapsed.truncatingRemainder(dividingBy: 60) / 60.0)
     let strokeColors: [Color] = isZero ? [.brightGray] : [.violetPurple]
     let displayTrim: CGFloat = isZero ? 0 : max(progress, 0.02)

@@ -7,9 +7,6 @@
       <FileRef
          location = "group:App/WakeyAlarm.xcodeproj">
       </FileRef>
-      <FileRef
-         location = "group:Widget/WakeyAlarmWidget.xcodeproj">
-      </FileRef>
       <Group
          location = "group:Core"
          name = "Core">
@@ -39,6 +36,9 @@
          </FileRef>
          <FileRef
             location = "group:StopWatch/StopWatch.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Widget/WakeyAlarmWidget.xcodeproj">
          </FileRef>
       </Group>
       <Group

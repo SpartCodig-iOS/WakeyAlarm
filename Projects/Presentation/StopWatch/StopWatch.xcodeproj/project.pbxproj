@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0552E028527C9ECB45C5BAC5 /* StopWatchintent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1124E9ACD18F1443D05399F7 /* StopWatchintent.swift */; };
+		06E673C058702D016D6FB9AE /* WidgetActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F6C7A80475C41E7D70349A /* WidgetActivityManager.swift */; };
 		0A37853B39D8C5DC1D956883 /* LapsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16E214F79AC0E176BA30735 /* LapsCardView.swift */; };
 		0C2379BAAA15864A7139E793 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1A03A32236724630376A44 /* CircleButton.swift */; };
 		0CDCD1D412BBC06083C2780B /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BB264CDA9023E5DC22D7F7 /* Test.swift */; };
@@ -16,18 +17,19 @@
 		14E7ECAC7DEB745D851C7F2D /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD83D0A9CCC1F0C8ABD899E4 /* Shared.framework */; };
 		1E9331DD35E659A1463C3F44 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD83D0A9CCC1F0C8ABD899E4 /* Shared.framework */; };
 		2A4A39C9D853C8AFD1387C57 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA6278153B28DB73B8110C8 /* Core.framework */; };
+		2D7CFC43EEBB647281BF5A9A /* StopWatchActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD9A2DE808ABBF8BE173B93 /* StopWatchActivityAttributes.swift */; };
 		3078CC2645815D993DD22410 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1A03A32236724630376A44 /* CircleButton.swift */; };
 		3262D17DA3FC4614820DC000 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD83D0A9CCC1F0C8ABD899E4 /* Shared.framework */; };
 		39ECA4DCAD142EFFC11D3A7E /* StopWatchBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F56E18A8756E8E97A835113 /* StopWatchBackground.swift */; };
 		3B59A805882D88B85362FF10 /* StopWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93D05FA7AAC61DE7EB41BC /* StopWatchView.swift */; };
 		3B87E1674F320279A67DD0A5 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA6278153B28DB73B8110C8 /* Core.framework */; };
-		3BB931C9AF0EEA1D9289917F /* StopWatchWidgetActivityDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A122AD8BAEE02D90A1FA5 /* StopWatchWidgetActivityDelegate.swift */; };
+		3C060CEA7D5CDEE9FEDD154A /* StopWatchActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD9A2DE808ABBF8BE173B93 /* StopWatchActivityAttributes.swift */; };
 		3C841F9FF61833262915E7F4 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD83D0A9CCC1F0C8ABD899E4 /* Shared.framework */; };
 		3DC97B40FC152A29984EAA9E /* StopWatchintent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1124E9ACD18F1443D05399F7 /* StopWatchintent.swift */; };
 		40FE051E625B69FA567D4A11 /* StopWatchTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D7376B3305D12DFE443AF /* StopWatchTimer.swift */; };
 		45DC5591DDF42E80A82ABA1E /* StopWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93D05FA7AAC61DE7EB41BC /* StopWatchView.swift */; };
 		54CC11EF51D8816CDBB38BCB /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA6278153B28DB73B8110C8 /* Core.framework */; };
-		57B23C5A53A408CA493974C6 /* StopWatchWidgetActivityDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A122AD8BAEE02D90A1FA5 /* StopWatchWidgetActivityDelegate.swift */; };
+		56924743518F43C6F8A6038F /* StopWatchWidgetActivityDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D25C2A2034EE7B295E9B01 /* StopWatchWidgetActivityDelegate.swift */; };
 		593C114E7DFE0A6F5DEDB1D6 /* LapRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FE4FB04D4064E8E52FB609 /* LapRowView.swift */; };
 		598E776B4C4A9A5F7195AD4D /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD83D0A9CCC1F0C8ABD899E4 /* Shared.framework */; };
 		66CA6576ED4C8B1F01F5ECAE /* StopWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E153BD00F7A88B911D141DA /* StopWatch.framework */; };
@@ -35,21 +37,27 @@
 		683F0E991E62C6C437ED2677 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1A03A32236724630376A44 /* CircleButton.swift */; };
 		791162FD7757207B25B13B22 /* StopWatchTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D7376B3305D12DFE443AF /* StopWatchTimer.swift */; };
 		797ECB0280A9C30CAAD6BD94 /* LapsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16E214F79AC0E176BA30735 /* LapsCardView.swift */; };
-		7C2DB1275C441461E3811954 /* StopWatchWidgetActivityDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A122AD8BAEE02D90A1FA5 /* StopWatchWidgetActivityDelegate.swift */; };
 		812EE9747977CF40138605CF /* StopWatchBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F56E18A8756E8E97A835113 /* StopWatchBackground.swift */; };
 		815B0688D8733D5C8AC4E5F3 /* StopWatchintent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1124E9ACD18F1443D05399F7 /* StopWatchintent.swift */; };
 		83B7810842C18CD73D4C9E0B /* LapRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FE4FB04D4064E8E52FB609 /* LapRowView.swift */; };
 		8A3FE1F2650C157213169A2E /* StopWatchTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D7376B3305D12DFE443AF /* StopWatchTimer.swift */; };
 		8D272750C5086423E06F8C9C /* StopWatchBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F56E18A8756E8E97A835113 /* StopWatchBackground.swift */; };
+		92003E00EDC69C446A21274C /* StopWatchActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD9A2DE808ABBF8BE173B93 /* StopWatchActivityAttributes.swift */; };
 		98C5D3B9016E5980F2C3F77D /* LapRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FE4FB04D4064E8E52FB609 /* LapRowView.swift */; };
+		A771A1AF937F60E01969C09A /* StopWatchActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD9A2DE808ABBF8BE173B93 /* StopWatchActivityAttributes.swift */; };
+		B1218A0669F8D78F79FDC44E /* WidgetActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F6C7A80475C41E7D70349A /* WidgetActivityManager.swift */; };
 		BE975E865CDD5AE025ABD942 /* StopWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93D05FA7AAC61DE7EB41BC /* StopWatchView.swift */; };
+		C700574F8CD80C02ACE706D2 /* StopWatchWidgetActivityDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D25C2A2034EE7B295E9B01 /* StopWatchWidgetActivityDelegate.swift */; };
+		C7918E848FE04A2B59FC0BF7 /* WidgetActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F6C7A80475C41E7D70349A /* WidgetActivityManager.swift */; };
 		C8D5629479C7332311FED4B4 /* StopWatchBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F56E18A8756E8E97A835113 /* StopWatchBackground.swift */; };
 		D4C9D1C678B3B067B01E8820 /* LapsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16E214F79AC0E176BA30735 /* LapsCardView.swift */; };
 		E0C3D30628858C02C99BF58C /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1A03A32236724630376A44 /* CircleButton.swift */; };
+		E1DEABE1D12C4EDCFF47E621 /* WidgetActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F6C7A80475C41E7D70349A /* WidgetActivityManager.swift */; };
 		E50F334123389EC04FCE4457 /* LapsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16E214F79AC0E176BA30735 /* LapsCardView.swift */; };
 		E73EE9CC409ABE03BB52AF55 /* StopWatchintent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1124E9ACD18F1443D05399F7 /* StopWatchintent.swift */; };
 		F38918E60B08624B512B9DF6 /* LapRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FE4FB04D4064E8E52FB609 /* LapRowView.swift */; };
-		F59D2175CF04A06159E388A1 /* StopWatchWidgetActivityDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A122AD8BAEE02D90A1FA5 /* StopWatchWidgetActivityDelegate.swift */; };
+		F4A07757CB3E44DBBCDE1CE2 /* StopWatchWidgetActivityDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D25C2A2034EE7B295E9B01 /* StopWatchWidgetActivityDelegate.swift */; };
+		F6A887EA6F855749AA434CE6 /* StopWatchWidgetActivityDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D25C2A2034EE7B295E9B01 /* StopWatchWidgetActivityDelegate.swift */; };
 		FC9E800844948712BE80F968 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA6278153B28DB73B8110C8 /* Core.framework */; };
 /* End PBXBuildFile section */
 
@@ -118,6 +126,7 @@
 
 /* Begin PBXFileReference section */
 		1124E9ACD18F1443D05399F7 /* StopWatchintent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchintent.swift; sourceTree = "<group>"; };
+		11F6C7A80475C41E7D70349A /* WidgetActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetActivityManager.swift; sourceTree = "<group>"; };
 		2B28D08F6F143068398D3E9E /* StopWatch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "StopWatch-Info.plist"; sourceTree = "<group>"; };
 		2E153BD00F7A88B911D141DA /* StopWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StopWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E93D05FA7AAC61DE7EB41BC /* StopWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchView.swift; sourceTree = "<group>"; };
@@ -131,10 +140,11 @@
 		AD83D0A9CCC1F0C8ABD899E4 /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1A03A32236724630376A44 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 		CA170599990BE41402B6DD3F /* StopWatch-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "StopWatch-Debug-Info.plist"; sourceTree = "<group>"; };
+		CBD9A2DE808ABBF8BE173B93 /* StopWatchActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchActivityAttributes.swift; sourceTree = "<group>"; };
+		D0D25C2A2034EE7B295E9B01 /* StopWatchWidgetActivityDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchWidgetActivityDelegate.swift; sourceTree = "<group>"; };
 		DF7960CB5C8C18A899692FBC /* StopWatch_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StopWatch_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2BB264CDA9023E5DC22D7F7 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		E8EEC92747E6E4D184E7B9F1 /* StopWatch-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "StopWatch-Prod-Info.plist"; sourceTree = "<group>"; };
-		ED7A122AD8BAEE02D90A1FA5 /* StopWatchWidgetActivityDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchWidgetActivityDelegate.swift; sourceTree = "<group>"; };
 		F56E427E4E2343A4415EDC67 /* StopWatch-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "StopWatch-Stage-Info.plist"; sourceTree = "<group>"; };
 		F935C9523471A92793A9A182 /* StopWatch_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StopWatch_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEB138E8086DF8F66DF2F1C /* StopWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -219,6 +229,14 @@
 			path = Component;
 			sourceTree = "<group>";
 		};
+		2AF351444B410ED90DEE7947 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CBD9A2DE808ABBF8BE173B93 /* StopWatchActivityAttributes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		74440419B1050A501F653FF3 = {
 			isa = PBXGroup;
 			children = (
@@ -233,6 +251,14 @@
 				E977AEC761F03313B080F755 /* Sources */,
 			);
 			path = StopWatchTests;
+			sourceTree = "<group>";
+		};
+		A5514431D6FB69760BFFFDBF /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				D0D25C2A2034EE7B295E9B01 /* StopWatchWidgetActivityDelegate.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		A58FE0523740EE18E6008044 /* Products */ = {
@@ -255,7 +281,6 @@
 				9F56E18A8756E8E97A835113 /* StopWatchBackground.swift */,
 				1124E9ACD18F1443D05399F7 /* StopWatchintent.swift */,
 				4F3D7376B3305D12DFE443AF /* StopWatchTimer.swift */,
-				ED7A122AD8BAEE02D90A1FA5 /* StopWatchWidgetActivityDelegate.swift */,
 			);
 			path = Intent;
 			sourceTree = "<group>";
@@ -264,9 +289,20 @@
 			isa = PBXGroup;
 			children = (
 				B57ABCD79604D24156E951F3 /* Intent */,
+				D37F155FFDD5059308AE3EED /* Manager */,
+				2AF351444B410ED90DEE7947 /* Model */,
+				A5514431D6FB69760BFFFDBF /* Protocol */,
 				086FAB5C0B9C30C560A12152 /* View */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		D37F155FFDD5059308AE3EED /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				11F6C7A80475C41E7D70349A /* WidgetActivityManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		DCF458A2457C131F2B8B5CA1 /* Derived */ = {
@@ -486,8 +522,10 @@
 			files = (
 				812EE9747977CF40138605CF /* StopWatchBackground.swift in Sources */,
 				791162FD7757207B25B13B22 /* StopWatchTimer.swift in Sources */,
-				57B23C5A53A408CA493974C6 /* StopWatchWidgetActivityDelegate.swift in Sources */,
 				0552E028527C9ECB45C5BAC5 /* StopWatchintent.swift in Sources */,
+				B1218A0669F8D78F79FDC44E /* WidgetActivityManager.swift in Sources */,
+				A771A1AF937F60E01969C09A /* StopWatchActivityAttributes.swift in Sources */,
+				F6A887EA6F855749AA434CE6 /* StopWatchWidgetActivityDelegate.swift in Sources */,
 				3078CC2645815D993DD22410 /* CircleButton.swift in Sources */,
 				98C5D3B9016E5980F2C3F77D /* LapRowView.swift in Sources */,
 				797ECB0280A9C30CAAD6BD94 /* LapsCardView.swift in Sources */,
@@ -501,8 +539,10 @@
 			files = (
 				39ECA4DCAD142EFFC11D3A7E /* StopWatchBackground.swift in Sources */,
 				0E364DA280E8B9C709D23372 /* StopWatchTimer.swift in Sources */,
-				7C2DB1275C441461E3811954 /* StopWatchWidgetActivityDelegate.swift in Sources */,
 				E73EE9CC409ABE03BB52AF55 /* StopWatchintent.swift in Sources */,
+				C7918E848FE04A2B59FC0BF7 /* WidgetActivityManager.swift in Sources */,
+				92003E00EDC69C446A21274C /* StopWatchActivityAttributes.swift in Sources */,
+				F4A07757CB3E44DBBCDE1CE2 /* StopWatchWidgetActivityDelegate.swift in Sources */,
 				0C2379BAAA15864A7139E793 /* CircleButton.swift in Sources */,
 				593C114E7DFE0A6F5DEDB1D6 /* LapRowView.swift in Sources */,
 				E50F334123389EC04FCE4457 /* LapsCardView.swift in Sources */,
@@ -516,8 +556,10 @@
 			files = (
 				8D272750C5086423E06F8C9C /* StopWatchBackground.swift in Sources */,
 				8A3FE1F2650C157213169A2E /* StopWatchTimer.swift in Sources */,
-				F59D2175CF04A06159E388A1 /* StopWatchWidgetActivityDelegate.swift in Sources */,
 				3DC97B40FC152A29984EAA9E /* StopWatchintent.swift in Sources */,
+				E1DEABE1D12C4EDCFF47E621 /* WidgetActivityManager.swift in Sources */,
+				3C060CEA7D5CDEE9FEDD154A /* StopWatchActivityAttributes.swift in Sources */,
+				56924743518F43C6F8A6038F /* StopWatchWidgetActivityDelegate.swift in Sources */,
 				E0C3D30628858C02C99BF58C /* CircleButton.swift in Sources */,
 				F38918E60B08624B512B9DF6 /* LapRowView.swift in Sources */,
 				D4C9D1C678B3B067B01E8820 /* LapsCardView.swift in Sources */,
@@ -531,8 +573,10 @@
 			files = (
 				C8D5629479C7332311FED4B4 /* StopWatchBackground.swift in Sources */,
 				40FE051E625B69FA567D4A11 /* StopWatchTimer.swift in Sources */,
-				3BB931C9AF0EEA1D9289917F /* StopWatchWidgetActivityDelegate.swift in Sources */,
 				815B0688D8733D5C8AC4E5F3 /* StopWatchintent.swift in Sources */,
+				06E673C058702D016D6FB9AE /* WidgetActivityManager.swift in Sources */,
+				2D7CFC43EEBB647281BF5A9A /* StopWatchActivityAttributes.swift in Sources */,
+				C700574F8CD80C02ACE706D2 /* StopWatchWidgetActivityDelegate.swift in Sources */,
 				683F0E991E62C6C437ED2677 /* CircleButton.swift in Sources */,
 				83B7810842C18CD73D4C9E0B /* LapRowView.swift in Sources */,
 				0A37853B39D8C5DC1D956883 /* LapsCardView.swift in Sources */,

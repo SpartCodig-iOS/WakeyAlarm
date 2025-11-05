@@ -61,7 +61,6 @@ final class StopWatchTimer {
 
           Task { @MainActor [weak self] in
             try? await Task.sleep(for: .seconds(1))
-            guard let self = self, let intent = self.intent else { return } // ← 다시 언랩
             intent.state = intent.reduce(intent.state, .setResetAnimationTrimAmount(0))
           }
         }

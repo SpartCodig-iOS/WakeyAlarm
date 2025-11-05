@@ -8,7 +8,7 @@ let project = Project.makeAppModule(
   name: "Presentation",
   bundleId: .appBundleID(name: ".Presentation"),
   product: .staticFramework,
-  settings:  .settings(),
+  settings: .settings(),
   dependencies: [
     .Presentation(implements: .StopWatch)
   ],

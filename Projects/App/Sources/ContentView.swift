@@ -1,5 +1,6 @@
 import SwiftUI
 import Presentation
+import WakeyAlarmWidget
 
 public struct ContentView: View {
     public init() {}

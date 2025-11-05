@@ -1,3 +1,10 @@
+//
+//  WidgetActivityManager.swift
+//  StopWatch
+//
+//  Created by Wonji Suh  on 11/5/25.
+//
+
 import Foundation
 import SwiftUI
 
@@ -5,27 +12,9 @@ import SwiftUI
 @preconcurrency import ActivityKit
 #endif
 
-@MainActor
-public protocol StopWatchWidgetActivityDelegate: AnyObject {
-  func startLiveActivity(
-    elapsedTime: TimeInterval,
-    isRunning: Bool,
-    lapCount: Int,
-    currentLapTime: TimeInterval?,
-    startTime: Date?
-  )
-
-  func updateLiveActivity(
-    elapsedTime: TimeInterval,
-    isRunning: Bool,
-    lapCount: Int,
-    currentLapTime: TimeInterval?,
-    startTime: Date?
-  )
-
-  func endLiveActivity()
-}
-
+// MARK: - Widget Activity Manager Implementation
+/// StopWatchWidgetActivityDelegate 프로토콜의 구현체
+/// Live Activity 관리를 담당하는 싱글톤 매니저
 @MainActor
 public final class WidgetActivityManager: ObservableObject, StopWatchWidgetActivityDelegate {
   @Published public private(set) var isActivityActive: Bool = false
@@ -33,6 +22,8 @@ public final class WidgetActivityManager: ObservableObject, StopWatchWidgetActiv
 
   public static let shared = WidgetActivityManager()
   private init() {}
+
+  // MARK: - StopWatchWidgetActivityDelegate Implementation
 
   public func startLiveActivity(
     elapsedTime: TimeInterval,
@@ -117,7 +108,7 @@ public final class WidgetActivityManager: ObservableObject, StopWatchWidgetActiv
     #endif
   }
 
-  // MARK: - Diagnostics
+  // MARK: - Public Diagnostics & Cleanup
 
   public func cleanup() async {
     #if canImport(ActivityKit)
@@ -159,7 +150,7 @@ public final class WidgetActivityManager: ObservableObject, StopWatchWidgetActiv
     #endif
   }
 
-  // MARK: - Helpers
+  // MARK: - Private Helpers
 
   #if canImport(ActivityKit)
   @available(iOS 16.1, *)
@@ -222,52 +213,3 @@ public final class WidgetActivityManager: ObservableObject, StopWatchWidgetActiv
   }
   #endif
 }
-
-#if canImport(ActivityKit)
-@available(iOS 16.1, *)
-public struct StopWatchActivityAttributes: ActivityAttributes {
-  public struct ContentState: Codable, Hashable {
-    public var elapsedTime: TimeInterval
-    public var isRunning: Bool
-    public var lapCount: Int
-    public var currentLapTime: TimeInterval?
-    public var startTime: Date?
-
-    public init(
-      elapsedTime: TimeInterval,
-      isRunning: Bool,
-      lapCount: Int,
-      currentLapTime: TimeInterval?,
-      startTime: Date?
-    ) {
-      self.elapsedTime = elapsedTime
-      self.isRunning = isRunning
-      self.lapCount = lapCount
-      self.currentLapTime = currentLapTime
-      self.startTime = startTime
-    }
-
-    public var formattedElapsedTime: String {
-      let total = isRunning && startTime != nil ? Date().timeIntervalSince(startTime!) + elapsedTime : elapsedTime
-      let minutes = Int(total) / 60
-      let seconds = Int(total) % 60
-      let hundredths = Int((total.truncatingRemainder(dividingBy: 1)) * 100)
-      return String(format: "%02d:%02d.%02d", minutes, seconds, hundredths)
-    }
-
-    public var formattedCurrentLapTime: String {
-      guard let currentLapTime else { return "00:00.00" }
-      let minutes = Int(currentLapTime) / 60
-      let seconds = Int(currentLapTime) % 60
-      let hundredths = Int((currentLapTime.truncatingRemainder(dividingBy: 1)) * 100)
-      return String(format: "%02d:%02d.%02d", minutes, seconds, hundredths)
-    }
-  }
-
-  public var name: String
-
-  public init(name: String) {
-    self.name = name
-  }
-}
-#endif
