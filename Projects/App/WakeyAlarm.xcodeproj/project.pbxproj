@@ -24,8 +24,11 @@
 		5E00C281E6D12A298FEED8A3 /* Alarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0759CEC958CE102999E0E280 /* Alarm.framework */; };
 		5EEDAB2420AF9F14C00EF820 /* DesignSystem_DesignSystem.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CB1522C51A82FA7D744D8077 /* DesignSystem_DesignSystem.bundle */; };
 		6214468DD408D8F2D3FDAD25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6137054448B27F3CA5CF782C /* Assets.xcassets */; };
+		64E82AE93DE900C52A4D6EE9 /* Utill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A992ED2A746D59CDBDB8918 /* Utill.framework */; };
+		6524F942E173937705F2C5AB /* Utill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A992ED2A746D59CDBDB8918 /* Utill.framework */; };
 		6EE7ACC1449840A185F179E8 /* DesignSystem_DesignSystem.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = CB1522C51A82FA7D744D8077 /* DesignSystem_DesignSystem.bundle */; };
 		700AE1A217CED17C159FECE2 /* WakeyAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89063223C8E49CA22CA49B5 /* WakeyAlarmApp.swift */; };
+		72A9FEE9B6BEA682316C0755 /* Utill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A992ED2A746D59CDBDB8918 /* Utill.framework */; };
 		748EDE9EE444AA5BDF38317F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C5262F48B68779402592CF /* ContentView.swift */; };
 		7A09C9F7E7BA77402723463C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147E2A117BE6AB73DD82C3DC /* Preview Assets.xcassets */; };
 		810E548A1EF0825D46267983 /* TuistBundle+WakeyAlarmProd.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37FBF660A6A5E462F4F2706 /* TuistBundle+WakeyAlarmProd.swift */; };
@@ -51,6 +54,7 @@
 		E4AD3DA3617218686759601E /* TuistBundle+WakeyAlarmStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDB8892F0F4512312995620 /* TuistBundle+WakeyAlarmStage.swift */; };
 		E72A8DEC49F2526D63A41A5D /* TuistAssets+WakeyAlarmDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84396412255D47B775183147 /* TuistAssets+WakeyAlarmDebug.swift */; };
 		E819DF3F46DF8BE9333F79EE /* Alarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0759CEC958CE102999E0E280 /* Alarm.framework */; };
+		EA9394A18B6B8E5F4C8BC5B2 /* Utill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A992ED2A746D59CDBDB8918 /* Utill.framework */; };
 		F2699EC86BD2FB41FE3DBB0C /* WakeyAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89063223C8E49CA22CA49B5 /* WakeyAlarmApp.swift */; };
 /* End PBXBuildFile section */
 
@@ -161,6 +165,7 @@
 		0759CEC958CE102999E0E280 /* Alarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		147E2A117BE6AB73DD82C3DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		300D7A06185E61F92824DA28 /* DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A992ED2A746D59CDBDB8918 /* Utill.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utill.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		445D5CED8B8563072FC95D76 /* TuistAssets+WakeyAlarmStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+WakeyAlarmStage.swift"; sourceTree = "<group>"; };
 		473868DD004034555C3B14CF /* WakeyAlarm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "WakeyAlarm-Info.plist"; sourceTree = "<group>"; };
 		4A20DBF7AA5EC81EFCD873D2 /* WakeyAlarm_Prod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeyAlarm_Prod.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -206,6 +211,7 @@
 				8659B8987154809A3BA56C61 /* Alarm.framework in Frameworks */,
 				9ABCF40DBC1C40E2078E294E /* DesignSystem.framework in Frameworks */,
 				E2F1D7E4C874E8EF18062AC7 /* Domain.framework in Frameworks */,
+				72A9FEE9B6BEA682316C0755 /* Utill.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +222,7 @@
 				1C619C91C87C723B215E0B64 /* Alarm.framework in Frameworks */,
 				C52DF4CC92598AE55A77B475 /* DesignSystem.framework in Frameworks */,
 				DF04DC25AEF8014A27D051EF /* Domain.framework in Frameworks */,
+				64E82AE93DE900C52A4D6EE9 /* Utill.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +233,7 @@
 				E819DF3F46DF8BE9333F79EE /* Alarm.framework in Frameworks */,
 				A25030DBE01D69ACD94F92F3 /* DesignSystem.framework in Frameworks */,
 				1676E918C0F18E4A270523EA /* Domain.framework in Frameworks */,
+				6524F942E173937705F2C5AB /* Utill.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +244,7 @@
 				5E00C281E6D12A298FEED8A3 /* Alarm.framework in Frameworks */,
 				1980D36212DBDADF3899D79D /* DesignSystem.framework in Frameworks */,
 				8A7CBDA198F86CD1C377A0C6 /* Domain.framework in Frameworks */,
+				EA9394A18B6B8E5F4C8BC5B2 /* Utill.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +295,7 @@
 				CB1522C51A82FA7D744D8077 /* DesignSystem_DesignSystem.bundle */,
 				300D7A06185E61F92824DA28 /* DesignSystem.framework */,
 				D08B078ED661FDC3E98CFF88 /* Domain.framework */,
+				3A992ED2A746D59CDBDB8918 /* Utill.framework */,
 				6B489AD0F8C3481F2B78088D /* WakeyAlarm_Debug.app */,
 				4A20DBF7AA5EC81EFCD873D2 /* WakeyAlarm_Prod.app */,
 				7189F55686A0BFF97990FBD4 /* WakeyAlarm_Stage.app */,

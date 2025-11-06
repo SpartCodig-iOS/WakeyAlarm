@@ -1,0 +1,94 @@
+//
+//  AddAlarmView.swift
+//  Alarm
+//
+//  Created by 김민희 on 11/4/25.
+//
+
+import Foundation
+import SwiftUI
+import Domain
+import DesignSystem
+
+struct AddAlarmView: View {
+  @ObservedObject var alarmIntent: AlarmIntent
+  @StateObject private var addIntent = AddAlarmIntent()
+  @Binding var isPresented: Bool
+
+  var body: some View {
+    VStack(spacing: 16) {
+      HStack(spacing: 0) {
+        EmptyView()
+          .frame(width: 16, height: 16)
+
+        Spacer()
+
+        Text("알람 추가")
+          .font(.pretendardFont(family: .semiBold, size: 18))
+
+        Spacer()
+
+        Button {
+          isPresented = false
+        } label: {
+          Image(systemName: "xmark")
+            .resizable()
+            .frame(width: 16, height: 16)
+            .foregroundStyle(.materialDark)
+        }
+      }
+
+      VStack(alignment: .leading, spacing: 24) {
+        TimePickerField(selectedTime: Binding(
+          get: { addIntent.state.time },
+          set: { addIntent.intent(.setTime($0)) }
+        ))
+
+        AlarmTitle(title: Binding(
+          get: { addIntent.state.title },
+          set: { addIntent.intent(.setTitle($0)) }
+        ))
+
+        RepeatDaySelector(selectedDays: Binding(
+          get: { addIntent.state.repeatDays },
+          set: { addIntent.intent(.setRepeatDays($0)) }
+        ))
+
+        AlarmSoundPicker(selectedSound: Binding(
+          get: { addIntent.state.soundTitle },
+          set: { addIntent.intent(.setSound($0)) }
+        ))
+
+        Button {
+          let alarm = Alarm(
+            id: UUID(),
+            title: addIntent.state.title.isEmpty ? "알람" : addIntent.state.title,
+            time: addIntent.state.time,
+            isEnabled: true,
+            repeatDays: Array(addIntent.state.repeatDays)
+          )
+
+          alarmIntent.intent(.addAlarm(alarm))
+          isPresented = false
+        } label: {
+          Text("추가하기")
+            .font(.pretendardFont(family: .medium, size: 14))
+            .padding(.vertical, 10)
+            .frame(maxWidth: .infinity)
+            .foregroundColor(.white)
+            .background(
+              Color.violetPurple
+                .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
+            )
+        }
+
+      }
+    }
+    .padding(25)
+    .background(
+      Color.white
+        .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
+    )
+  }
+}
+

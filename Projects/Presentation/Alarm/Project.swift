@@ -11,7 +11,8 @@ let project = Project.makeAppModule(
   settings:  .settings(),
   dependencies: [
     .Domain(implements: .Domain),
-    .Shared(implements: .DesignSystem)
+    .Shared(implements: .DesignSystem),
+    .Shared(implements: .Utill)
   ],
   sources: ["Sources/**"]
 )
