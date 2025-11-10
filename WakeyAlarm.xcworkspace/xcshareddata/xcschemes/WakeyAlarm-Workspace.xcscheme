@@ -1022,6 +1022,76 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "96CEC9A99FF1719EEEFA2038"
+               BuildableName = "Timer.framework"
+               BlueprintName = "Timer"
+               ReferencedContainer = "container:Projects/Presentation/Timer/Timer.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CF60DEAE93D4E71ACCE5E007"
+               BuildableName = "Timer_Debug.framework"
+               BlueprintName = "Timer-Debug"
+               ReferencedContainer = "container:Projects/Presentation/Timer/Timer.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "45A55ECEBCEE660872097854"
+               BuildableName = "Timer_Prod.framework"
+               BlueprintName = "Timer-Prod"
+               ReferencedContainer = "container:Projects/Presentation/Timer/Timer.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7B7DD5F3CA2ADAC6632F106B"
+               BuildableName = "Timer_Stage.framework"
+               BlueprintName = "Timer-Stage"
+               ReferencedContainer = "container:Projects/Presentation/Timer/Timer.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "215E9B35E0B584D029FDFBF0"
+               BuildableName = "TimerTests.xctest"
+               BlueprintName = "TimerTests"
+               ReferencedContainer = "container:Projects/Presentation/Timer/Timer.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "587CEAB978FBB8C3B98D8B47"
                BuildableName = "Utill.framework"
                BlueprintName = "Utill"
@@ -1329,6 +1399,17 @@
                BuildableName = "ThirdPartyTests.xctest"
                BlueprintName = "ThirdPartyTests"
                ReferencedContainer = "container:Projects/Shared/ThirdParty/ThirdParty.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "215E9B35E0B584D029FDFBF0"
+               BuildableName = "TimerTests.xctest"
+               BlueprintName = "TimerTests"
+               ReferencedContainer = "container:Projects/Presentation/Timer/Timer.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference

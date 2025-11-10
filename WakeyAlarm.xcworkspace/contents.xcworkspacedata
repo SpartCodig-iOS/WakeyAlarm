@@ -41,6 +41,9 @@
             location = "group:StopWatch/StopWatch.xcodeproj">
          </FileRef>
          <FileRef
+            location = "group:Timer/Timer.xcodeproj">
+         </FileRef>
+         <FileRef
             location = "group:Widget/WakeyAlarmWidget.xcodeproj">
          </FileRef>
       </Group>
