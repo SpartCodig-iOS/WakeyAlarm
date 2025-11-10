@@ -34,6 +34,9 @@
          <FileRef
             location = "group:Presentation/Presentation.xcodeproj">
          </FileRef>
+         <FileRef
+            location = "group:Timer/Timer.xcodeproj">
+         </FileRef>
       </Group>
       <Group
          location = "group:Shared"
