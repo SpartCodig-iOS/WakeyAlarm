@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "32D00563243DB6BEA654C608"
-               BuildableName = "Presentations.framework"
-               BlueprintName = "Presentations"
-               ReferencedContainer = "container:Presentations.xcodeproj">
+               BlueprintIdentifier = "9CADDC942A5A680E84197E9D"
+               BuildableName = "Alarm_Stage.framework"
+               BlueprintName = "Alarm-Stage"
+               ReferencedContainer = "container:Alarm.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -26,19 +26,9 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      disableMainThreadChecker = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1E5F9B4767F53F86CB6C0FA5"
-               BuildableName = "PresentationsTests.xctest"
-               BlueprintName = "PresentationsTests"
-               ReferencedContainer = "container:Presentations.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -54,10 +44,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "32D00563243DB6BEA654C608"
-            BuildableName = "Presentations.framework"
-            BlueprintName = "Presentations"
-            ReferencedContainer = "container:Presentations.xcodeproj">
+            BlueprintIdentifier = "9CADDC942A5A680E84197E9D"
+            BuildableName = "Alarm_Stage.framework"
+            BlueprintName = "Alarm-Stage"
+            ReferencedContainer = "container:Alarm.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -70,10 +60,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "32D00563243DB6BEA654C608"
-            BuildableName = "Presentations.framework"
-            BlueprintName = "Presentations"
-            ReferencedContainer = "container:Presentations.xcodeproj">
+            BlueprintIdentifier = "9CADDC942A5A680E84197E9D"
+            BuildableName = "Alarm_Stage.framework"
+            BlueprintName = "Alarm-Stage"
+            ReferencedContainer = "container:Alarm.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

@@ -1,16 +1,22 @@
-language: "ko-KR"  # 한국어로 리뷰
+# .coderabbit.yaml
+
+language: "ko-KR"
 early_access: false
 
 reviews:
-  profile: "chill"  # 리뷰 톤을 부드럽게
-  request_changes_workflow: false  # 리뷰 후 PR 승인 기능 비활성화
-  high_level_summary: true  # 요약 포함 (요약만 생성)
-  poem: true  # 짧은 시 포함 가능
-  review_status: true  # 리뷰 상태 표시
-  collapse_walkthrough: false  # 리뷰 설명 펼치기
+  profile: "chill"
+  request_changes_workflow: false
+  high_level_summary: true  # ✅ 요약 생성
+  poem: false  # 시 비활성화
+  review_status: false  # 상태 메시지 비활성화
+  collapse_walkthrough: true  # 상세 리뷰 접기
+  sequence_diagrams: true  # ✅ 시퀀스 다이어그램 비활성화
+
   auto_review:
-    enabled: false  # 자동 리뷰 비활성화 (요약만 수행)
-    drafts: false  # draft PR은 제외
+    enabled: false  # ✅ 자동 리뷰 활성화 (요약을 위해 필요)
+    drafts: false  # draft PR 제외
+
+  auto_incremental_review: false  # 증분 리뷰 비활성화
 
 chat:
-  auto_reply: true  # 코멘트에 자동 답변 활성화
+  auto_reply: true

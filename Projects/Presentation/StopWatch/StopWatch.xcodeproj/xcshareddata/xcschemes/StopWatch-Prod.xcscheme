@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E024B6F15C97900482396DE3"
-               BuildableName = "Presentations_Stage.framework"
-               BlueprintName = "Presentations-Stage"
-               ReferencedContainer = "container:Presentations.xcodeproj">
+               BlueprintIdentifier = "6130393CFD470E0D52AB9D8E"
+               BuildableName = "StopWatch_Prod.framework"
+               BlueprintName = "StopWatch-Prod"
+               ReferencedContainer = "container:StopWatch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,10 +44,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E024B6F15C97900482396DE3"
-            BuildableName = "Presentations_Stage.framework"
-            BlueprintName = "Presentations-Stage"
-            ReferencedContainer = "container:Presentations.xcodeproj">
+            BlueprintIdentifier = "6130393CFD470E0D52AB9D8E"
+            BuildableName = "StopWatch_Prod.framework"
+            BlueprintName = "StopWatch-Prod"
+            ReferencedContainer = "container:StopWatch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -60,10 +60,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E024B6F15C97900482396DE3"
-            BuildableName = "Presentations_Stage.framework"
-            BlueprintName = "Presentations-Stage"
-            ReferencedContainer = "container:Presentations.xcodeproj">
+            BlueprintIdentifier = "6130393CFD470E0D52AB9D8E"
+            BuildableName = "StopWatch_Prod.framework"
+            BlueprintName = "StopWatch-Prod"
+            ReferencedContainer = "container:StopWatch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
