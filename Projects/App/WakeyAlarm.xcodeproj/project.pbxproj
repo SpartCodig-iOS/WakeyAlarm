@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		00CDF2B715DBB272AFC0EBED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C5262F48B68779402592CF /* ContentView.swift */; };
-		058A7B8A1E4A6F27A0A6E945 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A027E65EBC3CB53B612AD7 /* Core.framework */; };
 		0CE264C11329C93C11BECADE /* TuistBundle+WakeyAlarmDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83991FAA48066B20BDBB35AB /* TuistBundle+WakeyAlarmDebug.swift */; };
 		0DCD40E905053929054DEBE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C5262F48B68779402592CF /* ContentView.swift */; };
 		0E1BD5FE80C8A42837282598 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A027E65EBC3CB53B612AD7 /* Core.framework */; };
@@ -21,15 +20,14 @@
 		3CAD24487658E5AAC5176038 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C5262F48B68779402592CF /* ContentView.swift */; };
 		4C4754717D432A0E920A3F00 /* StopWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8213B8814E948A38B58D5E3C /* StopWatch.framework */; };
 		5CEA959E458CB491686AC32D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6137054448B27F3CA5CF782C /* Assets.xcassets */; };
+		5E00C281E6D12A298FEED8A3 /* Alarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0759CEC958CE102999E0E280 /* Alarm.framework */; };
+		5EEDAB2420AF9F14C00EF820 /* DesignSystem_DesignSystem.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CB1522C51A82FA7D744D8077 /* DesignSystem_DesignSystem.bundle */; };
 		6214468DD408D8F2D3FDAD25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6137054448B27F3CA5CF782C /* Assets.xcassets */; };
 		6E6D764FC2D972687CABA609 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 33A027E65EBC3CB53B612AD7 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6ED2C6524922AB33B6087FF7 /* WakeyAlarmWidget.appex in Dependencies */ = {isa = PBXBuildFile; fileRef = 615587B0F97801AF1A127C96 /* WakeyAlarmWidget.appex */; };
 		700AE1A217CED17C159FECE2 /* WakeyAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89063223C8E49CA22CA49B5 /* WakeyAlarmApp.swift */; };
 		748EDE9EE444AA5BDF38317F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C5262F48B68779402592CF /* ContentView.swift */; };
-		76B9E2870A39BAD766C96850 /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B674A8B65DE8D3DB7D5E15F /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7A09C9F7E7BA77402723463C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147E2A117BE6AB73DD82C3DC /* Preview Assets.xcassets */; };
-		7CD1A29F3563B35441D34602 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B674A8B65DE8D3DB7D5E15F /* Shared.framework */; };
-		7CD56904E73B19E27126D822 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A027E65EBC3CB53B612AD7 /* Core.framework */; };
 		810E548A1EF0825D46267983 /* TuistBundle+WakeyAlarmProd.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37FBF660A6A5E462F4F2706 /* TuistBundle+WakeyAlarmProd.swift */; };
 		814028780F49EC78A0082926 /* WakeyAlarmWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 615587B0F97801AF1A127C96 /* WakeyAlarmWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		86CD9089F6537E9195C587EA /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B674A8B65DE8D3DB7D5E15F /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -37,26 +35,22 @@
 		8724F2EFF183CC626AE86634 /* StopWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8213B8814E948A38B58D5E3C /* StopWatch.framework */; };
 		8CE1F48E3FE94ABDD6DB4DE0 /* Presentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AD9619F03B3613394D5E4B /* Presentation.framework */; };
 		8E3458DFFBA469B17E4A1885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6137054448B27F3CA5CF782C /* Assets.xcassets */; };
-		954B8A7DEC1DA79E63CC6C97 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 33A027E65EBC3CB53B612AD7 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		99B5E8AFA70432D3BD5CBAFC /* TuistAssets+WakeyAlarmStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445D5CED8B8563072FC95D76 /* TuistAssets+WakeyAlarmStage.swift */; };
 		9B6BC228DEFD7B3B61BAE60D /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 33A027E65EBC3CB53B612AD7 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9F6431C5C7F68522E8BA0B74 /* WakeyAlarmWidget.appex in Dependencies */ = {isa = PBXBuildFile; fileRef = 615587B0F97801AF1A127C96 /* WakeyAlarmWidget.appex */; };
 		A1E140E4A496C22BA9C8D898 /* WakeyAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89063223C8E49CA22CA49B5 /* WakeyAlarmApp.swift */; };
 		A21E1849CA8B99EAD135ACCE /* WakeyAlarmWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 615587B0F97801AF1A127C96 /* WakeyAlarmWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A69680529BF47A66FFBACCB0 /* WakeyAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E7E75B330C50B527149E6 /* WakeyAlarmTests.swift */; };
-		A857B8111BFDCB7CD7B234CF /* Presentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AD9619F03B3613394D5E4B /* Presentation.framework */; };
-		A88568BDC22ECD7FBA951F1B /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B674A8B65DE8D3DB7D5E15F /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AA49CEC34A85A66C88C77F8D /* WakeyAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89063223C8E49CA22CA49B5 /* WakeyAlarmApp.swift */; };
-		B14532259C65E3F7F4804125 /* Presentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AD9619F03B3613394D5E4B /* Presentation.framework */; };
-		B6CBACC0522E54ECF6EF4D9C /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B674A8B65DE8D3DB7D5E15F /* Shared.framework */; };
 		B6EAA5AAE77E47A78D0EEBF9 /* TuistAssets+WakeyAlarmProd.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85CAEB10544EC34E0BBA898 /* TuistAssets+WakeyAlarmProd.swift */; };
 		BBE48BB66D72EC78CC3462E4 /* WakeyAlarmWidget.appex in Dependencies */ = {isa = PBXBuildFile; fileRef = 615587B0F97801AF1A127C96 /* WakeyAlarmWidget.appex */; };
 		C579F0651FDD9955D2A0BDB1 /* Presentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AD9619F03B3613394D5E4B /* Presentation.framework */; };
 		C7BDC68C102E4230BE74B579 /* TuistAssets+WakeyAlarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553FCF8DA0BDCCC1DC1176BD /* TuistAssets+WakeyAlarm.swift */; };
-		CBCDBF427F345A89C0484554 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 33A027E65EBC3CB53B612AD7 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CB73DDF415F9F6DF9826C1E0 /* DesignSystem_DesignSystem.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = CB1522C51A82FA7D744D8077 /* DesignSystem_DesignSystem.bundle */; };
 		CC4A74077518766D033999C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6137054448B27F3CA5CF782C /* Assets.xcassets */; };
 		DC7FED3F8674F15C209C7FBD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147E2A117BE6AB73DD82C3DC /* Preview Assets.xcassets */; };
-		DCEC76A7E80819E2AC180A92 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B674A8B65DE8D3DB7D5E15F /* Shared.framework */; };
+		DF04DC25AEF8014A27D051EF /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08B078ED661FDC3E98CFF88 /* Domain.framework */; };
+		E2F1D7E4C874E8EF18062AC7 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08B078ED661FDC3E98CFF88 /* Domain.framework */; };
 		E4AD3DA3617218686759601E /* TuistBundle+WakeyAlarmStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDB8892F0F4512312995620 /* TuistBundle+WakeyAlarmStage.swift */; };
 		E72A8DEC49F2526D63A41A5D /* TuistAssets+WakeyAlarmDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84396412255D47B775183147 /* TuistAssets+WakeyAlarmDebug.swift */; };
 		EE2ED0D3844847D2F9EDDD20 /* StopWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8213B8814E948A38B58D5E3C /* StopWatch.framework */; };
@@ -93,8 +87,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9B6BC228DEFD7B3B61BAE60D /* Core.framework in Embed Frameworks */,
-				F94632889C100B88AEC161B7 /* Shared.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -115,8 +107,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				954B8A7DEC1DA79E63CC6C97 /* Core.framework in Embed Frameworks */,
-				76B9E2870A39BAD766C96850 /* Shared.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -127,8 +117,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CBCDBF427F345A89C0484554 /* Core.framework in Embed Frameworks */,
-				A88568BDC22ECD7FBA951F1B /* Shared.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,8 +187,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6E6D764FC2D972687CABA609 /* Core.framework in Embed Frameworks */,
-				86CD9089F6537E9195C587EA /* Shared.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,8 +204,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0759CEC958CE102999E0E280 /* Alarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		147E2A117BE6AB73DD82C3DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		33A027E65EBC3CB53B612AD7 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		300D7A06185E61F92824DA28 /* DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		445D5CED8B8563072FC95D76 /* TuistAssets+WakeyAlarmStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+WakeyAlarmStage.swift"; sourceTree = "<group>"; };
 		473868DD004034555C3B14CF /* WakeyAlarm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "WakeyAlarm-Info.plist"; sourceTree = "<group>"; };
 		4A20DBF7AA5EC81EFCD873D2 /* WakeyAlarm_Prod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeyAlarm_Prod.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -236,7 +223,6 @@
 		83991FAA48066B20BDBB35AB /* TuistBundle+WakeyAlarmDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+WakeyAlarmDebug.swift"; sourceTree = "<group>"; };
 		84396412255D47B775183147 /* TuistAssets+WakeyAlarmDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+WakeyAlarmDebug.swift"; sourceTree = "<group>"; };
 		866645C30F2A8C0C4ECD6D32 /* WakeyAlarm-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "WakeyAlarm-Stage-Info.plist"; sourceTree = "<group>"; };
-		8B674A8B65DE8D3DB7D5E15F /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D39AE5934C4CB6673530CE7 /* WakeyAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakeyAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C5262F48B68779402592CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A6A110E179FA715BC5F650F2 /* WakeyAlarm-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "WakeyAlarm-Debug-Info.plist"; sourceTree = "<group>"; };
@@ -246,9 +232,10 @@
 		B89063223C8E49CA22CA49B5 /* WakeyAlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeyAlarmApp.swift; sourceTree = "<group>"; };
 		C85CAEB10544EC34E0BBA898 /* TuistAssets+WakeyAlarmProd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+WakeyAlarmProd.swift"; sourceTree = "<group>"; };
 		C89CA130D78B84B9269FFBB2 /* WakeyAlarm-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "WakeyAlarm-Prod-Info.plist"; sourceTree = "<group>"; };
+		CB1522C51A82FA7D744D8077 /* DesignSystem_DesignSystem.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystem_DesignSystem.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D08B078ED661FDC3E98CFF88 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E37FBF660A6A5E462F4F2706 /* TuistBundle+WakeyAlarmProd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+WakeyAlarmProd.swift"; sourceTree = "<group>"; };
 		EC27B38ECE342960DC52A4B6 /* Stage.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Stage.xcconfig; sourceTree = "<group>"; };
-		F8AD9619F03B3613394D5E4B /* Presentation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Presentation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC680FADD61A05BABDBB239 /* WakeyAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeyAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -596,6 +583,7 @@
 			files = (
 				5CEA959E458CB491686AC32D /* Assets.xcassets in Resources */,
 				1D5A19BB8CD3A1704BAD97A0 /* Preview Assets.xcassets in Resources */,
+				254C0A9E867CB580B6745A19 /* DesignSystem_DesignSystem.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,6 +593,7 @@
 			files = (
 				8E3458DFFBA469B17E4A1885 /* Assets.xcassets in Resources */,
 				7A09C9F7E7BA77402723463C /* Preview Assets.xcassets in Resources */,
+				5EEDAB2420AF9F14C00EF820 /* DesignSystem_DesignSystem.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,6 +603,7 @@
 			files = (
 				CC4A74077518766D033999C8 /* Assets.xcassets in Resources */,
 				DC7FED3F8674F15C209C7FBD /* Preview Assets.xcassets in Resources */,
+				BA82BCD8E334103D90EF22EC /* DesignSystem_DesignSystem.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,6 +613,7 @@
 			files = (
 				6214468DD408D8F2D3FDAD25 /* Assets.xcassets in Resources */,
 				22CB48E754AEDE0E7AE7531E /* Preview Assets.xcassets in Resources */,
+				2F697CEF3282F938A0BD8D5C /* DesignSystem_DesignSystem.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -705,29 +696,12 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarmTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
-				);
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.WakeyAlarmTests;
 				PRODUCT_NAME = WakeyAlarmTests;
@@ -754,28 +728,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Stage-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-				);
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module;
 				PRODUCT_NAME = WakeyAlarm_Stage;
@@ -796,28 +753,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Prod-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-				);
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module;
 				PRODUCT_NAME = WakeyAlarm_Prod;
@@ -842,28 +782,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-				);
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module;
 				PRODUCT_NAME = WakeyAlarm;
@@ -884,28 +807,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-				);
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module;
 				PRODUCT_NAME = WakeyAlarm;
@@ -926,28 +832,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Stage-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-				);
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module;
 				PRODUCT_NAME = WakeyAlarm_Stage;
@@ -972,28 +861,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-				);
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module;
 				PRODUCT_NAME = WakeyAlarm;
@@ -1158,28 +1030,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Prod-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-				);
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module;
 				PRODUCT_NAME = WakeyAlarm_Prod;
@@ -1198,29 +1053,12 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarmTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
-				);
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.WakeyAlarmTests;
 				PRODUCT_NAME = WakeyAlarmTests;
@@ -1241,29 +1079,12 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarmTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
-				);
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.WakeyAlarmTests;
 				PRODUCT_NAME = WakeyAlarmTests;
@@ -1286,28 +1107,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Debug-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-				);
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module;
 				PRODUCT_NAME = WakeyAlarm_Debug;
@@ -1328,28 +1132,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Prod-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-				);
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module;
 				PRODUCT_NAME = WakeyAlarm_Prod;
@@ -1370,28 +1157,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Debug-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-				);
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module;
 				PRODUCT_NAME = WakeyAlarm_Debug;
@@ -1481,28 +1251,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-				);
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module;
 				PRODUCT_NAME = WakeyAlarm;
@@ -1527,28 +1280,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Debug-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-				);
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module;
 				PRODUCT_NAME = WakeyAlarm_Debug;
@@ -1567,29 +1303,12 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarmTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
-				);
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.WakeyAlarmTests;
 				PRODUCT_NAME = WakeyAlarmTests;
@@ -1612,28 +1331,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Stage-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-				);
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module;
 				PRODUCT_NAME = WakeyAlarm_Stage;
@@ -1654,28 +1356,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Debug-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-				);
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module;
 				PRODUCT_NAME = WakeyAlarm_Debug;
@@ -1700,28 +1385,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Prod-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-				);
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module;
 				PRODUCT_NAME = WakeyAlarm_Prod;
@@ -1742,28 +1410,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
-				);
 				INFOPLIST_FILE = "Derived/InfoPlists/WakeyAlarm-Stage-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-				);
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module;
 				PRODUCT_NAME = WakeyAlarm_Stage;

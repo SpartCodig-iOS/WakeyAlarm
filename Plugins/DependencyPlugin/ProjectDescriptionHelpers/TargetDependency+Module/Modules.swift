@@ -20,6 +20,7 @@ public enum ModulePath {
 // MARK: FeatureModule
 public extension ModulePath {
   enum Presentations: String, CaseIterable {
+    case Alarm 
     case Presentation
     case StopWatch
 

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A0AC462681D1DF2980117CAC"
-               BuildableName = "Presentations_Prod.framework"
-               BlueprintName = "Presentations-Prod"
-               ReferencedContainer = "container:Presentations.xcodeproj">
+               BlueprintIdentifier = "23494F0997D2C677FC9E59C7"
+               BuildableName = "Alarm_Prod.framework"
+               BlueprintName = "Alarm-Prod"
+               ReferencedContainer = "container:Alarm.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,10 +44,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A0AC462681D1DF2980117CAC"
-            BuildableName = "Presentations_Prod.framework"
-            BlueprintName = "Presentations-Prod"
-            ReferencedContainer = "container:Presentations.xcodeproj">
+            BlueprintIdentifier = "23494F0997D2C677FC9E59C7"
+            BuildableName = "Alarm_Prod.framework"
+            BlueprintName = "Alarm-Prod"
+            ReferencedContainer = "container:Alarm.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -60,10 +60,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A0AC462681D1DF2980117CAC"
-            BuildableName = "Presentations_Prod.framework"
-            BlueprintName = "Presentations-Prod"
-            ReferencedContainer = "container:Presentations.xcodeproj">
+            BlueprintIdentifier = "23494F0997D2C677FC9E59C7"
+            BuildableName = "Alarm_Prod.framework"
+            BlueprintName = "Alarm-Prod"
+            ReferencedContainer = "container:Alarm.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
