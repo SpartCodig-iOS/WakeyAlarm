@@ -7,19 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0747292821EF6D4006AE399E /* ToggleAlarmUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8690E216F09AA124BFFAA3D3 /* ToggleAlarmUseCaseProtocol.swift */; };
 		0E8570F207423AB0E744B1B3 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B3C081FA4B23D203E149E /* Base.swift */; };
+		29F5CC5EDEC81F1931EBC661 /* DeleteAlarmUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFDAA6B39797EFB4534D7C1 /* DeleteAlarmUseCase.swift */; };
 		2A6169851FA8215E1FB9DECB /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D005705864AA025B4B6D141 /* Test.swift */; };
 		2BA613835C724718C71AC731 /* Weekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F417B97879FC8858005B8A0 /* Weekday.swift */; };
+		2F073A33AAAB350C3CB7E7ED /* FetchAlarmsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F1491BEE9D2ACAAE128DE /* FetchAlarmsUseCase.swift */; };
+		3AB5DFAF6DF3EFBBE6E99EA4 /* ToggleAlarmUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8690E216F09AA124BFFAA3D3 /* ToggleAlarmUseCaseProtocol.swift */; };
 		503922CDB2BB007408A1F1A8 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8351B60BD8F815B552BAE88B /* Alarm.swift */; };
 		51F04A09FA761C021A367BD2 /* Weekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F417B97879FC8858005B8A0 /* Weekday.swift */; };
+		5CBA0D041900E4D85D876C64 /* AlarmRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCD88575409FFA15BA76CDF /* AlarmRepositoryProtocol.swift */; };
+		60AAAE0BF0F23E8265302602 /* AddAlarmUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612D21DC087ACAD25D5DE4D /* AddAlarmUseCaseProtocol.swift */; };
+		65BC753695BC6792A82C063B /* FetchAlarmsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F1491BEE9D2ACAAE128DE /* FetchAlarmsUseCase.swift */; };
+		66CFE36BE94800313DEE0079 /* FetchAlarmsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F1491BEE9D2ACAAE128DE /* FetchAlarmsUseCase.swift */; };
 		75DA96A1D875440E6150574F /* Weekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F417B97879FC8858005B8A0 /* Weekday.swift */; };
+		851DB34FDE3D54D3CE994605 /* AlarmRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCD88575409FFA15BA76CDF /* AlarmRepositoryProtocol.swift */; };
 		871DF765285A91BB052FA3B2 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B3C081FA4B23D203E149E /* Base.swift */; };
 		88CDA10498BDB9F509565513 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B3C081FA4B23D203E149E /* Base.swift */; };
+		914779050E2AE1D8BFBD2C25 /* ToggleAlarmUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8690E216F09AA124BFFAA3D3 /* ToggleAlarmUseCaseProtocol.swift */; };
+		A1ACCB0BDF4B1BA488FB433E /* FetchAlarmsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F1491BEE9D2ACAAE128DE /* FetchAlarmsUseCase.swift */; };
+		ABE018E5370750FC4CE8966C /* DeleteAlarmUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFDAA6B39797EFB4534D7C1 /* DeleteAlarmUseCase.swift */; };
+		B8EDCCE5DC40EB4535EA99E5 /* AlarmRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCD88575409FFA15BA76CDF /* AlarmRepositoryProtocol.swift */; };
 		B8F25B1BB1F44811F46AD5E5 /* Weekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F417B97879FC8858005B8A0 /* Weekday.swift */; };
+		B935DDBAF2BA8485EE794415 /* ToggleAlarmUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8690E216F09AA124BFFAA3D3 /* ToggleAlarmUseCaseProtocol.swift */; };
+		CD83F1A4CEC531F1067A7097 /* DeleteAlarmUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFDAA6B39797EFB4534D7C1 /* DeleteAlarmUseCase.swift */; };
 		DE8E53007A58D972AC68F24E /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8351B60BD8F815B552BAE88B /* Alarm.swift */; };
+		E03A326859C507EA49183CBE /* AddAlarmUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612D21DC087ACAD25D5DE4D /* AddAlarmUseCaseProtocol.swift */; };
+		E16A0F5547C17E7CAB33D40A /* AlarmRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCD88575409FFA15BA76CDF /* AlarmRepositoryProtocol.swift */; };
 		EA587A92A5855CD22A768352 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD49F277B86481D3D105FAC8 /* Domain.framework */; };
+		EA72AC45F70EB8931B3BFA99 /* DeleteAlarmUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFDAA6B39797EFB4534D7C1 /* DeleteAlarmUseCase.swift */; };
 		F373BEF266644BC9586F6D54 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8351B60BD8F815B552BAE88B /* Alarm.swift */; };
 		F7724D9391AAFFCE71D42C3E /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8351B60BD8F815B552BAE88B /* Alarm.swift */; };
+		F8F86BB9A22F2BCACB211508 /* AddAlarmUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612D21DC087ACAD25D5DE4D /* AddAlarmUseCaseProtocol.swift */; };
+		FAA020ADED97FAF39DBAF458 /* AddAlarmUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612D21DC087ACAD25D5DE4D /* AddAlarmUseCaseProtocol.swift */; };
 		FC32589B45C89EF248BAA967 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B3C081FA4B23D203E149E /* Base.swift */; };
 /* End PBXBuildFile section */
 
@@ -88,15 +108,20 @@
 
 /* Begin PBXFileReference section */
 		0AE9BAEDDF5D25247BED1FCD /* Domain_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0F1491BEE9D2ACAAE128DE /* FetchAlarmsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchAlarmsUseCase.swift; sourceTree = "<group>"; };
 		2F2831DAE4A3A6EFEDCFFB97 /* DomainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DomainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F417B97879FC8858005B8A0 /* Weekday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weekday.swift; sourceTree = "<group>"; };
 		5694FB2C899ACBAA155A76FA /* Domain-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Domain-Stage-Info.plist"; sourceTree = "<group>"; };
+		6612D21DC087ACAD25D5DE4D /* AddAlarmUseCaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmUseCaseProtocol.swift; sourceTree = "<group>"; };
 		6F4B3C081FA4B23D203E149E /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 		75CE88A21049076913ABA3B1 /* DomainTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DomainTests-Info.plist"; sourceTree = "<group>"; };
 		7D005705864AA025B4B6D141 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		8351B60BD8F815B552BAE88B /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		8690E216F09AA124BFFAA3D3 /* ToggleAlarmUseCaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleAlarmUseCaseProtocol.swift; sourceTree = "<group>"; };
 		90DE8A3D89255F8F54119CAD /* Domain_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EFDAA6B39797EFB4534D7C1 /* DeleteAlarmUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAlarmUseCase.swift; sourceTree = "<group>"; };
 		A50EA664C7E56B2ADB77ECCE /* Domain-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Domain-Debug-Info.plist"; sourceTree = "<group>"; };
+		ACCD88575409FFA15BA76CDF /* AlarmRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmRepositoryProtocol.swift; sourceTree = "<group>"; };
 		BD15A37E85BAE3A36B2CE72C /* Domain-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Domain-Info.plist"; sourceTree = "<group>"; };
 		DE27A3D71BA873BF98A83AE3 /* Domain-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Domain-Prod-Info.plist"; sourceTree = "<group>"; };
 		F4C441E6B87F88AC84B92578 /* Domain_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,9 +192,22 @@
 			isa = PBXGroup;
 			children = (
 				CF4E8210A1D8B7A147B27DF7 /* Model */,
+				D77F035CD6F2D3D73A7C0400 /* Repository */,
+				2BE278B80FDD95404961E580 /* UseCase */,
 				6F4B3C081FA4B23D203E149E /* Base.swift */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		2BE278B80FDD95404961E580 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				6612D21DC087ACAD25D5DE4D /* AddAlarmUseCaseProtocol.swift */,
+				9EFDAA6B39797EFB4534D7C1 /* DeleteAlarmUseCase.swift */,
+				1A0F1491BEE9D2ACAAE128DE /* FetchAlarmsUseCase.swift */,
+				8690E216F09AA124BFFAA3D3 /* ToggleAlarmUseCaseProtocol.swift */,
+			);
+			path = UseCase;
 			sourceTree = "<group>";
 		};
 		31AD0DDEDFC02FF4D89A76D4 = {
@@ -217,6 +255,14 @@
 				2F417B97879FC8858005B8A0 /* Weekday.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		D77F035CD6F2D3D73A7C0400 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				ACCD88575409FFA15BA76CDF /* AlarmRepositoryProtocol.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 		F6F8111D5B2DEF7372E8C847 /* Sources */ = {
@@ -409,6 +455,11 @@
 				0E8570F207423AB0E744B1B3 /* Base.swift in Sources */,
 				F7724D9391AAFFCE71D42C3E /* Alarm.swift in Sources */,
 				B8F25B1BB1F44811F46AD5E5 /* Weekday.swift in Sources */,
+				5CBA0D041900E4D85D876C64 /* AlarmRepositoryProtocol.swift in Sources */,
+				E03A326859C507EA49183CBE /* AddAlarmUseCaseProtocol.swift in Sources */,
+				EA72AC45F70EB8931B3BFA99 /* DeleteAlarmUseCase.swift in Sources */,
+				65BC753695BC6792A82C063B /* FetchAlarmsUseCase.swift in Sources */,
+				3AB5DFAF6DF3EFBBE6E99EA4 /* ToggleAlarmUseCaseProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +470,11 @@
 				871DF765285A91BB052FA3B2 /* Base.swift in Sources */,
 				F373BEF266644BC9586F6D54 /* Alarm.swift in Sources */,
 				51F04A09FA761C021A367BD2 /* Weekday.swift in Sources */,
+				851DB34FDE3D54D3CE994605 /* AlarmRepositoryProtocol.swift in Sources */,
+				FAA020ADED97FAF39DBAF458 /* AddAlarmUseCaseProtocol.swift in Sources */,
+				29F5CC5EDEC81F1931EBC661 /* DeleteAlarmUseCase.swift in Sources */,
+				A1ACCB0BDF4B1BA488FB433E /* FetchAlarmsUseCase.swift in Sources */,
+				B935DDBAF2BA8485EE794415 /* ToggleAlarmUseCaseProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +493,11 @@
 				FC32589B45C89EF248BAA967 /* Base.swift in Sources */,
 				DE8E53007A58D972AC68F24E /* Alarm.swift in Sources */,
 				2BA613835C724718C71AC731 /* Weekday.swift in Sources */,
+				B8EDCCE5DC40EB4535EA99E5 /* AlarmRepositoryProtocol.swift in Sources */,
+				60AAAE0BF0F23E8265302602 /* AddAlarmUseCaseProtocol.swift in Sources */,
+				CD83F1A4CEC531F1067A7097 /* DeleteAlarmUseCase.swift in Sources */,
+				2F073A33AAAB350C3CB7E7ED /* FetchAlarmsUseCase.swift in Sources */,
+				914779050E2AE1D8BFBD2C25 /* ToggleAlarmUseCaseProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +508,11 @@
 				88CDA10498BDB9F509565513 /* Base.swift in Sources */,
 				503922CDB2BB007408A1F1A8 /* Alarm.swift in Sources */,
 				75DA96A1D875440E6150574F /* Weekday.swift in Sources */,
+				E16A0F5547C17E7CAB33D40A /* AlarmRepositoryProtocol.swift in Sources */,
+				F8F86BB9A22F2BCACB211508 /* AddAlarmUseCaseProtocol.swift in Sources */,
+				ABE018E5370750FC4CE8966C /* DeleteAlarmUseCase.swift in Sources */,
+				66CFE36BE94800313DEE0079 /* FetchAlarmsUseCase.swift in Sources */,
+				0747292821EF6D4006AE399E /* ToggleAlarmUseCaseProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

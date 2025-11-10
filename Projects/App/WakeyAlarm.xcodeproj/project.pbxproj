@@ -14,11 +14,14 @@
 		1980D36212DBDADF3899D79D /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300D7A06185E61F92824DA28 /* DesignSystem.framework */; };
 		1C619C91C87C723B215E0B64 /* Alarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0759CEC958CE102999E0E280 /* Alarm.framework */; };
 		1D5A19BB8CD3A1704BAD97A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147E2A117BE6AB73DD82C3DC /* Preview Assets.xcassets */; };
+		1D8F515C307FB48F58D2A39D /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F16D37767516C08D43D1AA8A /* Data.framework */; };
 		22CB48E754AEDE0E7AE7531E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147E2A117BE6AB73DD82C3DC /* Preview Assets.xcassets */; };
+		2479F2280B960D86B4432EB6 /* Data.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F16D37767516C08D43D1AA8A /* Data.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2511B9BB019B4C112A485F12 /* TuistBundle+WakeyAlarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA1B45CDF620CD6EEFC5D0E /* TuistBundle+WakeyAlarm.swift */; };
 		254C0A9E867CB580B6745A19 /* DesignSystem_DesignSystem.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CB1522C51A82FA7D744D8077 /* DesignSystem_DesignSystem.bundle */; };
 		2F697CEF3282F938A0BD8D5C /* DesignSystem_DesignSystem.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CB1522C51A82FA7D744D8077 /* DesignSystem_DesignSystem.bundle */; };
 		3CAD24487658E5AAC5176038 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C5262F48B68779402592CF /* ContentView.swift */; };
+		3F7AC98B654F9DBF702C97FE /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F16D37767516C08D43D1AA8A /* Data.framework */; };
 		4C61E445F45089C5B74B04E3 /* DesignSystem_DesignSystem.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = CB1522C51A82FA7D744D8077 /* DesignSystem_DesignSystem.bundle */; };
 		5CEA959E458CB491686AC32D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6137054448B27F3CA5CF782C /* Assets.xcassets */; };
 		5E00C281E6D12A298FEED8A3 /* Alarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0759CEC958CE102999E0E280 /* Alarm.framework */; };
@@ -32,8 +35,10 @@
 		748EDE9EE444AA5BDF38317F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C5262F48B68779402592CF /* ContentView.swift */; };
 		7A09C9F7E7BA77402723463C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147E2A117BE6AB73DD82C3DC /* Preview Assets.xcassets */; };
 		810E548A1EF0825D46267983 /* TuistBundle+WakeyAlarmProd.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37FBF660A6A5E462F4F2706 /* TuistBundle+WakeyAlarmProd.swift */; };
+		81FCA86CE280A213004F43A3 /* Data.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F16D37767516C08D43D1AA8A /* Data.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		82E67E58AFA990F7BA2D75F9 /* DesignSystem_DesignSystem.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = CB1522C51A82FA7D744D8077 /* DesignSystem_DesignSystem.bundle */; };
 		8659B8987154809A3BA56C61 /* Alarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0759CEC958CE102999E0E280 /* Alarm.framework */; };
+		88AC59167300C050FEFD40B7 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F16D37767516C08D43D1AA8A /* Data.framework */; };
 		8A7CBDA198F86CD1C377A0C6 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08B078ED661FDC3E98CFF88 /* Domain.framework */; };
 		8E3458DFFBA469B17E4A1885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6137054448B27F3CA5CF782C /* Assets.xcassets */; };
 		99B5E8AFA70432D3BD5CBAFC /* TuistAssets+WakeyAlarmStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445D5CED8B8563072FC95D76 /* TuistAssets+WakeyAlarmStage.swift */; };
@@ -42,6 +47,7 @@
 		A25030DBE01D69ACD94F92F3 /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300D7A06185E61F92824DA28 /* DesignSystem.framework */; };
 		A69680529BF47A66FFBACCB0 /* WakeyAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E7E75B330C50B527149E6 /* WakeyAlarmTests.swift */; };
 		AA49CEC34A85A66C88C77F8D /* WakeyAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89063223C8E49CA22CA49B5 /* WakeyAlarmApp.swift */; };
+		B37B98469BE50F47D3240863 /* Data.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F16D37767516C08D43D1AA8A /* Data.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B6EAA5AAE77E47A78D0EEBF9 /* TuistAssets+WakeyAlarmProd.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85CAEB10544EC34E0BBA898 /* TuistAssets+WakeyAlarmProd.swift */; };
 		BA82BCD8E334103D90EF22EC /* DesignSystem_DesignSystem.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CB1522C51A82FA7D744D8077 /* DesignSystem_DesignSystem.bundle */; };
 		C52DF4CC92598AE55A77B475 /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300D7A06185E61F92824DA28 /* DesignSystem.framework */; };
@@ -52,10 +58,12 @@
 		DF04DC25AEF8014A27D051EF /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08B078ED661FDC3E98CFF88 /* Domain.framework */; };
 		E2F1D7E4C874E8EF18062AC7 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08B078ED661FDC3E98CFF88 /* Domain.framework */; };
 		E4AD3DA3617218686759601E /* TuistBundle+WakeyAlarmStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDB8892F0F4512312995620 /* TuistBundle+WakeyAlarmStage.swift */; };
+		E5F2EB7EDAA6688A87DAC0A0 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F16D37767516C08D43D1AA8A /* Data.framework */; };
 		E72A8DEC49F2526D63A41A5D /* TuistAssets+WakeyAlarmDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84396412255D47B775183147 /* TuistAssets+WakeyAlarmDebug.swift */; };
 		E819DF3F46DF8BE9333F79EE /* Alarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0759CEC958CE102999E0E280 /* Alarm.framework */; };
 		EA9394A18B6B8E5F4C8BC5B2 /* Utill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A992ED2A746D59CDBDB8918 /* Utill.framework */; };
 		F2699EC86BD2FB41FE3DBB0C /* WakeyAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89063223C8E49CA22CA49B5 /* WakeyAlarmApp.swift */; };
+		F539CC687D38C4F4B51D0EB4 /* Data.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F16D37767516C08D43D1AA8A /* Data.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +83,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				2479F2280B960D86B4432EB6 /* Data.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,6 +94,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				F539CC687D38C4F4B51D0EB4 /* Data.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +105,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				81FCA86CE280A213004F43A3 /* Data.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +156,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				B37B98469BE50F47D3240863 /* Data.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +205,7 @@
 		D08B078ED661FDC3E98CFF88 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E37FBF660A6A5E462F4F2706 /* TuistBundle+WakeyAlarmProd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+WakeyAlarmProd.swift"; sourceTree = "<group>"; };
 		EC27B38ECE342960DC52A4B6 /* Stage.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Stage.xcconfig; sourceTree = "<group>"; };
+		F16D37767516C08D43D1AA8A /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC680FADD61A05BABDBB239 /* WakeyAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeyAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -209,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8659B8987154809A3BA56C61 /* Alarm.framework in Frameworks */,
+				E5F2EB7EDAA6688A87DAC0A0 /* Data.framework in Frameworks */,
 				9ABCF40DBC1C40E2078E294E /* DesignSystem.framework in Frameworks */,
 				E2F1D7E4C874E8EF18062AC7 /* Domain.framework in Frameworks */,
 				72A9FEE9B6BEA682316C0755 /* Utill.framework in Frameworks */,
@@ -220,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C619C91C87C723B215E0B64 /* Alarm.framework in Frameworks */,
+				3F7AC98B654F9DBF702C97FE /* Data.framework in Frameworks */,
 				C52DF4CC92598AE55A77B475 /* DesignSystem.framework in Frameworks */,
 				DF04DC25AEF8014A27D051EF /* Domain.framework in Frameworks */,
 				64E82AE93DE900C52A4D6EE9 /* Utill.framework in Frameworks */,
@@ -231,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E819DF3F46DF8BE9333F79EE /* Alarm.framework in Frameworks */,
+				1D8F515C307FB48F58D2A39D /* Data.framework in Frameworks */,
 				A25030DBE01D69ACD94F92F3 /* DesignSystem.framework in Frameworks */,
 				1676E918C0F18E4A270523EA /* Domain.framework in Frameworks */,
 				6524F942E173937705F2C5AB /* Utill.framework in Frameworks */,
@@ -242,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E00C281E6D12A298FEED8A3 /* Alarm.framework in Frameworks */,
+				88AC59167300C050FEFD40B7 /* Data.framework in Frameworks */,
 				1980D36212DBDADF3899D79D /* DesignSystem.framework in Frameworks */,
 				8A7CBDA198F86CD1C377A0C6 /* Domain.framework in Frameworks */,
 				EA9394A18B6B8E5F4C8BC5B2 /* Utill.framework in Frameworks */,
@@ -292,6 +309,7 @@
 			isa = PBXGroup;
 			children = (
 				0759CEC958CE102999E0E280 /* Alarm.framework */,
+				F16D37767516C08D43D1AA8A /* Data.framework */,
 				CB1522C51A82FA7D744D8077 /* DesignSystem_DesignSystem.bundle */,
 				300D7A06185E61F92824DA28 /* DesignSystem.framework */,
 				D08B078ED661FDC3E98CFF88 /* Domain.framework */,

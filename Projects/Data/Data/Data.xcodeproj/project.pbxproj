@@ -7,12 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01970B39933B1BC6E296FB77 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFD069242FC60B772B496D /* PersistenceController.swift */; };
+		1A1CC298E29FBBB6F54DE422 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFD069242FC60B772B496D /* PersistenceController.swift */; };
+		2038C30A238F4884C595EC11 /* WakeyAlarm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6819BEC2FA552E8D597D1513 /* WakeyAlarm.xcdatamodeld */; };
+		2ED50DF31D798D7F41CA63B2 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFD069242FC60B772B496D /* PersistenceController.swift */; };
+		3F7CE806D1E28CD077785F6F /* AlarmRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92681ED2948037BE42E8E88 /* AlarmRepository.swift */; };
+		455A18B8563295482505ECF0 /* AlarmRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92681ED2948037BE42E8E88 /* AlarmRepository.swift */; };
+		49DF3B5BEFA5D8E9943F4413 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06FAA1459D11CCE724C34195 /* Domain.framework */; };
+		4F2F20A59ED8FFD1146EC3A9 /* TuistBundle+DataProd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AEF8306790EE3948130798 /* TuistBundle+DataProd.swift */; };
 		6682A2438D39A1CE0C48FD2F /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217A80FF84411549DFF0DEEB /* Test.swift */; };
 		68049A27C8544686FDB163C6 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D19B700B3BA97E99FE5E47 /* Base.swift */; };
+		8B74EC101DB1912E1FA02AD1 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFD069242FC60B772B496D /* PersistenceController.swift */; };
+		901ACA7B98089AB702ADA830 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06FAA1459D11CCE724C34195 /* Domain.framework */; };
+		961369F792C438E987DB221C /* AlarmRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92681ED2948037BE42E8E88 /* AlarmRepository.swift */; };
+		997755C7C3E8740A13DBAEBB /* WakeyAlarm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6819BEC2FA552E8D597D1513 /* WakeyAlarm.xcdatamodeld */; };
+		9B66971817A98482BC3A84FC /* AlarmEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19F4A92CFB03C120B19A4AD /* AlarmEntity.swift */; };
+		9BB9DEA8B01BBCCC8D74521C /* AlarmEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19F4A92CFB03C120B19A4AD /* AlarmEntity.swift */; };
 		A539355DEA13CE8A94F14994 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E75197C294DE74F5162FAA7 /* Data.framework */; };
+		B822277CF47097CD8AF7F738 /* WakeyAlarm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6819BEC2FA552E8D597D1513 /* WakeyAlarm.xcdatamodeld */; };
+		B9A57F3BECBF7B945E2B7086 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06FAA1459D11CCE724C34195 /* Domain.framework */; };
+		C1666B37FA198B6F593163C4 /* AlarmEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19F4A92CFB03C120B19A4AD /* AlarmEntity.swift */; };
 		C3CB9F36C77526BEF6E62C4E /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D19B700B3BA97E99FE5E47 /* Base.swift */; };
+		D7CC56A63D99DC287F023391 /* TuistBundle+DataDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6A3C647D681FDC70450D6 /* TuistBundle+DataDebug.swift */; };
 		D851B717CE35E8FCEA601B63 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D19B700B3BA97E99FE5E47 /* Base.swift */; };
 		DB2AC58BF76813A906D4EBB5 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D19B700B3BA97E99FE5E47 /* Base.swift */; };
+		DCEF985E024D909BF099217E /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06FAA1459D11CCE724C34195 /* Domain.framework */; };
+		E63DF27FCDA3C9D6B1E3BDEB /* AlarmEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19F4A92CFB03C120B19A4AD /* AlarmEntity.swift */; };
+		E70E52CC7B41B709E2B31AFE /* AlarmRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92681ED2948037BE42E8E88 /* AlarmRepository.swift */; };
+		EF1758E6E5692C8851826C7B /* TuistBundle+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B01CCB60A9F6C7990C5E6 /* TuistBundle+Data.swift */; };
+		F21B87D9664F6DB3C63DAA49 /* WakeyAlarm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6819BEC2FA552E8D597D1513 /* WakeyAlarm.xcdatamodeld */; };
+		FCB40CDF60A90BC57D4281C0 /* TuistBundle+DataStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BE00B4CFB28A99887BB589 /* TuistBundle+DataStage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,17 +104,26 @@
 
 /* Begin PBXFileReference section */
 		033B57EACF093CA22F91EAB9 /* Data-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Data-Info.plist"; sourceTree = "<group>"; };
+		04AFD069242FC60B772B496D /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		06FAA1459D11CCE724C34195 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		217A80FF84411549DFF0DEEB /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		48BE00B4CFB28A99887BB589 /* TuistBundle+DataStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+DataStage.swift"; sourceTree = "<group>"; };
 		4E75197C294DE74F5162FAA7 /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		638B01CCB60A9F6C7990C5E6 /* TuistBundle+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+Data.swift"; sourceTree = "<group>"; };
 		7A3B80E3E0469CF486803FE5 /* Data_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85AEF8306790EE3948130798 /* TuistBundle+DataProd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+DataProd.swift"; sourceTree = "<group>"; };
 		8CBFE81BEC9C7DB12BA8847A /* Data_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F8F2D8535167882EE6052BF /* DataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DataTests-Info.plist"; sourceTree = "<group>"; };
+		A2C6A3C647D681FDC70450D6 /* TuistBundle+DataDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+DataDebug.swift"; sourceTree = "<group>"; };
 		BCD5FBC6570BA760BF5A32A6 /* Data_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C487F5D2277BCC8A01F51AE0 /* DataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C92681ED2948037BE42E8E88 /* AlarmRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmRepository.swift; sourceTree = "<group>"; };
 		CD19C7E1A0FCDC95B88A7F7F /* Data-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Data-Debug-Info.plist"; sourceTree = "<group>"; };
+		D19F4A92CFB03C120B19A4AD /* AlarmEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmEntity.swift; sourceTree = "<group>"; };
 		E2D19B700B3BA97E99FE5E47 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 		E781E48E1B0296F5471949E3 /* Data-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Data-Prod-Info.plist"; sourceTree = "<group>"; };
 		FB2CDD54B405B030F1B9188F /* Data-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Data-Stage-Info.plist"; sourceTree = "<group>"; };
+		FC11F48D016409AE26CC7051 /* WakeyAlarm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WakeyAlarm.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9A57F3BECBF7B945E2B7086 /* Domain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCEF985E024D909BF099217E /* Domain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				901ACA7B98089AB702ADA830 /* Domain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49DF3B5BEFA5D8E9943F4413 /* Domain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +178,20 @@
 				7A3B80E3E0469CF486803FE5 /* Data_Stage.framework */,
 				4E75197C294DE74F5162FAA7 /* Data.framework */,
 				C487F5D2277BCC8A01F51AE0 /* DataTests.xctest */,
+				06FAA1459D11CCE724C34195 /* Domain.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		22922DDCC365BA5FCFCB2515 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				638B01CCB60A9F6C7990C5E6 /* TuistBundle+Data.swift */,
+				A2C6A3C647D681FDC70450D6 /* TuistBundle+DataDebug.swift */,
+				85AEF8306790EE3948130798 /* TuistBundle+DataProd.swift */,
+				48BE00B4CFB28A99887BB589 /* TuistBundle+DataStage.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		2A98E2F78D145C414B160895 /* Sources */ = {
@@ -153,6 +202,14 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		4A97E3DA1312611007289D2E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6819BEC2FA552E8D597D1513 /* WakeyAlarm.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		7045B46D354F7247FDAED17D /* DataTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,12 +218,28 @@
 			path = DataTests;
 			sourceTree = "<group>";
 		};
+		73F3ED55BFDC2EF15878F5B6 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				C92681ED2948037BE42E8E88 /* AlarmRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
 		8A6D38DA6706D1F4DD8A055B = {
 			isa = PBXGroup;
 			children = (
 				EF3121301A12FEB266E0B923 /* Project */,
 				20629251A4CAB947CD938921 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		8DECF4AD65961D67B46A2DB0 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				04AFD069242FC60B772B496D /* PersistenceController.swift */,
+			);
+			path = Persistence;
 			sourceTree = "<group>";
 		};
 		AABE3A120DFAA5B30C74694C /* InfoPlists */ = {
@@ -185,6 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				AABE3A120DFAA5B30C74694C /* InfoPlists */,
+				22922DDCC365BA5FCFCB2515 /* Sources */,
 			);
 			path = Derived;
 			sourceTree = "<group>";
@@ -192,6 +266,9 @@
 		C590795A2658F92D49B27E8D /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				F1FA4BA61889B6910C227A92 /* Entity */,
+				8DECF4AD65961D67B46A2DB0 /* Persistence */,
+				73F3ED55BFDC2EF15878F5B6 /* Repository */,
 				E2D19B700B3BA97E99FE5E47 /* Base.swift */,
 			);
 			path = Sources;
@@ -202,9 +279,18 @@
 			children = (
 				7045B46D354F7247FDAED17D /* DataTests */,
 				C25E2D135BFBAC1019949D62 /* Derived */,
+				4A97E3DA1312611007289D2E /* Resources */,
 				C590795A2658F92D49B27E8D /* Sources */,
 			);
 			name = Project;
+			sourceTree = "<group>";
+		};
+		F1FA4BA61889B6910C227A92 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				D19F4A92CFB03C120B19A4AD /* AlarmEntity.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,7 +472,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF1758E6E5692C8851826C7B /* TuistBundle+Data.swift in Sources */,
 				D851B717CE35E8FCEA601B63 /* Base.swift in Sources */,
+				E63DF27FCDA3C9D6B1E3BDEB /* AlarmEntity.swift in Sources */,
+				2ED50DF31D798D7F41CA63B2 /* PersistenceController.swift in Sources */,
+				3F7CE806D1E28CD077785F6F /* AlarmRepository.swift in Sources */,
+				F21B87D9664F6DB3C63DAA49 /* WakeyAlarm.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +485,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7CC56A63D99DC287F023391 /* TuistBundle+DataDebug.swift in Sources */,
 				68049A27C8544686FDB163C6 /* Base.swift in Sources */,
+				C1666B37FA198B6F593163C4 /* AlarmEntity.swift in Sources */,
+				8B74EC101DB1912E1FA02AD1 /* PersistenceController.swift in Sources */,
+				E70E52CC7B41B709E2B31AFE /* AlarmRepository.swift in Sources */,
+				997755C7C3E8740A13DBAEBB /* WakeyAlarm.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,7 +498,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F2F20A59ED8FFD1146EC3A9 /* TuistBundle+DataProd.swift in Sources */,
 				DB2AC58BF76813A906D4EBB5 /* Base.swift in Sources */,
+				9B66971817A98482BC3A84FC /* AlarmEntity.swift in Sources */,
+				1A1CC298E29FBBB6F54DE422 /* PersistenceController.swift in Sources */,
+				455A18B8563295482505ECF0 /* AlarmRepository.swift in Sources */,
+				B822277CF47097CD8AF7F738 /* WakeyAlarm.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +511,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCB40CDF60A90BC57D4281C0 /* TuistBundle+DataStage.swift in Sources */,
 				C3CB9F36C77526BEF6E62C4E /* Base.swift in Sources */,
+				9BB9DEA8B01BBCCC8D74521C /* AlarmEntity.swift in Sources */,
+				01970B39933B1BC6E296FB77 /* PersistenceController.swift in Sources */,
+				961369F792C438E987DB221C /* AlarmRepository.swift in Sources */,
+				2038C30A238F4884C595EC11 /* WakeyAlarm.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,7 +581,6 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.Data;
 				PRODUCT_NAME = Data_Stage;
 				SDKROOT = iphoneos;
@@ -509,7 +614,6 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.Data;
 				PRODUCT_NAME = Data_Prod;
 				SDKROOT = iphoneos;
@@ -547,7 +651,6 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.Data;
 				PRODUCT_NAME = Data_Debug;
 				SDKROOT = iphoneos;
@@ -581,7 +684,6 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.Data;
 				PRODUCT_NAME = Data;
 				SDKROOT = iphoneos;
@@ -619,7 +721,6 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.Data;
 				PRODUCT_NAME = Data_Debug;
 				SDKROOT = iphoneos;
@@ -657,7 +758,6 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.Data;
 				PRODUCT_NAME = Data;
 				SDKROOT = iphoneos;
@@ -691,7 +791,6 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.Data;
 				PRODUCT_NAME = Data_Prod;
 				SDKROOT = iphoneos;
@@ -784,7 +883,6 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.Data;
 				PRODUCT_NAME = Data_Stage;
 				SDKROOT = iphoneos;
@@ -944,6 +1042,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6819BEC2FA552E8D597D1513 /* WakeyAlarm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC11F48D016409AE26CC7051 /* WakeyAlarm.xcdatamodel */,
+			);
+			currentVersion = FC11F48D016409AE26CC7051 /* WakeyAlarm.xcdatamodel */;
+			path = WakeyAlarm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 848E6C78DE33F20387FB92DE /* Project object */;
 }

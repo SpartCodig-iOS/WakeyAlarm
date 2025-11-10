@@ -5,17 +5,36 @@
 //  Created by 김민희 on 11/4/25.
 //
 
-import Foundation
 import SwiftUI
 import Domain
+import Data
 import DesignSystem
 
 public struct AlarmView: View {
-  @StateObject private var intent = AlarmIntent()
+  @StateObject private var alarmIntent: AlarmIntent
+  @StateObject private var addAlarmIntent: AddAlarmIntent
   @State private var isShowingAddModal = false
 
-  public init() {
-  }
+  public init(
+     fetchAlarmsUseCase: FetchAlarmsUseCaseProtocol = FetchAlarmsUseCase(repository:
+   AlarmRepository()),
+     toggleAlarmUseCase: ToggleAlarmUseCaseProtocol = ToggleAlarmUseCase(repository:
+   AlarmRepository()),
+     deleteAlarmUseCase: DeleteAlarmUseCaseProtocol = DeleteAlarmUseCase(repository:
+   AlarmRepository()),
+     addAlarmUseCase: AddAlarmUseCaseProtocol = AddAlarmUseCase(repository:
+   AlarmRepository())
+   ) {
+     let alarmIntent = AlarmIntent(
+       fetchAlarmsUseCase: fetchAlarmsUseCase,
+       toggleAlarmUseCase: toggleAlarmUseCase,
+       deleteAlarmUseCase: deleteAlarmUseCase
+     )
+     let addAlarmIntent = AddAlarmIntent(addAlarmUseCase: addAlarmUseCase)
+     _alarmIntent = StateObject(wrappedValue: alarmIntent)
+     _addAlarmIntent = StateObject(wrappedValue: addAlarmIntent)
+   }
+
 
   public var body: some View {
     ZStack {
@@ -27,7 +46,7 @@ public struct AlarmView: View {
 
         Divider()
 
-        HStack(spacing: 0) {
+        HStack {
           Spacer()
           Button {
             withAnimation(.spring()) {
@@ -43,26 +62,22 @@ public struct AlarmView: View {
         .padding(.horizontal, 16)
         .padding(.top, 8)
 
-        if intent.state.alarms.isEmpty {
-          VStack(spacing: 0) {
-            HStack(spacing: 0) {
-              Spacer()
-              Text("등록된 알람이 없습니다.")
-                .foregroundColor(.dimGray)
-                .font(.pretendardFont(family: .medium, size: 16))
-                .padding(.top, 100)
-              Spacer()
-            }
+        if alarmIntent.state.alarms.isEmpty {
+          VStack {
+            Spacer()
+            Text("등록된 알람이 없습니다.")
+              .foregroundColor(.dimGray)
+              .font(.pretendardFont(family: .medium, size: 16))
             Spacer()
           }
         } else {
           ScrollView {
             VStack(spacing: 12) {
-              ForEach(intent.state.alarms, id: \.id) { alarm in
+              ForEach(alarmIntent.state.alarms, id: \.id) { alarm in
                 AlarmCellView(
                   alarm: alarm,
-                  onToggle: { intent.intent(.toggleAlarm(alarm.id)) },
-                  onDelete: { intent.intent(.deleteAlarm(alarm.id)) }
+                  onToggle: { alarmIntent.intent(.toggleAlarm(alarm.id)) },
+                  onDelete: { alarmIntent.intent(.deleteAlarm(alarm.id)) }
                 )
               }
             }
@@ -76,13 +91,12 @@ public struct AlarmView: View {
           .ignoresSafeArea()
           .transition(.opacity)
           .onTapGesture {
-            withAnimation(.spring()) {
-              isShowingAddModal = false
-            }
+            withAnimation(.spring()) { isShowingAddModal = false }
           }
 
         AddAlarmView(
-          alarmIntent: intent,
+          alarmIntent: alarmIntent,
+          addIntent: addAlarmIntent,
           isPresented: $isShowingAddModal
         )
         .padding(.horizontal, 16)
@@ -90,10 +104,9 @@ public struct AlarmView: View {
         .zIndex(1)
       }
     }
+    .onAppear {
+      alarmIntent.intent(.loadAlarms)
+    }
     .animation(.spring(), value: isShowingAddModal)
   }
-}
-
-#Preview {
-  AlarmView()
 }

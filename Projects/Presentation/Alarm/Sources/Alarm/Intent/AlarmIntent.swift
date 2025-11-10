@@ -17,17 +17,57 @@ final class AlarmIntent: ObservableObject, BaseIntent {
 
   @Published private(set) var state = State()
 
+  private let fetchAlarmsUseCase: FetchAlarmsUseCaseProtocol
+  private let toggleAlarmUseCase: ToggleAlarmUseCaseProtocol
+  private let deleteAlarmUseCase: DeleteAlarmUseCaseProtocol
+
+  init(
+    fetchAlarmsUseCase: FetchAlarmsUseCaseProtocol,
+    toggleAlarmUseCase: ToggleAlarmUseCaseProtocol,
+    deleteAlarmUseCase: DeleteAlarmUseCaseProtocol
+  ) {
+    self.fetchAlarmsUseCase = fetchAlarmsUseCase
+    self.toggleAlarmUseCase = toggleAlarmUseCase
+    self.deleteAlarmUseCase = deleteAlarmUseCase
+  }
+
   func intent(_ userIntent: Intent) {
     switch userIntent {
     case .loadAlarms:
-      // TODO: 나중에 CoreData fetch 로직 추가
-      break
+      Task {
+        do {
+          let alarms = try fetchAlarmsUseCase.execute()
+          await MainActor.run {
+            state = reduce(state, .alarmsLoaded(alarms))
+          }
+        } catch {
+          print("Failed to fetch alarms: \(error)")
+        }
+      }
 
     case .toggleAlarm(let id):
-      state = reduce(state, .alarmToggled(id))
+      Task {
+        do {
+          try toggleAlarmUseCase.execute(id: id)
+          await MainActor.run {
+            state = reduce(state, .alarmToggled(id))
+          }
+        } catch {
+          print("Toggle failed: \(error)")
+        }
+      }
 
     case .deleteAlarm(let id):
-      state = reduce(state, .alarmDeleted(id))
+      Task {
+        do {
+          try deleteAlarmUseCase.execute(id: id)
+          await MainActor.run {
+            state = reduce(state, .alarmDeleted(id))
+          }
+        } catch {
+          print("Delete failed: \(error)")
+        }
+      }
 
     case .addAlarm(let alarm):
       state = reduce(state, .alarmAdded(alarm))

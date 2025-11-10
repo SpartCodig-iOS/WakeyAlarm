@@ -18,6 +18,12 @@ final class AddAlarmIntent: ObservableObject, BaseIntent {
 
   @Published private(set) var state = State()
 
+  private let addAlarmUseCase: AddAlarmUseCaseProtocol
+
+  init(addAlarmUseCase: AddAlarmUseCaseProtocol) {
+    self.addAlarmUseCase = addAlarmUseCase
+  }
+
   func intent(_ userIntent: Intent) {
     switch userIntent {
     case .setTime(let time):
@@ -34,9 +40,19 @@ final class AddAlarmIntent: ObservableObject, BaseIntent {
         title: state.title.isEmpty ? "알람" : state.title,
         time: state.time,
         isEnabled: true,
-        repeatDays: Array(state.repeatDays)
+        repeatDays: Array(state.repeatDays),
+        soundTitle: state.soundTitle
       )
-      state = reduce(state, .alarmAdded(alarm))
+      Task {
+        do {
+          try addAlarmUseCase.execute(alarm)
+          await MainActor.run {
+            state = reduce(state, .alarmAdded(alarm))
+          }
+        } catch {
+          print("Add alarm failed: \(error)")
+        }
+      }
     }
   }
 
