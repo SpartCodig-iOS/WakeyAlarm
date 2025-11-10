@@ -1,7 +1,6 @@
 import SwiftUI
 import Presentation
 import Shared
-import StopWatch
 
 #if canImport(ActivityKit)
 import ActivityKit
@@ -12,6 +11,7 @@ struct WakeyAlarmApp: App {
 
   var body: some Scene {
     WindowGroup {
+//      AlarmView()
       StopWatchView(widgetActivityDelegateProvider: {
         return WidgetActivityManager.shared
       })
