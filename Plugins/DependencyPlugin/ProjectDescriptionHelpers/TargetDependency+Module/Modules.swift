@@ -21,6 +21,8 @@ public enum ModulePath {
 public extension ModulePath {
   enum Presentations: String, CaseIterable {
     case Alarm 
+    case Presentation
+    case StopWatch
 
 
     public static let name: String = "Presentation"

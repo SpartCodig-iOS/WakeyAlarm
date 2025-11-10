@@ -34,6 +34,15 @@
          <FileRef
             location = "group:Alarm/Alarm.xcodeproj">
          </FileRef>
+         <FileRef
+            location = "group:Presentation/Presentation.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:StopWatch/StopWatch.xcodeproj">
+         </FileRef>
+         <FileRef
+            location = "group:Widget/WakeyAlarmWidget.xcodeproj">
+         </FileRef>
       </Group>
       <Group
          location = "group:Shared"

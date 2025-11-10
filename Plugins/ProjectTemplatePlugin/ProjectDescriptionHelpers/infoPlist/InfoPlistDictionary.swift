@@ -185,4 +185,29 @@ extension InfoPlistDictionary {
   func setBaseURL(_ value: String) -> InfoPlistDictionary {
     return self.merging(["BASE_URL": .string(value)]) { (_, new) in new }
   }
+
+  // MARK: - Dynamic Island & Live Activities
+  func setSupportsLiveActivities(_ value: Bool) -> InfoPlistDictionary {
+    return self.merging(["NSSupportsLiveActivities": .boolean(value)]) { (_, new) in new }
+  }
+
+  func setSupportsLiveActivitiesFrequentUpdates(_ value: Bool) -> InfoPlistDictionary {
+    return self.merging(["NSSupportsLiveActivitiesFrequentUpdates": .boolean(value)]) { (_, new) in new }
+  }
+
+  // Widget Extension용 Info.plist 설정
+  func setWidgetExtensionConfig() -> InfoPlistDictionary {
+    let dict: [String: Plist.Value] = [
+      "CFBundleDisplayName": .string("$(PRODUCT_NAME)"),
+      "NSExtension": .dictionary([
+        "NSExtensionPointIdentifier": .string("com.apple.widgetkit-extension")
+      ])
+    ]
+    return self.merging(dict) { (_, new) in new }
+  }
+
+  // 백그라운드 실행 권한 설정
+  func setUIBackgroundModes(_ modes: [String]) -> InfoPlistDictionary {
+    return self.merging(["UIBackgroundModes": .array(modes.map { .string($0) })]) { (_, new) in new }
+  }
 }

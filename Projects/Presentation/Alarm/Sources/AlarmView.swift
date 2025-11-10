@@ -10,8 +10,11 @@ import SwiftUI
 import Domain
 import DesignSystem
 
-struct AlarmView: View {
-  var body: some View {
+public struct AlarmView: View {
+
+  public init() {}
+
+  public var body: some View {
     VStack(alignment: .leading, spacing: 0) {
       Text("알람")
         .font(.pretendardFont(family: .medium, size: 24))

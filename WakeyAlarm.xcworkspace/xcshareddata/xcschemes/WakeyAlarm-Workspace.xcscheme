@@ -532,6 +532,76 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3F31459B2DA9E5BB7B7E73E2"
+               BuildableName = "Presentation.framework"
+               BlueprintName = "Presentation"
+               ReferencedContainer = "container:Projects/Presentation/Presentation/Presentation.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B7C870EAA303F7201B1090CB"
+               BuildableName = "Presentation_Debug.framework"
+               BlueprintName = "Presentation-Debug"
+               ReferencedContainer = "container:Projects/Presentation/Presentation/Presentation.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B07DE38A7388D6FD68842E91"
+               BuildableName = "Presentation_Prod.framework"
+               BlueprintName = "Presentation-Prod"
+               ReferencedContainer = "container:Projects/Presentation/Presentation/Presentation.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4706F81838C88054394C55DD"
+               BuildableName = "Presentation_Stage.framework"
+               BlueprintName = "Presentation-Stage"
+               ReferencedContainer = "container:Projects/Presentation/Presentation/Presentation.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4F649FDB9C5521442A78DE10"
+               BuildableName = "PresentationTests.xctest"
+               BlueprintName = "PresentationTests"
+               ReferencedContainer = "container:Projects/Presentation/Presentation/Presentation.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "3F5E725EB25BB5E4543E24FA"
                BuildableName = "Shared.framework"
                BlueprintName = "Shared"
@@ -592,6 +662,76 @@
                BuildableName = "SharedTests.xctest"
                BlueprintName = "SharedTests"
                ReferencedContainer = "container:Projects/Shared/Shared/Shared.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E12AFEB3D6484521400E3304"
+               BuildableName = "StopWatch.framework"
+               BlueprintName = "StopWatch"
+               ReferencedContainer = "container:Projects/Presentation/StopWatch/StopWatch.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9C90E7CD47BF4847BDC788D5"
+               BuildableName = "StopWatch_Debug.framework"
+               BlueprintName = "StopWatch-Debug"
+               ReferencedContainer = "container:Projects/Presentation/StopWatch/StopWatch.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6130393CFD470E0D52AB9D8E"
+               BuildableName = "StopWatch_Prod.framework"
+               BlueprintName = "StopWatch-Prod"
+               ReferencedContainer = "container:Projects/Presentation/StopWatch/StopWatch.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2404AF2E41FCCC915A6CB3B2"
+               BuildableName = "StopWatch_Stage.framework"
+               BlueprintName = "StopWatch-Stage"
+               ReferencedContainer = "container:Projects/Presentation/StopWatch/StopWatch.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "64980C9A541FF5B0718FA2D5"
+               BuildableName = "StopWatchTests.xctest"
+               BlueprintName = "StopWatchTests"
+               ReferencedContainer = "container:Projects/Presentation/StopWatch/StopWatch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -1022,6 +1162,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6F01BF530A754DA48D88390E"
+               BuildableName = "WakeyAlarmWidget.appex"
+               BlueprintName = "WakeyAlarmWidget"
+               ReferencedContainer = "container:Projects/Presentation/Widget/WakeyAlarmWidget.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "B46CEF9DFD643A5EA2E75FD5"
                BuildableName = "WeaveDI.framework"
                BlueprintName = "WeaveDI"
@@ -1138,10 +1292,32 @@
             parallelizable = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4F649FDB9C5521442A78DE10"
+               BuildableName = "PresentationTests.xctest"
+               BlueprintName = "PresentationTests"
+               ReferencedContainer = "container:Projects/Presentation/Presentation/Presentation.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "1B1376E59ED7F9AA6CB3D0FF"
                BuildableName = "SharedTests.xctest"
                BlueprintName = "SharedTests"
                ReferencedContainer = "container:Projects/Shared/Shared/Shared.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "64980C9A541FF5B0718FA2D5"
+               BuildableName = "StopWatchTests.xctest"
+               BlueprintName = "StopWatchTests"
+               ReferencedContainer = "container:Projects/Presentation/StopWatch/StopWatch.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference

@@ -8,7 +8,7 @@ let project = Project.makeAppModule(
   name: "Alarm",
   bundleId: .appBundleID(name: ".Alarm"),
   product: .staticFramework,
-  settings:  .settings(),
+  settings: .settings(),
   dependencies: [
     .Domain(implements: .Domain),
     .Shared(implements: .DesignSystem)

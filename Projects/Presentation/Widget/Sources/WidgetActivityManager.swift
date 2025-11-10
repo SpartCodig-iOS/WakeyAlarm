@@ -1,0 +1,4 @@
+import StopWatch
+
+public typealias WidgetActivityManager = StopWatch.WidgetActivityManager
+public typealias StopWatchActivityAttributes = StopWatch.StopWatchActivityAttributes

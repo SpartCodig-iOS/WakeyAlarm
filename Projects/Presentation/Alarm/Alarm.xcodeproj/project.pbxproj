@@ -3,14 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0127DAB5755F64ABC3E40D35 /* AlarmTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C883968372C9105F70F6F92 /* AlarmTitle.swift */; };
+		0472257198A687494F8BDA42 /* AlarmSoundPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABB865B7E907C1A99814EFA /* AlarmSoundPicker.swift */; };
 		0614E021AA08552E871D8E5E /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490460A3DE6DA4E92C1320A3 /* AlarmView.swift */; };
+		07EFFB8B010BD399444DB18E /* TimePickerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305C9A8C6FA8AD8264DA5A18 /* TimePickerField.swift */; };
 		0A2FD077E6E051FE2CF1AF82 /* Domain.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4554B90D8BE596D791D002B2 /* Domain.framework */; };
+		0B02255DF212EE8DDB0F0475 /* AlarmTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C883968372C9105F70F6F92 /* AlarmTitle.swift */; };
 		0B63C33280FCE46CC4CFB07C /* AlarmCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363AECF680C3D860CE1BCB32 /* AlarmCellView.swift */; };
 		1785EB4654A16EE81A04A3C7 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7708801B993AC2C223298 /* Base.swift */; };
+		1C05119B4F272A2B0C344F8A /* AlarmSoundPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABB865B7E907C1A99814EFA /* AlarmSoundPicker.swift */; };
 		1F9BCFF8D2492A5BFC8B74CB /* AlarmCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363AECF680C3D860CE1BCB32 /* AlarmCellView.swift */; };
 		2064EAEFD81E5E323A66F1D8 /* RepeatDaySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD540ECB24FC3EE6D25B5D6 /* RepeatDaySelector.swift */; };
 		230AE873249E0EB31B834761 /* Alarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029E40A6BBE695E1714DC4AB /* Alarm.framework */; };
@@ -18,6 +23,7 @@
 		24BA8C7279655E43446675A8 /* AlarmCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363AECF680C3D860CE1BCB32 /* AlarmCellView.swift */; };
 		292E6DCC39E5303E08477221 /* DesignSystem.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 867C1055816429DF0C747DB2 /* DesignSystem.framework */; };
 		293F87DD89044D776F9B77C1 /* AddAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D916DBC5432E22E0C81D4E /* AddAlarmView.swift */; };
+		32427F9B60851BE46EB168FA /* AlarmTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C883968372C9105F70F6F92 /* AlarmTitle.swift */; };
 		33D6C87E680EE0875437251E /* DesignSystem_DesignSystem.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 34D31CE697F2AA57BEB2EBEE /* DesignSystem_DesignSystem.bundle */; };
 		3A15726EC217FB4C7EE203B9 /* AlarmCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363AECF680C3D860CE1BCB32 /* AlarmCellView.swift */; };
 		3A30C41120D3609117FCE3D2 /* Domain.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4554B90D8BE596D791D002B2 /* Domain.framework */; };
@@ -27,31 +33,25 @@
 		64767047607498E50C45DC6B /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7708801B993AC2C223298 /* Base.swift */; };
 		657855392581A4CC2FAEC607 /* RepeatDaySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD540ECB24FC3EE6D25B5D6 /* RepeatDaySelector.swift */; };
 		6998060A4A5A13C94C4491D4 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4554B90D8BE596D791D002B2 /* Domain.framework */; };
+		6BC7FCD0562FED5031752BA7 /* AlarmTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C883968372C9105F70F6F92 /* AlarmTitle.swift */; };
 		8AC146E4D03E9D8AC6221E2E /* DesignSystem.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 867C1055816429DF0C747DB2 /* DesignSystem.framework */; };
 		8B578F1F58E713FDDD8C4F4A /* Domain.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4554B90D8BE596D791D002B2 /* Domain.framework */; };
 		8EA0DF37CBD45F154004080F /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7708801B993AC2C223298 /* Base.swift */; };
 		9756A0D945F598B4B004FD4A /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647233F111392A1C34200CB0 /* Test.swift */; };
 		98AB239AFEC121F1726CD8EE /* AddAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D916DBC5432E22E0C81D4E /* AddAlarmView.swift */; };
 		98E38B151CE44AF16F2DF5A9 /* DesignSystem.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 867C1055816429DF0C747DB2 /* DesignSystem.framework */; };
+		98E4A60270374A4C62207C6B /* TimePickerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305C9A8C6FA8AD8264DA5A18 /* TimePickerField.swift */; };
+		A129D9812AB049E003CFB350 /* TimePickerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305C9A8C6FA8AD8264DA5A18 /* TimePickerField.swift */; };
+		AC052C204F7E202A14F1BD59 /* AlarmSoundPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABB865B7E907C1A99814EFA /* AlarmSoundPicker.swift */; };
 		B168710C32FADA6CFC534EDA /* AddAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D916DBC5432E22E0C81D4E /* AddAlarmView.swift */; };
 		B839A35F94C7AE4D7C829C61 /* DesignSystem.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 867C1055816429DF0C747DB2 /* DesignSystem.framework */; };
 		BF17FEFE43E9A86A146843AF /* AddAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D916DBC5432E22E0C81D4E /* AddAlarmView.swift */; };
 		C8F2430A77FC61A2E2D8AD3A /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867C1055816429DF0C747DB2 /* DesignSystem.framework */; };
 		DE22F6BEC69639C7A2DDD24A /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490460A3DE6DA4E92C1320A3 /* AlarmView.swift */; };
 		DFECFFE77BE038CA06E66E22 /* Domain.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4554B90D8BE596D791D002B2 /* Domain.framework */; };
-		F29938062EBB42580075E642 /* TimePickerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29938052EBB42580075E642 /* TimePickerField.swift */; };
-		F29938072EBB42580075E642 /* TimePickerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29938052EBB42580075E642 /* TimePickerField.swift */; };
-		F29938082EBB42580075E642 /* TimePickerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29938052EBB42580075E642 /* TimePickerField.swift */; };
-		F29938092EBB42580075E642 /* TimePickerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29938052EBB42580075E642 /* TimePickerField.swift */; };
-		F299380B2EBB454B0075E642 /* AlarmSoundPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F299380A2EBB454B0075E642 /* AlarmSoundPicker.swift */; };
-		F299380C2EBB454B0075E642 /* AlarmSoundPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F299380A2EBB454B0075E642 /* AlarmSoundPicker.swift */; };
-		F299380D2EBB454B0075E642 /* AlarmSoundPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F299380A2EBB454B0075E642 /* AlarmSoundPicker.swift */; };
-		F299380E2EBB454B0075E642 /* AlarmSoundPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F299380A2EBB454B0075E642 /* AlarmSoundPicker.swift */; };
-		F29938102EBB46B60075E642 /* AlarmTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F299380F2EBB46AD0075E642 /* AlarmTitle.swift */; };
-		F29938112EBB46B60075E642 /* AlarmTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F299380F2EBB46AD0075E642 /* AlarmTitle.swift */; };
-		F29938122EBB46B60075E642 /* AlarmTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F299380F2EBB46AD0075E642 /* AlarmTitle.swift */; };
-		F29938132EBB46B60075E642 /* AlarmTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F299380F2EBB46AD0075E642 /* AlarmTitle.swift */; };
+		E393418FCF5ECC66C7A0C648 /* AlarmSoundPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABB865B7E907C1A99814EFA /* AlarmSoundPicker.swift */; };
 		F5A89FC0E6D9F4526C516293 /* RepeatDaySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD540ECB24FC3EE6D25B5D6 /* RepeatDaySelector.swift */; };
+		F663F9798167CC7AB3CAB49D /* TimePickerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305C9A8C6FA8AD8264DA5A18 /* TimePickerField.swift */; };
 		FEDB5536E47E06165E605079 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7708801B993AC2C223298 /* Base.swift */; };
 /* End PBXBuildFile section */
 
@@ -176,6 +176,8 @@
 		029E40A6BBE695E1714DC4AB /* Alarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DE5945D299014C5755D240 /* Alarm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Alarm-Info.plist"; sourceTree = "<group>"; };
 		0C87D5567DE3B1557A7261EB /* Alarm_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alarm_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C883968372C9105F70F6F92 /* AlarmTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTitle.swift; sourceTree = "<group>"; };
+		305C9A8C6FA8AD8264DA5A18 /* TimePickerField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerField.swift; sourceTree = "<group>"; };
 		34D31CE697F2AA57BEB2EBEE /* DesignSystem_DesignSystem.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystem_DesignSystem.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		363AECF680C3D860CE1BCB32 /* AlarmCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmCellView.swift; sourceTree = "<group>"; };
 		3AD2721D5481D38E36AF65F3 /* Alarm-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Alarm-Debug-Info.plist"; sourceTree = "<group>"; };
@@ -188,11 +190,9 @@
 		B5D916DBC5432E22E0C81D4E /* AddAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmView.swift; sourceTree = "<group>"; };
 		BBBB39DF8B3F84960C552AFA /* Alarm-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Alarm-Prod-Info.plist"; sourceTree = "<group>"; };
 		BCCABBA0130E099C3315A2E8 /* AlarmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AlarmTests-Info.plist"; sourceTree = "<group>"; };
+		CABB865B7E907C1A99814EFA /* AlarmSoundPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmSoundPicker.swift; sourceTree = "<group>"; };
 		D5BB93234BCFFC4F82F3E542 /* AlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB52A6638CA150A32EA9A908 /* Alarm-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Alarm-Stage-Info.plist"; sourceTree = "<group>"; };
-		F29938052EBB42580075E642 /* TimePickerField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerField.swift; sourceTree = "<group>"; };
-		F299380A2EBB454B0075E642 /* AlarmSoundPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmSoundPicker.swift; sourceTree = "<group>"; };
-		F299380F2EBB46AD0075E642 /* AlarmTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTitle.swift; sourceTree = "<group>"; };
 		FCB7708801B993AC2C223298 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 		FD60770EC124908C69230D9E /* Alarm_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alarm_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -311,14 +311,14 @@
 		F1515C7ACF0808C060420F77 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				F299380F2EBB46AD0075E642 /* AlarmTitle.swift */,
-				F299380A2EBB454B0075E642 /* AlarmSoundPicker.swift */,
-				F29938052EBB42580075E642 /* TimePickerField.swift */,
 				B5D916DBC5432E22E0C81D4E /* AddAlarmView.swift */,
 				363AECF680C3D860CE1BCB32 /* AlarmCellView.swift */,
+				CABB865B7E907C1A99814EFA /* AlarmSoundPicker.swift */,
+				2C883968372C9105F70F6F92 /* AlarmTitle.swift */,
 				490460A3DE6DA4E92C1320A3 /* AlarmView.swift */,
 				FCB7708801B993AC2C223298 /* Base.swift */,
 				4FD540ECB24FC3EE6D25B5D6 /* RepeatDaySelector.swift */,
+				305C9A8C6FA8AD8264DA5A18 /* TimePickerField.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -439,6 +439,8 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+				};
 			};
 			buildConfigurationList = F68B06E0E80437659A8417AE /* Build configuration list for PBXProject "Alarm" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -516,12 +518,12 @@
 			files = (
 				BF17FEFE43E9A86A146843AF /* AddAlarmView.swift in Sources */,
 				0B63C33280FCE46CC4CFB07C /* AlarmCellView.swift in Sources */,
-				F29938122EBB46B60075E642 /* AlarmTitle.swift in Sources */,
+				AC052C204F7E202A14F1BD59 /* AlarmSoundPicker.swift in Sources */,
+				0127DAB5755F64ABC3E40D35 /* AlarmTitle.swift in Sources */,
 				DE22F6BEC69639C7A2DDD24A /* AlarmView.swift in Sources */,
-				F29938062EBB42580075E642 /* TimePickerField.swift in Sources */,
-				F299380E2EBB454B0075E642 /* AlarmSoundPicker.swift in Sources */,
 				8EA0DF37CBD45F154004080F /* Base.swift in Sources */,
 				23901E26972E0886E342ADE4 /* RepeatDaySelector.swift in Sources */,
+				98E4A60270374A4C62207C6B /* TimePickerField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,12 +533,12 @@
 			files = (
 				98AB239AFEC121F1726CD8EE /* AddAlarmView.swift in Sources */,
 				24BA8C7279655E43446675A8 /* AlarmCellView.swift in Sources */,
-				F29938102EBB46B60075E642 /* AlarmTitle.swift in Sources */,
+				E393418FCF5ECC66C7A0C648 /* AlarmSoundPicker.swift in Sources */,
+				0B02255DF212EE8DDB0F0475 /* AlarmTitle.swift in Sources */,
 				4D8D8F31362947E04F0F1DFF /* AlarmView.swift in Sources */,
-				F29938072EBB42580075E642 /* TimePickerField.swift in Sources */,
-				F299380B2EBB454B0075E642 /* AlarmSoundPicker.swift in Sources */,
 				1785EB4654A16EE81A04A3C7 /* Base.swift in Sources */,
 				F5A89FC0E6D9F4526C516293 /* RepeatDaySelector.swift in Sources */,
+				F663F9798167CC7AB3CAB49D /* TimePickerField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,12 +548,12 @@
 			files = (
 				B168710C32FADA6CFC534EDA /* AddAlarmView.swift in Sources */,
 				3A15726EC217FB4C7EE203B9 /* AlarmCellView.swift in Sources */,
-				F29938112EBB46B60075E642 /* AlarmTitle.swift in Sources */,
+				1C05119B4F272A2B0C344F8A /* AlarmSoundPicker.swift in Sources */,
+				32427F9B60851BE46EB168FA /* AlarmTitle.swift in Sources */,
 				5E3EF8FF42337618F8625B53 /* AlarmView.swift in Sources */,
-				F29938092EBB42580075E642 /* TimePickerField.swift in Sources */,
-				F299380C2EBB454B0075E642 /* AlarmSoundPicker.swift in Sources */,
 				FEDB5536E47E06165E605079 /* Base.swift in Sources */,
 				657855392581A4CC2FAEC607 /* RepeatDaySelector.swift in Sources */,
+				A129D9812AB049E003CFB350 /* TimePickerField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,12 +563,12 @@
 			files = (
 				293F87DD89044D776F9B77C1 /* AddAlarmView.swift in Sources */,
 				1F9BCFF8D2492A5BFC8B74CB /* AlarmCellView.swift in Sources */,
-				F29938132EBB46B60075E642 /* AlarmTitle.swift in Sources */,
+				0472257198A687494F8BDA42 /* AlarmSoundPicker.swift in Sources */,
+				6BC7FCD0562FED5031752BA7 /* AlarmTitle.swift in Sources */,
 				0614E021AA08552E871D8E5E /* AlarmView.swift in Sources */,
-				F29938082EBB42580075E642 /* TimePickerField.swift in Sources */,
-				F299380D2EBB454B0075E642 /* AlarmSoundPicker.swift in Sources */,
 				64767047607498E50C45DC6B /* Base.swift in Sources */,
 				2064EAEFD81E5E323A66F1D8 /* RepeatDaySelector.swift in Sources */,
+				07EFFB8B010BD399444DB18E /* TimePickerField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,7 +609,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -710,7 +715,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -804,7 +812,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -839,7 +850,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -866,7 +880,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
