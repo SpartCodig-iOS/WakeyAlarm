@@ -9,90 +9,42 @@
 /* Begin PBXBuildFile section */
 		0022B71FD4E49C968604B4BA /* Utill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94F2606E7E958A55416DF32 /* Utill.framework */; };
 		00613BEDB5DF448619D36901 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0DBDA727704EE47A27BFC35 /* Data.framework */; };
-		017D5D3165421C7B9C201144 /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32206975EC04787B73B7C1E /* Dependencies.framework */; };
-		01864F35550DE3509BCC5919 /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32206975EC04787B73B7C1E /* Dependencies.framework */; };
 		03154FA18369CB21CC29E043 /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE87645A97032776452E22F /* DesignSystem.framework */; };
 		03F1ECBEB4598DBAF3E6A96A /* ThirdParty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3856DDE39ED5A0A35BB0A5CC /* ThirdParty.framework */; };
-		05F56538A1C3BBA57614C3F0 /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5903DAA16331C93F6AD367EC /* Clocks.framework */; };
-		087430AE0D88969AD08DD89D /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0289B94C11EC779006322480 /* ConcurrencyExtras.framework */; };
-		0975B9AFC7975169C3F4192F /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235162575549DE8FA608F9B3 /* LogMacro.framework */; };
-		0F7C51CBACDF5C4DA176E637 /* DesignSystem_DesignSystem.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0202CA9E6AAAC0787B68E995 /* DesignSystem_DesignSystem.bundle */; };
-		1405817EB985703CEC7887ED /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9EEE1B771280F5D0FC2736 /* CombineSchedulers.framework */; };
-		1B93E1391C9D0FE688BBFD06 /* IssueReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAE5989CA1A850DF2ECFFFC /* IssueReporting.framework */; };
 		1E1F237D15C09B1985C5B8B5 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8196E0D230E3B4D7406EF3 /* DIContainer.swift */; };
-		21655B7DB99F5780A90E6788 /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B23608FC539D32BD921A4F27 /* OSLog.framework */; };
 		21995C9691207240265FC647 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F283ED3B1CC4250CA598360D /* Swinject.framework */; };
 		21F379B8A447A4833B6DF730 /* Utill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94F2606E7E958A55416DF32 /* Utill.framework */; };
 		25527EECE60BE10B7E6E3CD0 /* Utill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94F2606E7E958A55416DF32 /* Utill.framework */; };
-		2888996E48AFE6DA84C82F30 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62FB4B57EE0B4FF57DB2E98C /* XCTestDynamicOverlay.framework */; };
 		28C60F5E86E6BBB9705E165E /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE59A41CA35A26F7854C331 /* Base.swift */; };
-		29A72758E5DE1FC170292399 /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9EEE1B771280F5D0FC2736 /* CombineSchedulers.framework */; };
-		2BF205096D6E43C76538FE10 /* IssueReportingPackageSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7280F892588925BDA24822 /* IssueReportingPackageSupport.framework */; };
 		2CF9BC0CA6ADBED038448714 /* ThirdParty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3856DDE39ED5A0A35BB0A5CC /* ThirdParty.framework */; };
-		2E6247FD9FF9A4AFB51D2C33 /* DesignSystem_DesignSystem.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 0202CA9E6AAAC0787B68E995 /* DesignSystem_DesignSystem.bundle */; };
-		2EF86EE67C5A3BFCCED506FC /* IssueReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAE5989CA1A850DF2ECFFFC /* IssueReporting.framework */; };
 		2EFF407F99AA82B9B7154575 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F283ED3B1CC4250CA598360D /* Swinject.framework */; };
-		383896881F7D55B42FCC7DD3 /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9EEE1B771280F5D0FC2736 /* CombineSchedulers.framework */; };
 		3CD27A7771B5619224A97E63 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB4E25E72031AA3F8CFD4B8 /* Domain.framework */; };
-		40147577D3A33D54BD1D13A6 /* DesignSystem_DesignSystem.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0202CA9E6AAAC0787B68E995 /* DesignSystem_DesignSystem.bundle */; };
-		43AE838DD16336C2A50D69DB /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235162575549DE8FA608F9B3 /* LogMacro.framework */; };
-		443B49B0DC76D7CB16725F10 /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0289B94C11EC779006322480 /* ConcurrencyExtras.framework */; };
 		444B568402F0558ED80FFCFC /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8196E0D230E3B4D7406EF3 /* DIContainer.swift */; };
-		4529F786B0A823381DC98676 /* IssueReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAE5989CA1A850DF2ECFFFC /* IssueReporting.framework */; };
 		45B7961C2229348254D4C588 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0DBDA727704EE47A27BFC35 /* Data.framework */; };
-		4A9D11A89F1A720CB9834D37 /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235162575549DE8FA608F9B3 /* LogMacro.framework */; };
 		4C142838153FC801B76E58BE /* ThirdParty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3856DDE39ED5A0A35BB0A5CC /* ThirdParty.framework */; };
-		54260EA02E8B71A45810E193 /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5903DAA16331C93F6AD367EC /* Clocks.framework */; };
 		5B3F8186F816AC35F773851A /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632266C13B1A17FC36023A1F /* Shared.swift */; };
-		5B58896712EA4EED7415FA70 /* IssueReportingPackageSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7280F892588925BDA24822 /* IssueReportingPackageSupport.framework */; };
-		5DA7E9E2165F3960B3491768 /* WeaveDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 081628E33331B4D46B161FA4 /* WeaveDI.framework */; };
-		63124C5C7F27B8B0D63E0178 /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235162575549DE8FA608F9B3 /* LogMacro.framework */; };
 		67A2E400A5A889969B6470C5 /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE87645A97032776452E22F /* DesignSystem.framework */; };
-		6DF69F1F2E0AD3E3D12891EE /* DesignSystem_DesignSystem.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0202CA9E6AAAC0787B68E995 /* DesignSystem_DesignSystem.bundle */; };
-		7676EEE4F20ADCFF07CD061A /* IssueReportingPackageSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7280F892588925BDA24822 /* IssueReportingPackageSupport.framework */; };
 		79D754C55D2E38EF431F6C6E /* Utill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94F2606E7E958A55416DF32 /* Utill.framework */; };
-		82115ADAA17E9AA1B92C6A84 /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0289B94C11EC779006322480 /* ConcurrencyExtras.framework */; };
 		860C7B057FAF29DCBB45F57E /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB4E25E72031AA3F8CFD4B8 /* Domain.framework */; };
 		88FBDD2ECB0B403EFDE09761 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F283ED3B1CC4250CA598360D /* Swinject.framework */; };
 		89C32FEEDA0B82CC612D3079 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB4E25E72031AA3F8CFD4B8 /* Domain.framework */; };
-		8B1743BB964CBBF3F6F4D7D6 /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9EEE1B771280F5D0FC2736 /* CombineSchedulers.framework */; };
 		8D171D4B8558EB268B5356C5 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8196E0D230E3B4D7406EF3 /* DIContainer.swift */; };
-		9369B8AFF277E22B1F471B34 /* DesignSystem_DesignSystem.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 0202CA9E6AAAC0787B68E995 /* DesignSystem_DesignSystem.bundle */; };
 		9680889182D21A15CA876404 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB4E25E72031AA3F8CFD4B8 /* Domain.framework */; };
 		9817D2C943F4DA244E2C9100 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE59A41CA35A26F7854C331 /* Base.swift */; };
 		9AD170BB1D7EB98AD04D63AF /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080C58231FCEDC083F899294 /* Shared.framework */; };
 		9BB714BD195FF57C46FACBED /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F283ED3B1CC4250CA598360D /* Swinject.framework */; };
 		9CF4B5BC56144FE43E40C509 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632266C13B1A17FC36023A1F /* Shared.swift */; };
-		9FC800831D2F1154475F5EDD /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62FB4B57EE0B4FF57DB2E98C /* XCTestDynamicOverlay.framework */; };
-		A20811E5791D407909A61124 /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0289B94C11EC779006322480 /* ConcurrencyExtras.framework */; };
-		A589FC6E8D9324FF5EAA5E16 /* IssueReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAE5989CA1A850DF2ECFFFC /* IssueReporting.framework */; };
-		A95FDA4C5187D4E766AEDEA1 /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32206975EC04787B73B7C1E /* Dependencies.framework */; };
 		AC880862246B06FA7133F6D4 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8196E0D230E3B4D7406EF3 /* DIContainer.swift */; };
 		AF0F9B8E91F2E41D02381C5E /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE87645A97032776452E22F /* DesignSystem.framework */; };
 		B15DE0EB75C0AE3014FB250E /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632266C13B1A17FC36023A1F /* Shared.swift */; };
-		B21B257C21EBBE57A9785014 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62FB4B57EE0B4FF57DB2E98C /* XCTestDynamicOverlay.framework */; };
-		B94E3FCA9E2CEB57A1E4A803 /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5903DAA16331C93F6AD367EC /* Clocks.framework */; };
 		BD78CC586EFA1C7CBC6F8B73 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE59A41CA35A26F7854C331 /* Base.swift */; };
 		C0E9ABCA7163C2A40175E0F9 /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE87645A97032776452E22F /* DesignSystem.framework */; };
 		C21BA352741E2986DB90320C /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D401F44D6E4EB3BF22FD6C3 /* Test.swift */; };
-		C7568B6164C00B691F16A729 /* DesignSystem_DesignSystem.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 0202CA9E6AAAC0787B68E995 /* DesignSystem_DesignSystem.bundle */; };
-		C9F5996B3A156EB4CB1A1174 /* WeaveDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 081628E33331B4D46B161FA4 /* WeaveDI.framework */; };
-		CB5A4AD950F3BF336ACD0E0A /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B23608FC539D32BD921A4F27 /* OSLog.framework */; };
-		CB5E68CD9FD74AA66D767082 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62FB4B57EE0B4FF57DB2E98C /* XCTestDynamicOverlay.framework */; };
-		CE08A1DFAFF50D1D1CA19F7E /* WeaveDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 081628E33331B4D46B161FA4 /* WeaveDI.framework */; };
-		D3ED78E579B55C00B9A278EC /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32206975EC04787B73B7C1E /* Dependencies.framework */; };
 		D74723E168511D98E26924EA /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE59A41CA35A26F7854C331 /* Base.swift */; };
 		DC8C7F706F84277F23C336B8 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0DBDA727704EE47A27BFC35 /* Data.framework */; };
-		DD9BE94C2CFF68D915AADF23 /* WeaveDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 081628E33331B4D46B161FA4 /* WeaveDI.framework */; };
-		E61091888A2F0436D7EC90E5 /* IssueReportingPackageSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7280F892588925BDA24822 /* IssueReportingPackageSupport.framework */; };
-		ECFF96BD9F9B79CB6CBCAA5B /* DesignSystem_DesignSystem.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0202CA9E6AAAC0787B68E995 /* DesignSystem_DesignSystem.bundle */; };
-		F137F005EB97558E94BABB39 /* DesignSystem_DesignSystem.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 0202CA9E6AAAC0787B68E995 /* DesignSystem_DesignSystem.bundle */; };
 		F5F33A9AE9FE46000BE63E0B /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0DBDA727704EE47A27BFC35 /* Data.framework */; };
-		F73685E12A6C7F194F502922 /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5903DAA16331C93F6AD367EC /* Clocks.framework */; };
 		F8C8FD63766C690F598D0FC7 /* ThirdParty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3856DDE39ED5A0A35BB0A5CC /* ThirdParty.framework */; };
-		FAB0492E18B6DE08C0237F1A /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B23608FC539D32BD921A4F27 /* OSLog.framework */; };
 		FC77029407EAADCE401278D3 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632266C13B1A17FC36023A1F /* Shared.swift */; };
-		FDE213AE063B0B583AE0FCE1 /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B23608FC539D32BD921A4F27 /* OSLog.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,16 +58,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		02780E7AD3523CF1B16CE398 /* Dependencies */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstSubfolderSpec = 16;
-			files = (
-				9369B8AFF277E22B1F471B34 /* DesignSystem_DesignSystem.bundle in Dependencies */,
-			);
-			name = Dependencies;
-			runOnlyForDeploymentPostprocessing = 1;
-		};
 		31C3364D6EE6DB128AE520FE /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,36 +88,6 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D0E34771599776959478C35 /* Dependencies */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstSubfolderSpec = 16;
-			files = (
-				F137F005EB97558E94BABB39 /* DesignSystem_DesignSystem.bundle in Dependencies */,
-			);
-			name = Dependencies;
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-		5524240DC103CA57DCF970AC /* Dependencies */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstSubfolderSpec = 16;
-			files = (
-				2E6247FD9FF9A4AFB51D2C33 /* DesignSystem_DesignSystem.bundle in Dependencies */,
-			);
-			name = Dependencies;
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-		B00AD4DC42AFDCC5B8712FFC /* Dependencies */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstSubfolderSpec = 16;
-			files = (
-				C7568B6164C00B691F16A729 /* DesignSystem_DesignSystem.bundle in Dependencies */,
-			);
-			name = Dependencies;
-			runOnlyForDeploymentPostprocessing = 1;
-		};
 		B74C05F69C125FB83306930B /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -199,35 +111,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0202CA9E6AAAC0787B68E995 /* DesignSystem_DesignSystem.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystem_DesignSystem.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		0289B94C11EC779006322480 /* ConcurrencyExtras.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConcurrencyExtras.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06BA0AFDE0052B25D521E944 /* SharedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		080C58231FCEDC083F899294 /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		081628E33331B4D46B161FA4 /* WeaveDI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WeaveDI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CE59A41CA35A26F7854C331 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 		0D401F44D6E4EB3BF22FD6C3 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
-		0EAE5989CA1A850DF2ECFFFC /* IssueReporting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IssueReporting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16CC7160F67243B858D0A374 /* Shared-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Shared-Prod-Info.plist"; sourceTree = "<group>"; };
 		1BB4E25E72031AA3F8CFD4B8 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		235162575549DE8FA608F9B3 /* LogMacro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogMacro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		280CB53B6DF7F64864E5482A /* Shared_Prod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shared_Prod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3856DDE39ED5A0A35BB0A5CC /* ThirdParty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThirdParty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE87645A97032776452E22F /* DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C9B7667F0D21DDF6F7FFBB4 /* Shared-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Shared-Debug-Info.plist"; sourceTree = "<group>"; };
-		5903DAA16331C93F6AD367EC /* Clocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Clocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		62FB4B57EE0B4FF57DB2E98C /* XCTestDynamicOverlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCTestDynamicOverlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		632266C13B1A17FC36023A1F /* Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
 		816DF9B49960C28F45C9B1A9 /* Shared-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Shared-Stage-Info.plist"; sourceTree = "<group>"; };
 		9BA57BC4B13796776E6C9DC2 /* Shared_Stage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shared_Stage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD7280F892588925BDA24822 /* IssueReportingPackageSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IssueReportingPackageSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0DBDA727704EE47A27BFC35 /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B23608FC539D32BD921A4F27 /* OSLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OSLog.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OSLog.framework; sourceTree = DEVELOPER_DIR; };
-		C32206975EC04787B73B7C1E /* Dependencies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dependencies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94F2606E7E958A55416DF32 /* Utill.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utill.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD8196E0D230E3B4D7406EF3 /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
 		D24D0C7082053533D4DE9314 /* Shared_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shared_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72BA6AE8B9AF02B56D8FC04 /* Shared-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Shared-Info.plist"; sourceTree = "<group>"; };
-		EB9EEE1B771280F5D0FC2736 /* CombineSchedulers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CombineSchedulers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F283ED3B1CC4250CA598360D /* Swinject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swinject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F21D59A4ECB79F8630E071 /* SharedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SharedTests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -237,22 +138,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB5A4AD950F3BF336ACD0E0A /* OSLog.framework in Frameworks */,
-				54260EA02E8B71A45810E193 /* Clocks.framework in Frameworks */,
-				29A72758E5DE1FC170292399 /* CombineSchedulers.framework in Frameworks */,
-				443B49B0DC76D7CB16725F10 /* ConcurrencyExtras.framework in Frameworks */,
 				F5F33A9AE9FE46000BE63E0B /* Data.framework in Frameworks */,
-				017D5D3165421C7B9C201144 /* Dependencies.framework in Frameworks */,
 				67A2E400A5A889969B6470C5 /* DesignSystem.framework in Frameworks */,
 				860C7B057FAF29DCBB45F57E /* Domain.framework in Frameworks */,
-				1B93E1391C9D0FE688BBFD06 /* IssueReporting.framework in Frameworks */,
-				2BF205096D6E43C76538FE10 /* IssueReportingPackageSupport.framework in Frameworks */,
-				0975B9AFC7975169C3F4192F /* LogMacro.framework in Frameworks */,
 				21995C9691207240265FC647 /* Swinject.framework in Frameworks */,
 				03F1ECBEB4598DBAF3E6A96A /* ThirdParty.framework in Frameworks */,
 				25527EECE60BE10B7E6E3CD0 /* Utill.framework in Frameworks */,
-				C9F5996B3A156EB4CB1A1174 /* WeaveDI.framework in Frameworks */,
-				B21B257C21EBBE57A9785014 /* XCTestDynamicOverlay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,22 +159,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDE213AE063B0B583AE0FCE1 /* OSLog.framework in Frameworks */,
-				B94E3FCA9E2CEB57A1E4A803 /* Clocks.framework in Frameworks */,
-				383896881F7D55B42FCC7DD3 /* CombineSchedulers.framework in Frameworks */,
-				087430AE0D88969AD08DD89D /* ConcurrencyExtras.framework in Frameworks */,
 				00613BEDB5DF448619D36901 /* Data.framework in Frameworks */,
-				01864F35550DE3509BCC5919 /* Dependencies.framework in Frameworks */,
 				03154FA18369CB21CC29E043 /* DesignSystem.framework in Frameworks */,
 				3CD27A7771B5619224A97E63 /* Domain.framework in Frameworks */,
-				4529F786B0A823381DC98676 /* IssueReporting.framework in Frameworks */,
-				E61091888A2F0436D7EC90E5 /* IssueReportingPackageSupport.framework in Frameworks */,
-				4A9D11A89F1A720CB9834D37 /* LogMacro.framework in Frameworks */,
 				2EFF407F99AA82B9B7154575 /* Swinject.framework in Frameworks */,
 				2CF9BC0CA6ADBED038448714 /* ThirdParty.framework in Frameworks */,
 				0022B71FD4E49C968604B4BA /* Utill.framework in Frameworks */,
-				CE08A1DFAFF50D1D1CA19F7E /* WeaveDI.framework in Frameworks */,
-				CB5E68CD9FD74AA66D767082 /* XCTestDynamicOverlay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,22 +172,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21655B7DB99F5780A90E6788 /* OSLog.framework in Frameworks */,
-				F73685E12A6C7F194F502922 /* Clocks.framework in Frameworks */,
-				1405817EB985703CEC7887ED /* CombineSchedulers.framework in Frameworks */,
-				82115ADAA17E9AA1B92C6A84 /* ConcurrencyExtras.framework in Frameworks */,
 				45B7961C2229348254D4C588 /* Data.framework in Frameworks */,
-				D3ED78E579B55C00B9A278EC /* Dependencies.framework in Frameworks */,
 				AF0F9B8E91F2E41D02381C5E /* DesignSystem.framework in Frameworks */,
 				9680889182D21A15CA876404 /* Domain.framework in Frameworks */,
-				A589FC6E8D9324FF5EAA5E16 /* IssueReporting.framework in Frameworks */,
-				7676EEE4F20ADCFF07CD061A /* IssueReportingPackageSupport.framework in Frameworks */,
-				63124C5C7F27B8B0D63E0178 /* LogMacro.framework in Frameworks */,
 				9BB714BD195FF57C46FACBED /* Swinject.framework in Frameworks */,
 				F8C8FD63766C690F598D0FC7 /* ThirdParty.framework in Frameworks */,
 				21F379B8A447A4833B6DF730 /* Utill.framework in Frameworks */,
-				5DA7E9E2165F3960B3491768 /* WeaveDI.framework in Frameworks */,
-				9FC800831D2F1154475F5EDD /* XCTestDynamicOverlay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,22 +185,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB0492E18B6DE08C0237F1A /* OSLog.framework in Frameworks */,
-				05F56538A1C3BBA57614C3F0 /* Clocks.framework in Frameworks */,
-				8B1743BB964CBBF3F6F4D7D6 /* CombineSchedulers.framework in Frameworks */,
-				A20811E5791D407909A61124 /* ConcurrencyExtras.framework in Frameworks */,
 				DC8C7F706F84277F23C336B8 /* Data.framework in Frameworks */,
-				A95FDA4C5187D4E766AEDEA1 /* Dependencies.framework in Frameworks */,
 				C0E9ABCA7163C2A40175E0F9 /* DesignSystem.framework in Frameworks */,
 				89C32FEEDA0B82CC612D3079 /* Domain.framework in Frameworks */,
-				2EF86EE67C5A3BFCCED506FC /* IssueReporting.framework in Frameworks */,
-				5B58896712EA4EED7415FA70 /* IssueReportingPackageSupport.framework in Frameworks */,
-				43AE838DD16336C2A50D69DB /* LogMacro.framework in Frameworks */,
 				88FBDD2ECB0B403EFDE09761 /* Swinject.framework in Frameworks */,
 				4C142838153FC801B76E58BE /* ThirdParty.framework in Frameworks */,
 				79D754C55D2E38EF431F6C6E /* Utill.framework in Frameworks */,
-				DD9BE94C2CFF68D915AADF23 /* WeaveDI.framework in Frameworks */,
-				2888996E48AFE6DA84C82F30 /* XCTestDynamicOverlay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,17 +226,9 @@
 		72723117B1BFA01E33CBB7A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5903DAA16331C93F6AD367EC /* Clocks.framework */,
-				EB9EEE1B771280F5D0FC2736 /* CombineSchedulers.framework */,
-				0289B94C11EC779006322480 /* ConcurrencyExtras.framework */,
 				B0DBDA727704EE47A27BFC35 /* Data.framework */,
-				C32206975EC04787B73B7C1E /* Dependencies.framework */,
-				0202CA9E6AAAC0787B68E995 /* DesignSystem_DesignSystem.bundle */,
 				4AE87645A97032776452E22F /* DesignSystem.framework */,
 				1BB4E25E72031AA3F8CFD4B8 /* Domain.framework */,
-				0EAE5989CA1A850DF2ECFFFC /* IssueReporting.framework */,
-				AD7280F892588925BDA24822 /* IssueReportingPackageSupport.framework */,
-				235162575549DE8FA608F9B3 /* LogMacro.framework */,
 				D24D0C7082053533D4DE9314 /* Shared_Debug.framework */,
 				280CB53B6DF7F64864E5482A /* Shared_Prod.framework */,
 				9BA57BC4B13796776E6C9DC2 /* Shared_Stage.framework */,
@@ -384,8 +237,6 @@
 				F283ED3B1CC4250CA598360D /* Swinject.framework */,
 				3856DDE39ED5A0A35BB0A5CC /* ThirdParty.framework */,
 				C94F2606E7E958A55416DF32 /* Utill.framework */,
-				081628E33331B4D46B161FA4 /* WeaveDI.framework */,
-				62FB4B57EE0B4FF57DB2E98C /* XCTestDynamicOverlay.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -433,16 +284,7 @@
 			children = (
 				6EC0B98B4A7FF03886AD270E /* Project */,
 				72723117B1BFA01E33CBB7A6 /* Products */,
-				E7E2DC04443691192563DF03 /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		E7E2DC04443691192563DF03 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B23608FC539D32BD921A4F27 /* OSLog.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -477,7 +319,6 @@
 				C96560B0F2337336A8FB9B0C /* Resources */,
 				86B4D49AA4860D5ACA6368F3 /* Frameworks */,
 				31C3364D6EE6DB128AE520FE /* Embed Frameworks */,
-				B00AD4DC42AFDCC5B8712FFC /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -498,7 +339,6 @@
 				F626B9F9730D1752FF928FEA /* Resources */,
 				CA16CCCB741E47EAA9FE52A5 /* Frameworks */,
 				3AA9FA2CC2DEAF59F76A9966 /* Embed Frameworks */,
-				3D0E34771599776959478C35 /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -519,7 +359,6 @@
 				505B0379551D6777AF7927AD /* Resources */,
 				10616931EF5AA9226467086E /* Frameworks */,
 				31EFB6BDF2EEBB9763884BA9 /* Embed Frameworks */,
-				5524240DC103CA57DCF970AC /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -540,7 +379,6 @@
 				8E275C2257E824BED631E213 /* Resources */,
 				A2D2F43D11F6FFB6C8AEED26 /* Frameworks */,
 				F52BE5796E4FC227870F34F2 /* Embed Frameworks */,
-				02780E7AD3523CF1B16CE398 /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -597,7 +435,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40147577D3A33D54BD1D13A6 /* DesignSystem_DesignSystem.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,7 +442,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECFF96BD9F9B79CB6CBCAA5B /* DesignSystem_DesignSystem.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,7 +449,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DF69F1F2E0AD3E3D12891EE /* DesignSystem_DesignSystem.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,7 +456,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F7C51CBACDF5C4DA176E637 /* DesignSystem_DesignSystem.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,10 +15,20 @@
 		22CB48E754AEDE0E7AE7531E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147E2A117BE6AB73DD82C3DC /* Preview Assets.xcassets */; };
 		2479F2280B960D86B4432EB6 /* Data.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F16D37767516C08D43D1AA8A /* Data.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2511B9BB019B4C112A485F12 /* TuistBundle+WakeyAlarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA1B45CDF620CD6EEFC5D0E /* TuistBundle+WakeyAlarm.swift */; };
+		253AC134E1824C109321E49F /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D08B078ED661FDC3E98CFF88 /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2F77D52E0657E648FDEA9DB8 /* DesignSystem.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 300D7A06185E61F92824DA28 /* DesignSystem.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3448E2718FAAA0716DA1769D /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D08B078ED661FDC3E98CFF88 /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		356984A9EA3BDE4CFB36A9D1 /* Swinject.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FDCACBFD610B724F9F7FD6A7 /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3CAD24487658E5AAC5176038 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C5262F48B68779402592CF /* ContentView.swift */; };
+		46F613E683535704090A9D5E /* Swinject.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FDCACBFD610B724F9F7FD6A7 /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5227875183228B588E56C2CE /* ThirdParty.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2A015DA3C73515A55C6C405 /* ThirdParty.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5CEA959E458CB491686AC32D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6137054448B27F3CA5CF782C /* Assets.xcassets */; };
 		5E00C281E6D12A298FEED8A3 /* Alarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0759CEC958CE102999E0E280 /* Alarm.framework */; };
+		5F51D23558F0601050272536 /* Swinject.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FDCACBFD610B724F9F7FD6A7 /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		607E2AB18D9AAE6A5D977A4B /* DesignSystem.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 300D7A06185E61F92824DA28 /* DesignSystem.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6214468DD408D8F2D3FDAD25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6137054448B27F3CA5CF782C /* Assets.xcassets */; };
+		62CB83EA6DA3989FEDDAD866 /* Utill.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A992ED2A746D59CDBDB8918 /* Utill.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		632956FB4FF8C8D1FBB02733 /* Utill.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A992ED2A746D59CDBDB8918 /* Utill.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		700AE1A217CED17C159FECE2 /* WakeyAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89063223C8E49CA22CA49B5 /* WakeyAlarmApp.swift */; };
 		748EDE9EE444AA5BDF38317F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C5262F48B68779402592CF /* ContentView.swift */; };
 		76B9E2870A39BAD766C96850 /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B674A8B65DE8D3DB7D5E15F /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -29,17 +39,27 @@
 		86CD9089F6537E9195C587EA /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B674A8B65DE8D3DB7D5E15F /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8B6C2B23E6C30B1ECFD70804 /* Alarm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0759CEC958CE102999E0E280 /* Alarm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8E3458DFFBA469B17E4A1885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6137054448B27F3CA5CF782C /* Assets.xcassets */; };
+		8F8749EBFF7E9ED7026B0DF9 /* DesignSystem.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 300D7A06185E61F92824DA28 /* DesignSystem.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		960B34A0550475C19A1736B2 /* ThirdParty.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2A015DA3C73515A55C6C405 /* ThirdParty.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9801D0454B7DF80EB5BDD18F /* Swinject.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FDCACBFD610B724F9F7FD6A7 /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		99B5E8AFA70432D3BD5CBAFC /* TuistAssets+WakeyAlarmStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445D5CED8B8563072FC95D76 /* TuistAssets+WakeyAlarmStage.swift */; };
+		9C05DC2EFC14B3B363CD9FA4 /* ThirdParty.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2A015DA3C73515A55C6C405 /* ThirdParty.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9FFBF031253909FC70FE6462 /* Utill.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A992ED2A746D59CDBDB8918 /* Utill.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A169EF17E7EC4BFB1463FAF0 /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D08B078ED661FDC3E98CFF88 /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A1E140E4A496C22BA9C8D898 /* WakeyAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89063223C8E49CA22CA49B5 /* WakeyAlarmApp.swift */; };
 		A69680529BF47A66FFBACCB0 /* WakeyAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E7E75B330C50B527149E6 /* WakeyAlarmTests.swift */; };
 		A88568BDC22ECD7FBA951F1B /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B674A8B65DE8D3DB7D5E15F /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AA49CEC34A85A66C88C77F8D /* WakeyAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89063223C8E49CA22CA49B5 /* WakeyAlarmApp.swift */; };
+		AAC27476AAF76E26D0FC56B6 /* ThirdParty.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2A015DA3C73515A55C6C405 /* ThirdParty.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B37B98469BE50F47D3240863 /* Data.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F16D37767516C08D43D1AA8A /* Data.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B6EAA5AAE77E47A78D0EEBF9 /* TuistAssets+WakeyAlarmProd.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85CAEB10544EC34E0BBA898 /* TuistAssets+WakeyAlarmProd.swift */; };
+		B8256A68A8839A8F51DD2E31 /* DesignSystem.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 300D7A06185E61F92824DA28 /* DesignSystem.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA0075A3FF57FCFB6F258752 /* Utill.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A992ED2A746D59CDBDB8918 /* Utill.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C7BDC68C102E4230BE74B579 /* TuistAssets+WakeyAlarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553FCF8DA0BDCCC1DC1176BD /* TuistAssets+WakeyAlarm.swift */; };
 		CC4A74077518766D033999C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6137054448B27F3CA5CF782C /* Assets.xcassets */; };
 		D2A026FBE20FA5D22BF72D30 /* Alarm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0759CEC958CE102999E0E280 /* Alarm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D726DE266943339E5DAF5198 /* Alarm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0759CEC958CE102999E0E280 /* Alarm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DC4EE0F40243DDA64B8093FF /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D08B078ED661FDC3E98CFF88 /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DC7FED3F8674F15C209C7FBD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147E2A117BE6AB73DD82C3DC /* Preview Assets.xcassets */; };
 		E4AD3DA3617218686759601E /* TuistBundle+WakeyAlarmStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDB8892F0F4512312995620 /* TuistBundle+WakeyAlarmStage.swift */; };
 		E72A8DEC49F2526D63A41A5D /* TuistAssets+WakeyAlarmDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84396412255D47B775183147 /* TuistAssets+WakeyAlarmDebug.swift */; };
@@ -69,7 +89,12 @@
 			files = (
 				D726DE266943339E5DAF5198 /* Alarm.framework in Embed Frameworks */,
 				2479F2280B960D86B4432EB6 /* Data.framework in Embed Frameworks */,
+				2F77D52E0657E648FDEA9DB8 /* DesignSystem.framework in Embed Frameworks */,
+				A169EF17E7EC4BFB1463FAF0 /* Domain.framework in Embed Frameworks */,
 				F94632889C100B88AEC161B7 /* Shared.framework in Embed Frameworks */,
+				9801D0454B7DF80EB5BDD18F /* Swinject.framework in Embed Frameworks */,
+				960B34A0550475C19A1736B2 /* ThirdParty.framework in Embed Frameworks */,
+				62CB83EA6DA3989FEDDAD866 /* Utill.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,7 +107,12 @@
 			files = (
 				8B6C2B23E6C30B1ECFD70804 /* Alarm.framework in Embed Frameworks */,
 				F539CC687D38C4F4B51D0EB4 /* Data.framework in Embed Frameworks */,
+				B8256A68A8839A8F51DD2E31 /* DesignSystem.framework in Embed Frameworks */,
+				253AC134E1824C109321E49F /* Domain.framework in Embed Frameworks */,
 				76B9E2870A39BAD766C96850 /* Shared.framework in Embed Frameworks */,
+				46F613E683535704090A9D5E /* Swinject.framework in Embed Frameworks */,
+				9C05DC2EFC14B3B363CD9FA4 /* ThirdParty.framework in Embed Frameworks */,
+				632956FB4FF8C8D1FBB02733 /* Utill.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,7 +125,12 @@
 			files = (
 				E7D0E0AE641DF4B70B54382D /* Alarm.framework in Embed Frameworks */,
 				81FCA86CE280A213004F43A3 /* Data.framework in Embed Frameworks */,
+				8F8749EBFF7E9ED7026B0DF9 /* DesignSystem.framework in Embed Frameworks */,
+				DC4EE0F40243DDA64B8093FF /* Domain.framework in Embed Frameworks */,
 				A88568BDC22ECD7FBA951F1B /* Shared.framework in Embed Frameworks */,
+				5F51D23558F0601050272536 /* Swinject.framework in Embed Frameworks */,
+				5227875183228B588E56C2CE /* ThirdParty.framework in Embed Frameworks */,
+				BA0075A3FF57FCFB6F258752 /* Utill.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -118,7 +153,12 @@
 			files = (
 				D2A026FBE20FA5D22BF72D30 /* Alarm.framework in Embed Frameworks */,
 				B37B98469BE50F47D3240863 /* Data.framework in Embed Frameworks */,
+				607E2AB18D9AAE6A5D977A4B /* DesignSystem.framework in Embed Frameworks */,
+				3448E2718FAAA0716DA1769D /* Domain.framework in Embed Frameworks */,
 				86CD9089F6537E9195C587EA /* Shared.framework in Embed Frameworks */,
+				356984A9EA3BDE4CFB36A9D1 /* Swinject.framework in Embed Frameworks */,
+				AAC27476AAF76E26D0FC56B6 /* ThirdParty.framework in Embed Frameworks */,
+				9FFBF031253909FC70FE6462 /* Utill.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,6 +168,8 @@
 /* Begin PBXFileReference section */
 		0759CEC958CE102999E0E280 /* Alarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		147E2A117BE6AB73DD82C3DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		300D7A06185E61F92824DA28 /* DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A992ED2A746D59CDBDB8918 /* Utill.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utill.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		445D5CED8B8563072FC95D76 /* TuistAssets+WakeyAlarmStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+WakeyAlarmStage.swift"; sourceTree = "<group>"; };
 		473868DD004034555C3B14CF /* WakeyAlarm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "WakeyAlarm-Info.plist"; sourceTree = "<group>"; };
 		4A20DBF7AA5EC81EFCD873D2 /* WakeyAlarm_Prod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeyAlarm_Prod.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +187,7 @@
 		8B674A8B65DE8D3DB7D5E15F /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D39AE5934C4CB6673530CE7 /* WakeyAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakeyAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C5262F48B68779402592CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A2A015DA3C73515A55C6C405 /* ThirdParty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThirdParty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6A110E179FA715BC5F650F2 /* WakeyAlarm-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "WakeyAlarm-Debug-Info.plist"; sourceTree = "<group>"; };
 		A719C9AEE0677AC1AC63DBBF /* WakeyAlarmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "WakeyAlarmTests-Info.plist"; sourceTree = "<group>"; };
 		A96E7E75B330C50B527149E6 /* WakeyAlarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeyAlarmTests.swift; sourceTree = "<group>"; };
@@ -152,10 +195,12 @@
 		B89063223C8E49CA22CA49B5 /* WakeyAlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeyAlarmApp.swift; sourceTree = "<group>"; };
 		C85CAEB10544EC34E0BBA898 /* TuistAssets+WakeyAlarmProd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+WakeyAlarmProd.swift"; sourceTree = "<group>"; };
 		C89CA130D78B84B9269FFBB2 /* WakeyAlarm-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "WakeyAlarm-Prod-Info.plist"; sourceTree = "<group>"; };
+		D08B078ED661FDC3E98CFF88 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E37FBF660A6A5E462F4F2706 /* TuistBundle+WakeyAlarmProd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+WakeyAlarmProd.swift"; sourceTree = "<group>"; };
 		EC27B38ECE342960DC52A4B6 /* Stage.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Stage.xcconfig; sourceTree = "<group>"; };
 		F16D37767516C08D43D1AA8A /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC680FADD61A05BABDBB239 /* WakeyAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeyAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCACBFD610B724F9F7FD6A7 /* Swinject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swinject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,7 +288,12 @@
 			children = (
 				0759CEC958CE102999E0E280 /* Alarm.framework */,
 				F16D37767516C08D43D1AA8A /* Data.framework */,
+				300D7A06185E61F92824DA28 /* DesignSystem.framework */,
+				D08B078ED661FDC3E98CFF88 /* Domain.framework */,
 				8B674A8B65DE8D3DB7D5E15F /* Shared.framework */,
+				FDCACBFD610B724F9F7FD6A7 /* Swinject.framework */,
+				A2A015DA3C73515A55C6C405 /* ThirdParty.framework */,
+				3A992ED2A746D59CDBDB8918 /* Utill.framework */,
 				6B489AD0F8C3481F2B78088D /* WakeyAlarm_Debug.app */,
 				4A20DBF7AA5EC81EFCD873D2 /* WakeyAlarm_Prod.app */,
 				7189F55686A0BFF97990FBD4 /* WakeyAlarm_Stage.app */,

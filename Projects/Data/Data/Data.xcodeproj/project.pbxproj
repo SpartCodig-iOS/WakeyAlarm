@@ -8,15 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		01970B39933B1BC6E296FB77 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFD069242FC60B772B496D /* PersistenceController.swift */; };
+		1095DF03F2E835FDACF305A4 /* AlarmScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0573EB8C9DFDE792B0E60CF /* AlarmScheduler.swift */; };
 		1A1CC298E29FBBB6F54DE422 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFD069242FC60B772B496D /* PersistenceController.swift */; };
 		2038C30A238F4884C595EC11 /* WakeyAlarm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6819BEC2FA552E8D597D1513 /* WakeyAlarm.xcdatamodeld */; };
 		2ED50DF31D798D7F41CA63B2 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFD069242FC60B772B496D /* PersistenceController.swift */; };
 		3F7CE806D1E28CD077785F6F /* AlarmRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92681ED2948037BE42E8E88 /* AlarmRepository.swift */; };
 		455A18B8563295482505ECF0 /* AlarmRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92681ED2948037BE42E8E88 /* AlarmRepository.swift */; };
+		48E1AC2A6F441DC10496FF16 /* AlarmScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0573EB8C9DFDE792B0E60CF /* AlarmScheduler.swift */; };
 		49DF3B5BEFA5D8E9943F4413 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06FAA1459D11CCE724C34195 /* Domain.framework */; };
 		4F2F20A59ED8FFD1146EC3A9 /* TuistBundle+DataProd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AEF8306790EE3948130798 /* TuistBundle+DataProd.swift */; };
 		6682A2438D39A1CE0C48FD2F /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217A80FF84411549DFF0DEEB /* Test.swift */; };
 		68049A27C8544686FDB163C6 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D19B700B3BA97E99FE5E47 /* Base.swift */; };
+		806588ECDC0BEAAF906D226C /* AlarmScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0573EB8C9DFDE792B0E60CF /* AlarmScheduler.swift */; };
 		8B74EC101DB1912E1FA02AD1 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFD069242FC60B772B496D /* PersistenceController.swift */; };
 		901ACA7B98089AB702ADA830 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06FAA1459D11CCE724C34195 /* Domain.framework */; };
 		961369F792C438E987DB221C /* AlarmRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92681ED2948037BE42E8E88 /* AlarmRepository.swift */; };
@@ -26,6 +29,7 @@
 		A539355DEA13CE8A94F14994 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E75197C294DE74F5162FAA7 /* Data.framework */; };
 		B822277CF47097CD8AF7F738 /* WakeyAlarm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6819BEC2FA552E8D597D1513 /* WakeyAlarm.xcdatamodeld */; };
 		B9A57F3BECBF7B945E2B7086 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06FAA1459D11CCE724C34195 /* Domain.framework */; };
+		BD85CE6A43629B9100F1271A /* AlarmScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0573EB8C9DFDE792B0E60CF /* AlarmScheduler.swift */; };
 		C1666B37FA198B6F593163C4 /* AlarmEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19F4A92CFB03C120B19A4AD /* AlarmEntity.swift */; };
 		C3CB9F36C77526BEF6E62C4E /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D19B700B3BA97E99FE5E47 /* Base.swift */; };
 		D7CC56A63D99DC287F023391 /* TuistBundle+DataDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6A3C647D681FDC70450D6 /* TuistBundle+DataDebug.swift */; };
@@ -116,6 +120,7 @@
 		8F8F2D8535167882EE6052BF /* DataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DataTests-Info.plist"; sourceTree = "<group>"; };
 		A2C6A3C647D681FDC70450D6 /* TuistBundle+DataDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+DataDebug.swift"; sourceTree = "<group>"; };
 		BCD5FBC6570BA760BF5A32A6 /* Data_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0573EB8C9DFDE792B0E60CF /* AlarmScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmScheduler.swift; sourceTree = "<group>"; };
 		C487F5D2277BCC8A01F51AE0 /* DataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92681ED2948037BE42E8E88 /* AlarmRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmRepository.swift; sourceTree = "<group>"; };
 		CD19C7E1A0FCDC95B88A7F7F /* Data-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Data-Debug-Info.plist"; sourceTree = "<group>"; };
@@ -254,6 +259,14 @@
 			path = InfoPlists;
 			sourceTree = "<group>";
 		};
+		B119E31677D59F7802A67D11 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C0573EB8C9DFDE792B0E60CF /* AlarmScheduler.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		C25E2D135BFBAC1019949D62 /* Derived */ = {
 			isa = PBXGroup;
 			children = (
@@ -269,6 +282,7 @@
 				F1FA4BA61889B6910C227A92 /* Entity */,
 				8DECF4AD65961D67B46A2DB0 /* Persistence */,
 				73F3ED55BFDC2EF15878F5B6 /* Repository */,
+				B119E31677D59F7802A67D11 /* Service */,
 				E2D19B700B3BA97E99FE5E47 /* Base.swift */,
 			);
 			path = Sources;
@@ -477,6 +491,7 @@
 				E63DF27FCDA3C9D6B1E3BDEB /* AlarmEntity.swift in Sources */,
 				2ED50DF31D798D7F41CA63B2 /* PersistenceController.swift in Sources */,
 				3F7CE806D1E28CD077785F6F /* AlarmRepository.swift in Sources */,
+				1095DF03F2E835FDACF305A4 /* AlarmScheduler.swift in Sources */,
 				F21B87D9664F6DB3C63DAA49 /* WakeyAlarm.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,6 +505,7 @@
 				C1666B37FA198B6F593163C4 /* AlarmEntity.swift in Sources */,
 				8B74EC101DB1912E1FA02AD1 /* PersistenceController.swift in Sources */,
 				E70E52CC7B41B709E2B31AFE /* AlarmRepository.swift in Sources */,
+				BD85CE6A43629B9100F1271A /* AlarmScheduler.swift in Sources */,
 				997755C7C3E8740A13DBAEBB /* WakeyAlarm.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +519,7 @@
 				9B66971817A98482BC3A84FC /* AlarmEntity.swift in Sources */,
 				1A1CC298E29FBBB6F54DE422 /* PersistenceController.swift in Sources */,
 				455A18B8563295482505ECF0 /* AlarmRepository.swift in Sources */,
+				48E1AC2A6F441DC10496FF16 /* AlarmScheduler.swift in Sources */,
 				B822277CF47097CD8AF7F738 /* WakeyAlarm.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +533,7 @@
 				9BB9DEA8B01BBCCC8D74521C /* AlarmEntity.swift in Sources */,
 				01970B39933B1BC6E296FB77 /* PersistenceController.swift in Sources */,
 				961369F792C438E987DB221C /* AlarmRepository.swift in Sources */,
+				806588ECDC0BEAAF906D226C /* AlarmScheduler.swift in Sources */,
 				2038C30A238F4884C595EC11 /* WakeyAlarm.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

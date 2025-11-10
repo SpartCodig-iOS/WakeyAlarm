@@ -350,62 +350,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C777EA7684CF3B97BE76C38C"
-               BuildableName = "DesignSystem_DesignSystem.bundle"
-               BlueprintName = "DesignSystem_DesignSystem"
-               ReferencedContainer = "container:Projects/Shared/DesignSystem/DesignSystem.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "707910BA6BE9907351D0858D"
-               BuildableName = "DesignSystem_DesignSystem_Debug.bundle"
-               BlueprintName = "DesignSystem_DesignSystem_Debug"
-               ReferencedContainer = "container:Projects/Shared/DesignSystem/DesignSystem.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "731284097D03F7AE7DAF61C7"
-               BuildableName = "DesignSystem_DesignSystem_Prod.bundle"
-               BlueprintName = "DesignSystem_DesignSystem_Prod"
-               ReferencedContainer = "container:Projects/Shared/DesignSystem/DesignSystem.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "36DB180B3BF086646401D7DF"
-               BuildableName = "DesignSystem_DesignSystem_Stage.bundle"
-               BlueprintName = "DesignSystem_DesignSystem_Stage"
-               ReferencedContainer = "container:Projects/Shared/DesignSystem/DesignSystem.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "C538ACB2975E6B55AFA02B19"
                BuildableName = "Domain.framework"
                BlueprintName = "Domain"

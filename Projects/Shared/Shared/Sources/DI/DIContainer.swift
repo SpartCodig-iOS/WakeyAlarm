@@ -25,6 +25,10 @@ public final class DIContainer {
     container.register(AlarmRepositoryProtocol.self) { _ in
       AlarmRepository()
     }
+    // Service
+    container.register(AlarmScheduler.self) { _ in
+      AlarmScheduler()
+    }.inObjectScope(.container)
 
     // UseCase
     container.register(FetchAlarmsUseCaseProtocol.self) { r in
@@ -49,10 +53,10 @@ public final class DIContainer {
     }
 
     container.register(AddAlarmUseCaseProtocol.self) { r in
-      guard let repo = r.resolve(AlarmRepositoryProtocol.self) else {
+      guard let repo = r.resolve(AlarmRepositoryProtocol.self), let scheduler = r.resolve(AlarmScheduler.self) else {
         fatalError("Missing AlarmRepositoryProtocol")
       }
-      return AddAlarmUseCase(repository: repo)
+      return AddAlarmUseCase(repository: repo, scheduler: scheduler)
     }
 
     print("✅ Base dependencies registered in DIContainer")

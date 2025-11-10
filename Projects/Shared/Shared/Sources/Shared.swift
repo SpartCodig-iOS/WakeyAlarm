@@ -6,3 +6,5 @@
 //
 
 @_exported import Domain
+@_exported import Data
+@_exported import Swinject

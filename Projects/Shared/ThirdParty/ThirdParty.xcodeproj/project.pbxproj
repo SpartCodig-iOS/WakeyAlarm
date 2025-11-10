@@ -7,26 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		079135A6DB32F8FA5CF2E237 /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 529D683020BDA42AF2A467E4 /* CombineSchedulers.framework */; };
+		0BB8C942ADF22C15456C7991 /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7840D8A58938A9CBDF6DDB6F /* LogMacro.framework */; };
+		12201FE27C2E3B484A9673F1 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7E5510FEC285549404D23A /* XCTestDynamicOverlay.framework */; };
+		13489C8A3B1EDCDD1C8B642A /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E057B5A6C190B51DEA95A52C /* Dependencies.framework */; };
 		199156A4DC68D0F4387CCDA6 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DC163A6902C6C732FD855A /* Base.swift */; };
 		2A8020A3F07A908E497F1B9E /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21178B4A2A59C6B2EADC5B6C /* Test.swift */; };
-		31841B69BD9306440FA3AEED /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B768581F11B7EEC79D3C428D /* OSLog.framework */; };
-		31DF26B9CD387C3DBBD90C18 /* IssueReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB4F2063102023E996F015D /* IssueReporting.framework */; };
-		551ABD7544CD267AE6CC195C /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDA5D0BD3E8E323677EB026 /* Clocks.framework */; };
-		5FF145C217A0F03EBD65BB90 /* WeaveDI.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = A1063A80E3C9DDB2A28DB892 /* WeaveDI.framework */; };
-		6902F07AC977B503A0B4EF8A /* WeaveDI.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = A1063A80E3C9DDB2A28DB892 /* WeaveDI.framework */; };
-		70050F733D72E5D033FFC580 /* WeaveDI.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = A1063A80E3C9DDB2A28DB892 /* WeaveDI.framework */; };
+		326C867C9069689653294126 /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E057B5A6C190B51DEA95A52C /* Dependencies.framework */; };
+		39C4B609F627076168ECB43A /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9510426F57C0386AD282AAA8 /* ConcurrencyExtras.framework */; };
+		4043B96FE311B6FECC2D72FD /* WeaveDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1063A80E3C9DDB2A28DB892 /* WeaveDI.framework */; };
+		4D71FEDD3EBE1E307F9B0521 /* IssueReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB4F2063102023E996F015D /* IssueReporting.framework */; };
+		51422C851230A1A20257CE85 /* IssueReportingPackageSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE34E7FD7B776485C4F5686B /* IssueReportingPackageSupport.framework */; };
+		5D717036FFE8580C2512C3E3 /* IssueReportingPackageSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE34E7FD7B776485C4F5686B /* IssueReportingPackageSupport.framework */; };
+		5DF804C501F0994F9463F1D9 /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 529D683020BDA42AF2A467E4 /* CombineSchedulers.framework */; };
+		67790EB45E9198EF83484ACF /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7E5510FEC285549404D23A /* XCTestDynamicOverlay.framework */; };
+		6BCEA8CD8FA63C56663EA6D0 /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9510426F57C0386AD282AAA8 /* ConcurrencyExtras.framework */; };
+		723B4941C1DBAD1DB4C8B686 /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDA5D0BD3E8E323677EB026 /* Clocks.framework */; };
+		761EB435DA8917352E5C3F71 /* IssueReportingPackageSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE34E7FD7B776485C4F5686B /* IssueReportingPackageSupport.framework */; };
+		768D9B5E68FA6B4FE4EFD95D /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7840D8A58938A9CBDF6DDB6F /* LogMacro.framework */; };
+		7811001DB57DC64762358A0E /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDA5D0BD3E8E323677EB026 /* Clocks.framework */; };
 		78AC8F364BB31C11BB2FEC02 /* ThirdParty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCBFAAA9644395883C4A718 /* ThirdParty.framework */; };
-		84CAAE3326DCA9E68378B7B3 /* WeaveDI.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = A1063A80E3C9DDB2A28DB892 /* WeaveDI.framework */; };
-		9003C2D283711C20FDBB33E0 /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9510426F57C0386AD282AAA8 /* ConcurrencyExtras.framework */; };
-		910E2DEB552042AC98EB4F08 /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 529D683020BDA42AF2A467E4 /* CombineSchedulers.framework */; };
-		96668040EAC7FFF193982EC5 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7E5510FEC285549404D23A /* XCTestDynamicOverlay.framework */; };
-		98A0DA222D9BA10DFD520C3F /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E057B5A6C190B51DEA95A52C /* Dependencies.framework */; };
-		9D2DC67BE196726BF252CB93 /* WeaveDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1063A80E3C9DDB2A28DB892 /* WeaveDI.framework */; };
-		A3C53A8EC404CA02DAB4CCE9 /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7840D8A58938A9CBDF6DDB6F /* LogMacro.framework */; };
+		88B34B1EF603EAF6E98BC094 /* IssueReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB4F2063102023E996F015D /* IssueReporting.framework */; };
+		8B9516BC3C63D59393790544 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7E5510FEC285549404D23A /* XCTestDynamicOverlay.framework */; };
+		9047F1976E1FE0625C348E74 /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B768581F11B7EEC79D3C428D /* OSLog.framework */; };
+		91726590E9183CC1B2089CD5 /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E057B5A6C190B51DEA95A52C /* Dependencies.framework */; };
+		924C0998EA2AA0CA52B75770 /* WeaveDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1063A80E3C9DDB2A28DB892 /* WeaveDI.framework */; };
+		92D83F3E13FBCA73B1A2F698 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7E5510FEC285549404D23A /* XCTestDynamicOverlay.framework */; };
+		9B9730D95D970C29522C2989 /* IssueReportingPackageSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE34E7FD7B776485C4F5686B /* IssueReportingPackageSupport.framework */; };
+		A2F862542FAC1B5055F269A2 /* WeaveDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1063A80E3C9DDB2A28DB892 /* WeaveDI.framework */; };
+		A5EE0C63854A8AAF80404BEE /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDA5D0BD3E8E323677EB026 /* Clocks.framework */; };
+		ACDC29BD81C082245F9ABD6A /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 529D683020BDA42AF2A467E4 /* CombineSchedulers.framework */; };
+		ADC2D6B927653A7F4BD6DFCB /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B768581F11B7EEC79D3C428D /* OSLog.framework */; };
+		ADDB0A64F76263DAFA711D89 /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B768581F11B7EEC79D3C428D /* OSLog.framework */; };
 		B0E03937330DFF6BED21D35C /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DC163A6902C6C732FD855A /* Base.swift */; };
 		B24DF497249FDEACB5D8334F /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DC163A6902C6C732FD855A /* Base.swift */; };
+		B3F16B346E1801B56909F774 /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDA5D0BD3E8E323677EB026 /* Clocks.framework */; };
+		B6ACB99319D002F3DEED840C /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9510426F57C0386AD282AAA8 /* ConcurrencyExtras.framework */; };
+		B7F7F5FAA87851103823A3B3 /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9510426F57C0386AD282AAA8 /* ConcurrencyExtras.framework */; };
+		BA1730A58E9B48FC42958B7A /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7840D8A58938A9CBDF6DDB6F /* LogMacro.framework */; };
+		BDA623D65762F08986F65ADD /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 529D683020BDA42AF2A467E4 /* CombineSchedulers.framework */; };
+		C7E51ADD5A2DA64C6CB5BDE3 /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E057B5A6C190B51DEA95A52C /* Dependencies.framework */; };
 		CDD2ABB41363C0E333172654 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DC163A6902C6C732FD855A /* Base.swift */; };
-		D713F9D884B7FC901851460B /* IssueReportingPackageSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE34E7FD7B776485C4F5686B /* IssueReportingPackageSupport.framework */; };
+		D0B8B92C4940EFD889C09165 /* IssueReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB4F2063102023E996F015D /* IssueReporting.framework */; };
+		E81FDD32B3F86EBC04936ACC /* WeaveDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1063A80E3C9DDB2A28DB892 /* WeaveDI.framework */; };
+		ECF6F101E3CD6C468C3FDF2B /* OSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B768581F11B7EEC79D3C428D /* OSLog.framework */; };
+		F7C1B7494D0DED785F5C6435 /* IssueReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB4F2063102023E996F015D /* IssueReporting.framework */; };
+		FDB8B12B4EF847423219A21D /* LogMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7840D8A58938A9CBDF6DDB6F /* LogMacro.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,36 +96,6 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50B4899019456DEF2177DB2D /* Dependencies */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstSubfolderSpec = 16;
-			files = (
-				70050F733D72E5D033FFC580 /* WeaveDI.framework in Dependencies */,
-			);
-			name = Dependencies;
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-		83B1E4DEB29E49212D7C4188 /* Dependencies */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstSubfolderSpec = 16;
-			files = (
-				6902F07AC977B503A0B4EF8A /* WeaveDI.framework in Dependencies */,
-			);
-			name = Dependencies;
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-		966315BB9CA1C67A6E4DD818 /* Dependencies */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstSubfolderSpec = 16;
-			files = (
-				84CAAE3326DCA9E68378B7B3 /* WeaveDI.framework in Dependencies */,
-			);
-			name = Dependencies;
-			runOnlyForDeploymentPostprocessing = 1;
-		};
 		C69C5529F4E0A7A46B9B8188 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -119,16 +115,6 @@
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3A481C3AFC897F2EB9E93AE /* Dependencies */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstSubfolderSpec = 16;
-			files = (
-				5FF145C217A0F03EBD65BB90 /* WeaveDI.framework in Dependencies */,
-			);
-			name = Dependencies;
-			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -162,6 +148,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADC2D6B927653A7F4BD6DFCB /* OSLog.framework in Frameworks */,
+				A5EE0C63854A8AAF80404BEE /* Clocks.framework in Frameworks */,
+				5DF804C501F0994F9463F1D9 /* CombineSchedulers.framework in Frameworks */,
+				6BCEA8CD8FA63C56663EA6D0 /* ConcurrencyExtras.framework in Frameworks */,
+				91726590E9183CC1B2089CD5 /* Dependencies.framework in Frameworks */,
+				D0B8B92C4940EFD889C09165 /* IssueReporting.framework in Frameworks */,
+				5D717036FFE8580C2512C3E3 /* IssueReportingPackageSupport.framework in Frameworks */,
+				FDB8B12B4EF847423219A21D /* LogMacro.framework in Frameworks */,
+				4043B96FE311B6FECC2D72FD /* WeaveDI.framework in Frameworks */,
+				92D83F3E13FBCA73B1A2F698 /* XCTestDynamicOverlay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +165,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9047F1976E1FE0625C348E74 /* OSLog.framework in Frameworks */,
+				B3F16B346E1801B56909F774 /* Clocks.framework in Frameworks */,
+				ACDC29BD81C082245F9ABD6A /* CombineSchedulers.framework in Frameworks */,
+				39C4B609F627076168ECB43A /* ConcurrencyExtras.framework in Frameworks */,
+				326C867C9069689653294126 /* Dependencies.framework in Frameworks */,
+				4D71FEDD3EBE1E307F9B0521 /* IssueReporting.framework in Frameworks */,
+				9B9730D95D970C29522C2989 /* IssueReportingPackageSupport.framework in Frameworks */,
+				BA1730A58E9B48FC42958B7A /* LogMacro.framework in Frameworks */,
+				924C0998EA2AA0CA52B75770 /* WeaveDI.framework in Frameworks */,
+				8B9516BC3C63D59393790544 /* XCTestDynamicOverlay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +182,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADDB0A64F76263DAFA711D89 /* OSLog.framework in Frameworks */,
+				7811001DB57DC64762358A0E /* Clocks.framework in Frameworks */,
+				BDA623D65762F08986F65ADD /* CombineSchedulers.framework in Frameworks */,
+				B6ACB99319D002F3DEED840C /* ConcurrencyExtras.framework in Frameworks */,
+				13489C8A3B1EDCDD1C8B642A /* Dependencies.framework in Frameworks */,
+				F7C1B7494D0DED785F5C6435 /* IssueReporting.framework in Frameworks */,
+				761EB435DA8917352E5C3F71 /* IssueReportingPackageSupport.framework in Frameworks */,
+				768D9B5E68FA6B4FE4EFD95D /* LogMacro.framework in Frameworks */,
+				E81FDD32B3F86EBC04936ACC /* WeaveDI.framework in Frameworks */,
+				12201FE27C2E3B484A9673F1 /* XCTestDynamicOverlay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,17 +199,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31841B69BD9306440FA3AEED /* OSLog.framework in Frameworks */,
-				551ABD7544CD267AE6CC195C /* Clocks.framework in Frameworks */,
-				910E2DEB552042AC98EB4F08 /* CombineSchedulers.framework in Frameworks */,
-				9003C2D283711C20FDBB33E0 /* ConcurrencyExtras.framework in Frameworks */,
-				98A0DA222D9BA10DFD520C3F /* Dependencies.framework in Frameworks */,
-				31DF26B9CD387C3DBBD90C18 /* IssueReporting.framework in Frameworks */,
-				D713F9D884B7FC901851460B /* IssueReportingPackageSupport.framework in Frameworks */,
-				A3C53A8EC404CA02DAB4CCE9 /* LogMacro.framework in Frameworks */,
 				78AC8F364BB31C11BB2FEC02 /* ThirdParty.framework in Frameworks */,
-				9D2DC67BE196726BF252CB93 /* WeaveDI.framework in Frameworks */,
-				96668040EAC7FFF193982EC5 /* XCTestDynamicOverlay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +207,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECF6F101E3CD6C468C3FDF2B /* OSLog.framework in Frameworks */,
+				723B4941C1DBAD1DB4C8B686 /* Clocks.framework in Frameworks */,
+				079135A6DB32F8FA5CF2E237 /* CombineSchedulers.framework in Frameworks */,
+				B7F7F5FAA87851103823A3B3 /* ConcurrencyExtras.framework in Frameworks */,
+				C7E51ADD5A2DA64C6CB5BDE3 /* Dependencies.framework in Frameworks */,
+				88B34B1EF603EAF6E98BC094 /* IssueReporting.framework in Frameworks */,
+				51422C851230A1A20257CE85 /* IssueReportingPackageSupport.framework in Frameworks */,
+				0BB8C942ADF22C15456C7991 /* LogMacro.framework in Frameworks */,
+				A2F862542FAC1B5055F269A2 /* WeaveDI.framework in Frameworks */,
+				67790EB45E9198EF83484ACF /* XCTestDynamicOverlay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +326,6 @@
 				FFDE8BD1B6FD2B55DCE3AE72 /* Resources */,
 				03ED0EEAA84ABC551FCBEDF0 /* Frameworks */,
 				0772368432AD871F10E82268 /* Embed Frameworks */,
-				83B1E4DEB29E49212D7C4188 /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -331,7 +346,6 @@
 				F794C4524487BDD72E419E15 /* Resources */,
 				DF60B20FC14E28485B38A625 /* Frameworks */,
 				14FBB7F2441108A2A7E4731F /* Embed Frameworks */,
-				D3A481C3AFC897F2EB9E93AE /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -352,7 +366,6 @@
 				800446304272D60AA3E43A30 /* Resources */,
 				0FA85EEADD78627B6675EB67 /* Frameworks */,
 				C69C5529F4E0A7A46B9B8188 /* Embed Frameworks */,
-				50B4899019456DEF2177DB2D /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -373,7 +386,6 @@
 				1CC96EBE68334AAE6C71F84A /* Resources */,
 				10B8669291682D314505CE05 /* Frameworks */,
 				CFBFB14026F1D132E10A9468 /* Embed Frameworks */,
-				966315BB9CA1C67A6E4DD818 /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -645,7 +657,6 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
@@ -700,7 +711,6 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
@@ -755,7 +765,6 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
@@ -806,7 +815,6 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
@@ -857,7 +865,6 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
@@ -908,7 +915,6 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
@@ -963,7 +969,6 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
@@ -1122,7 +1127,6 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
