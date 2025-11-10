@@ -32,7 +32,7 @@
          location = "group:Presentation"
          name = "Presentation">
          <FileRef
-            location = "group:Presentation/Presentation.xcodeproj">
+            location = "group:Alarm/Alarm.xcodeproj">
          </FileRef>
       </Group>
       <Group

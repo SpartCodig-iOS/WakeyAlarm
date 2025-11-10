@@ -20,7 +20,7 @@ public enum ModulePath {
 // MARK: FeatureModule
 public extension ModulePath {
   enum Presentations: String, CaseIterable {
-    case Presentation
+    case Alarm 
 
 
     public static let name: String = "Presentation"

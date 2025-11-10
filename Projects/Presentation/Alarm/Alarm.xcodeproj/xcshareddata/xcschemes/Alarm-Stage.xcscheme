@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E024B6F15C97900482396DE3"
-               BuildableName = "Presentations_Stage.framework"
-               BlueprintName = "Presentations-Stage"
-               ReferencedContainer = "container:Presentations.xcodeproj">
+               BlueprintIdentifier = "9CADDC942A5A680E84197E9D"
+               BuildableName = "Alarm_Stage.framework"
+               BlueprintName = "Alarm-Stage"
+               ReferencedContainer = "container:Alarm.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,10 +44,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E024B6F15C97900482396DE3"
-            BuildableName = "Presentations_Stage.framework"
-            BlueprintName = "Presentations-Stage"
-            ReferencedContainer = "container:Presentations.xcodeproj">
+            BlueprintIdentifier = "9CADDC942A5A680E84197E9D"
+            BuildableName = "Alarm_Stage.framework"
+            BlueprintName = "Alarm-Stage"
+            ReferencedContainer = "container:Alarm.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -60,10 +60,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E024B6F15C97900482396DE3"
-            BuildableName = "Presentations_Stage.framework"
-            BlueprintName = "Presentations-Stage"
-            ReferencedContainer = "container:Presentations.xcodeproj">
+            BlueprintIdentifier = "9CADDC942A5A680E84197E9D"
+            BuildableName = "Alarm_Stage.framework"
+            BlueprintName = "Alarm-Stage"
+            ReferencedContainer = "container:Alarm.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

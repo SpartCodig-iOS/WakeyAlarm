@@ -10,7 +10,7 @@ let project = Project.makeAppModule(
   settings: .appMainSetting,
   scripts: [],
   dependencies: [
-    .Presentation(implements: .Presentation)
+    .Presentation(implements: .Alarm)
   ],
   sources: ["Sources/**"],
   resources: ["Resources/**"],
