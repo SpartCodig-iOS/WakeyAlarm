@@ -71,7 +71,6 @@ extension StopWatchView {
   @ViewBuilder
   private func timeTextView() -> some View {
     let elapsed = store.state.elapsed
-    let isRunning = store.state.isRunning
     let isZero = elapsed == 0
 
     let progress = isZero ? 0 : CGFloat(elapsed.truncatingRemainder(dividingBy: 60) / 60.0)
@@ -162,3 +161,6 @@ extension StopWatchView {
 }
 
 
+#Preview {
+  StopWatchView()
+}

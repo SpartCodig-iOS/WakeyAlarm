@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -96,7 +96,6 @@
 		4ED860F216F9BD3E312F51EE /* Utill_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utill_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B9A8A431FB3EEAE4AE3FB1D /* Utill-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Utill-Info.plist"; sourceTree = "<group>"; };
 		7F64C3861EDE4F8C24989C2A /* UtillTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "UtillTests-Info.plist"; sourceTree = "<group>"; };
-		7F71151F2EBA235F00B8CFC0 /* BaseintentProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseintentProtocol.swift; sourceTree = "<group>"; };
 		9ACBE78CB421425304897A41 /* Utill-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Utill-Debug-Info.plist"; sourceTree = "<group>"; };
 		9BED8B1D6BCFDB676A34B628 /* UtillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UtillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC24E4B2B601047872EFE839 /* Extension+Array+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Array+.swift"; sourceTree = "<group>"; };
@@ -188,14 +187,6 @@
 				1B24ACABA340C77228DCA968 /* Sources */,
 			);
 			path = UtillTests;
-			sourceTree = "<group>";
-		};
-		7F7115202EBA235F00B8CFC0 /* Intent */ = {
-			isa = PBXGroup;
-			children = (
-				7F71151F2EBA235F00B8CFC0 /* BaseintentProtocol.swift */,
-			);
-			path = Intent;
 			sourceTree = "<group>";
 		};
 		A9A9ADE9F2B399CE6F4B1EB7 /* InfoPlists */ = {
@@ -355,6 +346,8 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+				};
 			};
 			buildConfigurationList = 817DAE8E8FEF1C2850504165 /* Build configuration list for PBXProject "Utill" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -494,7 +487,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -678,7 +674,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -781,7 +780,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -816,7 +818,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -851,7 +856,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;

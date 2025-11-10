@@ -13,7 +13,7 @@ reviews:
   sequence_diagrams: true  # ✅ 시퀀스 다이어그램 비활성화
 
   auto_review:
-    enabled: true  # ✅ 자동 리뷰 활성화 (요약을 위해 필요)
+    enabled: false  # ✅ 자동 리뷰 활성화 (요약을 위해 필요)
     drafts: false  # draft PR 제외
 
   auto_incremental_review: false  # 증분 리뷰 비활성화

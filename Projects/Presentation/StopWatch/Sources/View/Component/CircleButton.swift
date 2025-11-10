@@ -30,26 +30,24 @@ public struct CircleButton: View {
   }
 
     public var body: some View {
-      VStack {
-        Circle()
-          .fill(circleBackground)
-          .frame(width: 80, height: 80)
-          .shadow(
-              color: .black.opacity(useShadow ? 0.08 : 0),
-              radius: useShadow ? 10 : 0,
-              x: 0,
-              y: useShadow ? 6 : 0
-            )
-          .overlay {
-            Button {
-              tapAction()
-            } label: {
-              Text(title)
-                .font(.pretendardFont(family: .medium, size: 20))
-                .foregroundStyle(fontColor)
-            }
+      Circle()
+        .fill(circleBackground)
+        .frame(width: 80, height: 80)
+        .shadow(
+            color: .black.opacity(useShadow ? 0.08 : 0),
+            radius: useShadow ? 10 : 0,
+            x: 0,
+            y: useShadow ? 6 : 0
+          )
+        .overlay {
+          Button {
+            tapAction()
+          } label: {
+            Text(title)
+              .font(.pretendardFont(family: .medium, size: 20))
+              .foregroundStyle(fontColor)
           }
-      }
+        }
     }
 }
 
