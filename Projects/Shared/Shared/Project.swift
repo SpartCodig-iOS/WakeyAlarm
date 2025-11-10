@@ -14,6 +14,9 @@ let project = Project.makeAppModule(
     .Shared(implements: .ThirdParty),
     .Shared(implements: .DesignSystem),
     .Shared(implements: .Utill),
+    .Domain(implements: .Domain),
+    .Data(implements: .Data),
+    .SPM.swinject
   ],
   sources: ["Sources/**"]
 )

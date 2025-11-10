@@ -7,9 +7,9 @@
 
 
 import Foundation
-import Domain
+import Shared
 
-enum AddAlarmUserIntent {
+public enum AddAlarmUserIntent {
   case setTime(Date)
   case setTitle(String)
   case setRepeatDays(Set<Weekday>)

@@ -6,34 +6,38 @@
 //
 
 import SwiftUI
-import Domain
-import Data
 import DesignSystem
+import Shared
 
 public struct AlarmView: View {
   @StateObject private var alarmIntent: AlarmIntent
   @StateObject private var addAlarmIntent: AddAlarmIntent
   @State private var isShowingAddModal = false
 
-  public init(
-     fetchAlarmsUseCase: FetchAlarmsUseCaseProtocol = FetchAlarmsUseCase(repository:
-   AlarmRepository()),
-     toggleAlarmUseCase: ToggleAlarmUseCaseProtocol = ToggleAlarmUseCase(repository:
-   AlarmRepository()),
-     deleteAlarmUseCase: DeleteAlarmUseCaseProtocol = DeleteAlarmUseCase(repository:
-   AlarmRepository()),
-     addAlarmUseCase: AddAlarmUseCaseProtocol = AddAlarmUseCase(repository:
-   AlarmRepository())
-   ) {
-     let alarmIntent = AlarmIntent(
-       fetchAlarmsUseCase: fetchAlarmsUseCase,
-       toggleAlarmUseCase: toggleAlarmUseCase,
-       deleteAlarmUseCase: deleteAlarmUseCase
-     )
-     let addAlarmIntent = AddAlarmIntent(addAlarmUseCase: addAlarmUseCase)
-     _alarmIntent = StateObject(wrappedValue: alarmIntent)
-     _addAlarmIntent = StateObject(wrappedValue: addAlarmIntent)
-   }
+  public init(container: SharedContainer) {
+    guard
+      let alarmIntent = container.resolve(AlarmIntent.self),
+      let addIntent = container.resolve(AddAlarmIntent.self)
+    else {
+      fatalError("❌ 의존성 주입 실패: AlarmIntent 또는 AddAlarmIntent가 등록되지 않았습니다.")
+    }
+
+    _alarmIntent = StateObject(wrappedValue: alarmIntent)
+    _addAlarmIntent = StateObject(wrappedValue: addIntent)
+  }
+
+  @MainActor
+  public init() {
+    let container = DIContainer.shared.container
+    guard
+      let alarmIntent = container.resolve(AlarmIntent.self),
+      let addIntent = container.resolve(AddAlarmIntent.self)
+    else {
+      fatalError("❌ 의존성 주입 실패: AlarmIntent 또는 AddAlarmIntent가 등록되지 않았습니다.")
+    }
+    _alarmIntent = StateObject(wrappedValue: alarmIntent)
+    _addAlarmIntent = StateObject(wrappedValue: addIntent)
+  }
 
 
   public var body: some View {

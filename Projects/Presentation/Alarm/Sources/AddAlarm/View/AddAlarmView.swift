@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import Domain
 import DesignSystem
 
 struct AddAlarmView: View {

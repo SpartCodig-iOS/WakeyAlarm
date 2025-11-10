@@ -7,9 +7,9 @@
 
 
 import Foundation
-import Domain
+import Shared
 
-enum AlarmUserIntent {
+public enum AlarmUserIntent {
   case loadAlarms
   case toggleAlarm(UUID)
   case deleteAlarm(UUID)

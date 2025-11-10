@@ -6,8 +6,8 @@
 //
 
 import Foundation
-import Domain
+import Shared
 
-struct AlarmState {
+public struct AlarmState {
   var alarms: [Alarm] = []
 }

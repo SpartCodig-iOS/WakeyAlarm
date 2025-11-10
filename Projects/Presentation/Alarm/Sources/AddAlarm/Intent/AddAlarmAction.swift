@@ -7,9 +7,9 @@
 
 
 import Foundation
-import Domain
+import Shared
 
-enum AddAlarmAction {
+public enum AddAlarmAction {
   case updateTime(Date)
   case updateTitle(String)
   case updateRepeatDays(Set<Weekday>)

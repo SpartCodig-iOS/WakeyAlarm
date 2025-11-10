@@ -7,33 +7,40 @@
 
 
 import Foundation
-import Domain
+import Shared
 import Utill
 
-@MainActor
-final class AddAlarmIntent: ObservableObject, BaseIntent {
-  typealias State = AddAlarmState
-  typealias Intent = AddAlarmUserIntent
-  typealias Action = AddAlarmAction
+final public class AddAlarmIntent: ObservableObject, BaseIntent {
+  public typealias State = AddAlarmState
+  public typealias Intent = AddAlarmUserIntent
+  public typealias Action = AddAlarmAction
 
-  @Published private(set) var state = State()
+  @Published public private(set) var state = State()
 
   private let addAlarmUseCase: AddAlarmUseCaseProtocol
 
-  init(addAlarmUseCase: AddAlarmUseCaseProtocol) {
+  public init(addAlarmUseCase: AddAlarmUseCaseProtocol) {
     self.addAlarmUseCase = addAlarmUseCase
   }
 
-  func intent(_ userIntent: Intent) {
+  public func intent(_ userIntent: Intent) {
     switch userIntent {
     case .setTime(let time):
-      state = reduce(state, .updateTime(time))
+      Task { @MainActor in
+        state = reduce(state, .updateTime(time))
+      }
     case .setTitle(let title):
-      state = reduce(state, .updateTitle(title))
+      Task { @MainActor in
+        state = reduce(state, .updateTitle(title))
+      }
     case .setRepeatDays(let days):
-      state = reduce(state, .updateRepeatDays(days))
+      Task { @MainActor in
+        state = reduce(state, .updateRepeatDays(days))
+      }
     case .setSound(let sound):
-      state = reduce(state, .updateSound(sound))
+      Task { @MainActor in
+        state = reduce(state, .updateSound(sound))
+      }
     case .addAlarm:
       let alarm = Alarm(
         id: UUID(),
@@ -56,7 +63,7 @@ final class AddAlarmIntent: ObservableObject, BaseIntent {
     }
   }
 
-  func reduce(_ state: State, _ action: Action) -> State {
+  public func reduce(_ state: State, _ action: Action) -> State {
     var newState = state
     switch action {
     case .updateTime(let time):

@@ -6,22 +6,21 @@
 //
 
 import Foundation
-import Domain
+import Shared
 import Utill
 
-@MainActor
-final class AlarmIntent: ObservableObject, BaseIntent {
-  typealias State = AlarmState
-  typealias Intent = AlarmUserIntent
-  typealias Action = AlarmAction
+final public class AlarmIntent: ObservableObject, BaseIntent {
+  public typealias State = AlarmState
+  public typealias Intent = AlarmUserIntent
+  public typealias Action = AlarmAction
 
-  @Published private(set) var state = State()
+  @Published public private(set) var state = State()
 
   private let fetchAlarmsUseCase: FetchAlarmsUseCaseProtocol
   private let toggleAlarmUseCase: ToggleAlarmUseCaseProtocol
   private let deleteAlarmUseCase: DeleteAlarmUseCaseProtocol
 
-  init(
+  public init(
     fetchAlarmsUseCase: FetchAlarmsUseCaseProtocol,
     toggleAlarmUseCase: ToggleAlarmUseCaseProtocol,
     deleteAlarmUseCase: DeleteAlarmUseCaseProtocol
@@ -31,7 +30,7 @@ final class AlarmIntent: ObservableObject, BaseIntent {
     self.deleteAlarmUseCase = deleteAlarmUseCase
   }
 
-  func intent(_ userIntent: Intent) {
+  public func intent(_ userIntent: Intent) {
     switch userIntent {
     case .loadAlarms:
       Task {
@@ -70,11 +69,13 @@ final class AlarmIntent: ObservableObject, BaseIntent {
       }
 
     case .addAlarm(let alarm):
-      state = reduce(state, .alarmAdded(alarm))
+      Task { @MainActor in
+        state = reduce(state, .alarmAdded(alarm))
+      }
     }
   }
 
-  func reduce(_ state: State, _ action: Action) -> State {
+  public func reduce(_ state: State, _ action: Action) -> State {
     var newState = state
     switch action {
     case .alarmsLoaded(let alarms):

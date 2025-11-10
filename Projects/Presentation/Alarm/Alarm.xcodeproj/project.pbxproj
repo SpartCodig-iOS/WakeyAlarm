@@ -7,22 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01A3A3039848BE63770B676F /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E99E61EFB3975BFAFA33E0 /* Data.framework */; };
+		08248123A06B5A3A9D92F6AB /* DesignSystem_DesignSystem.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 34D31CE697F2AA57BEB2EBEE /* DesignSystem_DesignSystem.bundle */; };
 		09C1757FDBD108B307089C14 /* AddAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B1D25FB7419D55A767B45 /* AddAlarmView.swift */; };
-		0A2FD077E6E051FE2CF1AF82 /* Domain.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4554B90D8BE596D791D002B2 /* Domain.framework */; };
 		0A9013DFDFCFBEEF735BC1F8 /* AddAlarmUserIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F42926DA80629C6745216E /* AddAlarmUserIntent.swift */; };
+		0D2E4E009BADB5E509EAFD22 /* Utill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE9A24A19F84BA64380ABD7 /* Utill.framework */; };
 		12C7FE0F36FF98A337D8CBB9 /* AlarmCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ABF84F1716B6DAA2828FAD /* AlarmCellView.swift */; };
 		13A5436C0F0B53E5E9055981 /* AlarmIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCB4C6A340EE543FE8CCFE0 /* AlarmIntent.swift */; };
+		13D602BF10D3914DB0260697 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD33080013540A14005C9E0 /* Shared.framework */; };
 		1AD8FF29E588C3FE4CCCFA13 /* RepeatDaySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CED6EC8DC24709AB1D1DB9A /* RepeatDaySelector.swift */; };
 		22E51ECE4B8B071D8AB82382 /* AlarmCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ABF84F1716B6DAA2828FAD /* AlarmCellView.swift */; };
 		230AE873249E0EB31B834761 /* Alarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029E40A6BBE695E1714DC4AB /* Alarm.framework */; };
-		292E6DCC39E5303E08477221 /* DesignSystem.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 867C1055816429DF0C747DB2 /* DesignSystem.framework */; };
+		2D135BB65C69B689D4646E8F /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867C1055816429DF0C747DB2 /* DesignSystem.framework */; };
 		2D6476D3A93AF4108039E1EB /* AlarmCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ABF84F1716B6DAA2828FAD /* AlarmCellView.swift */; };
 		3073A918671D4C9261BC17DF /* AddAlarmIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A13AEA76ADE3007A4855D47 /* AddAlarmIntent.swift */; };
-		33D6C87E680EE0875437251E /* DesignSystem_DesignSystem.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 34D31CE697F2AA57BEB2EBEE /* DesignSystem_DesignSystem.bundle */; };
 		3758E9DEDAA682C7DB02FB7D /* AlarmSoundPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C8E991B463BF724E5FC550 /* AlarmSoundPicker.swift */; };
-		3A30C41120D3609117FCE3D2 /* Domain.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4554B90D8BE596D791D002B2 /* Domain.framework */; };
+		3765F751275252C51E2916FD /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867C1055816429DF0C747DB2 /* DesignSystem.framework */; };
+		37B8444AAD1103D1F2D8E317 /* AlarmDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0244D1E3D9096430F072E88D /* AlarmDIContainer.swift */; };
+		380F3A3194C85301D3BA3F02 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD33080013540A14005C9E0 /* Shared.framework */; };
 		3D1D7327998C3078DC1B75F5 /* AddAlarmIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A13AEA76ADE3007A4855D47 /* AddAlarmIntent.swift */; };
+		3DBC01C656955E942A97B0C0 /* Utill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE9A24A19F84BA64380ABD7 /* Utill.framework */; };
 		4092FC1DBEB716413A4C4534 /* TimePickerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5F35C1D18C38A6B8D2B04 /* TimePickerField.swift */; };
 		428613FFA9D791A4C29B4829 /* AlarmIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCB4C6A340EE543FE8CCFE0 /* AlarmIntent.swift */; };
 		46FACA9386AE86D7C62C328D /* AddAlarmState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2697D6B0C2FE30F27730D70 /* AddAlarmState.swift */; };
@@ -32,61 +35,60 @@
 		52F700BD166339E2219E9A53 /* AlarmTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED4C031F49553BE8D9B686E /* AlarmTitle.swift */; };
 		5454C8952C997064B6E3B854 /* TimePickerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5F35C1D18C38A6B8D2B04 /* TimePickerField.swift */; };
 		5481B56309544EA42F0D8427 /* AlarmAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD49BC6AA5E488C8700D89B /* AlarmAction.swift */; };
-		59C30602920500D5C2C0AA44 /* DesignSystem_DesignSystem.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 34D31CE697F2AA57BEB2EBEE /* DesignSystem_DesignSystem.bundle */; };
-		63235E181F20E703E8D365AD /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E99E61EFB3975BFAFA33E0 /* Data.framework */; };
 		6337B687FB4FFCD4ED2628B4 /* RepeatDaySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CED6EC8DC24709AB1D1DB9A /* RepeatDaySelector.swift */; };
+		6366A5A86DD450DDBD0E8E6C /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD33080013540A14005C9E0 /* Shared.framework */; };
 		64BDDC19B0A261BE828A6EE9 /* AlarmUserIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8918178621DD4E172B54CACA /* AlarmUserIntent.swift */; };
 		65D87975F15E385300CE65E2 /* AlarmIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCB4C6A340EE543FE8CCFE0 /* AlarmIntent.swift */; };
-		6998060A4A5A13C94C4491D4 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4554B90D8BE596D791D002B2 /* Domain.framework */; };
-		6A0A2CA8532E2BAADC62970E /* Utill.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = AAE9A24A19F84BA64380ABD7 /* Utill.framework */; };
 		6E45DCD4325E2BFBA335D5EA /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E829844F1017E9CAD1D14D20 /* AlarmView.swift */; };
 		6F683AB844CD7732C760A41C /* AlarmAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD49BC6AA5E488C8700D89B /* AlarmAction.swift */; };
 		7149A2CFACD3ADF638DA233F /* AlarmTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED4C031F49553BE8D9B686E /* AlarmTitle.swift */; };
 		72024CA696119DB79381EA20 /* AlarmAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD49BC6AA5E488C8700D89B /* AlarmAction.swift */; };
+		72B33610085DE0004A2EFB1D /* DesignSystem_DesignSystem.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 34D31CE697F2AA57BEB2EBEE /* DesignSystem_DesignSystem.bundle */; };
+		730DD958F553D9D4A47EA3E9 /* Utill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE9A24A19F84BA64380ABD7 /* Utill.framework */; };
 		776A2917B804A11046A27263 /* AddAlarmAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F696A0FC2F51876DD0B9109 /* AddAlarmAction.swift */; };
 		783FAA690C086FF874A48E0F /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E829844F1017E9CAD1D14D20 /* AlarmView.swift */; };
 		7CD6F2C61386F99997CF426A /* AlarmUserIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8918178621DD4E172B54CACA /* AlarmUserIntent.swift */; };
-		7F5EA47DCBCBEC6DE8FA85DC /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E99E61EFB3975BFAFA33E0 /* Data.framework */; };
 		807D66C376F921A99154C5B9 /* AddAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B1D25FB7419D55A767B45 /* AddAlarmView.swift */; };
 		8233EC0FD70C49F9AEFE34C0 /* AlarmUserIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8918178621DD4E172B54CACA /* AlarmUserIntent.swift */; };
 		85EBF970CA99D526B8872A10 /* AlarmSoundPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C8E991B463BF724E5FC550 /* AlarmSoundPicker.swift */; };
 		8845D8E360090193C02C7F3D /* AlarmSoundPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C8E991B463BF724E5FC550 /* AlarmSoundPicker.swift */; };
 		897F3DD91A3EA91997ACEB21 /* TimePickerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5F35C1D18C38A6B8D2B04 /* TimePickerField.swift */; };
 		89A61253C1A816B65F393D14 /* AddAlarmIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A13AEA76ADE3007A4855D47 /* AddAlarmIntent.swift */; };
-		8AC146E4D03E9D8AC6221E2E /* DesignSystem.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 867C1055816429DF0C747DB2 /* DesignSystem.framework */; };
-		8B578F1F58E713FDDD8C4F4A /* Domain.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4554B90D8BE596D791D002B2 /* Domain.framework */; };
-		8BF470C293552AD2A9ECB02A /* Utill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE9A24A19F84BA64380ABD7 /* Utill.framework */; };
 		8D359FA928973F2DBFF00DD6 /* AddAlarmState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2697D6B0C2FE30F27730D70 /* AddAlarmState.swift */; };
 		931041B8982DEA9BD5C39426 /* TimePickerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5F35C1D18C38A6B8D2B04 /* TimePickerField.swift */; };
-		95F3F2929314C0ED66F72937 /* Utill.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = AAE9A24A19F84BA64380ABD7 /* Utill.framework */; };
 		9756A0D945F598B4B004FD4A /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647233F111392A1C34200CB0 /* Test.swift */; };
-		98E38B151CE44AF16F2DF5A9 /* DesignSystem.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 867C1055816429DF0C747DB2 /* DesignSystem.framework */; };
 		9A336A83E268399D573C31FF /* AlarmSoundPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C8E991B463BF724E5FC550 /* AlarmSoundPicker.swift */; };
 		9EB2408C9C30975F6796E473 /* AlarmState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB11475D14529339E6A211A /* AlarmState.swift */; };
 		A068717C93F9B144A82D9064 /* AddAlarmAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F696A0FC2F51876DD0B9109 /* AddAlarmAction.swift */; };
 		A220F54A4C9E17B345F42533 /* AlarmIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCB4C6A340EE543FE8CCFE0 /* AlarmIntent.swift */; };
 		A25FC2E08B56A3C016E98CC3 /* AddAlarmState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2697D6B0C2FE30F27730D70 /* AddAlarmState.swift */; };
 		A45D041BF27704B0C71E38AC /* AlarmTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED4C031F49553BE8D9B686E /* AlarmTitle.swift */; };
-		A8612EE327C11688CE5183ED /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E99E61EFB3975BFAFA33E0 /* Data.framework */; };
-		AC6F3BB4225366F0E933ABAA /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E99E61EFB3975BFAFA33E0 /* Data.framework */; };
+		A6F109BD0584B4A2CA620E02 /* DesignSystem_DesignSystem.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 34D31CE697F2AA57BEB2EBEE /* DesignSystem_DesignSystem.bundle */; };
+		ADD7BACF6A87088379FED356 /* DesignSystem_DesignSystem.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 34D31CE697F2AA57BEB2EBEE /* DesignSystem_DesignSystem.bundle */; };
 		B07EF82E9BDA464589746DB6 /* AddAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B1D25FB7419D55A767B45 /* AddAlarmView.swift */; };
 		B13F81BECEC1F172FCD4C665 /* AddAlarmState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2697D6B0C2FE30F27730D70 /* AddAlarmState.swift */; };
 		B427EC7DA00C7830277ECB28 /* RepeatDaySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CED6EC8DC24709AB1D1DB9A /* RepeatDaySelector.swift */; };
+		B60030C7A46668F0BF93504D /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD33080013540A14005C9E0 /* Shared.framework */; };
+		B6C3DF27F5CC32E7CE9EA089 /* DesignSystem_DesignSystem.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 34D31CE697F2AA57BEB2EBEE /* DesignSystem_DesignSystem.bundle */; };
+		B7A81D208E1AF75B296445B2 /* Utill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE9A24A19F84BA64380ABD7 /* Utill.framework */; };
 		B7F9BFC6E9E812ED0540FC16 /* AlarmUserIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8918178621DD4E172B54CACA /* AlarmUserIntent.swift */; };
-		B839A35F94C7AE4D7C829C61 /* DesignSystem.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 867C1055816429DF0C747DB2 /* DesignSystem.framework */; };
 		B8C3C64BB8D2F8D4255008B6 /* AddAlarmIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A13AEA76ADE3007A4855D47 /* AddAlarmIntent.swift */; };
+		BA63EDDC491F4E4290D3F737 /* AlarmDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0244D1E3D9096430F072E88D /* AlarmDIContainer.swift */; };
 		BDBEC57E6959BD028F583A85 /* AlarmState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB11475D14529339E6A211A /* AlarmState.swift */; };
 		C427EA2C91F4FD6391B7E940 /* AddAlarmAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F696A0FC2F51876DD0B9109 /* AddAlarmAction.swift */; };
-		C8F2430A77FC61A2E2D8AD3A /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867C1055816429DF0C747DB2 /* DesignSystem.framework */; };
 		CD8117D7C823D933D787EE5F /* AddAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B1D25FB7419D55A767B45 /* AddAlarmView.swift */; };
-		D06DDD69BA5ABA6CA715D81D /* Utill.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = AAE9A24A19F84BA64380ABD7 /* Utill.framework */; };
+		D1230848E6F22600B825CAC4 /* AlarmDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0244D1E3D9096430F072E88D /* AlarmDIContainer.swift */; };
+		D80FA43FC64FE29577E5029F /* DesignSystem_DesignSystem.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 34D31CE697F2AA57BEB2EBEE /* DesignSystem_DesignSystem.bundle */; };
 		DACB27879CCCD6BF1414927A /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E829844F1017E9CAD1D14D20 /* AlarmView.swift */; };
-		DFECFFE77BE038CA06E66E22 /* Domain.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 4554B90D8BE596D791D002B2 /* Domain.framework */; };
+		DB5EF266D867B3DF48A27397 /* AlarmDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0244D1E3D9096430F072E88D /* AlarmDIContainer.swift */; };
+		DDF4408901B85A17E1BEE089 /* DesignSystem_DesignSystem.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 34D31CE697F2AA57BEB2EBEE /* DesignSystem_DesignSystem.bundle */; };
+		DEDC264780D43ED8CA2ADFD6 /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867C1055816429DF0C747DB2 /* DesignSystem.framework */; };
 		E165FAB3362EF5C1E6491680 /* RepeatDaySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CED6EC8DC24709AB1D1DB9A /* RepeatDaySelector.swift */; };
 		E9017247CAF8D041C6DE5419 /* AddAlarmUserIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F42926DA80629C6745216E /* AddAlarmUserIntent.swift */; };
-		F04351EE43AF7EDD57CE08F3 /* Utill.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = AAE9A24A19F84BA64380ABD7 /* Utill.framework */; };
+		EFBF1F7308D032757FE3E262 /* DesignSystem_DesignSystem.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 34D31CE697F2AA57BEB2EBEE /* DesignSystem_DesignSystem.bundle */; };
 		F36A22506BB583065E457731 /* AddAlarmAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F696A0FC2F51876DD0B9109 /* AddAlarmAction.swift */; };
 		F3D8D8BDFEA2EAE5A21134DA /* AlarmState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB11475D14529339E6A211A /* AlarmState.swift */; };
+		F504534F0080FE75AD6FDE14 /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867C1055816429DF0C747DB2 /* DesignSystem.framework */; };
 		F5FE0DC130C0D5B7934B7A07 /* AlarmAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD49BC6AA5E488C8700D89B /* AlarmAction.swift */; };
 		F63637349DC568F4FA5B79B5 /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E829844F1017E9CAD1D14D20 /* AlarmView.swift */; };
 		F73446B01D7716B247FA6468 /* AlarmTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED4C031F49553BE8D9B686E /* AlarmTitle.swift */; };
@@ -109,9 +111,7 @@
 			buildActionMask = 8;
 			dstSubfolderSpec = 16;
 			files = (
-				98E38B151CE44AF16F2DF5A9 /* DesignSystem.framework in Dependencies */,
-				DFECFFE77BE038CA06E66E22 /* Domain.framework in Dependencies */,
-				95F3F2929314C0ED66F72937 /* Utill.framework in Dependencies */,
+				B6C3DF27F5CC32E7CE9EA089 /* DesignSystem_DesignSystem.bundle in Dependencies */,
 			);
 			name = Dependencies;
 			runOnlyForDeploymentPostprocessing = 1;
@@ -121,19 +121,7 @@
 			buildActionMask = 8;
 			dstSubfolderSpec = 16;
 			files = (
-				292E6DCC39E5303E08477221 /* DesignSystem.framework in Dependencies */,
-				0A2FD077E6E051FE2CF1AF82 /* Domain.framework in Dependencies */,
-				F04351EE43AF7EDD57CE08F3 /* Utill.framework in Dependencies */,
-			);
-			name = Dependencies;
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-		1FEFF179822C2FD0ABEF5DD1 /* Dependencies */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstSubfolderSpec = 16;
-			files = (
-				33D6C87E680EE0875437251E /* DesignSystem_DesignSystem.bundle in Dependencies */,
+				D80FA43FC64FE29577E5029F /* DesignSystem_DesignSystem.bundle in Dependencies */,
 			);
 			name = Dependencies;
 			runOnlyForDeploymentPostprocessing = 1;
@@ -153,9 +141,7 @@
 			buildActionMask = 8;
 			dstSubfolderSpec = 16;
 			files = (
-				B839A35F94C7AE4D7C829C61 /* DesignSystem.framework in Dependencies */,
-				8B578F1F58E713FDDD8C4F4A /* Domain.framework in Dependencies */,
-				6A0A2CA8532E2BAADC62970E /* Utill.framework in Dependencies */,
+				72B33610085DE0004A2EFB1D /* DesignSystem_DesignSystem.bundle in Dependencies */,
 			);
 			name = Dependencies;
 			runOnlyForDeploymentPostprocessing = 1;
@@ -195,9 +181,7 @@
 			buildActionMask = 8;
 			dstSubfolderSpec = 16;
 			files = (
-				8AC146E4D03E9D8AC6221E2E /* DesignSystem.framework in Dependencies */,
-				3A30C41120D3609117FCE3D2 /* Domain.framework in Dependencies */,
-				D06DDD69BA5ABA6CA715D81D /* Utill.framework in Dependencies */,
+				A6F109BD0584B4A2CA620E02 /* DesignSystem_DesignSystem.bundle in Dependencies */,
 			);
 			name = Dependencies;
 			runOnlyForDeploymentPostprocessing = 1;
@@ -215,6 +199,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0244D1E3D9096430F072E88D /* AlarmDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmDIContainer.swift; sourceTree = "<group>"; };
 		029E40A6BBE695E1714DC4AB /* Alarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C8E991B463BF724E5FC550 /* AlarmSoundPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmSoundPicker.swift; sourceTree = "<group>"; };
 		04DE5945D299014C5755D240 /* Alarm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Alarm-Info.plist"; sourceTree = "<group>"; };
@@ -226,7 +211,6 @@
 		3AD2721D5481D38E36AF65F3 /* Alarm-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Alarm-Debug-Info.plist"; sourceTree = "<group>"; };
 		3BD49BC6AA5E488C8700D89B /* AlarmAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmAction.swift; sourceTree = "<group>"; };
 		4175DF69730F32822907FFB2 /* Alarm_Debug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alarm_Debug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4554B90D8BE596D791D002B2 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB11475D14529339E6A211A /* AlarmState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmState.swift; sourceTree = "<group>"; };
 		4F696A0FC2F51876DD0B9109 /* AddAlarmAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmAction.swift; sourceTree = "<group>"; };
 		5CA5F35C1D18C38A6B8D2B04 /* TimePickerField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerField.swift; sourceTree = "<group>"; };
@@ -236,8 +220,8 @@
 		8CCB4C6A340EE543FE8CCFE0 /* AlarmIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmIntent.swift; sourceTree = "<group>"; };
 		9A13AEA76ADE3007A4855D47 /* AddAlarmIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmIntent.swift; sourceTree = "<group>"; };
 		A2697D6B0C2FE30F27730D70 /* AddAlarmState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmState.swift; sourceTree = "<group>"; };
+		AAD33080013540A14005C9E0 /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE9A24A19F84BA64380ABD7 /* Utill.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utill.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5E99E61EFB3975BFAFA33E0 /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7F42926DA80629C6745216E /* AddAlarmUserIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmUserIntent.swift; sourceTree = "<group>"; };
 		BBBB39DF8B3F84960C552AFA /* Alarm-Prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Alarm-Prod-Info.plist"; sourceTree = "<group>"; };
 		BCCABBA0130E099C3315A2E8 /* AlarmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AlarmTests-Info.plist"; sourceTree = "<group>"; };
@@ -253,7 +237,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F5EA47DCBCBEC6DE8FA85DC /* Data.framework in Frameworks */,
+				3765F751275252C51E2916FD /* DesignSystem.framework in Frameworks */,
+				6366A5A86DD450DDBD0E8E6C /* Shared.framework in Frameworks */,
+				730DD958F553D9D4A47EA3E9 /* Utill.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +247,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC6F3BB4225366F0E933ABAA /* Data.framework in Frameworks */,
+				2D135BB65C69B689D4646E8F /* DesignSystem.framework in Frameworks */,
+				380F3A3194C85301D3BA3F02 /* Shared.framework in Frameworks */,
+				B7A81D208E1AF75B296445B2 /* Utill.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +257,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63235E181F20E703E8D365AD /* Data.framework in Frameworks */,
+				F504534F0080FE75AD6FDE14 /* DesignSystem.framework in Frameworks */,
+				13D602BF10D3914DB0260697 /* Shared.framework in Frameworks */,
+				0D2E4E009BADB5E509EAFD22 /* Utill.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +267,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01A3A3039848BE63770B676F /* Data.framework in Frameworks */,
+				DEDC264780D43ED8CA2ADFD6 /* DesignSystem.framework in Frameworks */,
+				B60030C7A46668F0BF93504D /* Shared.framework in Frameworks */,
+				3DBC01C656955E942A97B0C0 /* Utill.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,10 +278,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				230AE873249E0EB31B834761 /* Alarm.framework in Frameworks */,
-				A8612EE327C11688CE5183ED /* Data.framework in Frameworks */,
-				C8F2430A77FC61A2E2D8AD3A /* DesignSystem.framework in Frameworks */,
-				6998060A4A5A13C94C4491D4 /* Domain.framework in Frameworks */,
-				8BF470C293552AD2A9ECB02A /* Utill.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,10 +350,9 @@
 				0C87D5567DE3B1557A7261EB /* Alarm_Stage.framework */,
 				029E40A6BBE695E1714DC4AB /* Alarm.framework */,
 				D5BB93234BCFFC4F82F3E542 /* AlarmTests.xctest */,
-				B5E99E61EFB3975BFAFA33E0 /* Data.framework */,
 				34D31CE697F2AA57BEB2EBEE /* DesignSystem_DesignSystem.bundle */,
 				867C1055816429DF0C747DB2 /* DesignSystem.framework */,
-				4554B90D8BE596D791D002B2 /* Domain.framework */,
+				AAD33080013540A14005C9E0 /* Shared.framework */,
 				AAE9A24A19F84BA64380ABD7 /* Utill.framework */,
 			);
 			name = Products;
@@ -444,11 +431,20 @@
 			path = AlarmTests;
 			sourceTree = "<group>";
 		};
+		E1232B86947DD71B8F75FF9A /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				0244D1E3D9096430F072E88D /* AlarmDIContainer.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
 		F1515C7ACF0808C060420F77 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				20C05E712E26CFB49285C244 /* AddAlarm */,
 				87E128A15F24EC2CD3805D03 /* Alarm */,
+				E1232B86947DD71B8F75FF9A /* DI */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -485,7 +481,6 @@
 				F151208FA3948AF476E74C58 /* Resources */,
 				D8D65FCF3DC4E38C151F1210 /* Frameworks */,
 				5AE0463D68DB8E7295B94186 /* Embed Frameworks */,
-				1FEFF179822C2FD0ABEF5DD1 /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -599,6 +594,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFBF1F7308D032757FE3E262 /* DesignSystem_DesignSystem.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,6 +602,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08248123A06B5A3A9D92F6AB /* DesignSystem_DesignSystem.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,6 +610,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADD7BACF6A87088379FED356 /* DesignSystem_DesignSystem.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,6 +618,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDF4408901B85A17E1BEE089 /* DesignSystem_DesignSystem.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,7 +626,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59C30602920500D5C2C0AA44 /* DesignSystem_DesignSystem.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -661,6 +659,7 @@
 				8233EC0FD70C49F9AEFE34C0 /* AlarmUserIntent.swift in Sources */,
 				6E45DCD4325E2BFBA335D5EA /* AlarmView.swift in Sources */,
 				5271568BF7D2C40C4F7A3483 /* AlarmCellView.swift in Sources */,
+				37B8444AAD1103D1F2D8E317 /* AlarmDIContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -683,6 +682,7 @@
 				7CD6F2C61386F99997CF426A /* AlarmUserIntent.swift in Sources */,
 				783FAA690C086FF874A48E0F /* AlarmView.swift in Sources */,
 				22E51ECE4B8B071D8AB82382 /* AlarmCellView.swift in Sources */,
+				DB5EF266D867B3DF48A27397 /* AlarmDIContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -705,6 +705,7 @@
 				64BDDC19B0A261BE828A6EE9 /* AlarmUserIntent.swift in Sources */,
 				DACB27879CCCD6BF1414927A /* AlarmView.swift in Sources */,
 				12C7FE0F36FF98A337D8CBB9 /* AlarmCellView.swift in Sources */,
+				BA63EDDC491F4E4290D3F737 /* AlarmDIContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -727,6 +728,7 @@
 				B7F9BFC6E9E812ED0540FC16 /* AlarmUserIntent.swift in Sources */,
 				F63637349DC568F4FA5B79B5 /* AlarmView.swift in Sources */,
 				2D6476D3A93AF4108039E1EB /* AlarmCellView.swift in Sources */,
+				D1230848E6F22600B825CAC4 /* AlarmDIContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -751,6 +753,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Alarm-Prod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -759,7 +765,19 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.Alarm;
 				PRODUCT_NAME = Alarm_Prod;
 				SDKROOT = iphoneos;
@@ -789,6 +807,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Alarm-Debug-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -797,7 +819,19 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.Alarm;
 				PRODUCT_NAME = Alarm_Debug;
 				SDKROOT = iphoneos;
@@ -823,6 +857,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Alarm-Prod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -831,7 +869,19 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.Alarm;
 				PRODUCT_NAME = Alarm_Prod;
 				SDKROOT = iphoneos;
@@ -857,6 +907,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Alarm-Stage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -865,7 +919,19 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.Alarm;
 				PRODUCT_NAME = Alarm_Stage;
 				SDKROOT = iphoneos;
@@ -954,6 +1020,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Alarm-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -962,7 +1032,19 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.Alarm;
 				PRODUCT_NAME = Alarm;
 				SDKROOT = iphoneos;
@@ -992,6 +1074,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Alarm-Debug-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -1000,7 +1086,19 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.Alarm;
 				PRODUCT_NAME = Alarm_Debug;
 				SDKROOT = iphoneos;
@@ -1025,12 +1123,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/AlarmTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.Alarm.AlarmTests;
 				PRODUCT_NAME = AlarmTests;
@@ -1053,12 +1168,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/AlarmTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.Alarm.AlarmTests;
 				PRODUCT_NAME = AlarmTests;
@@ -1135,6 +1267,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Alarm-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -1143,7 +1279,19 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.Alarm;
 				PRODUCT_NAME = Alarm;
 				SDKROOT = iphoneos;
@@ -1169,6 +1317,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/Alarm-Stage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -1177,7 +1329,19 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../../Tuist/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxCShims/include/module.modulemap",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/LogMacroMacro#LogMacroMacro",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/WeaveDIMacros#WeaveDIMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.Roy.Module.Alarm;
 				PRODUCT_NAME = Alarm_Stage;
 				SDKROOT = iphoneos;

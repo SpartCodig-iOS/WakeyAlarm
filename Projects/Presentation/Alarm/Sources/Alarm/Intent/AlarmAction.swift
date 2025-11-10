@@ -6,9 +6,9 @@
 //
 
 import Foundation
-import Domain
+import Shared
 
-enum AlarmAction {
+public enum AlarmAction {
   case alarmsLoaded([Alarm])
   case alarmToggled(UUID)
   case alarmDeleted(UUID)

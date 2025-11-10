@@ -7,9 +7,9 @@
 
 
 import Foundation
-import Domain
+import Shared
 
-struct AddAlarmState {
+public struct AddAlarmState {
   var alarms: [Alarm] = []
   var title: String = ""
   var time: Date = Date()
