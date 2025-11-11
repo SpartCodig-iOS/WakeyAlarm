@@ -2,14 +2,33 @@ import SwiftUI
 import Alarm
 import StopWatch
 import Timer
-import Shared
+import Domain
 
 public struct ContentView: View {
-    public init() {}
-    
+  init() {
+      @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+      _ = DIContainer.shared
+    }
+
     public var body: some View {
+      let container = DIContainer.shared.container
+
+      let fetchUseCase = container.resolve(FetchAlarmsUseCaseProtocol.self)!
+      let toggleUseCase = container.resolve(ToggleAlarmUseCaseProtocol.self)!
+      let deleteUseCase = container.resolve(DeleteAlarmUseCaseProtocol.self)!
+      let addUseCase = container.resolve(AddAlarmUseCaseProtocol.self)!
+
+      let alarmIntent = AlarmIntent(
+        fetchAlarmsUseCase: fetchUseCase,
+        toggleAlarmUseCase: toggleUseCase,
+        deleteAlarmUseCase: deleteUseCase
+      )
+
+      let addAlarmIntent = AddAlarmIntent(
+        addAlarmUseCase: addUseCase
+      )
         TabView {
-            AlarmView()
+          AlarmView(alarmIntent: alarmIntent, addAlarmIntent: addAlarmIntent)
                 .tabItem {
                     Label("알람", systemImage: "alarm.fill")
                 }
