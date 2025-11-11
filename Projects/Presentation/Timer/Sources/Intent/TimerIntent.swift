@@ -18,5 +18,6 @@ public enum TimerIntent {
     case resumeTimer
     case cancelTimer
     case timerTick
+    case updateRemainingTime(TimeInterval)
     case timerCompleted
 }
