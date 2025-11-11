@@ -11,7 +11,6 @@ let project = Project.makeAppModule(
   product: .framework,
   settings:  .settings(),
   dependencies: [
-//    .SPM.swinject,
     .SPM.weaveDI
   ],
   sources: ["Sources/**"]
