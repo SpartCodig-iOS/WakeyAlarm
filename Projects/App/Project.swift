@@ -12,7 +12,9 @@ let project = Project.makeAppModule(
   dependencies: [
     .Presentation(implements: .Presentation),
     .Shared(implements: .Shared),
+    .Presentation(implements: .Alarm),
     .Presentation(implements: .StopWatch),
+    .Presentation(implements: .Timer),
     .project(target: "WakeyAlarmWidget", path: "../Presentation/Widget")
   ],
   sources: ["Sources/**"],

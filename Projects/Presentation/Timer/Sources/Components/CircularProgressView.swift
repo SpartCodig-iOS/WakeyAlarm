@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import DesignSystem
 
 // MARK: - 원형 진행 표시 컴포넌트
 struct CircularProgressView: View {
@@ -26,7 +27,7 @@ struct CircularProgressView: View {
             Circle()
                 .trim(from: 0, to: progress)
                 .stroke(
-                    Color.orange,
+                    Color.mintGreen,
                     style: StrokeStyle(lineWidth: 4, lineCap: .round)
                 )
                 .frame(width: 280, height: 280)

@@ -11,10 +11,7 @@ struct WakeyAlarmApp: App {
 
   var body: some Scene {
     WindowGroup {
-//      AlarmView()
-      StopWatchView(widgetActivityDelegateProvider: {
-        return WidgetActivityManager.shared
-      })
+      ContentView()
       .onAppear {
         setupWidgetIntegration()
       }

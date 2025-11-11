@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import DesignSystem
 
 // MARK: - 타이머 컨트롤 버튼 컴포넌트
 struct TimerControlButtons: View {
@@ -25,12 +26,12 @@ struct TimerControlButtons: View {
                 Button(action: onStart) {
                     ZStack {
                         Circle()
-                            .fill(Color.gray.opacity(0.3))
+                            .fill(Color.mintGreen)
                             .frame(width: 80, height: 80)
 
                         Text("시작")
-                            .font(.system(size: 18, weight: .regular))
-                            .foregroundColor(.black)
+                            .font(.system(size: 18, weight: .semibold))
+                            .foregroundColor(.white)
                     }
                 }
                 .disabled(!canStart)

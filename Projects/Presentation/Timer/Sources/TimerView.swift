@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import DesignSystem
 
 // MARK: - 타이머 뷰
 public struct TimerView: View {
