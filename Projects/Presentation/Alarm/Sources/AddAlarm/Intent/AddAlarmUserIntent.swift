@@ -7,7 +7,7 @@
 
 
 import Foundation
-import Shared
+import Domain
 
 public enum AddAlarmUserIntent {
   case setTime(Date)

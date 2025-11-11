@@ -7,7 +7,7 @@
 
 import Foundation
 import SwiftUI
-import Shared
+import Domain
 import DesignSystem
 
 public struct RepeatDaySelector: View {

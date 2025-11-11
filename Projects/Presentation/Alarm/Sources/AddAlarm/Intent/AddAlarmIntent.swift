@@ -7,7 +7,7 @@
 
 
 import Foundation
-import Shared
+import Domain
 import Utill
 
 final public class AddAlarmIntent: ObservableObject, BaseIntent {

@@ -1,6 +1,7 @@
 import SwiftUI
-import Alarm
 import Shared
+import Alarm
+import Domain
 
 @main
 struct WakeyAlarmApp: App {

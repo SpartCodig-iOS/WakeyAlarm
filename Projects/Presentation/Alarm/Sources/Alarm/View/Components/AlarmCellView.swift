@@ -7,7 +7,7 @@
 
 import SwiftUI
 import DesignSystem
-import Shared
+import Domain
 
 struct AlarmCellView: View {
   let alarm: Alarm

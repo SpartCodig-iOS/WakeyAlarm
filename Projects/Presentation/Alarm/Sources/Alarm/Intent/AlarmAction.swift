@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import Shared
+import Domain
 
 public enum AlarmAction {
   case alarmsLoaded([Alarm])

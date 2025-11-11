@@ -7,7 +7,7 @@
 
 import SwiftUI
 import DesignSystem
-import Shared
+import Domain
 
 public struct AlarmView: View {
   @StateObject private var alarmIntent: AlarmIntent
