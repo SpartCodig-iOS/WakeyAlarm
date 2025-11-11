@@ -8,6 +8,7 @@ import ActivityKit
 
 @main
 struct WakeyAlarmApp: App {
+  @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
 
   var body: some Scene {
     WindowGroup {

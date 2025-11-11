@@ -8,11 +8,9 @@ import DependencyPackagePlugin
 let project = Project.makeAppModule(
   name: "ThirdParty",
   bundleId: .appBundleID(name: ".ThirdParty"),
-  product: .staticFramework,
+  product: .framework,
   settings:  .settings(),
   dependencies: [
-    .SPM.swinject,
-    .SPM.weaveDI
   ],
   sources: ["Sources/**"]
 )

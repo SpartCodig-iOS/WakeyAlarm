@@ -13,13 +13,15 @@ public struct Alarm {
   public var time: Date
   public var isEnabled: Bool
   public var repeatDays: [Weekday]
+  public var soundTitle: String?
 
-  public init(id: UUID, title: String, time: Date, isEnabled: Bool, repeatDays: [Weekday]) {
+  public init(id: UUID, title: String, time: Date, isEnabled: Bool = true, repeatDays: [Weekday], soundTitle: String? = nil) {
     self.id = id
     self.title = title
     self.time = time
     self.isEnabled = isEnabled
     self.repeatDays = repeatDays
+    self.soundTitle = soundTitle
   }
 
   public var formattedTime: (String, String) {

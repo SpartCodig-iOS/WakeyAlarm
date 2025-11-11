@@ -5,7 +5,7 @@ import PackageDescription
 import struct ProjectDescription.PackageSettings
 
 let packageSettings = PackageSettings(
-  productTypes: [:]
+  productTypes: ["Swinject": .framework]
 )
 #endif
 

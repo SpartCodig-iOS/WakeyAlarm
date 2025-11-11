@@ -7,10 +7,14 @@ import DependencyPackagePlugin
 let project = Project.makeAppModule(
   name: "Data",
   bundleId: .appBundleID(name: ".Data"),
-  product: .staticFramework,
+  product: .framework,
   settings:  .settings(),
   dependencies: [
- 
+    .Domain(implements: .Domain),
   ],
-  sources: ["Sources/**"]
+  sources: ["Sources/**"],
+  coreDataModels: [
+      .coreDataModel("Resources/WakeyAlarm.xcdatamodeld")
+  ]
+
 )

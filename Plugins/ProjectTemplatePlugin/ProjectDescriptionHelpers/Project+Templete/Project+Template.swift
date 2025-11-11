@@ -23,7 +23,8 @@ public extension Project {
     resources: ProjectDescription.ResourceFileElements? = nil,
     infoPlist: ProjectDescription.InfoPlist = .default,
     entitlements: ProjectDescription.Entitlements? = nil,
-    schemes: [ProjectDescription.Scheme] = []
+    schemes: [ProjectDescription.Scheme] = [],
+    coreDataModels: [CoreDataModel] = []
   ) -> Project {
 
     let appTarget: Target = .target(
@@ -37,7 +38,8 @@ public extension Project {
       resources: resources,
       entitlements: entitlements,
       scripts: scripts,
-      dependencies: dependencies
+      dependencies: dependencies,
+      coreDataModels: coreDataModels
     )
 
     let appProdTarget: Target = .target(
@@ -51,7 +53,8 @@ public extension Project {
       resources: resources,
       entitlements: entitlements,
       scripts: scripts,
-      dependencies: dependencies
+      dependencies: dependencies,
+      coreDataModels: coreDataModels
     )
 
 
@@ -66,7 +69,8 @@ public extension Project {
       resources: resources,
       entitlements: entitlements,
       scripts: scripts,
-      dependencies: dependencies
+      dependencies: dependencies,
+      coreDataModels: coreDataModels
     )
 
 
@@ -81,7 +85,8 @@ public extension Project {
       resources: resources,
       entitlements: entitlements,
       scripts: scripts,
-      dependencies: dependencies
+      dependencies: dependencies,
+      coreDataModels: coreDataModels
     )
 
     let appTestTarget : Target = .target(
@@ -125,7 +130,8 @@ public extension Project {
     resources: ProjectDescription.ResourceFileElements? = nil,
     infoPlist: ProjectDescription.InfoPlist = .default,
     entitlements: ProjectDescription.Entitlements? = nil,
-    schemes: [ProjectDescription.Scheme] = []
+    schemes: [ProjectDescription.Scheme] = [],
+    coreDataModels: [CoreDataModel] = []
   ) -> Project {
     
     let appTarget: Target = .target(
@@ -139,7 +145,8 @@ public extension Project {
       resources: resources,
       entitlements: entitlements,
       scripts: scripts,
-      dependencies: dependencies
+      dependencies: dependencies,
+      coreDataModels: coreDataModels
     )
     
     let appDevTarget: Target = .target(
@@ -153,7 +160,8 @@ public extension Project {
       resources: resources,
       entitlements: entitlements,
       scripts: scripts,
-      dependencies: dependencies
+      dependencies: dependencies,
+      coreDataModels: coreDataModels
     )
     
     let appTestTarget : Target = .target(

@@ -9,13 +9,15 @@ import SwiftUI
 import DesignSystem
 
 struct AlarmTitle: View {
+  @Binding var title: String
+
   var body: some View {
     VStack(alignment: .leading, spacing: 8) {
       Text("알람 제목을 입력하세요.")
         .font(.pretendardFont(family: .medium, size: 14))
         .foregroundStyle(.dimGray)
 
-      TextField("알람 제목", text: .constant(""))
+      TextField("알람 제목", text: $title)
         .padding(10)
         .background(
           Color.whiteSmoke
@@ -25,6 +27,3 @@ struct AlarmTitle: View {
   }
 }
 
-#Preview {
-  AlarmTitle()
-}

@@ -12,7 +12,7 @@ import DesignSystem
 struct AlarmSoundPicker: View {
   @Binding var selectedSound: String
 
-  let sounds = ["Radar", "Beacon", "Chimes", "Circuit", "Reflection"]
+  let sounds = ["Radar", "MorningPulse", "EnergeticRise"]
 
   var body: some View {
     VStack(alignment: .leading, spacing: 8) {
@@ -25,7 +25,12 @@ struct AlarmSoundPicker: View {
           Button {
             selectedSound = sound
           } label: {
-            Label(sound, systemImage: selectedSound == sound ? "checkmark" : "")
+            HStack {
+              Text(sound)
+              if selectedSound == sound {
+                Image(systemName: "checkmark")
+              }
+            }
           }
         }
       } label: {
