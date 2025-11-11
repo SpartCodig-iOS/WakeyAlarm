@@ -5,6 +5,7 @@ import Shared
 @main
 struct WakeyAlarmApp: App {
   init() {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     _ = DIContainer.shared
     AlarmDIContainer.register()
   }
