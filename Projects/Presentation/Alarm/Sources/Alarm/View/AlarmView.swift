@@ -81,7 +81,7 @@ public struct AlarmView: View {
                 AlarmCellView(
                   alarm: alarm,
                   onToggle: { alarmIntent.intent(.toggleAlarm(alarm.id)) },
-                  onDelete: { alarmIntent.intent(.deleteAlarm(alarm.id)) }
+                  onDelete: { alarmIntent.intent(.deleteAlarm(alarm)) }
                 )
               }
             }

@@ -12,7 +12,7 @@ import DesignSystem
 struct AlarmSoundPicker: View {
   @Binding var selectedSound: String
 
-  let sounds = ["Radar", "Beacon", "Chimes", "Circuit", "Reflection"]
+  let sounds = ["Radar", "MorningPulse", "EnergeticRise"]
 
   var body: some View {
     VStack(alignment: .leading, spacing: 8) {

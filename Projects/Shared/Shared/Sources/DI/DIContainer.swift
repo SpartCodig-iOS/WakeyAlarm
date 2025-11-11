@@ -46,10 +46,10 @@ public final class DIContainer {
     }
 
     container.register(DeleteAlarmUseCaseProtocol.self) { r in
-      guard let repo = r.resolve(AlarmRepositoryProtocol.self) else {
+      guard let repo = r.resolve(AlarmRepositoryProtocol.self), let scheduler = r.resolve(AlarmScheduler.self) else {
         fatalError("Missing AlarmRepositoryProtocol")
       }
-      return DeleteAlarmUseCase(repository: repo)
+      return DeleteAlarmUseCase(repository: repo, scheduler: scheduler)
     }
 
     container.register(AddAlarmUseCaseProtocol.self) { r in

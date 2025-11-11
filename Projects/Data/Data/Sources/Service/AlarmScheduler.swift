@@ -31,6 +31,13 @@ public final class AlarmScheduler: AlarmSchedulerProtocol {
         UNNotificationSound(named: UNNotificationSoundName($0))
       } ?? .default
 
+      if let soundName = alarm.soundTitle, !soundName.isEmpty {
+        content.sound = UNNotificationSound(named: UNNotificationSoundName("\(soundName).caf"))
+      } else {
+        content.sound = .default
+      }
+
+
       let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
       let request = UNNotificationRequest(
         identifier: "\(alarm.id)_\(weekday)",
@@ -47,9 +54,11 @@ public final class AlarmScheduler: AlarmSchedulerProtocol {
       }
     }
   }
-
+  
   public func cancel(alarm: Alarm) {
-    let ids = alarm.repeatDays.map { "\(alarm.id)_\($0)" }
-    notificationCenter.removePendingNotificationRequests(withIdentifiers: ids)
+    let identifiers = alarm.repeatDays.map { "\(alarm.id.uuidString)_\($0.rawValue)" }
+    notificationCenter.removePendingNotificationRequests(withIdentifiers: identifiers)
   }
+
+  
 }

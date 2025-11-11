@@ -56,12 +56,12 @@ final public class AlarmIntent: ObservableObject, BaseIntent {
         }
       }
 
-    case .deleteAlarm(let id):
+    case .deleteAlarm(let alarm):
       Task {
         do {
-          try deleteAlarmUseCase.execute(id: id)
+          try deleteAlarmUseCase.execute(alarm: alarm)
           await MainActor.run {
-            state = reduce(state, .alarmDeleted(id))
+            state = reduce(state, .alarmDeleted(alarm.id))
           }
         } catch {
           print("Delete failed: \(error)")

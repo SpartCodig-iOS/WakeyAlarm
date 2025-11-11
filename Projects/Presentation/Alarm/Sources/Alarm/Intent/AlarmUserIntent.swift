@@ -12,6 +12,6 @@ import Shared
 public enum AlarmUserIntent {
   case loadAlarms
   case toggleAlarm(UUID)
-  case deleteAlarm(UUID)
+  case deleteAlarm(Alarm)
   case addAlarm(Alarm)
 }

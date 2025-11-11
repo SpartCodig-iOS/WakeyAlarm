@@ -8,17 +8,20 @@
 import Foundation
 
 public protocol DeleteAlarmUseCaseProtocol {
-  func execute(id: UUID) throws
+  func execute(alarm: Alarm) throws
 }
 
 public final class DeleteAlarmUseCase: DeleteAlarmUseCaseProtocol {
   private let repository: AlarmRepositoryProtocol
+  private let scheduler: AlarmSchedulerProtocol
 
-  public init(repository: AlarmRepositoryProtocol) {
+  public init(repository: AlarmRepositoryProtocol, scheduler: AlarmSchedulerProtocol) {
     self.repository = repository
+    self.scheduler = scheduler
   }
 
-  public func execute(id: UUID) throws {
-    try repository.deleteAlarm(id: id)
+  public func execute(alarm: Alarm) throws {
+    try repository.deleteAlarm(id: alarm.id)
+    scheduler.cancel(alarm: alarm)
   }
 }
