@@ -26,10 +26,8 @@ public final class ToggleAlarmUseCase: ToggleAlarmUseCaseProtocol {
 
     if alarm.isEnabled {
       scheduler.schedule(alarm: alarm)
-      print("🔔 알람 켜짐: \(alarm.title)")
     } else {
       scheduler.cancel(alarm: alarm)
-      print("🔕 알람 꺼짐: \(alarm.title)")
     }
   }
 }

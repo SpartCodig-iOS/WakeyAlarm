@@ -7,12 +7,16 @@
 
 import Foundation
 import UserNotifications
-import Domain 
+import Domain
 
 public final class AlarmScheduler: AlarmSchedulerProtocol {
   private let notificationCenter = UNUserNotificationCenter.current()
 
   public init() {}
+
+  private func identifier(for alarm: Alarm, weekday: Weekday) -> String {
+    return "\(alarm.id.uuidString)_\(weekday.rawValue)"
+  }
 
   public func schedule(alarm: Alarm) {
     alarm.repeatDays.forEach { weekday in
@@ -27,23 +31,15 @@ public final class AlarmScheduler: AlarmSchedulerProtocol {
       let content = UNMutableNotificationContent()
       content.title = "⏰ \(alarm.title)"
       content.body = "WakeyAlarm에서 설정한 알람입니다"
-      content.sound = alarm.soundTitle.map {
-        UNNotificationSound(named: UNNotificationSoundName($0))
-      } ?? .default
-
       if let soundName = alarm.soundTitle, !soundName.isEmpty {
         content.sound = UNNotificationSound(named: UNNotificationSoundName("\(soundName).caf"))
       } else {
         content.sound = .default
       }
 
-
       let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
-      let request = UNNotificationRequest(
-        identifier: "\(alarm.id)_\(weekday)",
-        content: content,
-        trigger: trigger
-      )
+      let identifier = identifier(for: alarm, weekday: weekday)
+      let request = UNNotificationRequest(identifier: identifier, content: content, trigger: trigger)
 
       notificationCenter.add(request) { error in
         if let error = error {
@@ -54,9 +50,14 @@ public final class AlarmScheduler: AlarmSchedulerProtocol {
       }
     }
   }
-  
+
   public func cancel(alarm: Alarm) {
-    let identifiers = alarm.repeatDays.map { "\(alarm.id.uuidString)_\($0.rawValue)" }
+    let identifiers = alarm.repeatDays.map { identifier(for: alarm, weekday: $0) }
+
     notificationCenter.removePendingNotificationRequests(withIdentifiers: identifiers)
+    notificationCenter.removeDeliveredNotifications(withIdentifiers: identifiers)
+
+    print("🗑️ 삭제된 알람 ID들:", identifiers)
   }
 }
+
