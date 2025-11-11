@@ -53,10 +53,12 @@
 		99B5E8AFA70432D3BD5CBAFC /* TuistAssets+WakeyAlarmStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445D5CED8B8563072FC95D76 /* TuistAssets+WakeyAlarmStage.swift */; };
 		9ABCF40DBC1C40E2078E294E /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300D7A06185E61F92824DA28 /* DesignSystem.framework */; };
 		9B6BC228DEFD7B3B61BAE60D /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 33A027E65EBC3CB53B612AD7 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9DF1B9EA98333553CFBF34DB /* Timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2875827270DF663BFB74D6 /* Timer.framework */; };
 		9F6431C5C7F68522E8BA0B74 /* WakeyAlarmWidget.appex in Dependencies */ = {isa = PBXBuildFile; fileRef = 615587B0F97801AF1A127C96 /* WakeyAlarmWidget.appex */; };
 		A1E140E4A496C22BA9C8D898 /* WakeyAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89063223C8E49CA22CA49B5 /* WakeyAlarmApp.swift */; };
 		A21E1849CA8B99EAD135ACCE /* WakeyAlarmWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 615587B0F97801AF1A127C96 /* WakeyAlarmWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A25030DBE01D69ACD94F92F3 /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300D7A06185E61F92824DA28 /* DesignSystem.framework */; };
+		A2C989992EA3C1876D558A56 /* Timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2875827270DF663BFB74D6 /* Timer.framework */; };
 		A69680529BF47A66FFBACCB0 /* WakeyAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96E7E75B330C50B527149E6 /* WakeyAlarmTests.swift */; };
 		A857B8111BFDCB7CD7B234CF /* Presentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AD9619F03B3613394D5E4B /* Presentation.framework */; };
 		A88568BDC22ECD7FBA951F1B /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B674A8B65DE8D3DB7D5E15F /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -66,6 +68,7 @@
 		B6EAA5AAE77E47A78D0EEBF9 /* TuistAssets+WakeyAlarmProd.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85CAEB10544EC34E0BBA898 /* TuistAssets+WakeyAlarmProd.swift */; };
 		BA82BCD8E334103D90EF22EC /* DesignSystem_DesignSystem.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CB1522C51A82FA7D744D8077 /* DesignSystem_DesignSystem.bundle */; };
 		BBE48BB66D72EC78CC3462E4 /* WakeyAlarmWidget.appex in Dependencies */ = {isa = PBXBuildFile; fileRef = 615587B0F97801AF1A127C96 /* WakeyAlarmWidget.appex */; };
+		C3C16CC74DD07D88C88A1B59 /* Timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2875827270DF663BFB74D6 /* Timer.framework */; };
 		C52DF4CC92598AE55A77B475 /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300D7A06185E61F92824DA28 /* DesignSystem.framework */; };
 		C579F0651FDD9955D2A0BDB1 /* Presentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AD9619F03B3613394D5E4B /* Presentation.framework */; };
 		C7BDC68C102E4230BE74B579 /* TuistAssets+WakeyAlarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553FCF8DA0BDCCC1DC1176BD /* TuistAssets+WakeyAlarm.swift */; };
@@ -82,6 +85,7 @@
 		EE2ED0D3844847D2F9EDDD20 /* StopWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8213B8814E948A38B58D5E3C /* StopWatch.framework */; };
 		F2699EC86BD2FB41FE3DBB0C /* WakeyAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89063223C8E49CA22CA49B5 /* WakeyAlarmApp.swift */; };
 		F2A6E688D40C3FDBAB3437BD /* StopWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8213B8814E948A38B58D5E3C /* StopWatch.framework */; };
+		F82448F7476D306BE87373FB /* Timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2875827270DF663BFB74D6 /* Timer.framework */; };
 		F94632889C100B88AEC161B7 /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B674A8B65DE8D3DB7D5E15F /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F98DF581DB9692E0E70B3E2C /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B674A8B65DE8D3DB7D5E15F /* Shared.framework */; };
 /* End PBXBuildFile section */
@@ -263,6 +267,7 @@
 		84396412255D47B775183147 /* TuistAssets+WakeyAlarmDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+WakeyAlarmDebug.swift"; sourceTree = "<group>"; };
 		866645C30F2A8C0C4ECD6D32 /* WakeyAlarm-Stage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "WakeyAlarm-Stage-Info.plist"; sourceTree = "<group>"; };
 		8B674A8B65DE8D3DB7D5E15F /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D2875827270DF663BFB74D6 /* Timer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Timer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D39AE5934C4CB6673530CE7 /* WakeyAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakeyAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C5262F48B68779402592CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A6A110E179FA715BC5F650F2 /* WakeyAlarm-Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "WakeyAlarm-Debug-Info.plist"; sourceTree = "<group>"; };
@@ -299,6 +304,7 @@
 				A857B8111BFDCB7CD7B234CF /* Presentation.framework in Frameworks */,
 				B6CBACC0522E54ECF6EF4D9C /* Shared.framework in Frameworks */,
 				EE2ED0D3844847D2F9EDDD20 /* StopWatch.framework in Frameworks */,
+				9DF1B9EA98333553CFBF34DB /* Timer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +319,7 @@
 				8CE1F48E3FE94ABDD6DB4DE0 /* Presentation.framework in Frameworks */,
 				F98DF581DB9692E0E70B3E2C /* Shared.framework in Frameworks */,
 				8724F2EFF183CC626AE86634 /* StopWatch.framework in Frameworks */,
+				A2C989992EA3C1876D558A56 /* Timer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +334,7 @@
 				B14532259C65E3F7F4804125 /* Presentation.framework in Frameworks */,
 				DCEC76A7E80819E2AC180A92 /* Shared.framework in Frameworks */,
 				F2A6E688D40C3FDBAB3437BD /* StopWatch.framework in Frameworks */,
+				F82448F7476D306BE87373FB /* Timer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +349,7 @@
 				C579F0651FDD9955D2A0BDB1 /* Presentation.framework in Frameworks */,
 				7CD1A29F3563B35441D34602 /* Shared.framework in Frameworks */,
 				4C4754717D432A0E920A3F00 /* StopWatch.framework in Frameworks */,
+				C3C16CC74DD07D88C88A1B59 /* Timer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +404,7 @@
 				F8AD9619F03B3613394D5E4B /* Presentation.framework */,
 				8B674A8B65DE8D3DB7D5E15F /* Shared.framework */,
 				8213B8814E948A38B58D5E3C /* StopWatch.framework */,
+				8D2875827270DF663BFB74D6 /* Timer.framework */,
 				6B489AD0F8C3481F2B78088D /* WakeyAlarm_Debug.app */,
 				4A20DBF7AA5EC81EFCD873D2 /* WakeyAlarm_Prod.app */,
 				7189F55686A0BFF97990FBD4 /* WakeyAlarm_Stage.app */,
