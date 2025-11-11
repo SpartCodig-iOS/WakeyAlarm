@@ -66,6 +66,10 @@ public final class TimerModel: TimerModelProtocol {
                 newState.progress = state.totalTime > 0 ? newState.remainingTime / state.totalTime : 0
             }
 
+        case .updateRemainingTime(let remaining):
+            newState.remainingTime = max(0, remaining)
+            newState.progress = state.totalTime > 0 ? newState.remainingTime / state.totalTime : 0
+
         case .timerCompleted:
             newState.timerStatus = .idle
             newState.remainingTime = 0

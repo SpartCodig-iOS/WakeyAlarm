@@ -17,7 +17,8 @@ let project = Project(
       sources: ["Sources/**"],
       resources: ["Resources/**"],
       dependencies: [
-        .Presentation(implements: .StopWatch)
+        .Presentation(implements: .StopWatch),
+        .Presentation(implements: .Timer)
         // WidgetKit과 SwiftUI는 시스템 프레임워크로 자동 링크됨
       ]
     )

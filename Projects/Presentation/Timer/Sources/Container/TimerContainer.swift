@@ -8,6 +8,7 @@
 
 import Foundation
 import Combine
+import ActivityKit
 import UserNotifications
 import AVFoundation
 
@@ -21,6 +22,7 @@ public final class TimerContainer: ObservableObject {
     private let notificationService: TimerNotificationServiceProtocol
     private var cancellables = Set<AnyCancellable>()
     private var timerCancellable: AnyCancellable?
+    private var currentActivity: Activity<TimerActivityAttributes>?
     private var audioPlayer: AVAudioPlayer?
 
     // MARK: - Published Alert State
@@ -57,14 +59,17 @@ public final class TimerContainer: ObservableObject {
         switch sideEffect {
         case .startTimerTicking:
             startTimer()
+            startLiveActivity()
             scheduleNotification()
 
         case .stopTimerTicking:
             stopTimer()
+            updateLiveActivity()
             cancelNotification()
 
         case .playAlarm:
             playAlarm()
+            endLiveActivity()
             cancelNotification()
 
         case .showCompletionAlert:
@@ -73,8 +78,11 @@ public final class TimerContainer: ObservableObject {
     }
 
     // MARK: - Timer Management
+    private var tickCount: Int = 0
+
     private func startTimer() {
         stopTimer() // 기존 타이머 정리
+        tickCount = 0
 
         // 애니메이션과 동기화를 위해 0.3초 지연
         Task { @MainActor in
@@ -85,11 +93,23 @@ public final class TimerContainer: ObservableObject {
                 .sink { [weak self] _ in
                     guard let self = self else { return }
 
-                    if self.state.remainingTime > 0 {
-                        self.send(.timerTick)
-                    } else {
-                        self.stopTimer()
-                        self.send(.timerCompleted)
+                    // endDate 기반으로 남은 시간 계산 (백그라운드에서도 정확함)
+                    if let endDate = self.state.endDate {
+                        let remaining = endDate.timeIntervalSinceNow
+
+                        if remaining > 0 {
+                            self.send(.updateRemainingTime(remaining))
+
+                            // 1초마다 Live Activity 업데이트 (10틱 = 1초)
+                            self.tickCount += 1
+                            if self.tickCount >= 10 {
+                                self.updateLiveActivity()
+                                self.tickCount = 0
+                            }
+                        } else {
+                            self.stopTimer()
+                            self.send(.timerCompleted)
+                        }
                     }
                 }
         }
@@ -129,9 +149,87 @@ public final class TimerContainer: ObservableObject {
         notificationService.cancelNotification()
     }
 
+    // MARK: - Live Activity Management
+    private func startLiveActivity() {
+        let authInfo = ActivityAuthorizationInfo()
+        guard authInfo.areActivitiesEnabled else {
+            print("❌ Live Activities가 비활성화되어 있습니다.")
+            return
+        }
+
+        if currentActivity != nil {
+            updateLiveActivity()
+            return
+        }
+
+        Task {
+            let contentState = TimerActivityAttributes.ContentState(
+                totalTime: state.totalTime,
+                remainingTime: state.remainingTime,
+                endDate: state.endDate,
+                isRunning: state.isRunning,
+                isPaused: state.isPaused
+            )
+
+            do {
+                let activity = try Activity<TimerActivityAttributes>.request(
+                    attributes: TimerActivityAttributes(),
+                    content: .init(state: contentState, staleDate: nil)
+                )
+                currentActivity = activity
+                print("✅ Timer Live Activity 시작: \(activity.id)")
+            } catch {
+                print("❌ Timer Live Activity 시작 실패: \(error)")
+            }
+        }
+    }
+
+    private func updateLiveActivity() {
+        guard let activity = currentActivity else { return }
+
+        Task {
+            let contentState = TimerActivityAttributes.ContentState(
+                totalTime: state.totalTime,
+                remainingTime: state.remainingTime,
+                endDate: state.endDate,
+                isRunning: state.isRunning,
+                isPaused: state.isPaused
+            )
+
+            let staleDate = Date().addingTimeInterval(2)
+            await activity.update(.init(state: contentState, staleDate: staleDate))
+        }
+    }
+
+    private func endLiveActivity() {
+        guard let activity = currentActivity else { return }
+
+        Task {
+            let finalState = TimerActivityAttributes.ContentState(
+                totalTime: state.totalTime,
+                remainingTime: 0,
+                endDate: nil,
+                isRunning: false,
+                isPaused: false
+            )
+
+            await activity.end(
+                .init(state: finalState, staleDate: nil),
+                dismissalPolicy: .default
+            )
+            currentActivity = nil
+            print("✅ Timer Live Activity 종료")
+        }
+    }
+
     // MARK: - Cleanup
     deinit {
         stopTimer()
         cancelNotification()
+        Task { @MainActor [weak self] in
+            if let activity = self?.currentActivity {
+                await activity.end(nil, dismissalPolicy: .immediate)
+            }
+        }
     }
 }
