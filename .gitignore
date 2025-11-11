@@ -65,6 +65,6 @@ fastlane/test_output
 # Tuist
 #
 # Tuist generates these files automatically, so we don't need to track them
-*.xcodeproj/project.pbxproj
-*.xcworkspace/contents.xcworkspacedata
-Derived/
+**/*.xcodeproj/project.pbxproj
+**/*.xcworkspace/
+**/Derived/
