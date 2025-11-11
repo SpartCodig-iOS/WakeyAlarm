@@ -26,7 +26,7 @@ public final class AlarmScheduler: AlarmSchedulerProtocol {
 
       let content = UNMutableNotificationContent()
       content.title = "⏰ \(alarm.title)"
-      content.body = "설정한 알람이 울립니다."
+      content.body = "WakeyAlarm에서 설정한 알람입니다"
       content.sound = alarm.soundTitle.map {
         UNNotificationSound(named: UNNotificationSoundName($0))
       } ?? .default
