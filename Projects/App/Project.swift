@@ -10,13 +10,13 @@ let project = Project.makeAppModule(
   settings: .appMainSetting,
   scripts: [],
   dependencies: [
-    .SPM.swinject
+    .SPM.swinject,
     .Presentation(implements: .Presentation),
     .Shared(implements: .Shared),
     .Presentation(implements: .Alarm),
     .Presentation(implements: .StopWatch),
     .Presentation(implements: .Timer),
-    .project(target: "WakeyAlarmWidget", path: "../Presentation/Widget")
+    .project(target: "WakeyAlarmWidget", path: "../Presentation/Widget"),
     .Data(implements: .Data),
   ],
   sources: ["Sources/**"],
