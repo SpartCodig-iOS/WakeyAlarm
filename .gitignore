@@ -62,5 +62,9 @@ fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
 
-
-*.xcodeproj
+# Tuist
+#
+# Tuist generates these files automatically, so we don't need to track them
+**/*.xcodeproj/project.pbxproj
+**/*.xcworkspace/
+**/Derived/

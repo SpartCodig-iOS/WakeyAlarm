@@ -131,6 +131,58 @@ extension Settings {
       ], defaultSettings: .recommended)
     
     return appBaseSetting
-    
+
   }
+
+  // MARK: - Widget Extension Settings
+  public static let widgetExtensionSetting: Settings = .settings(
+    base: SettingsDictionary()
+      .setProductName("$(TARGET_NAME)")
+      .setMarketingVersion(.appVersion())
+      .setCurrentProjectVersion(.appBuildVersion())
+      .setCodeSignIdentity()
+      .setCodeSignStyle()
+      .setSwiftVersion("6.0")
+      .setVersioningSystem()
+      .setProvisioningProfileSpecifier("match Development \(Project.Environment.bundlePrefix)")
+      .setDevelopmentTeam(Project.Environment.organizationTeamId)
+      .setCFBundleDevelopmentRegion()
+      .setDebugInformationFormat()
+      .setSkipInstall(true), // Widget Extension은 Skip Install이 true여야 함
+    configurations: [
+      .debug(
+        name: .debug,
+        settings: SettingsDictionary()
+          .setProductName("$(TARGET_NAME)")
+          .setProvisioningProfileSpecifier("match Development \(Project.Environment.bundlePrefix)")
+          .setSkipInstall(true),
+        xcconfig: .path(.dev)
+      ),
+      .release(
+        name: .stage,
+        settings: SettingsDictionary()
+          .setProductName("$(TARGET_NAME)")
+          .setProvisioningProfileSpecifier("match AppStore \(Project.Environment.bundlePrefix)")
+          .setSkipInstall(true),
+        xcconfig: .path(.stage)
+      ),
+      .release(
+        name: .release,
+        settings: SettingsDictionary()
+          .setProductName("$(TARGET_NAME)")
+          .setProvisioningProfileSpecifier("match AppStore \(Project.Environment.bundlePrefix)")
+          .setSkipInstall(true),
+        xcconfig: .path(.release)
+      ),
+      .release(
+        name: .prod,
+        settings: SettingsDictionary()
+          .setProductName("$(TARGET_NAME)")
+          .setProvisioningProfileSpecifier("match AppStore \(Project.Environment.bundlePrefix)")
+          .setSkipInstall(true),
+        xcconfig: .path(.prod)
+      )
+    ],
+    defaultSettings: .recommended
+  )
 }

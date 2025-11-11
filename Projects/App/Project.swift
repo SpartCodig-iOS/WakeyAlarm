@@ -10,19 +10,22 @@ let project = Project.makeAppModule(
   settings: .appMainSetting,
   scripts: [],
   dependencies: [
-    .Presentation(implements: .Alarm),
-    .Data(implements: .Data),
     .SPM.swinject
+    .Presentation(implements: .Presentation),
+    .Shared(implements: .Shared),
+    .Presentation(implements: .Alarm),
+    .Presentation(implements: .StopWatch),
+    .Presentation(implements: .Timer),
+    .project(target: "WakeyAlarmWidget", path: "../Presentation/Widget")
+    .Data(implements: .Data),
   ],
   sources: ["Sources/**"],
   resources: ["Resources/**"],
   infoPlist: .appInfoPlist,
   schemes: [
-    // 테스트 플랜 스킴: 커스텀 구성명 사용 (.dev / .stage / .prod 중 택1)
     Scheme.makeTestPlanScheme(target: .dev, name: Project.Environment.appName),
 
 
   ]
 
 )
-
