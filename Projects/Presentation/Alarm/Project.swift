@@ -7,7 +7,7 @@ import DependencyPackagePlugin
 let project = Project.makeAppModule(
   name: "Alarm",
   bundleId: .appBundleID(name: ".Alarm"),
-  product: .framework,
+  product: .staticFramework,
   settings:  .settings(),
   dependencies: [
     .Shared(implements: .DesignSystem),
