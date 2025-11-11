@@ -40,20 +40,24 @@ public final class TimerModel: TimerModelProtocol {
             newState.remainingTime = TimeInterval(totalSeconds)
             newState.progress = 1.0
             newState.timerStatus = .running
+            newState.endDate = Date().addingTimeInterval(TimeInterval(totalSeconds))
             sideEffect = .startTimerTicking
 
         case .pauseTimer:
             newState.timerStatus = .paused
+            newState.endDate = nil
             sideEffect = .stopTimerTicking
 
         case .resumeTimer:
             newState.timerStatus = .running
+            newState.endDate = Date().addingTimeInterval(state.remainingTime)
             sideEffect = .startTimerTicking
 
         case .cancelTimer:
             newState.timerStatus = .idle
             newState.remainingTime = 0
             newState.progress = 1.0
+            newState.endDate = nil
             sideEffect = .stopTimerTicking
 
         case .timerTick:
@@ -66,6 +70,7 @@ public final class TimerModel: TimerModelProtocol {
             newState.timerStatus = .idle
             newState.remainingTime = 0
             newState.progress = 1.0
+            newState.endDate = nil
             sideEffect = .playAlarm
         }
 

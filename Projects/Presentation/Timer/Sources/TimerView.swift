@@ -61,6 +61,13 @@ public struct TimerView: View {
             .padding(.bottom, 60)
         }
         .animation(.easeInOut(duration: 0.3), value: container.state.timerStatus)
+        .alert("타이머 완료", isPresented: $container.showCompletionAlert) {
+            Button("확인", role: .cancel) {
+                container.showCompletionAlert = false
+            }
+        } message: {
+            Text("설정한 타이머가 완료되었습니다.")
+        }
     }
 }
 

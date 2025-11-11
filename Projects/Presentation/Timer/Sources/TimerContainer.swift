@@ -8,6 +8,8 @@
 
 import Foundation
 import Combine
+import UserNotifications
+import AVFoundation
 
 // MARK: - Timer Container (ViewModel)
 public final class TimerContainer: ObservableObject {
@@ -16,16 +18,28 @@ public final class TimerContainer: ObservableObject {
 
     // MARK: - Private Properties
     private let model: TimerModelProtocol
+    private let notificationService: TimerNotificationServiceProtocol
     private var cancellables = Set<AnyCancellable>()
     private var timerCancellable: AnyCancellable?
+    private var audioPlayer: AVAudioPlayer?
+
+    // MARK: - Published Alert State
+    @Published public var showCompletionAlert: Bool = false
 
     // MARK: - Initialization
     public init(
         model: TimerModelProtocol = TimerModel(),
+        notificationService: TimerNotificationServiceProtocol = TimerNotificationService(),
         initialState: TimerState = TimerState()
     ) {
         self.model = model
+        self.notificationService = notificationService
         self.state = initialState
+
+        // 알림 권한 요청
+        Task {
+            await notificationService.requestAuthorization()
+        }
     }
 
     // MARK: - Intent Processing
@@ -43,15 +57,18 @@ public final class TimerContainer: ObservableObject {
         switch sideEffect {
         case .startTimerTicking:
             startTimer()
+            scheduleNotification()
 
         case .stopTimerTicking:
             stopTimer()
+            cancelNotification()
 
         case .playAlarm:
             playAlarm()
+            cancelNotification()
 
         case .showCompletionAlert:
-            showCompletionAlert()
+            displayCompletionAlert()
         }
     }
 
@@ -71,6 +88,7 @@ public final class TimerContainer: ObservableObject {
                     if self.state.remainingTime > 0 {
                         self.send(.timerTick)
                     } else {
+                        self.stopTimer()
                         self.send(.timerCompleted)
                     }
                 }
@@ -84,17 +102,36 @@ public final class TimerContainer: ObservableObject {
 
     // MARK: - Alarm & Notifications
     private func playAlarm() {
-        // TODO: 알람 사운드 재생
+        // 시스템 사운드 재생 (진동 포함)
+        AudioServicesPlaySystemSound(SystemSoundID(kSystemSoundID_Vibrate))
+        AudioServicesPlaySystemSound(1005) // 알림 사운드
+
         print("🔔 타이머 완료! 알람 울림")
+
+        // 완료 알림도 함께 표시
+        displayCompletionAlert()
     }
 
-    private func showCompletionAlert() {
-        // TODO: 완료 알림 표시
+    private func displayCompletionAlert() {
+        Task { @MainActor in
+            self.showCompletionAlert = true
+        }
         print("✅ 타이머 완료 알림")
+    }
+
+    // MARK: - Notification Management
+    private func scheduleNotification() {
+        guard let endDate = state.endDate else { return }
+        notificationService.scheduleNotification(endDate: endDate, totalTime: state.totalTime)
+    }
+
+    private func cancelNotification() {
+        notificationService.cancelNotification()
     }
 
     // MARK: - Cleanup
     deinit {
         stopTimer()
+        cancelNotification()
     }
 }
