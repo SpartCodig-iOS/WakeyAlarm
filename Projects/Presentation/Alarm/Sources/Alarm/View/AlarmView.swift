@@ -14,31 +14,13 @@ public struct AlarmView: View {
   @StateObject private var addAlarmIntent: AddAlarmIntent
   @State private var isShowingAddModal = false
 
-  public init(container: SharedContainer) {
-    guard
-      let alarmIntent = container.resolve(AlarmIntent.self),
-      let addIntent = container.resolve(AddAlarmIntent.self)
-    else {
-      fatalError("❌ 의존성 주입 실패: AlarmIntent 또는 AddAlarmIntent가 등록되지 않았습니다.")
-    }
-
+  public init(
+    alarmIntent: AlarmIntent,
+    addAlarmIntent: AddAlarmIntent
+  ) {
     _alarmIntent = StateObject(wrappedValue: alarmIntent)
-    _addAlarmIntent = StateObject(wrappedValue: addIntent)
+    _addAlarmIntent = StateObject(wrappedValue: addAlarmIntent)
   }
-
-  @MainActor
-  public init() {
-    let container = DIContainer.shared.container
-    guard
-      let alarmIntent = container.resolve(AlarmIntent.self),
-      let addIntent = container.resolve(AddAlarmIntent.self)
-    else {
-      fatalError("❌ 의존성 주입 실패: AlarmIntent 또는 AddAlarmIntent가 등록되지 않았습니다.")
-    }
-    _alarmIntent = StateObject(wrappedValue: alarmIntent)
-    _addAlarmIntent = StateObject(wrappedValue: addIntent)
-  }
-
 
   public var body: some View {
     ZStack {
