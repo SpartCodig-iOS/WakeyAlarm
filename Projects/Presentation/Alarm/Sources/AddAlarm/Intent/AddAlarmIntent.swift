@@ -60,6 +60,8 @@ final public class AddAlarmIntent: ObservableObject, BaseIntent {
           print("Add alarm failed: \(error)")
         }
       }
+    case .reset:
+      state = AddAlarmState()
     }
   }
 

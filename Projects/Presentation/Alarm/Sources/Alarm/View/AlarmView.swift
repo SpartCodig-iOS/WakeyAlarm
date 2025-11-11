@@ -54,6 +54,7 @@ public struct AlarmView: View {
           Spacer()
           Button {
             withAnimation(.spring()) {
+              addAlarmIntent.intent(.reset)
               isShowingAddModal = true
             }
           } label: {
@@ -69,9 +70,13 @@ public struct AlarmView: View {
         if alarmIntent.state.alarms.isEmpty {
           VStack {
             Spacer()
-            Text("등록된 알람이 없습니다.")
-              .foregroundColor(.dimGray)
-              .font(.pretendardFont(family: .medium, size: 16))
+            HStack {
+              Spacer()
+              Text("등록된 알람이 없습니다.")
+                .foregroundColor(.dimGray)
+                .font(.pretendardFont(family: .medium, size: 16))
+              Spacer()
+            }
             Spacer()
           }
         } else {

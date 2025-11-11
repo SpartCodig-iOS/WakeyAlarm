@@ -41,7 +41,8 @@ struct AlarmCellView: View {
 
         // 반복 요일
         if !alarm.repeatDays.isEmpty {
-          Text(alarm.repeatDays.map(\.rawValue).joined(separator: " "))
+          let sortedDays = alarm.repeatDays.sorted { $0.calendarValue < $1.calendarValue }
+          Text(sortedDays.map(\.rawValue).joined(separator: " "))
             .font(.pretendardFont(family: .regular, size: 14))
             .foregroundColor(.dimGray)
         }

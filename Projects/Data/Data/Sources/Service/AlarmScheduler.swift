@@ -59,6 +59,4 @@ public final class AlarmScheduler: AlarmSchedulerProtocol {
     let identifiers = alarm.repeatDays.map { "\(alarm.id.uuidString)_\($0.rawValue)" }
     notificationCenter.removePendingNotificationRequests(withIdentifiers: identifiers)
   }
-
-  
 }

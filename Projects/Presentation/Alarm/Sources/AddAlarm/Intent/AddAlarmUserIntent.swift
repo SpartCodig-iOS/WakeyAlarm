@@ -15,4 +15,5 @@ public enum AddAlarmUserIntent {
   case setRepeatDays(Set<Weekday>)
   case setSound(String)
   case addAlarm
+  case reset
 }

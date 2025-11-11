@@ -12,7 +12,7 @@ struct AddAlarmView: View {
   @ObservedObject var alarmIntent: AlarmIntent
   @StateObject private var addIntent: AddAlarmIntent
   @Binding var isPresented: Bool
-  
+
   init(
     alarmIntent: AlarmIntent,
     addIntent: AddAlarmIntent,
@@ -22,7 +22,13 @@ struct AddAlarmView: View {
     self._addIntent = StateObject(wrappedValue: addIntent)
     self._isPresented = isPresented
   }
-  
+
+  private var isAddButtonDisabled: Bool {
+    addIntent.state.title.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty ||
+    addIntent.state.repeatDays.isEmpty ||
+    addIntent.state.soundTitle.isEmpty
+  }
+
   var body: some View {
     VStack(spacing: 16) {
       HStack {
@@ -37,23 +43,23 @@ struct AddAlarmView: View {
             .foregroundStyle(.materialDark)
         }
       }
-      
+
       VStack(alignment: .leading, spacing: 24) {
         TimePickerField(selectedTime: Binding(
           get: { addIntent.state.time },
           set: { addIntent.intent(.setTime($0)) }
         ))
-        
+
         AlarmTitle(title: Binding(
           get: { addIntent.state.title },
           set: { addIntent.intent(.setTitle($0)) }
         ))
-        
+
         RepeatDaySelector(selectedDays: Binding(
           get: { addIntent.state.repeatDays },
           set: { addIntent.intent(.setRepeatDays($0)) }
         ))
-        
+
         AlarmSoundPicker(selectedSound: Binding(
           get: { addIntent.state.soundTitle },
           set: { addIntent.intent(.setSound($0)) }
@@ -70,10 +76,11 @@ struct AddAlarmView: View {
             .frame(maxWidth: .infinity)
             .foregroundColor(.white)
             .background(
-              Color.violetPurple
+              (isAddButtonDisabled ? Color.lightGray : Color.violetPurple)
                 .clipShape(RoundedRectangle(cornerRadius: 14))
             )
         }
+        .disabled(isAddButtonDisabled)
       }
     }
     .padding(25)

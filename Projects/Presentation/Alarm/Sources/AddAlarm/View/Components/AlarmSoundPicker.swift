@@ -25,7 +25,12 @@ struct AlarmSoundPicker: View {
           Button {
             selectedSound = sound
           } label: {
-            Label(sound, systemImage: selectedSound == sound ? "checkmark" : "")
+            HStack {
+              Text(sound)
+              if selectedSound == sound {
+                Image(systemName: "checkmark")
+              }
+            }
           }
         }
       } label: {
