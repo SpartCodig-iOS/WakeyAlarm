@@ -11,7 +11,8 @@ let project = Project.makeAppModule(
   scripts: [],
   dependencies: [
     .Presentation(implements: .Alarm),
-    .Shared(implements: .Shared)
+    .Data(implements: .Data),
+    .SPM.swinject
   ],
   sources: ["Sources/**"],
   resources: ["Resources/**"],

@@ -56,31 +56,7 @@
       location = "container:"
       name = "Dependencies">
       <FileRef
-         location = "group:Tuist/.build/tuist-derived/LogMacro/LogMacro.xcodeproj">
-      </FileRef>
-      <FileRef
          location = "group:Tuist/.build/tuist-derived/Swinject/Swinject.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:Tuist/.build/tuist-derived/WeaveDI/WeaveDI.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:Tuist/.build/tuist-derived/combine-schedulers/combine-schedulers.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:Tuist/.build/tuist-derived/swift-clocks/swift-clocks.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:Tuist/.build/tuist-derived/swift-concurrency-extras/swift-concurrency-extras.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:Tuist/.build/tuist-derived/swift-dependencies/swift-dependencies.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:Tuist/.build/tuist-derived/swift-syntax/swift-syntax.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:Tuist/.build/tuist-derived/xctest-dynamic-overlay/xctest-dynamic-overlay.xcodeproj">
       </FileRef>
    </Group>
 </Workspace>

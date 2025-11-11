@@ -11,12 +11,11 @@ let project = Project.makeAppModule(
   product: .framework,
   settings:  .settings(),
   dependencies: [
-    .Shared(implements: .ThirdParty),
-    .Shared(implements: .DesignSystem),
-    .Shared(implements: .Utill),
-    .Domain(implements: .Domain),
-    .Data(implements: .Data),
-    .SPM.swinject
+//    .Shared(implements: .ThirdParty),
+//    .Shared(implements: .DesignSystem),
+//    .Shared(implements: .Utill),
+//    .Domain(implements: .Domain),
+//    .Data(implements: .Data),
   ],
   sources: ["Sources/**"]
 )
