@@ -20,6 +20,7 @@ public struct TimerState: Equatable {
     public var remainingTime: TimeInterval
     public var totalTime: TimeInterval
     public var progress: Double
+    public var endDate: Date?
 
     public init(
         selectedHours: Int = 0,
@@ -28,7 +29,8 @@ public struct TimerState: Equatable {
         timerStatus: TimerStatus = .idle,
         remainingTime: TimeInterval = 0,
         totalTime: TimeInterval = 0,
-        progress: Double = 1.0
+        progress: Double = 1.0,
+        endDate: Date? = nil
     ) {
         self.selectedHours = selectedHours
         self.selectedMinutes = selectedMinutes
@@ -37,6 +39,7 @@ public struct TimerState: Equatable {
         self.remainingTime = remainingTime
         self.totalTime = totalTime
         self.progress = progress
+        self.endDate = endDate
     }
 }
 
